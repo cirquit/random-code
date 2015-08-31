@@ -1,0 +1,58 @@
+Mittwoch:   Thema bekommen
+            Server in Haskell zum GET / POST Requests senden geschrieben
+            Server zum parsen von JPGS/BMPS angepasst (noch keine RGB Werte)
+
+Donnerstag: Display bekommen und angeschlossen
+            Server angepasst und RGB Werte mit eigener Kodierung geschrieben
+            #red$green$blue$x-coord$y-coord*&
+
+Freitag:    WiFi Shield bekommen und angeschlossen
+            Parsing ist eine richtige bitch. Parser ungefähr 10x neu geschrieben und 50% loss von
+            Paketen bekommen
+
+Samstag:    Fehlererkennungsalgorithmus geschrieben -> ~ 55% loss und zusätzlich random Abbrüche der TCP Verbindung
+            SD-Karte gekauft und Plan Z war alles von der SD-Karte anzeigen zu lassen.
+
+            Versuch während des 'runterladens' den Endstring in das File zu speichern
+              Fehler beim convertieren von String zu char* mit der Funktion .toCharArray, obwohl die Größe passt, sie
+              allociert war und null terminierung gesetzt war.
+            setPixel-Funktion bricht von der SD-Karte mit meinem Parser immer nach ~ 5000 Punkten ab
+            Neue Erkenntnis über den Parser und wie loop() + read() vom WiFi Shield funktioniert
+              => parser neu geschrieben
+              => Es gab nie ein Loss von Paketen, der Parser hat es nicht geschafft schwere Operationen wie substring
+                 auf Strings die groß waren auszuführen -> Buffer ist voll und deswegen stürzt Arduino ab
+              => ein Python Server als Proxy dazwischengeschaltet der nach jedem gesendeten Pixel ein timeout sendet,
+                 damit der Arbeitsspeicher vom Arduino nicht überlastet ist
+              => Erfolg!!! (für 32x32 dauert es ~ 2min, für 140x160 dauert es ~ 45 min)
+
+Sonntag: MiniGUI mit WiFi + Potentiometer
+         Autorestart nach 10 Connects auf eine URL
+         einfacher linearer Skalierungsalgorithmus
+         Statt Potentiometer ein Rotary Encoder genommen um das "Scrollen" zu ermöglichen - mit interrupt pins
+         Huffman gescheitert
+             Sieht so aus als würde ich entweder irgendwo so einen Parsefehler kriegen, dass er abstürzt,
+             die setPixel funktion buggt vielleicht bei zu vielen Aufrufen innerhalb einer bestimmten Zeit rum oder der Speicher
+             des Displays is voll (?)
+        Habe 3 Bilder vordefiniert und auf den Server gelegt. Steuerung über Rotary Encoder und 3 Bildern und dann zum Start klappt
+
+        Vorletzter Versuch - delay vom Python Server minimieren -> Erfolg, fast die doppelte Geschwindigkeit rausgeholt
+          -> 32x32 Bilder sind nun in ~ 30s anschaubar
+
+        Neue Idee: zustäzliche Effizienzsteigerung -> ProgMem benutzen (hat auch sprintf_P, damit könnte man billige Integer transformationen machen und ist fürs Parsen nutzbar)
+          => Alles StringKonstanten in F("...") packen, damit kein Arbeitsspeicher verschwendet wird
+
+Montag: Letzter Versuch vorm Zusammenbauen - geben wir der toCharArray methode noch eine Chance, vielleicht
+        lags ja an dem falschen Verständnis für das Parsing...
+
+        Idee: Statt alles in viele "kostenintensive" String-Objekte zu parsen, alles in ein vorgefertigten Char* reinladen und vor dort aus mit purem C (was mir eh viel lieber ist) zu parsen
+
+        => Keine Zeit
+
+        Ronja hat das Logo gemacht + Beispiel Instragram Bilder geholt
+          - > ein paar prerendered Bilder zu den gestreamten anzeigen
+
+        Bei mehr als 3 bildern (~ 38% speicher belegung) macht er nix mehr - es bleibt bei WiFi + Start + ein prerendered Bild
+
+        Versucht das ganze Zeug auf das TFT-Shield zu porten, leider kriegt das WiFi Shield dann nicht mehr genug Strom (vielleicht kappt das TFT-Shield es?). Müssen zurück zum vorherigen Kabelsalat...
+
+        Versuch die Bilder + das Display so zu alignen, dass es mit den Linsen gut ausschaut!

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="fregepkg.JavaProducer"/>
+<fullyQualifiedTypeName name="fregepkg.FregeProducer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="frege.java.Util.TList"/>
+<fullyQualifiedTypeName name="frege.prelude.PreludeBase.TList"/>
+<fullyQualifiedTypeName name="frege.prelude.PreludeBase.TList.DCons"/>
+</qualifiedTypeNameHistroy>

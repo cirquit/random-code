@@ -1,0 +1,163 @@
+module ControlledVisit where
+
+import Control.Monad (filterM, forM, liftM)
+import System.Directory (Permissions(..), getModificationTime, getPermissions, renameFile, getDirectoryContents, doesDirectoryExist)
+import Data.Time.Clock (UTCTime(..))
+--import System.Time (ClockTime(..))
+import System.FilePath ((</>), takeExtension)
+import Control.Exception (SomeException(..),bracket, handle)
+import System.IO (IOMode(..), hClose, hFileSize, openFile)
+
+import Data.List (isInfixOf)
+
+
+
+data Info = Info {infoPath :: FilePath, infoPerm :: Maybe Permissions, infoSize :: Maybe Integer, infoModTime :: Maybe UTCTime}
+                deriving (Eq, Ord, Show)
+
+maybeIO :: IO a -> IO (Maybe a)
+maybeIO act = handle errorHandler (Just `liftM` act)
+
+errorHandler :: SomeException -> IO (Maybe a)
+errorHandler _ = return Nothing
+
+getInfo :: FilePath -> IO Info
+getInfo path = do
+        perms <- maybeIO (getPermissions path)
+        size <- maybeIO (bracket (openFile path ReadMode) hClose hFileSize)
+        modified <- maybeIO (getModificationTime path)
+        return (Info path perms size modified)
+
+
+
+traverse :: ([Info] -> [Info]) -> FilePath -> IO [Info]
+traverse order path = do
+        names <- getUsefulContents path
+        contents <- mapM getInfo (path : map (path </>) names)
+        liftM concat $ forM (order contents) $ \info -> do
+                if isDirectory info && (infoPath info) /= path
+                 then traverse order (infoPath info)
+                 else return [info]
+
+isDirectory :: Info -> Bool
+isDirectory = maybe False searchable . infoPerm
+        
+
+getUsefulContents :: FilePath -> IO [String]
+getUsefulContents path = do
+        names <- getDirectoryContents path
+        return (filter (`notElem` [".", ".."]) names)
+
+
+
+-- ################################################################# Easier to understand
+traverseVerbose :: ([Info] -> [Info]) -> FilePath -> IO [Info]
+traverseVerbose order path = do
+        names <- getDirectoryContents path
+        let usefulNames = filter (`notElem` [".", ".."]) names
+        contents <- mapM getEntryName ("":usefulNames)
+        recursiveContents <- mapM recurse (order contents)
+        return (concat recursiveContents)
+       where getEntryName name = getInfo (path </> name)
+             isDirectory info = case infoPerm info of
+                                 Nothing -> False
+                                 Just perms -> searchable perms
+             recurse info = do
+                if isDirectory info && (infoPath info) /= path
+                   then traverseVerbose order (infoPath info)
+                   else return [info]
+
+
+-- ###################################################################
+
+-- working with the new Info type
+
+type InfoP a = Info -> a
+
+pathP :: InfoP FilePath
+pathP = infoPath
+
+sizeP :: InfoP Integer
+sizeP inf = case (infoSize inf) of
+                Just size -> size
+                Nothing -> -1
+
+liftP :: (a -> b -> c) -> InfoP a -> b -> InfoP c
+liftP op f k inf = f inf `op` k
+
+equalP, (==´) :: (Eq a) => InfoP a -> a -> InfoP Bool
+equalP = liftP (==)
+(==´) = equalP
+
+infix 4 ==´
+
+greaterP, lesserP, (>´), (<´) :: (Ord a) => InfoP a -> a -> InfoP Bool
+greaterP = liftP (>)
+lesserP = liftP (<)
+(>´) = greaterP
+(<´) = lesserP
+
+infix 4 >´
+infix 4 <´
+
+liftP2 :: (a -> b -> c) -> InfoP a -> InfoP b -> InfoP c
+liftP2 op f g inf = f inf `op` g inf
+
+andP, orP, (&&´), (||´) :: InfoP Bool -> InfoP Bool -> InfoP Bool
+andP = liftP2 (&&)
+orP = liftP2 (||)
+(&&´) = andP
+(||´) = orP
+
+
+infix 3 &&´
+infix 3 ||´
+
+
+liftPath :: (FilePath -> a) -> InfoP a
+liftPath f = f . pathP
+
+
+
+order2 :: (Info -> Bool) -> (Info -> Bool) -> ([Info] -> [Info])
+order2 traverseP filterP = filter (\x -> (isDirectory x && traverseP x) || filterP x)
+
+
+traverse2 :: (Info -> Bool) -> (Info -> Bool) -> FilePath -> IO [Info]
+traverse2 traverseP filterP path = do 
+                                        list <- (traverse (order2 traverseP filterP) path)
+                                        return $ filter (\x -> filterP x && traverseP x) list
+
+
+
+
+
+-- komischerweise braucht er einen zweiten Durchlauf mit dem filter, obwohl er das auch beim durchlaufen checken sollte, ob es dem prädikat entspricht oder eben nicht
+-- wahrscheinlich ist hier irgendwo ein Denkfehler drin // genauso bei Abfragen für mehr als nur ein paar Ordner wie "/home/i/isenko"
+checkAgain :: (Info -> Bool) -> [Info] -> [Info]
+checkAgain f list = filter f list
+
+
+
+-- examples
+
+
+everyHsInHaskellProjects = traverse2 (liftPath (isInfixOf "HaskellProjects")) (liftPath (isInfixOf ".hs")) "/home/i/isenko/Desktop"
+
+
+everyHsNotInHaskellProjects = traverse2 (not . liftPath (isInfixOf "Haskell")) (liftPath (isInfixOf ".hs")) "/home/i/isenko/Desktop"
+
+myTest2 = (liftPath takeExtension `equalP` ".cpp") `andP` (sizeP `greaterP` 131072)
+
+myTest4 = liftPath takeExtension ==´ ".cpp" &&´ sizeP >´ 131072
+
+
+
+
+
+
+
+
+
+
+

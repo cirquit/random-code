@@ -1,0 +1,10 @@
+How to use GitHub:
+
+
+- git status
+- git add 
+    - (.) = alles was im Ordner ist
+
+- git commit -m "added missing c99 headers"
+- git push
+- git pull

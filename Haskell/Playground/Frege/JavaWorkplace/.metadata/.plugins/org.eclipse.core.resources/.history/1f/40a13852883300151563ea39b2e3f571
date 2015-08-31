@@ -1,0 +1,3 @@
+module fregepkg.FregeProducer where
+
+myZero = 0

@@ -1,0 +1,5 @@
+module fregepkg.FregeProducer where
+
+fzero = 0
+
+main _ = println fzero

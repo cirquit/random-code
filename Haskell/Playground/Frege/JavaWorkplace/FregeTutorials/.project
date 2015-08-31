@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FregeTutorials</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>frege.ide.frege.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>frege.ide.frege.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>bin_copy</name>
+			<type>2</type>
+			<location>/home/rewrite/Documents/MyGit/Haskell/Playground/Frege/JavaWorkplace/FregeTutorials/bin</location>
+		</link>
+	</linkedResources>
+</projectDescription>

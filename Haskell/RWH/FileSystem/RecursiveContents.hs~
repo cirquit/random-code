@@ -1,0 +1,57 @@
+module RecursiveContents (getRecursiveContents) where
+
+import Control.Monad (forM)
+import System.Directory (doesDirectoryExist, getDirectoryContents)
+import System.FilePath ((</>), splitFileName, splitPath, joinPath)
+import Data.List (isInfixOf, foldl', nub) 
+
+import ListTransformations (dropLastUntil)
+
+getRecursiveContents :: FilePath -> IO [FilePath]
+getRecursiveContents topdir = do
+        names <- getDirectoryContents topdir
+        let properNames = filter (`notElem` [".", ".."]) names
+        paths <- forM properNames $ \name -> do
+                 let path = topdir </> name
+                 isDirectory <- doesDirectoryExist path
+                 if isDirectory 
+                    then getRecursiveContents path
+                    else return [path]
+        return $ concat paths
+
+
+simpleFind :: FilePath -> FilePath -> IO [FilePath]
+simpleFind fp dir = do
+        names <- getRecursiveContents dir
+        return (filter (\x -> snd (splitFileName x) == fp) names)
+
+
+simpleDirFind :: FilePath -> FilePath -> IO [FilePath]
+simpleDirFind fp dir = do
+        names <- getRecursiveContents dir
+        --return (dropDoubleDirs fp (filter (\x -> fp `isInfixOf` x) names))
+        return (filter (\x -> fp `isInfixOf` x) names)
+
+
+dropDoubleDirs :: FilePath -> [FilePath] -> [FilePath]
+dropDoubleDirs fp dirs = nub (dropAllLast fp '/' dirs)
+                         where                                         
+                                 dropAllLast :: FilePath -> Char -> [FilePath] -> [FilePath]
+                                 dropAllLast fp sep dir = foldl' (\x y -> [(dropLastUntil fp sep y)] ++ x ) [] dir
+                        --      
+
+
+
+
+                                -- dropAllLast :: FilePath -> [FilePath] -> [FilePath]
+                        --       splitNForm fp dir = foldl' (\x y -> [concat (reverse (dropWhile (/= (fp ++ "/")) (reverse (splitPath y))))] ++ x) [] dir
+
+
+
+
+
+
+
+
+
+

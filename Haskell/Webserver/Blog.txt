@@ -1,0 +1,87 @@
+Team:
+
+Team 5 consited of Ronja and Alex, an Arts and Multimedia Bachelor in her sixth semester and a Mediainformatics Bachelor in his 4th semester.
+
+The Concept:
+
+(Hier eventuell noch die vorherigen Ideen aufzählen / Tinder + privacy aspekt)
+
+We wanted so use a ViewMaster to show your Instagram feed. (As simple as it might sound - unfortunately it was not)
+So the initial setup to begin with was:
+  - create an app to log in into your Instagram account and stream the feed to a server
+  - create the server and parse the incoming stream of pictures into a nice format (we didn't know what format was needed at the time)
+  - let the server serve those pictures via a GET request (we were told this was surely going to work)
+  - the Arduino streams the incoming pictures on a 3.2" TFT Display
+
+Alex had some experience with Haskell, so he programmed a simple server that lets us handle the incoming pictures and serves them in a static directory.
+
+
+
+On thursday the TFT display came and after finding the wrong data sheet Alex almost burned it, because he managed to connect everything mirrored. Luckily for us, this didn't break it and we ordered the corresponding shield because we didn't want to have such a cable tangle. (Hier vielleicht ein Bild davon)
+
+Unfortunately, the UTFT library can't decode any popular picture formats, so we had to create our own. We added this functionaliy to the server, so it would create from any .jpg a .txt file where we store the RGB values with the corresponding pixel values. The '#', '$', '*' and '&' were there to save ourselves the fun of parsing the incoming data in C.
+
+Format: #red$green$blue$x-coord$y-coord*&
+
+
+
+On friday we could start with the WiFi shield and try to send a GET request to the server. This was alot more problematic than we thought it would be, because of we didn't fully comprehend the incoming data and how it was displayed. At the end, the parser was written, but we had ~ 50% packet loss, and the example pictures which had a 32x32 size, were almost not visible.
+
+
+
+
+On saturday we implemented a very easy error correction algorithm, that restored the picture to ~ 60% completion, but this was not really acceptable. It also turns out that our TCP connection just resets after ~ 200 sent pixels so all hope was lost and we decided to try to save the files to the SD-Card and parse them from there.
+
+After we got the 2GB SD card up and running, the library for saving something to the SD card was not really sufficient. There was no "append"-mode and there were several other limitations that didn't allow us to save the files like we wanted. (at the end it turned out that these weren't really the case because we didn't understood the way the data was coming in)
+
+Then we uploaded the raw data by hand on the SD card and tried to display the picture only via the parser and it terminated early, probably because of the unoptimized data consumption by the parser (we used the provided String objects by the Arduino library).
+
+But then came an insight on how the data was really presented by the WiFi shield library - it was saved in fragmented chunks by the TCP. All we had to do is to update the parser to have a stateful design where it could handle a not ended pixel definition! Then a problem occurred, that some of those framgments (and needed operations) were too big for our Arduino, which only had 8 KB RAM. With the help of several people in the Haskell & Python IRC channels and stackoverflow, we set up a proxy server based on Python, that splitted the data via a custom made delimter and slowed the transfer rate just as much as needed by the Arduino to parse the incoming data and display it on the screen!
+
+And it worked! It took in fact 2 minutes to display a 32x32 picture (and 45 min for a 140x160)
+
+
+
+
+On sunday we attached a rotary encoder to move between the pictures and a simple GUI that shows the current status of the WiFi. It automatically restarts if there is no connection to the WiFi and it also restarts after a failed connection setup between the servers and itself.
+
+We implemented a simple interpolation algorithm that takes a factor and scales that image, so a 32x32 picture would fill the screen.
+
+Because of the long timespan that was needed to show the picture and the very needlessly heavily loaded pixel representation, we decided to try a Huffman-esque like encoding, to speed things up. The UTFT library doesn't have a method of setting a pixel with a certain color, this is always a previous definition, so if we could sum up all the pixels with the same color, we could remove some overhead by sorting the pixels by color and removing the unneeded color parse-calls.
+
+Example:
+
+  #red$green$blue*
+  %x-coord$y-coord&
+  %x-coord$y-coord&
+  ...
+  (next color)
+
+Unfortunately this didn't work, because (I still think the bottle neck is in the setPixel-function from UTFT) the send data was parsed too fast and setPixel didn't have the time to execute properly, but was already assigned a new point. That way after ~ 200 pixels the Ardunio terminated again. That was clearly not the way to go.
+
+
+On monday we had some ideas to speed things up (e.g. rewrite the parser with custom accumulated memory in pure C), but there was just no time at all for that.
+
+We decided to use some prerendered pictures and some streamed 32x32 icons for the presentation. But again, luck was not on our side - if the capacity of the Flash Memory was more than 50% it wouldn't load any pictures. So we had a start screen, the WiFi on/off and one prerendered picture + the streamed ones.
+
+Then we tried to port the WiFi shield + rotary encored + TFT onto a custom TFT shield, to get rid of the cable tangle. Sadly the WiFi shield wouldn't get a connection, because the TFT shield somehow didn't provide a stable enough current flow (at least we think that was the problem), so we had to fit the whole system in the previously measured place which was designed to only fit the TFT + shield + Arduino. With a little brute force this was completed successfully!
+
+On tuesday we tried to get the best alignment for the lenses and the corresponding pictures on the display.
+We even fit a power bank in there, so our finished product was cordless!
+
+
+
+Summary: We underestimated the extent of this project by far and we didn't have any time left for the corresponding app. Alltogether it was an interesing experience to work on such a low level where every byte is needed.
+
+
+
+
+On the side note: The connection with the WiFi was somewhat unreliable and sometimes it took ~ 30 tries to get it up and running. The problems listed here were the most crucifying, but there were also others, which had not a big magnitude, so we excluded them. If somebody wants to implement this again or has in depth questions about this, message me at:
+
+alex.isenko@googlemail.com
+
+
+
+
+
+

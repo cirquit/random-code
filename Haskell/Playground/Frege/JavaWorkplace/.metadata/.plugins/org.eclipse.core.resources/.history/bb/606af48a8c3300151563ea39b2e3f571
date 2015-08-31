@@ -1,0 +1,12 @@
+package javapkg;
+
+import fregepkg.FregeProducer;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+
+		System.out.println(FregeProducer.evens.<TList>forced());
+	}
+
+}

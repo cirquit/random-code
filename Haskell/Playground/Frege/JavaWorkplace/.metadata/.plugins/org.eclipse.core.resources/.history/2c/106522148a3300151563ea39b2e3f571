@@ -1,0 +1,9 @@
+module fregepkg.FregeProducer where
+ 
+fzero = 0
+
+fstring = "Hi from Frege!"
+
+main _ = do
+	println $ "Frege says ~ this should be a zero = " ++ show fzero
+	println fstring

@@ -1,0 +1,4 @@
+import GlobRegex
+
+main = do 
+                print $ matchesGlob "t*" "turn"

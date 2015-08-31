@@ -1,0 +1,12 @@
+package javapkg;
+
+import fregepkg.*;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+
+		System.out.printf( "This should be a zero = %d", JavaProducer.jzero);
+	}
+
+}

@@ -1,0 +1,12 @@
+package javapkg;
+
+import fregepkg.FregeProducer;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+
+		System.out.printf( "Java says ~ this should be a zero = %s", FregeProducer.evens.toString());
+	}
+
+}

@@ -1,0 +1,14 @@
+module fregepkg.FregeProducer where
+ 
+
+evens = [x | x <- [1..10], even x]
+
+evens1 = head evens
+
+
+getElem 0 (x:xs) = x
+getElem n (x:xs) = getElem n-1 xs
+getElem _ []     = 0 
+
+main _ = do
+	println $ show evens

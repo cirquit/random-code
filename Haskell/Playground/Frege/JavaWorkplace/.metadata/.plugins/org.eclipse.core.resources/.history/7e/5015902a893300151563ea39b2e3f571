@@ -1,0 +1,5 @@
+module fregepkg.FregeProducer where
+ 
+myZero = 0
+
+main _ = println $ "Frege says ~ this should be a zero = " ++ show myZero

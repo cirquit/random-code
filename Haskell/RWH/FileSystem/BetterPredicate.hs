@@ -1,0 +1,110 @@
+module BetterPredicate where
+
+import Control.Monad (filterM)
+import System.Directory (Permissions(..), getModificationTime, getPermissions, renameFile)
+import Data.Time.Clock (UTCTime(..))
+--import System.Time (ClockTime(..))
+import System.FilePath (takeExtension, takeFileName, splitFileName)
+import Control.Exception (SomeException(..),bracket, handle)
+import System.IO (IOMode(..), hClose, hFileSize, openFile)
+
+import RecursiveContents (getRecursiveContents)
+import ListTransformations (dropItem,dropFromBothEnds)
+
+type InfoP a  = FilePath -> Permissions -> Maybe Integer -> UTCTime -> a
+              -- path     -> permissions -> filesize in (B)     -> last modified
+
+-- how to get the infix of operators -> :info ==
+
+pathP :: InfoP FilePath
+pathP path _ _ _ = path
+
+sizeP :: InfoP Integer
+sizeP _ _ (Just size) _ = size
+sizeP _ _ Nothing _     = -1
+
+equalP :: (Eq a) => InfoP a -> a -> InfoP Bool
+equalP f k = \w x y z -> f w x y z == k
+
+equalP', (==´) :: (Eq a) => InfoP a -> a -> InfoP Bool
+equalP' f k w x y z = f w x y z == k
+(==´) = equalP
+
+infix 4 ==´
+
+liftP :: (a -> b -> c) -> InfoP a -> b -> InfoP c
+liftP func f k w x y z = f w x y z `func` k
+
+
+liftP2 :: (a -> b -> c) -> InfoP a -> InfoP b -> InfoP c
+liftP2 func f g w x y z = f w x y z `func` g w x y z
+
+
+greaterP, lesserP, (>´), (<´) :: (Ord a) => InfoP a -> a -> InfoP Bool
+greaterP = liftP (>)
+lesserP = liftP (<)
+(>´)  = greaterP
+(<´) = lesserP
+
+infix 4 >´
+infix 4 <´
+
+
+andP, orP,(&&´),(||´) :: InfoP Bool -> InfoP Bool -> InfoP Bool
+andP = liftP2 (&&)
+orP = liftP2 (||)
+(&&´) = andP
+(||´) = orP
+
+infix 3 &&´
+infix 2 ||´
+
+liftPath :: (FilePath -> a) -> InfoP a
+liftPath func w _ _ _ = func w
+
+
+getFileSize :: FilePath -> IO (Maybe Integer)
+getFileSize path = handle errorHandler
+                   $ bracket (openFile path ReadMode) (hClose) (\h -> do size <- hFileSize h
+                                                                         return $ Just size)
+                   where
+                         errorHandler :: SomeException -> IO (Maybe Integer)
+                         errorHandler _ = return Nothing
+
+betterFind :: InfoP Bool -> FilePath -> IO [FilePath]
+betterFind p path = getRecursiveContents path >>= filterM check
+                        where check name = do
+                                permissions <- getPermissions name
+                                size <- getFileSize name
+                                modified <- getModificationTime name
+                                return (p name permissions size modified)
+
+
+myTest path _ (Just size) _ = takeExtension path == ".cpp" && size > 131072
+myTest _ _ _ _ = False
+
+myTest2 = (liftPath takeExtension `equalP` ".cpp") `andP` (sizeP `greaterP` 131072)
+
+myTest3 = (liftPath takeExtension ==´ ".ccp") &&´ (sizeP >´ 131072)
+
+-- after infix declaration
+
+myTest4 = liftPath takeExtension ==´ ".hs" &&´ sizeP <´ 131072
+
+myTest5 = liftPath takeFileName ==´ "BetterPredicate.hs" &&´ sizeP <´ 131072
+
+myTest6 = liftPath takeExtension ==´ ".jpg"
+
+-- renameByTime
+
+renameByTime :: [FilePath] -> IO()
+renameByTime [] = putStrLn "Done."
+renameByTime (x:xs) = do 
+                        time <- getModificationTime x
+                        let prePath = fst $ splitFileName x
+                        let newItemName = "img" ++ dropItem ':' (dropFromBothEnds 11 4 (show time)) ++ ".jpg"
+                        renameFile x (prePath ++ newItemName) >> renameByTime xs
+                      
+
+
+

@@ -1,0 +1,11 @@
+7 = Hund
+3 = Katze
+2 = Maus
+5 = Held
+5 = Jögi
+5 = Baumeister
+5 = Knub
+8 = Harzer
+8 = Ameisenbär
+9 = Bär
+10 = Alex

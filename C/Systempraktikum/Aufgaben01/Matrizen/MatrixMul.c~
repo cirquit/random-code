@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+
+
+// generating random numbers
+int irand( int a, int e){
+    double r = e - a + 1;
+    return a + (int)(r * rand()/(RAND_MAX+1.0));
+}
+
+
+bool inBounds (int in) {
+    if (in > 10 || in < 0) {return false;} 
+                      else {return true;}
+} 
+
+int validInt (){
+        
+}
+
+
+int main(int argc, char *argv[]){
+
+srand(time(0));             // generating seed
+int newRnd = irand(0,9);   // generating number (0>= x <=9)
+int newRnd2 = irand(0,9);
+
+int in; 
+
+    printf("Wenn sie ein N kleiner als 0 oder größer als 9 wählen wir ein zufälliges N zwischen 0 und 9 generiert.\n Bitte geben sie das N ein: \n");
+    do {scanf("%i",&in);} while (getchar() != '\n'); 
+
+    
+ 
+
+
+/*
+   for (int row = 0; row < 3; row++) {
+        for (int col = 0; col < 3; col++) {
+            // Multiply the row of A by the column of B to get the row, column of product.
+            for (int inner = 0; inner < 2; inner++) {
+                product[row][col] += aMatrix[row][inner] * bMatrix[inner][col];
+            }*/
+}
+
+
+
+

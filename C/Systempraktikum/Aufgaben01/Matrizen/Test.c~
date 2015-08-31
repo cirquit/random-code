@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+
+
+int main(int argc, char *argv[]){
+
+char a = (int)argv[1];
+char b = (int)argv[2];
+    
+//char *c = a;
+
+//int x = atoi (c);
+//    printf("Die Zahl lautet: %i\n", x);
+
+
+
+char chVal = a;
+int chIndex;
+
+if ((chVal >= '0') && (chVal <= '9')) {
+
+    chIndex = chVal - '0';
+}
+else 
+if ((chVal >= 'a') && (chVal <= 'z')) {
+
+    chIndex = chVal - 'a';
+}
+else 
+if ((chVal >= 'A') && (chVal <= 'Z')) {
+
+    chIndex = chVal - 'A';
+}
+else {
+    chIndex = -1; // Error value !!!
+}
+
+printf("Die Zahl lautet: %i\n", chIndex);
+}

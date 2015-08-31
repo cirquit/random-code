@@ -1,0 +1,18 @@
+package javapkg;
+
+
+import frege.prelude.PreludeBase.TList;
+import fregepkg.FregeProducer;
+
+public class Consumer {
+
+	public static void main(String[] args) {
+
+		
+		
+		TList jevens = FregeProducer.evens.<TList>forced();
+		
+		System.out.println(jevens.toString());
+	}
+
+}

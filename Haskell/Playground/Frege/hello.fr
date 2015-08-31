@@ -1,0 +1,9 @@
+module tutorial.Hello where
+
+
+fibs :: [Integer]
+fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+
+fibs100 = take 100 $ fibs
+
+myZero = 0
