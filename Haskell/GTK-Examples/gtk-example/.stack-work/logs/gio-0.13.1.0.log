@@ -1,0 +1,34 @@
+[1 of 2] Compiling Gtk2HsSetup      ( Gtk2HsSetup.hs, dist/setup-wrapper/Gtk2HsSetup.o )
+[2 of 2] Compiling Main             ( SetupMain.hs, dist/setup-wrapper/Main.o )
+Linking dist/setup-wrapper/setup ...
+Configuring gio-0.13.1.0...
+Building gio-0.13.1.0...
+Preprocessing library gio-0.13.1.0...
+[ 1 of 24] Compiling System.GIO.Signals ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Signals.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Signals.o )
+[ 2 of 24] Compiling System.GIO.Types ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Types.o )
+[ 3 of 24] Compiling System.GIO.Enums ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Enums.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Enums.o )
+[ 4 of 24] Compiling System.GIO.File.FileAttribute ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileAttribute.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileAttribute.o )
+[ 5 of 24] Compiling System.GIO.Volumes.VolumeMonitor ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/VolumeMonitor.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/VolumeMonitor.o )
+[ 6 of 24] Compiling System.GIO.Icons.ThemedIcon ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/ThemedIcon.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/ThemedIcon.o )
+[ 7 of 24] Compiling System.GIO.Icons.Icon ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/Icon.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/Icon.o )
+[ 8 of 24] Compiling System.GIO.Icons.FileIcon ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/FileIcon.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/FileIcon.o )
+[ 9 of 24] Compiling System.GIO.Icons.EmblemedIcon ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/EmblemedIcon.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/EmblemedIcon.o )
+[10 of 24] Compiling System.GIO.Icons.Emblem ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/Emblem.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Icons/Emblem.o )
+[11 of 24] Compiling System.GIO.File.MountOperation ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/MountOperation.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/MountOperation.o )
+[12 of 24] Compiling System.GIO.File.IOError ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/IOError.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/IOError.o )
+[13 of 24] Compiling System.GIO.File.FileMonitor ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileMonitor.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileMonitor.o )
+[14 of 24] Compiling System.GIO.File.FileInfo ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileInfo.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileInfo.o )
+[15 of 24] Compiling System.GIO.File.ContentType ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/ContentType.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/ContentType.o )
+[16 of 24] Compiling System.GIO.File.AppInfo ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/AppInfo.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/AppInfo.o )
+[17 of 24] Compiling System.GIO.Async.Cancellable ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Async/Cancellable.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Async/Cancellable.o )
+[18 of 24] Compiling System.GIO.Async.AsyncResult ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Async/AsyncResult.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Async/AsyncResult.o )
+[19 of 24] Compiling System.GIO.File.File ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/File.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/File.o )
+[20 of 24] Compiling System.GIO.File.FileEnumerator ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileEnumerator.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/File/FileEnumerator.o )
+[21 of 24] Compiling System.GIO.Volumes.Drive ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Drive.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Drive.o )
+[22 of 24] Compiling System.GIO.Volumes.Mount ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Mount.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Mount.o )
+[23 of 24] Compiling System.GIO.Volumes.Volume ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Volume.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO/Volumes/Volume.o )
+[24 of 24] Compiling System.GIO       ( System/GIO.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/System/GIO.o )
+In-place registering gio-0.13.1.0...
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux/lts-3.8/7.10.2/lib/x86_64-linux-ghc-7.10.2/gio-0.13.1.0-I2Ei99vVSfU429nrcQ9gf6
+Registering gio-0.13.1.0...

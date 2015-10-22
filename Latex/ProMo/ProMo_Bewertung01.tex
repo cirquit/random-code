@@ -1,0 +1,510 @@
+\documentclass[11pt]{article}
+\usepackage{a4wide}
+\usepackage{stmaryrd}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ngerman}
+\usepackage{bussproofs}
+\usepackage[all]{xy}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+% \usepackage{fancyvrb}
+\usepackage{alltt}
+\usepackage{upquote} % allows backticks and ticks to be copied from verbatim into editors without changing them
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{../common}
+\usepackage{../mymath}
+\usepackage{../mylogik}
+
+\newcommand{\limp}{\to}
+\newcommand{\liff}{\leftrightarrow}
+
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%
+    % \noloesung
+    % \nobewertung
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\uheader{1}{21. April 2015}
+
+
+\begin{aufgabe}{Kartesisches Produkt}\label{kartesischesProdukt}
+Berechnen Sie mit Papier und Bleistift die Menge des jeweiligen
+kartesischen Produktes. 
+Wenn Sie möchten, können Sie ihre Antworten mit GHCI überprüfen.
+
+\emph{Hinweis:} im Gegensatz zu Listen ist 
+      die Reihenfolge der Elemente einer Menge
+      unerheblich (und Mengen enthalten auch keine ``doppelten'' Elemente).
+\begin{enumerate}
+ \item $\{11, 7\} \times \{\clubsuit, \heartsuit\}$
+      \Loesung{$\bigl\{(11,\clubsuit),(11,\heartsuit),(7,\clubsuit),(7,\heartsuit)\bigr\}$ }
+
+%  \item Was sind die Elemente des Produkt $\{1, 2\} \times \{3, 4, 5\}$?
+%     \Loesung{$\{(1,3),(1,4),(1,5),(2,3),(2,4),(2,5)\}$}
+
+  \item $(\{1, 2\} \times \{3, 4\}) \times \{5,6\}$
+    \Loesung{$\bigl\{(1,3,5),(1,3,6),(1,4,5),(1,4,6),(2,3,5),(2,3,6),(2,4,5),(2,4,6)\bigr\}$}
+
+  \item $\{1, 2\} \times (\{3, 4\} \times \{5,6\})$
+    \begin{loesung}
+      Abgesehen von der inneren Klammerung ist
+      das Ergebnis identisch zur vorherigen Teilaufgabe.
+      In der Mathematik ist es oft üblich, nicht zwischen diesen beiden Produkten zu unterscheiden und 
+      gleich Tripel zu verwenden,
+      d.h.\ obwohl das kartesische Produkt eigentlich nicht assoziativ ist, wird es oft als assoziativ behandelt.
+      Funktionale Sprachen unterscheiden jedoch üblicherweise zwischen solchen isomorphen Produkten,
+      denn \verb|(1,(2,3))| hat einen anderen Typ als \verb|((1,2),3)| oder \verb|(1,2,3)|.
+    \end{loesung}
+  
+  \item $\{1, 2\} \times \{\}$
+    \Loesung{Das Produkt ist hier die leere Menge.}
+    
+  \item Sei $A$ eine Menge mit $n$ Elementen. Wie viele Elemente gibt es in $A \times \{27,69\}$?
+    \Loesung{Doppelt so viele, da jedes Element aus $A$ zwei Mal im Produkt mit $\{27,69\}$ vorkommt; also insgesamt $2n$.}
+  
+\end{enumerate}
+\end{aufgabe}
+% 
+% \begin{aufgabe}{Grundlegende Operatoren}\label{BasicOps}
+% % \begin{enumerate}
+% %   \item Implementieren Sie eine Funktion, welche zwei Argumente des Typs \verb|Bool|
+% %     zu einem Ergebnis des Typs \verb|Bool| verarbeitet. Ihre Funktion soll nur 
+% %     genau dann den Wert \verb|True| liefern, wenn beide Argumente \verb|True| sind.
+% %     \begin{loesung}
+% %       \begin{verbatim}
+% %         myAnd :: Bool -> Bool -> Bool
+% %         myAnd True True = True
+% %         myAnd _    _    = False
+% %       \end{verbatim}
+% %     \end{loesung}
+% 
+% %   \item  
+%     Die Funktionen für die logischen Operatoren UND, ODER und Negation 
+%     wurden nicht in der Vorlesung erklärt.
+%     Finden Sie selbst heraus, wie diese Operatoren in Haskell heißen 
+%     und testen Sie deren Funktionsweise kurz mit GHCI.
+%     
+%     \emph{Hinweise:} 
+%       Die Vorlesungshomepage listet Links zur Lösung dieser Aufgabe.      
+%       Zum Beispiel können Sie in der Dokumentation der Standardbibliotheken nachschlagen;
+%       grundlegende Funktionen findet man oft im Modul \verb!Prelude! oder
+%       auch in den \verb|Data|-Modulen, z.B.\ \verb!Data.Bool!.
+%       
+%       Die Haskell Suchmaschine Hoogle kann Bibliotheksfunktionen 
+%       mithilfe des Typs schnell aufspüren;
+%       tippen Sie also alternativ den Typ der gesuchten Funktion 
+%       in Hoogle ein.
+%       
+%       Wenn Sie keinen Internetzugriff haben:
+%       Bei der Installation der Haskell Plattform sollte 
+%       die Dokumentation der Standardbibliotheken auch lokal installiert worden sein.
+%       %
+%       Eine weitere offline Möglichkeit zum Durchblättern der Dokumentation  noch der GHCI Befehl \verb|:browse|
+%     \begin{loesung}
+%       \begin{verbatim}
+% Prelude> :browse Data.Bool
+% (&&) :: Bool -> Bool -> Bool
+% data Bool = False | True
+% not :: Bool -> Bool
+% otherwise :: Bool
+% (||) :: Bool -> Bool -> Bool
+% 
+% Prelude> True && False 
+% False
+% Prelude> True || False 
+% True
+% Prelude> not True
+% False \end{verbatim}
+%     \end{loesung}
+% 
+%       
+%       
+% %   \item  Vergleiche?   
+% % \end{enumerate}
+% 
+%   
+% \end{aufgabe}
+% 
+
+
+\begin{aufgabe}{Auswertung}\label{Auswerten}%
+Berechnen Sie möglichst mit Papier und Bleistift den Wert,
+zu dem der gegebene Ausdruck
+jeweils auswertet. Überprüfen Sie Ihr Ergebnis mit GHCI.
+
+\begin{enumerate}
+%   \item \verb|2 + 3 * 5== 35 `div` 2|
+%       \begin{loesung}
+%         \verb|True|
+%       \end{loesung}
+  \item \verb|'c':'o':'o':'l':"!"|
+      \begin{loesung}
+        \verb|"cool!"|
+      \end{loesung}
+  \item \verb|(4 == 5.0):[]|
+      \begin{loesung}
+        \verb|[False]|
+      \end{loesung}
+  \item \verb#let mond="käse" in if mond=="käse" && 1==2 then False else 1+1==2#
+      \begin{loesung}
+        \verb|True|
+      \end{loesung}
+  \item \begin{verbatim}
+[ z | c <- "grotesk", c/='k', c/='r', c/='e' && c/='s'
+    , let z = if c=='o' then 'u' else c ]\end{verbatim}
+      \begin{loesung}
+        \verb|"gut"|
+      \end{loesung}
+  \item \verb![(a,b) | a<-[1..5], b<-[5..1], a/=b]!
+      \begin{loesung}
+        \verb|[]|
+       \emph{Zur Erinnerung:} Wenn man herunterzählen möchte, dann muss man die Schrittweite angeben.
+       Die Liste \verb|[5..1]| ist leer, die Liste \verb|[5,4..1]| enthält dagegen 5 Zahlen.
+      \end{loesung}
+%   \item \verb![(y,z) | x<-['m'..'n'], y<-[1,200..500], let z = x:""]!
+%       \begin{loesung}
+%         \verb|[(1,"m"),(200,"m"),(399,"m"),(1,"n"),(200,"n"),(399,"n")]|
+%       \end{loesung}
+  \item \verb#(\x->"nope!") [c | c <- "yes!"]#
+      \begin{loesung}
+        \verb|"nope!"|
+        Der erste Teil definiert eine anonyme Funktion, welches Ihr Argument ignoriert und immer den String \verb|"nope!"| zurückliefert.
+        Der hintere Teil dieses Ausdrucks wertet wieder zu dem String \verb|"yes!| aus.
+      \end{loesung}
+\end{enumerate}
+\end{aufgabe}
+
+
+\begin{aufgabe}{Substitutionsmodell}\label{Substitutionsmodell1}
+  %TODO: Lambda am anfang zu schwer!
+  Werten Sie folgenden Ausdruck gemäß dem in der Vorlesung behandelten Substitutionsmodell
+  aus:
+    $$\Bigl(\bigl(\lam x \arr (\lam (y:\_) \arr x-y)\bigr)\ (3+4)\Bigr)\ (\fkt{tail}\ [1,2])$$
+    
+\begin{loesung}
+  Wir verzichten hier gleich auf alle überschüssige Klammern gemäß der Klammerkonvention.
+  
+  Weiterhin rufen wir uns vorher noch 
+  die Definition von \fkt{tail} aus Foliensatz~2 (oder auch aus der Standardbibliothek)
+  in Erinnerung: $\fkt(tail)\ (\_:t) = t$.
+  %
+  Damit man besser verstehen kann, wie das Pattern-Matching bei der Funktionsanwendung
+  von $\fkt{tail}$ und der anonymen Funktion abläuft,
+  schreiben wir anstatt $[1,2]$ gleich $(1:(2:[\,]))$,
+  beide Schreibweisen sind ja äquivalent.
+  
+ \begin{align*}
+                & (\lam x \arr (\lam (y:\_) \arr x-y))\ \underline{(3+4)}\ (\fkt{tail}\ (1:(2:[\,]))) 
+    \\\leadsto~ & (\lam x \arr (\lam (y:\_) \arr x-y))\ 7\ \underline{(\fkt{tail}\ (1:(2:[\,])))}
+    \\\leadsto~ & (\lam x \arr (\lam (y:\_) \arr x-y))\ 7\ (2:[\,])
+    \\\leadsto~ & (\lam (y:\_) \arr 7-y))\ (2:[\,])
+    \\\leadsto~ & 7-2 \leadsto 5
+ \end{align*}
+\end{loesung}
+    
+%     \ (\underline{\fkt{negate}\ 1})        
+%     \leadsto \underline{(\lam x \arr 43+x)\ (-1)}
+%     \leadsto \underline{43+(-1)} \leadsto 42$$
+\end{aufgabe}
+
+
+\begin{aufgabe}{Pattern-Matching}\label{Pattern-Matching}%
+  Schreiben Sie eine Funktion \verb|myAnd|,\footnote{Zur Vermeindung von Namenkonflikten mit der Standardbibliothek nicht ``and'' verwenden} 
+  welche den Typ \linebreak\verb|Bool -> (Bool -> Bool)| hat
+  und die logische Operation ``und'' implementiert.
+  %
+  Zur Übung der Vorlesungsinhalte sollen Sie diese Aufgabe gleich drei Mal lösen,
+  jeweils mit einer anderen Einschränkung:  
+  \begin{enumerate}
+    \item Verwenden Sie bei der Definition ausschließlich Pattern-Matching.
+    \item Verwenden Sie bei der Definition ausschließlich Wächter (keine konstanten Patterns).
+    \item Verwenden Sie weder Pattern-Matching noch Wächter.
+  \end{enumerate}
+  Natürlich dürfen Sie in keinem Fall die Operatoren aus der Standardbibliothek verwenden!
+  
+  \begin{loesung}
+    \begin{enumerate}
+      \item Da der Typ vorgegeben war, können wir diese Aufgabe rein mechanisch lösen,
+      indem wir für jeden möglichen Input eine Zeile mit dem Ergebnis hinschreiben:
+    \begin{verbatim}
+  myAnd1 :: Bool -> Bool -> Bool
+  myAnd1 False False  = False    
+  myAnd1 False True   = False
+  myAnd1 True  False  = False
+  myAnd1 True  True   = True  
+    \end{verbatim}
+    Wer sich etwas Schreibarbeit sparen will, kann Fälle mit dem gleichen Ergebnis zusammenfassen.
+    Für Haskell macht das keinen Unterschied, aber für uns ist es wohl leichter lesbar.
+    %
+    Der einzige Spezialfall \verb|True True| schreiben wir an erster Stelle, damit dieser zuerst geprüft wird.
+    %   
+    Da alle restlichen Fälle auf \verb|False| abgebildet werden, können wir 
+    diese nun pauschal mit einem Wildcard Pattern abarbeiten, welche immer matched:    
+    \begin{verbatim}
+  myAnd2 True True  = True 
+  myAnd2 _          = False
+    \end{verbatim}
+    Eine alternative Lösung mit einem Pattern Match weniger wäre:
+    \begin{verbatim}
+  myAnd3 True    y  = y
+  myAnd3 _          = False
+    \end{verbatim}
+%          Diese Variante nennt man auch nicht-strikt im zweiten Argument,
+%          da dieses nicht inspiziert wir: Der Ausdruck 
+%          \verb|myAnd2 (True,waldläufer)| terminiert, aber 
+%          der Ausdruck \verb|myAnd1 (True,waldläufer)| terminiert nicht
+%          (wobei \verb|waldläufer x = waldläufer x|).
+%          Striktheit wird in der Vorlesung erst später behandelt.
+      \item 
+      \begin{verbatim}
+  myAnd4 x y  
+    | x, y      = True
+    | otherwise = False
+      \end{verbatim}
+%       Alternative mit \verb|case|-Ausdruck
+%       \begin{verbatim}
+%   myAnd5 x y = case (x,y) of 
+%     (x,y) | x && y    -> True
+%           | otherwise -> False
+%         \end{verbatim}
+%       
+        \item
+        \begin{verbatim}
+  myAnd6 x y = if x then y else False 
+    \end{verbatim}
+\end{enumerate}
+  \footnotetext{Test}
+  \end{loesung}
+\end{aufgabe}
+
+
+\pbreak{3}{3}
+
+
+\begin{hausaufgabe}[keine]{Typen}{0}\label{Typen}%
+Welchen Typ haben folgenden Ausdrücke?
+\begin{enumerate}
+  \item \verb|['a','b','c']|
+    \begin{loesung}
+      \verb|String| oder \verb|[Char]| (Typsynonym)
+    \end{loesung}
+  \item \verb|('a','b','c')|
+    \begin{loesung}
+      \verb|(Char,Char,Char)|
+    \end{loesung}
+  \item \verb|[(False,[1]),(True,[(2.0)])]|
+    \begin{loesung}
+      \verb|[(Bool, [Double])]|
+    \end{loesung}
+  \item \verb|([True,True],('z','o','o'))|
+    \begin{loesung}
+      \verb|([Bool], (Char, Char, Char))|
+    \end{loesung}
+  \item \verb|(\x -> ('a':x,False,([x])))|
+    \begin{loesung}
+      \verb|[Char] -> ([Char], Bool, [[Char]])|
+    \end{loesung}
+%   \item \verb@[z == 2.0 | x <- [1..10], let y = (2*x,x+1), let (z,_) = y]@
+%       \begin{loesung}
+%         \verb|[Bool]|
+%       \end{loesung}
+  \item \verb@[(\x y-> (x*2,y-1)) m n | m <- [1..5], even m, n <- [6..10]]@
+      \begin{loesung}
+        \verb|[(Integer, Integer)]|
+      \end{loesung}
+%   \item \verb|(\x -> (x,x))|
+%       \begin{loesung}
+%         \verb|a -> (a, a)|
+%       \end{loesung}
+%   \item \verb|(\(x,y) -> ([y],[],x:x:x:[]))|
+%       \begin{loesung}
+%         \verb|(a1, t) -> ([t], [a], [a1])|
+%       \end{loesung}
+%   \item \verb|(\a b c -> a:b:c:[])|
+%       \begin{loesung}
+%         \verb|a -> a -> a -> [a]|
+%       \end{loesung}
+%   \item \verb|[tail,init,reverse]|
+%     \begin{loesung}
+%       \verb|[[a]->[a]]|
+%     \end{loesung}
+\end{enumerate}
+\emph{Hinweis:}
+Kontrollieren Sie Ihre Antworten anschließend selbst mit GHCI!
+Auch wenn wir Typinferenz in der Vorlesung noch nicht
+behandelt haben, sollten Sie in der Lage sein,
+die meisten dieser einfachen Aufgaben bereits
+alleine mit Papier und Bleistift lösen zu können.
+Dies Aufgabe ist eigentlich auch einfacher als Aufgabe~\ref{Auswerten}!
+\end{hausaufgabe}
+
+\pbreak{3}{3}
+
+\begin{hausaufgabe}[PDF]{Substitutionsmodell II}{3}\label{Substitutionsmodell2}%
+  Gegeben sind folgende zwei Funktionsdefinitionen
+  \begin{verbatim}
+    const x y =  x
+    negate x  = -x
+  \end{verbatim}
+  \vspace*{-3EX}
+  und ein Ausdruck
+  $\fkt{const}\ \fkt{const}\ (\fkt{negate}\ 1)\ (\fkt{negate}\ 2)\ 3$
+ \begin{enumerate}
+  \item In dem gegebenen Ausdruck müssen wir die implizite Klammerkonvention berücksichtigen,
+        siehe Folie~01-46.
+        Geben Sie den Ausdruck noch einmal mit vollständiger, expliziter Klammerung an!
+         
+        \Loesung{
+        Funktionsanwendung ist implizit links geklammert, d.h.\ 
+        $$\Bigl(\bigl((\fkt{const}\ \fkt{const})\ (\fkt{negate}\ 1)\bigr)\ (\fkt{negate}\ 2)\Bigr)\ 3$$  }
+        
+  \item Werten Sie nun den Ausdruck schrittweise gemäß dem in der Vorlesung behandelten Substitutionsmodell
+        vollständig aus; unterstreichen Sie jeweils den bearbeiteten Teilausdruck.
+  
+      \begin{loesung}  
+        Eine mögliche Auswertung:
+          \begin{align*}
+          & \underline{\fkt{const}\ \fkt{const}\ (\fkt{negate}\ 1)}\ (\fkt{negate}\ 2)\ 3
+          ~\leadsto~ \underline{\fkt{const}\ (\fkt{negate}\ 2)\ 3}
+          ~\leadsto~ \underline{\fkt{negate}\ 2}
+          ~\leadsto~ -2
+      %     \end{align*} 
+          \intertext{Wir dürfen aber auch eine andere Reihenfolge wählen, z.B.:}
+      %     \begin{align*}
+          & \fkt{const}\ \fkt{const}\ (\underline{\fkt{negate}\ 1})\ (\fkt{negate}\ 2)\ 3
+          ~\leadsto~ \fkt{const}\ \fkt{const}\ (-1)\ (\underline{\fkt{negate}\ 2})\ 3
+          \\ &~\leadsto~ \underline{\fkt{const}\ \fkt{const}\ (-1)}\ (-2)\ 3
+          ~\leadsto~ \underline{\fkt{const}\ (-2)\ 3}    
+          ~\leadsto~ -2
+          \end{align*} 
+        \end{loesung}
+ \end{enumerate}      
+      
+  \begin{bewertung}
+      1 Punkt auf die korrekte Klammerung;
+      2 Punkte auf eine vollständig korrekte Auswertung, dabei pro Fehler 1 Punkt abziehen (also hier: 1 Fehler = 1 Punkt),
+      keine Trostpunkte.
+      
+      Bei fehlerhafte Klammerung im ersten Teil können unter Beachtung des Folgesfehler trotzdem 
+      noch die vollen 2 Punkte auf dem zwetien Teil erzielt werden!
+  \end{bewertung}
+    
+\end{hausaufgabe}
+
+\pbreak{3}{3}
+
+% \begin{aufgabe}{Definitionsbereich}
+%   Geben Sie jeweils den Definitionsbereich der folgenden Funktionen an:
+%   \begin{enumerate}
+%     \item $f :\NN \rightarrow \NN,\quad  f(x) = x^2$
+%       \Loesung{$\dom(f)=\NN$}
+%     \item $g:\RR \rightarrow \RR,\quad  g(x) = \begin{cases} x^3 - 4x + 11 & \text{falls } x > 1 \\ x^2 + 10x - 7 & \text{falls } x < 1 \end{cases}$
+%       \Loesung{$\dom(g)=\RR\setminus\{1\}$}
+%     \item $\text{pos}:\RR \rightarrow \RR,\quad \text{pos}(x) = \begin{cases} x & \text{falls } x > 0 \\ 0 & \text{sonst} \end{cases}$
+%       \Loesung{$\dom(\text{pos})=\RR$}
+%     \item $h:\RR \rightarrow \RR,\quad  h(x) = \frac{1}{pos(x^2-4)}$
+%       \Loesung{$\dom(h)= \{x\in\RR \mid x<-2 \text{ oder } x>2 \}$}
+%     \item $a:\RR\times\RR \rightarrow \RR,\quad  a(x,y) = \frac{y^2 }{x+1}$
+%       \Loesung{$\dom(a)= (\RR\setminus\{-1\})\times\RR $}
+%     \item $b:\RR\times\RR \rightarrow \RR \times \RR,\quad  b(x,y) = \begin{cases} (g(y),a(y,x)) & \text{falls } y \geq -1 \\ (-16,1) & \text{sonst} \end{cases}$
+%       \Loesung{$\dom(b)= \RR \times (\RR\setminus\{-1,1\}) $}
+%   \end{enumerate}
+% \end{aufgabe}
+%  
+%\pbreak{3}{3}
+
+\begin{hausaufgabe}[hss]{Modellieren mathematischer Funktion}{3}\label{mathefun}%
+  Eine Ellipse um einen Mittelpunkt~$M$ 
+  ist gegeben durch ihre große Halbachse~$a$
+  und ihre kleine Halbachse~$b$.
+  Auf der großen Achse 
+  liegen die beiden Brennpunkte~$F_1,F_2$ der Ellipse.
+  Den Abstand~$e$ dieser Brennpunkte vom Mittelpunkt
+  nennt man die Exzentrizität der Ellipse.
+
+  Die Exzentrizität hat einen Wert zwischen $0$ und $a$ 
+  und ist ein Maß dafür,
+  wie "`länglich"' die Ellipse ist.
+  Die Exzentrizität hat den Wert $0$ im Fall $a=b$,
+  wenn also die Ellipse zu einem Kreis mit Radius~$a$ entartet.
+  Die  Exzentrizität hat den Wert $a$ im Fall $b=0$,
+  wenn also die Ellipse zu einer Strecke der Länge~$2a$ entartet.
+
+  \vspace*{1ex}
+  \begin{minipage}{30ex}
+  \begin{center}
+ \includegraphics[width=10EM,keepaspectratio=true]{./ellipse.png}
+ % ellipse.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
+\end{center}
+ \end{minipage}
+  \hspace*{\fill}
+  \begin{tabular}{ll}
+    \multicolumn{2}{l}{Ellipse mit Halbachsen $a$ und $b$ mit $a \ge b \ge 0$}\\\hline
+    Flächeninhalt: & $\pi a b$ \\
+    Exzentrizität: & $\sqrt{a^2 - b^2}$ \\
+    Umfang:        & $\pi \Big( \frac{3}{2}(a+b) - \sqrt{a b} \Big)$
+  \end{tabular}
+  \hspace*{\fill}
+  \vspace*{3ex}
+
+  In der obigen Tabelle sind die Formeln zur Berechnung
+  von Flächeninhalt, Exzentrizität und Umfang angegeben.
+%   (Die Formel für den Umfang liefert nur einen
+%   --- allerdings ziemlich genauen ---
+%   Näherungswert,
+%   weil der exakte mathematische Wert
+%   durch eine unendliche Reihe gegeben ist,
+%   also als Grenzwert einer Summe mit unendlich vielen Summanden.)
+
+  Schreiben Sie eine Datei \texttt{H1-3.hs}, welche diese Funktionen implementiert:
+  \begin{verbatim}
+   flaecheninhalt :: Double -> Double -> Double
+   exzentrizitaet :: Double -> Double -> Double
+   umfang         :: Double -> Double -> Double  \end{verbatim}
+  
+  \paragraph{Hinweise}
+  \begin{itemize}
+    \item Zur Vereinfachung müssen Sie nicht überprüfen,
+          dass die Bedingung $a \ge b \ge 0$ tatsächlich eingehalten wird.
+    \item Folgende Funktionen aus der Standardbibliothek dürfen Sie zusätzlich 
+      zu den üblichen mathematischen Operationen \verb|+|,\verb|-|,\verb|*|,\verb|/|,\verb|^|
+    verwenden: \verb|pi|, \verb|sqrt|. Schlagen Sie diese Funktionen ggf.\ in der Dokumentation der 
+    Standardbibliothek nach.
+    \item \emph{Beispiel}          
+  Eine Funktion zur Berechnung des Flächeninhalts eines Kreises, könnte man in Haskell 
+  wie folgt definieren: \begin{verbatim}  
+  kreisfläche :: Double -> Double 
+  kreisfläche r = pi * r * r \end{verbatim}   
+    
+    \item Punktabzug, falls Funktionsnamen, Signatur oder Dateiname nicht wie angegeben sind.
+  \end{itemize}
+
+  \begin{loesung}
+    \verbatiminput{ellipse.hs}
+     \begin{bewertung}
+      3 Punkte wenn alle automatischen Tests bestanden sind und alles korrekt ist.
+      2 Punkte bei 1--2 Fehlern oder auch schon falls nicht alle Tests bestanden werden (z.B. bei Mißachtung des Abgabeformats).
+      1 Trostpunkt für einen erkennbar bemühten Lösungsansatz.
+    \end{bewertung}
+  \end{loesung}
+
+\end{hausaufgabe}
+
+
+
+\vspace{\fill}
+\paragraph{Abgabe:}
+Lösungen zu den Hausaufgaben können bis Dienstag, den 28.04.2015, 11:00 Uhr mit \href{https://uniworx.ifi.lmu.de/?action=uniworxCourseWelcome&id=398}{UniworX} abgegeben werden.
+
+Aufgrund des Klausurbonus müssen die Hausaufgaben von Ihnen alleine gelöst werden.
+Abschreiben bei den Hausaufgaben gilt als Betrug und kann zum Ausschluss von der Klausur zur Vorlesung führen.
+% Achten Sie besonders auf saubere Beweise!
+% Es ist ratsam, die Beweise so ausführlich wie möglich zu führen.
+% \emph{Zur Erinnerung:} Die Hausaufgaben müssen von Ihnen alleine gelöst werden; eine Abgabe in Gruppen ist nicht zulässig!
+% Gruppenabgaben sind nicht zulässig.
+\end{document}

@@ -1,0 +1,7170 @@
+Configuring gtk2hs-buildtools-0.13.0.4...
+Building gtk2hs-buildtools-0.13.0.4...
+Preprocessing executable 'gtk2hsTypeGen' for gtk2hs-buildtools-0.13.0.4...
+[1 of 2] Compiling Paths_gtk2hs_buildtools ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/autogen/Paths_gtk2hs_buildtools.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsTypeGen/gtk2hsTypeGen-tmp/Paths_gtk2hs_buildtools.o )
+[2 of 2] Compiling Main             ( hierarchyGen/TypeGen.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsTypeGen/gtk2hsTypeGen-tmp/Main.o )
+
+hierarchyGen/TypeGen.hs:37:7: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:38:6: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:39:11: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:40:11: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:52:21: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:53:22: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:53:26: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:54:21: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:55:22: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:60:14: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:61:15: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:83:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:84:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:85:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:86:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:123:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:128:3: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:129:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:131:7: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:132:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:133:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:134:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:157:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:169:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:170:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:171:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:172:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:173:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:174:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:235:28: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:250:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:251:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:263:17: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:267:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:268:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:270:18: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:272:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:273:1: Warning: Tab character
+
+hierarchyGen/TypeGen.hs:283:1: Warning: Tab character
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsTypeGen/gtk2hsTypeGen ...
+Preprocessing executable 'gtk2hsHookGenerator' for
+gtk2hs-buildtools-0.13.0.4...
+[1 of 2] Compiling Paths_gtk2hs_buildtools ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/autogen/Paths_gtk2hs_buildtools.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsHookGenerator/gtk2hsHookGenerator-tmp/Paths_gtk2hs_buildtools.o )
+[2 of 2] Compiling Main             ( callbackGen/HookGenerator.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsHookGenerator/gtk2hsHookGenerator-tmp/Main.o )
+
+callbackGen/HookGenerator.hs:16:19: Warning: Tab character
+
+callbackGen/HookGenerator.hs:17:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:17:19: Warning: Tab character
+
+callbackGen/HookGenerator.hs:18:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:19:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:20:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:20:18: Warning: Tab character
+
+callbackGen/HookGenerator.hs:21:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:22:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:23:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:24:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:25:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:26:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:27:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:28:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:32:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:32:22: Warning: Tab character
+
+callbackGen/HookGenerator.hs:33:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:33:18: Warning: Tab character
+
+callbackGen/HookGenerator.hs:34:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:34:22: Warning: Tab character
+
+callbackGen/HookGenerator.hs:35:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:35:23: Warning: Tab character
+
+callbackGen/HookGenerator.hs:36:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:36:21: Warning: Tab character
+
+callbackGen/HookGenerator.hs:37:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:37:22: Warning: Tab character
+
+callbackGen/HookGenerator.hs:38:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:51:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:52:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:53:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:70:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:71:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:81:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:116:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:138:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:151:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:165:13: Warning: Tab character
+
+callbackGen/HookGenerator.hs:178:13: Warning: Tab character
+
+callbackGen/HookGenerator.hs:216:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:217:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:218:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:219:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:220:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:221:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:222:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:223:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:224:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:226:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:233:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:254:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:255:11: Warning: Tab character
+
+callbackGen/HookGenerator.hs:255:24: Warning: Tab character
+
+callbackGen/HookGenerator.hs:260:21: Warning: Tab character
+
+callbackGen/HookGenerator.hs:261:21: Warning: Tab character
+
+callbackGen/HookGenerator.hs:262:22: Warning: Tab character
+
+callbackGen/HookGenerator.hs:263:22: Warning: Tab character
+
+callbackGen/HookGenerator.hs:264:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:265:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:266:20: Warning: Tab character
+
+callbackGen/HookGenerator.hs:267:23: Warning: Tab character
+
+callbackGen/HookGenerator.hs:269:13: Warning: Tab character
+
+callbackGen/HookGenerator.hs:277:11: Warning: Tab character
+
+callbackGen/HookGenerator.hs:281:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:282:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:285:13: Warning: Tab character
+
+callbackGen/HookGenerator.hs:286:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:287:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:288:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:289:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:290:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:291:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:292:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:293:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:295:17: Warning: Tab character
+
+callbackGen/HookGenerator.hs:311:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:312:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:314:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:315:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:316:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:318:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:332:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:343:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:344:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:345:14: Warning: Tab character
+
+callbackGen/HookGenerator.hs:346:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:347:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:348:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:349:15: Warning: Tab character
+
+callbackGen/HookGenerator.hs:350:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:351:16: Warning: Tab character
+
+callbackGen/HookGenerator.hs:428:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:429:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:469:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:485:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:521:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:523:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:524:3: Warning: Tab character
+
+callbackGen/HookGenerator.hs:526:1: Warning: Tab character
+
+callbackGen/HookGenerator.hs:527:3: Warning: Tab character
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsHookGenerator/gtk2hsHookGenerator ...
+Preprocessing executable 'gtk2hsC2hs' for gtk2hs-buildtools-0.13.0.4...
+[ 1 of 41] Compiling DLists           ( c2hs/base/general/DLists.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/DLists.o )
+[ 2 of 41] Compiling BaseVersion      ( c2hs/base/admin/BaseVersion.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/BaseVersion.o )
+
+c2hs/base/admin/BaseVersion.hs:10:5: Warning: Tab character
+[ 3 of 41] Compiling Switches         ( c2hs/state/Switches.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Switches.o )
+
+c2hs/state/Switches.hs:72:1: Warning: Tab character
+
+c2hs/state/Switches.hs:72:44: Warning: Tab character
+
+c2hs/state/Switches.hs:73:1: Warning: Tab character
+
+c2hs/state/Switches.hs:73:44: Warning: Tab character
+
+c2hs/state/Switches.hs:74:1: Warning: Tab character
+
+c2hs/state/Switches.hs:74:46: Warning: Tab character
+
+c2hs/state/Switches.hs:75:1: Warning: Tab character
+
+c2hs/state/Switches.hs:76:1: Warning: Tab character
+
+c2hs/state/Switches.hs:77:1: Warning: Tab character
+
+c2hs/state/Switches.hs:77:40: Warning: Tab character
+
+c2hs/state/Switches.hs:78:1: Warning: Tab character
+
+c2hs/state/Switches.hs:78:42: Warning: Tab character
+
+c2hs/state/Switches.hs:79:1: Warning: Tab character
+
+c2hs/state/Switches.hs:79:44: Warning: Tab character
+
+c2hs/state/Switches.hs:80:1: Warning: Tab character
+
+c2hs/state/Switches.hs:80:44: Warning: Tab character
+
+c2hs/state/Switches.hs:81:1: Warning: Tab character
+
+c2hs/state/Switches.hs:81:44: Warning: Tab character
+
+c2hs/state/Switches.hs:82:1: Warning: Tab character
+
+c2hs/state/Switches.hs:83:1: Warning: Tab character
+
+c2hs/state/Switches.hs:83:40: Warning: Tab character
+
+c2hs/state/Switches.hs:84:1: Warning: Tab character
+
+c2hs/state/Switches.hs:84:46: Warning: Tab character
+
+c2hs/state/Switches.hs:85:1: Warning: Tab character
+
+c2hs/state/Switches.hs:86:1: Warning: Tab character
+
+c2hs/state/Switches.hs:92:1: Warning: Tab character
+
+c2hs/state/Switches.hs:93:1: Warning: Tab character
+
+c2hs/state/Switches.hs:94:1: Warning: Tab character
+
+c2hs/state/Switches.hs:95:1: Warning: Tab character
+
+c2hs/state/Switches.hs:95:31: Warning: Tab character
+
+c2hs/state/Switches.hs:96:1: Warning: Tab character
+
+c2hs/state/Switches.hs:97:1: Warning: Tab character
+
+c2hs/state/Switches.hs:98:1: Warning: Tab character
+
+c2hs/state/Switches.hs:99:1: Warning: Tab character
+
+c2hs/state/Switches.hs:100:1: Warning: Tab character
+
+c2hs/state/Switches.hs:101:1: Warning: Tab character
+
+c2hs/state/Switches.hs:101:31: Warning: Tab character
+
+c2hs/state/Switches.hs:102:1: Warning: Tab character
+
+c2hs/state/Switches.hs:103:1: Warning: Tab character
+
+c2hs/state/Switches.hs:104:1: Warning: Tab character
+
+c2hs/state/Switches.hs:113:1: Warning: Tab character
+
+c2hs/state/Switches.hs:114:1: Warning: Tab character
+
+c2hs/state/Switches.hs:115:1: Warning: Tab character
+
+c2hs/state/Switches.hs:116:1: Warning: Tab character
+
+c2hs/state/Switches.hs:117:1: Warning: Tab character
+
+c2hs/state/Switches.hs:125:1: Warning: Tab character
+
+c2hs/state/Switches.hs:126:1: Warning: Tab character
+
+c2hs/state/Switches.hs:127:1: Warning: Tab character
+
+c2hs/state/Switches.hs:128:1: Warning: Tab character
+
+c2hs/state/Switches.hs:128:29: Warning: Tab character
+
+c2hs/state/Switches.hs:129:1: Warning: Tab character
+[ 4 of 41] Compiling Map              ( c2hs/base/general/Map.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Map.o )
+[ 5 of 41] Compiling FastMutInt       ( c2hs/base/general/FastMutInt.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FastMutInt.o )
+
+c2hs/base/general/FastMutInt.hs:8:1: Warning: Tab character
+
+c2hs/base/general/FastMutInt.hs:9:1: Warning: Tab character
+[ 6 of 41] Compiling Config           ( c2hs/base/admin/Config.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Config.o )
+
+c2hs/base/admin/Config.hs:34:1: Warning: Tab character
+
+c2hs/base/admin/Config.hs:35:1: Warning: Tab character
+
+c2hs/base/admin/Config.hs:36:1: Warning: Tab character
+
+c2hs/base/admin/Config.hs:37:1: Warning: Tab character
+
+c2hs/base/admin/Config.hs:38:1: Warning: Tab character
+
+c2hs/base/admin/Config.hs:39:1: Warning: Tab character
+[ 7 of 41] Compiling C2HSConfig       ( c2hs/toplevel/C2HSConfig.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C2HSConfig.o )
+[ 8 of 41] Compiling CInfo            ( c2hs/gen/CInfo.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CInfo.o )
+
+c2hs/gen/CInfo.hs:68:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:69:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:72:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:83:24: Warning: Tab character
+
+c2hs/gen/CInfo.hs:84:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:84:27: Warning: Tab character
+
+c2hs/gen/CInfo.hs:85:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:85:25: Warning: Tab character
+
+c2hs/gen/CInfo.hs:86:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:86:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:87:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:87:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:88:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:88:24: Warning: Tab character
+
+c2hs/gen/CInfo.hs:89:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:89:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:90:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:90:25: Warning: Tab character
+
+c2hs/gen/CInfo.hs:91:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:91:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:92:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:92:25: Warning: Tab character
+
+c2hs/gen/CInfo.hs:93:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:93:27: Warning: Tab character
+
+c2hs/gen/CInfo.hs:94:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:94:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:95:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:95:27: Warning: Tab character
+
+c2hs/gen/CInfo.hs:96:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:96:26: Warning: Tab character
+
+c2hs/gen/CInfo.hs:97:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:97:27: Warning: Tab character
+
+c2hs/gen/CInfo.hs:98:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:98:28: Warning: Tab character
+
+c2hs/gen/CInfo.hs:99:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:100:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:101:1: Warning: Tab character
+
+c2hs/gen/CInfo.hs:175:1: Warning: Tab character
+[ 9 of 41] Compiling Version          ( c2hs/toplevel/Version.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Version.o )
+
+c2hs/toplevel/Version.hs:11:5: Warning: Tab character
+[10 of 41] Compiling Binary           ( c2hs/base/general/Binary.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Binary.o )
+
+c2hs/base/general/Binary.hs:48:23: Warning: Tab character
+
+c2hs/base/general/Binary.hs:49:23: Warning: Tab character
+
+c2hs/base/general/Binary.hs:79:17: Warning: Tab character
+
+c2hs/base/general/Binary.hs:80:25: Warning: Tab character
+
+c2hs/base/general/Binary.hs:81:21: Warning: Tab character
+
+c2hs/base/general/Binary.hs:83:24: Warning: Tab character
+
+c2hs/base/general/Binary.hs:84:23: Warning: Tab character
+
+c2hs/base/general/Binary.hs:85:16: Warning: Tab character
+
+c2hs/base/general/Binary.hs:92:16: Warning: Tab character
+
+c2hs/base/general/Binary.hs:109:13: Warning: Tab character
+
+c2hs/base/general/Binary.hs:110:25: Warning: Tab character
+
+c2hs/base/general/Binary.hs:111:27: Warning: Tab character
+
+c2hs/base/general/Binary.hs:112:27: Warning: Tab character
+
+c2hs/base/general/Binary.hs:113:33: Warning: Tab character
+
+c2hs/base/general/Binary.hs:115:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:116:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:118:12: Warning: Tab character
+
+c2hs/base/general/Binary.hs:120:27: Warning: Tab character
+
+c2hs/base/general/Binary.hs:121:25: Warning: Tab character
+
+c2hs/base/general/Binary.hs:123:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:124:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:125:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:197:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:198:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:227:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:244:2: Warning: Tab character
+
+c2hs/base/general/Binary.hs:252:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:261:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:263:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:264:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:265:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:266:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:267:5: Warning: Tab character
+
+c2hs/base/general/Binary.hs:268:5: Warning: Tab character
+
+c2hs/base/general/Binary.hs:271:38: Warning: Tab character
+
+c2hs/base/general/Binary.hs:280:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:289:37: Warning: Tab character
+
+c2hs/base/general/Binary.hs:326:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:327:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:328:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:351:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:352:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:353:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:354:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:355:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:356:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:357:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:405:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:406:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:607:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:609:18: Warning: Tab character
+
+c2hs/base/general/Binary.hs:610:14: Warning: Tab character
+
+c2hs/base/general/Binary.hs:611:21: Warning: Tab character
+
+c2hs/base/general/Binary.hs:612:22: Warning: Tab character
+
+c2hs/base/general/Binary.hs:613:17: Warning: Tab character
+
+c2hs/base/general/Binary.hs:617:16: Warning: Tab character
+
+c2hs/base/general/Binary.hs:637:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:638:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:639:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:642:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:644:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:645:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:646:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:647:26: Warning: Tab character
+
+c2hs/base/general/Binary.hs:648:23: Warning: Tab character
+
+c2hs/base/general/Binary.hs:651:20: Warning: Tab character
+
+c2hs/base/general/Binary.hs:653:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:655:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:656:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:666:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:668:19: Warning: Tab character
+
+c2hs/base/general/Binary.hs:670:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:673:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:676:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:683:23: Warning: Tab character
+
+c2hs/base/general/Binary.hs:685:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:686:27: Warning: Tab character
+
+c2hs/base/general/Binary.hs:687:20: Warning: Tab character
+
+c2hs/base/general/Binary.hs:689:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:692:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:701:15: Warning: Tab character
+
+c2hs/base/general/Binary.hs:702:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:704:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:705:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:705:36: Warning: Tab character
+
+c2hs/base/general/Binary.hs:708:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:715:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:721:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:722:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:737:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:738:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:747:35: Warning: Tab character
+
+c2hs/base/general/Binary.hs:748:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:779:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:780:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:781:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:782:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:783:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:785:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:792:1: Warning: Tab character
+
+c2hs/base/general/Binary.hs:793:1: Warning: Tab character
+[11 of 41] Compiling Position         ( c2hs/base/general/Position.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Position.o )
+
+c2hs/base/general/Position.hs:52:32: Warning: Tab character
+
+c2hs/base/general/Position.hs:53:1: Warning: Tab character
+
+c2hs/base/general/Position.hs:53:23: Warning: Tab character
+
+c2hs/base/general/Position.hs:53:30: Warning: Tab character
+
+c2hs/base/general/Position.hs:54:1: Warning: Tab character
+
+c2hs/base/general/Position.hs:54:23: Warning: Tab character
+
+c2hs/base/general/Position.hs:54:30: Warning: Tab character
+
+c2hs/base/general/Position.hs:65:8: Warning: Tab character
+
+c2hs/base/general/Position.hs:76:16: Warning: Tab character
+[12 of 41] Compiling UNames           ( c2hs/base/general/UNames.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/UNames.o )
+
+c2hs/base/general/UNames.hs:54:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:55:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:169:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:170:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:171:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:172:1: Warning: Tab character
+
+c2hs/base/general/UNames.hs:173:1: Warning: Tab character
+[13 of 41] Compiling Errors           ( c2hs/base/errors/Errors.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Errors.o )
+
+c2hs/base/errors/Errors.hs:54:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:55:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:62:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:63:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:71:28: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:72:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:72:30: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:73:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:73:30: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:74:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:89:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:90:28: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:132:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:133:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:134:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:135:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:136:1: Warning: Tab character
+
+c2hs/base/errors/Errors.hs:155:1: Warning: Tab character
+[14 of 41] Compiling Attributes       ( c2hs/base/syms/Attributes.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Attributes.o )
+
+c2hs/base/syms/Attributes.hs:77:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:78:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:79:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:80:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:81:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:82:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:83:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:84:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:85:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:86:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:87:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:88:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:94:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:96:14: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:97:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:100:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:110:30: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:111:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:111:35: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:123:4: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:130:4: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:208:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:209:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:210:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:211:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:211:36: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:213:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:214:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:215:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:216:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:217:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:218:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:218:38: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:220:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:238:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:239:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:249:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:253:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:264:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:273:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:280:11: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:283:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:295:16: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:311:16: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:325:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:326:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:332:12: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:337:15: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:348:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:359:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:391:1: Warning: Tab character
+
+c2hs/base/syms/Attributes.hs:395:1: Warning: Tab character
+[15 of 41] Compiling Idents           ( c2hs/base/syms/Idents.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Idents.o )
+
+c2hs/base/syms/Idents.hs:61:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:62:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:63:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:71:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:80:26: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:81:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:81:24: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:82:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:82:24: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:83:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:83:30: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:91:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:92:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:98:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:99:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:100:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:128:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:129:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:130:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:131:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:132:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:164:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:165:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:166:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:168:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:169:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:170:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:171:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:171:37: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:173:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:174:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:174:36: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:175:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:176:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:178:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:179:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:180:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:181:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:182:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:184:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:185:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:186:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:187:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:188:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:189:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:190:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:206:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:207:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:220:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:221:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:227:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:228:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:229:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:230:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:231:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:232:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:233:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:234:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:235:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:236:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:237:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:238:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:239:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:240:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:241:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:242:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:243:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:244:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:245:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:247:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:249:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:251:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:253:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:254:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:255:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:256:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:257:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:258:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:259:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:260:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:261:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:262:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:263:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:264:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:265:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:267:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:270:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:273:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:276:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:279:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:280:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:281:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:282:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:283:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:284:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:285:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:286:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:287:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:288:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:289:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:290:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:291:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:292:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:293:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:294:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:295:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:296:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:297:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:298:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:299:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:300:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:301:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:302:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:303:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:304:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:315:14: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:317:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:318:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:319:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:320:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:321:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:322:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:323:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:324:1: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:345:14: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:353:14: Warning: Tab character
+
+c2hs/base/syms/Idents.hs:365:14: Warning: Tab character
+[16 of 41] Compiling CTokens          ( c2hs/c/CTokens.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CTokens.o )
+
+c2hs/c/CTokens.hs:37:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:38:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:38:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:39:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:39:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:40:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:40:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:41:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:41:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:41:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:42:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:42:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:42:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:43:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:43:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:44:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:44:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:44:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:45:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:45:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:45:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:46:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:46:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:46:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:47:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:47:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:47:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:48:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:48:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:48:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:49:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:49:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:49:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:50:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:50:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:50:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:51:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:51:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:52:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:52:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:53:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:53:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:54:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:54:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:55:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:55:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:55:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:56:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:56:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:57:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:57:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:57:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:58:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:58:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:59:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:59:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:59:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:60:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:60:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:61:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:61:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:61:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:62:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:62:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:62:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:63:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:63:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:63:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:64:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:64:21: Warning: Tab character
+
+c2hs/c/CTokens.hs:64:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:65:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:65:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:65:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:66:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:66:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:66:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:67:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:67:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:68:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:68:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:69:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:69:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:70:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:70:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:71:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:71:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:72:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:72:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:73:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:73:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:74:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:74:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:75:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:75:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:76:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:76:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:76:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:77:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:77:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:77:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:78:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:78:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:79:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:79:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:80:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:80:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:81:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:81:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:82:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:82:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:83:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:83:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:84:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:85:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:86:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:86:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:87:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:87:13: Warning: Tab character
+
+c2hs/c/CTokens.hs:88:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:89:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:89:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:90:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:90:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:91:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:91:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:92:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:92:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:93:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:93:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:94:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:94:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:95:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:96:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:96:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:97:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:97:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:98:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:98:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:99:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:99:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:100:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:100:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:101:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:101:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:102:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:102:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:103:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:103:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:104:2: Warning: Tab character
+
+c2hs/c/CTokens.hs:104:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:105:2: Warning: Tab character
+
+c2hs/c/CTokens.hs:105:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:106:2: Warning: Tab character
+
+c2hs/c/CTokens.hs:106:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:107:2: Warning: Tab character
+
+c2hs/c/CTokens.hs:107:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:108:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:108:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:109:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:110:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:111:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:111:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:112:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:112:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:113:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:113:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:114:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:114:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:115:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:115:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:116:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:117:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:118:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:118:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:119:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:119:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:120:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:120:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:121:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:122:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:123:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:123:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:124:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:124:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:125:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:125:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:126:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:126:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:127:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:127:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:128:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:128:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:129:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:129:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:130:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:130:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:131:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:131:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:132:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:132:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:133:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:133:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:134:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:135:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:136:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:136:37: Warning: Tab character
+
+c2hs/c/CTokens.hs:137:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:137:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:137:43: Warning: Tab character
+
+c2hs/c/CTokens.hs:138:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:138:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:138:46: Warning: Tab character
+
+c2hs/c/CTokens.hs:139:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:139:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:139:44: Warning: Tab character
+
+c2hs/c/CTokens.hs:140:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:140:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:140:44: Warning: Tab character
+
+c2hs/c/CTokens.hs:141:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:141:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:141:44: Warning: Tab character
+
+c2hs/c/CTokens.hs:143:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:144:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:144:44: Warning: Tab character
+
+c2hs/c/CTokens.hs:145:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:145:42: Warning: Tab character
+
+c2hs/c/CTokens.hs:146:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:146:22: Warning: Tab character
+
+c2hs/c/CTokens.hs:150:27: Warning: Tab character
+
+c2hs/c/CTokens.hs:151:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:151:26: Warning: Tab character
+
+c2hs/c/CTokens.hs:152:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:152:25: Warning: Tab character
+
+c2hs/c/CTokens.hs:153:8: Warning: Tab character
+
+c2hs/c/CTokens.hs:153:28: Warning: Tab character
+
+c2hs/c/CTokens.hs:154:1: Warning: Tab character
+
+c2hs/c/CTokens.hs:154:28: Warning: Tab character
+
+c2hs/c/CTokens.hs:184:16: Warning: Tab character
+
+c2hs/c/CTokens.hs:258:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:261:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:262:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:263:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:265:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:271:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:273:24: Warning: Tab character
+
+c2hs/c/CTokens.hs:277:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:278:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:279:23: Warning: Tab character
+
+c2hs/c/CTokens.hs:280:22: Warning: Tab character
+[17 of 41] Compiling CAST             ( c2hs/c/CAST.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CAST.o )
+
+c2hs/c/CAST.hs:44:1: Warning: Tab character
+
+c2hs/c/CAST.hs:45:1: Warning: Tab character
+
+c2hs/c/CAST.hs:59:1: Warning: Tab character
+
+c2hs/c/CAST.hs:70:1: Warning: Tab character
+
+c2hs/c/CAST.hs:71:1: Warning: Tab character
+
+c2hs/c/CAST.hs:71:31: Warning: Tab character
+
+c2hs/c/CAST.hs:72:1: Warning: Tab character
+
+c2hs/c/CAST.hs:77:21: Warning: Tab character
+
+c2hs/c/CAST.hs:95:35: Warning: Tab character
+
+c2hs/c/CAST.hs:96:1: Warning: Tab character
+
+c2hs/c/CAST.hs:96:30: Warning: Tab character
+
+c2hs/c/CAST.hs:97:1: Warning: Tab character
+
+c2hs/c/CAST.hs:97:31: Warning: Tab character
+
+c2hs/c/CAST.hs:98:1: Warning: Tab character
+
+c2hs/c/CAST.hs:98:29: Warning: Tab character
+
+c2hs/c/CAST.hs:99:1: Warning: Tab character
+
+c2hs/c/CAST.hs:109:29: Warning: Tab character
+
+c2hs/c/CAST.hs:110:1: Warning: Tab character
+
+c2hs/c/CAST.hs:111:1: Warning: Tab character
+
+c2hs/c/CAST.hs:112:29: Warning: Tab character
+
+c2hs/c/CAST.hs:113:1: Warning: Tab character
+
+c2hs/c/CAST.hs:114:1: Warning: Tab character
+
+c2hs/c/CAST.hs:115:29: Warning: Tab character
+
+c2hs/c/CAST.hs:116:1: Warning: Tab character
+
+c2hs/c/CAST.hs:116:29: Warning: Tab character
+
+c2hs/c/CAST.hs:117:1: Warning: Tab character
+
+c2hs/c/CAST.hs:118:1: Warning: Tab character
+
+c2hs/c/CAST.hs:119:29: Warning: Tab character
+
+c2hs/c/CAST.hs:120:1: Warning: Tab character
+
+c2hs/c/CAST.hs:121:37: Warning: Tab character
+
+c2hs/c/CAST.hs:122:1: Warning: Tab character
+
+c2hs/c/CAST.hs:123:36: Warning: Tab character
+
+c2hs/c/CAST.hs:124:1: Warning: Tab character
+
+c2hs/c/CAST.hs:125:29: Warning: Tab character
+
+c2hs/c/CAST.hs:126:1: Warning: Tab character
+
+c2hs/c/CAST.hs:127:1: Warning: Tab character
+
+c2hs/c/CAST.hs:128:1: Warning: Tab character
+
+c2hs/c/CAST.hs:129:29: Warning: Tab character
+
+c2hs/c/CAST.hs:130:1: Warning: Tab character
+
+c2hs/c/CAST.hs:131:1: Warning: Tab character
+
+c2hs/c/CAST.hs:133:1: Warning: Tab character
+
+c2hs/c/CAST.hs:134:1: Warning: Tab character
+
+c2hs/c/CAST.hs:134:28: Warning: Tab character
+
+c2hs/c/CAST.hs:135:1: Warning: Tab character
+
+c2hs/c/CAST.hs:137:1: Warning: Tab character
+
+c2hs/c/CAST.hs:138:1: Warning: Tab character
+
+c2hs/c/CAST.hs:139:1: Warning: Tab character
+
+c2hs/c/CAST.hs:140:1: Warning: Tab character
+
+c2hs/c/CAST.hs:141:1: Warning: Tab character
+
+c2hs/c/CAST.hs:142:29: Warning: Tab character
+
+c2hs/c/CAST.hs:143:1: Warning: Tab character
+
+c2hs/c/CAST.hs:144:29: Warning: Tab character
+
+c2hs/c/CAST.hs:145:1: Warning: Tab character
+
+c2hs/c/CAST.hs:146:29: Warning: Tab character
+
+c2hs/c/CAST.hs:147:1: Warning: Tab character
+
+c2hs/c/CAST.hs:147:29: Warning: Tab character
+
+c2hs/c/CAST.hs:148:1: Warning: Tab character
+
+c2hs/c/CAST.hs:149:1: Warning: Tab character
+
+c2hs/c/CAST.hs:150:1: Warning: Tab character
+
+c2hs/c/CAST.hs:150:29: Warning: Tab character
+
+c2hs/c/CAST.hs:151:1: Warning: Tab character
+
+c2hs/c/CAST.hs:151:12: Warning: Tab character
+
+c2hs/c/CAST.hs:164:21: Warning: Tab character
+
+c2hs/c/CAST.hs:166:20: Warning: Tab character
+
+c2hs/c/CAST.hs:167:20: Warning: Tab character
+
+c2hs/c/CAST.hs:168:24: Warning: Tab character
+
+c2hs/c/CAST.hs:182:15: Warning: Tab character
+
+c2hs/c/CAST.hs:182:42: Warning: Tab character
+
+c2hs/c/CAST.hs:183:15: Warning: Tab character
+
+c2hs/c/CAST.hs:183:42: Warning: Tab character
+
+c2hs/c/CAST.hs:184:9: Warning: Tab character
+
+c2hs/c/CAST.hs:184:36: Warning: Tab character
+
+c2hs/c/CAST.hs:185:10: Warning: Tab character
+
+c2hs/c/CAST.hs:185:37: Warning: Tab character
+
+c2hs/c/CAST.hs:186:15: Warning: Tab character
+
+c2hs/c/CAST.hs:186:42: Warning: Tab character
+
+c2hs/c/CAST.hs:192:40: Warning: Tab character
+
+c2hs/c/CAST.hs:247:31: Warning: Tab character
+
+c2hs/c/CAST.hs:248:1: Warning: Tab character
+
+c2hs/c/CAST.hs:248:35: Warning: Tab character
+
+c2hs/c/CAST.hs:249:1: Warning: Tab character
+
+c2hs/c/CAST.hs:249:34: Warning: Tab character
+
+c2hs/c/CAST.hs:250:1: Warning: Tab character
+
+c2hs/c/CAST.hs:250:35: Warning: Tab character
+
+c2hs/c/CAST.hs:251:1: Warning: Tab character
+
+c2hs/c/CAST.hs:262:1: Warning: Tab character
+
+c2hs/c/CAST.hs:263:1: Warning: Tab character
+
+c2hs/c/CAST.hs:264:1: Warning: Tab character
+
+c2hs/c/CAST.hs:274:1: Warning: Tab character
+
+c2hs/c/CAST.hs:275:1: Warning: Tab character
+
+c2hs/c/CAST.hs:276:1: Warning: Tab character
+
+c2hs/c/CAST.hs:277:1: Warning: Tab character
+
+c2hs/c/CAST.hs:277:36: Warning: Tab character
+
+c2hs/c/CAST.hs:278:36: Warning: Tab character
+
+c2hs/c/CAST.hs:299:1: Warning: Tab character
+
+c2hs/c/CAST.hs:300:1: Warning: Tab character
+
+c2hs/c/CAST.hs:301:1: Warning: Tab character
+
+c2hs/c/CAST.hs:302:1: Warning: Tab character
+
+c2hs/c/CAST.hs:303:1: Warning: Tab character
+
+c2hs/c/CAST.hs:304:1: Warning: Tab character
+
+c2hs/c/CAST.hs:305:1: Warning: Tab character
+
+c2hs/c/CAST.hs:306:1: Warning: Tab character
+
+c2hs/c/CAST.hs:307:1: Warning: Tab character
+
+c2hs/c/CAST.hs:308:1: Warning: Tab character
+
+c2hs/c/CAST.hs:309:1: Warning: Tab character
+
+c2hs/c/CAST.hs:310:1: Warning: Tab character
+
+c2hs/c/CAST.hs:311:1: Warning: Tab character
+
+c2hs/c/CAST.hs:312:1: Warning: Tab character
+
+c2hs/c/CAST.hs:313:1: Warning: Tab character
+
+c2hs/c/CAST.hs:313:36: Warning: Tab character
+
+c2hs/c/CAST.hs:314:1: Warning: Tab character
+
+c2hs/c/CAST.hs:316:1: Warning: Tab character
+
+c2hs/c/CAST.hs:318:1: Warning: Tab character
+
+c2hs/c/CAST.hs:361:1: Warning: Tab character
+
+c2hs/c/CAST.hs:362:1: Warning: Tab character
+
+c2hs/c/CAST.hs:363:1: Warning: Tab character
+
+c2hs/c/CAST.hs:383:1: Warning: Tab character
+
+c2hs/c/CAST.hs:384:1: Warning: Tab character
+
+c2hs/c/CAST.hs:384:36: Warning: Tab character
+
+c2hs/c/CAST.hs:385:1: Warning: Tab character
+
+c2hs/c/CAST.hs:396:1: Warning: Tab character
+
+c2hs/c/CAST.hs:397:1: Warning: Tab character
+
+c2hs/c/CAST.hs:402:1: Warning: Tab character
+
+c2hs/c/CAST.hs:402:28: Warning: Tab character
+
+c2hs/c/CAST.hs:403:1: Warning: Tab character
+
+c2hs/c/CAST.hs:403:35: Warning: Tab character
+
+c2hs/c/CAST.hs:404:1: Warning: Tab character
+
+c2hs/c/CAST.hs:438:38: Warning: Tab character
+
+c2hs/c/CAST.hs:439:1: Warning: Tab character
+
+c2hs/c/CAST.hs:440:1: Warning: Tab character
+
+c2hs/c/CAST.hs:440:36: Warning: Tab character
+
+c2hs/c/CAST.hs:441:1: Warning: Tab character
+
+c2hs/c/CAST.hs:442:1: Warning: Tab character
+
+c2hs/c/CAST.hs:445:1: Warning: Tab character
+
+c2hs/c/CAST.hs:445:38: Warning: Tab character
+
+c2hs/c/CAST.hs:446:1: Warning: Tab character
+
+c2hs/c/CAST.hs:447:1: Warning: Tab character
+
+c2hs/c/CAST.hs:448:1: Warning: Tab character
+
+c2hs/c/CAST.hs:448:32: Warning: Tab character
+
+c2hs/c/CAST.hs:449:1: Warning: Tab character
+
+c2hs/c/CAST.hs:449:29: Warning: Tab character
+
+c2hs/c/CAST.hs:450:1: Warning: Tab character
+
+c2hs/c/CAST.hs:467:1: Warning: Tab character
+
+c2hs/c/CAST.hs:467:29: Warning: Tab character
+
+c2hs/c/CAST.hs:469:1: Warning: Tab character
+
+c2hs/c/CAST.hs:484:1: Warning: Tab character
+
+c2hs/c/CAST.hs:486:1: Warning: Tab character
+
+c2hs/c/CAST.hs:487:39: Warning: Tab character
+
+c2hs/c/CAST.hs:488:1: Warning: Tab character
+
+c2hs/c/CAST.hs:489:1: Warning: Tab character
+
+c2hs/c/CAST.hs:508:34: Warning: Tab character
+
+c2hs/c/CAST.hs:509:1: Warning: Tab character
+
+c2hs/c/CAST.hs:510:1: Warning: Tab character
+
+c2hs/c/CAST.hs:510:36: Warning: Tab character
+
+c2hs/c/CAST.hs:511:1: Warning: Tab character
+
+c2hs/c/CAST.hs:511:32: Warning: Tab character
+
+c2hs/c/CAST.hs:512:1: Warning: Tab character
+
+c2hs/c/CAST.hs:512:32: Warning: Tab character
+
+c2hs/c/CAST.hs:513:1: Warning: Tab character
+
+c2hs/c/CAST.hs:514:1: Warning: Tab character
+
+c2hs/c/CAST.hs:514:32: Warning: Tab character
+
+c2hs/c/CAST.hs:515:1: Warning: Tab character
+
+c2hs/c/CAST.hs:515:33: Warning: Tab character
+
+c2hs/c/CAST.hs:516:1: Warning: Tab character
+
+c2hs/c/CAST.hs:516:32: Warning: Tab character
+
+c2hs/c/CAST.hs:517:1: Warning: Tab character
+
+c2hs/c/CAST.hs:518:1: Warning: Tab character
+
+c2hs/c/CAST.hs:518:36: Warning: Tab character
+
+c2hs/c/CAST.hs:519:1: Warning: Tab character
+
+c2hs/c/CAST.hs:519:32: Warning: Tab character
+
+c2hs/c/CAST.hs:520:1: Warning: Tab character
+
+c2hs/c/CAST.hs:520:32: Warning: Tab character
+
+c2hs/c/CAST.hs:521:1: Warning: Tab character
+
+c2hs/c/CAST.hs:522:1: Warning: Tab character
+
+c2hs/c/CAST.hs:522:32: Warning: Tab character
+
+c2hs/c/CAST.hs:523:1: Warning: Tab character
+
+c2hs/c/CAST.hs:524:1: Warning: Tab character
+
+c2hs/c/CAST.hs:525:35: Warning: Tab character
+
+c2hs/c/CAST.hs:526:1: Warning: Tab character
+
+c2hs/c/CAST.hs:527:1: Warning: Tab character
+
+c2hs/c/CAST.hs:528:1: Warning: Tab character
+
+c2hs/c/CAST.hs:529:1: Warning: Tab character
+
+c2hs/c/CAST.hs:530:1: Warning: Tab character
+
+c2hs/c/CAST.hs:530:32: Warning: Tab character
+
+c2hs/c/CAST.hs:531:1: Warning: Tab character
+
+c2hs/c/CAST.hs:532:1: Warning: Tab character
+
+c2hs/c/CAST.hs:533:1: Warning: Tab character
+
+c2hs/c/CAST.hs:534:1: Warning: Tab character
+
+c2hs/c/CAST.hs:534:32: Warning: Tab character
+
+c2hs/c/CAST.hs:535:1: Warning: Tab character
+
+c2hs/c/CAST.hs:536:1: Warning: Tab character
+
+c2hs/c/CAST.hs:536:32: Warning: Tab character
+
+c2hs/c/CAST.hs:537:1: Warning: Tab character
+
+c2hs/c/CAST.hs:537:32: Warning: Tab character
+
+c2hs/c/CAST.hs:538:1: Warning: Tab character
+
+c2hs/c/CAST.hs:539:1: Warning: Tab character
+
+c2hs/c/CAST.hs:539:19: Warning: Tab character
+
+c2hs/c/CAST.hs:539:32: Warning: Tab character
+
+c2hs/c/CAST.hs:540:1: Warning: Tab character
+
+c2hs/c/CAST.hs:540:34: Warning: Tab character
+
+c2hs/c/CAST.hs:541:1: Warning: Tab character
+
+c2hs/c/CAST.hs:542:1: Warning: Tab character
+
+c2hs/c/CAST.hs:542:21: Warning: Tab character
+
+c2hs/c/CAST.hs:542:32: Warning: Tab character
+
+c2hs/c/CAST.hs:543:1: Warning: Tab character
+
+c2hs/c/CAST.hs:543:32: Warning: Tab character
+
+c2hs/c/CAST.hs:544:1: Warning: Tab character
+
+c2hs/c/CAST.hs:544:31: Warning: Tab character
+
+c2hs/c/CAST.hs:545:1: Warning: Tab character
+
+c2hs/c/CAST.hs:546:1: Warning: Tab character
+
+c2hs/c/CAST.hs:546:18: Warning: Tab character
+
+c2hs/c/CAST.hs:546:32: Warning: Tab character
+
+c2hs/c/CAST.hs:547:1: Warning: Tab character
+
+c2hs/c/CAST.hs:548:33: Warning: Tab character
+
+c2hs/c/CAST.hs:549:1: Warning: Tab character
+
+c2hs/c/CAST.hs:550:1: Warning: Tab character
+
+c2hs/c/CAST.hs:550:32: Warning: Tab character
+
+c2hs/c/CAST.hs:551:1: Warning: Tab character
+
+c2hs/c/CAST.hs:551:12: Warning: Tab character
+
+c2hs/c/CAST.hs:551:36: Warning: Tab character
+
+c2hs/c/CAST.hs:552:1: Warning: Tab character
+
+c2hs/c/CAST.hs:552:12: Warning: Tab character
+
+c2hs/c/CAST.hs:553:1: Warning: Tab character
+
+c2hs/c/CAST.hs:553:32: Warning: Tab character
+
+c2hs/c/CAST.hs:554:1: Warning: Tab character
+
+c2hs/c/CAST.hs:554:12: Warning: Tab character
+
+c2hs/c/CAST.hs:556:1: Warning: Tab character
+
+c2hs/c/CAST.hs:556:12: Warning: Tab character
+
+c2hs/c/CAST.hs:557:1: Warning: Tab character
+
+c2hs/c/CAST.hs:557:32: Warning: Tab character
+
+c2hs/c/CAST.hs:581:16: Warning: Tab character
+
+c2hs/c/CAST.hs:582:16: Warning: Tab character
+
+c2hs/c/CAST.hs:583:16: Warning: Tab character
+
+c2hs/c/CAST.hs:584:16: Warning: Tab character
+
+c2hs/c/CAST.hs:585:16: Warning: Tab character
+
+c2hs/c/CAST.hs:586:16: Warning: Tab character
+
+c2hs/c/CAST.hs:587:16: Warning: Tab character
+
+c2hs/c/CAST.hs:588:16: Warning: Tab character
+
+c2hs/c/CAST.hs:591:16: Warning: Tab character
+
+c2hs/c/CAST.hs:592:16: Warning: Tab character
+
+c2hs/c/CAST.hs:592:37: Warning: Tab character
+
+c2hs/c/CAST.hs:593:16: Warning: Tab character
+
+c2hs/c/CAST.hs:593:39: Warning: Tab character
+
+c2hs/c/CAST.hs:594:16: Warning: Tab character
+
+c2hs/c/CAST.hs:594:36: Warning: Tab character
+
+c2hs/c/CAST.hs:595:16: Warning: Tab character
+
+c2hs/c/CAST.hs:595:38: Warning: Tab character
+
+c2hs/c/CAST.hs:595:46: Warning: Tab character
+
+c2hs/c/CAST.hs:604:1: Warning: Tab character
+
+c2hs/c/CAST.hs:605:1: Warning: Tab character
+
+c2hs/c/CAST.hs:606:1: Warning: Tab character
+
+c2hs/c/CAST.hs:606:27: Warning: Tab character
+
+c2hs/c/CAST.hs:607:1: Warning: Tab character
+
+c2hs/c/CAST.hs:608:1: Warning: Tab character
+
+c2hs/c/CAST.hs:609:1: Warning: Tab character
+
+c2hs/c/CAST.hs:610:1: Warning: Tab character
+
+c2hs/c/CAST.hs:611:1: Warning: Tab character
+
+c2hs/c/CAST.hs:612:1: Warning: Tab character
+
+c2hs/c/CAST.hs:613:1: Warning: Tab character
+
+c2hs/c/CAST.hs:614:1: Warning: Tab character
+
+c2hs/c/CAST.hs:619:1: Warning: Tab character
+
+c2hs/c/CAST.hs:620:1: Warning: Tab character
+
+c2hs/c/CAST.hs:620:24: Warning: Tab character
+
+c2hs/c/CAST.hs:621:1: Warning: Tab character
+
+c2hs/c/CAST.hs:622:1: Warning: Tab character
+
+c2hs/c/CAST.hs:623:1: Warning: Tab character
+
+c2hs/c/CAST.hs:623:24: Warning: Tab character
+
+c2hs/c/CAST.hs:624:1: Warning: Tab character
+
+c2hs/c/CAST.hs:624:24: Warning: Tab character
+
+c2hs/c/CAST.hs:625:1: Warning: Tab character
+
+c2hs/c/CAST.hs:625:23: Warning: Tab character
+
+c2hs/c/CAST.hs:626:1: Warning: Tab character
+
+c2hs/c/CAST.hs:626:23: Warning: Tab character
+
+c2hs/c/CAST.hs:627:1: Warning: Tab character
+
+c2hs/c/CAST.hs:627:24: Warning: Tab character
+
+c2hs/c/CAST.hs:628:1: Warning: Tab character
+
+c2hs/c/CAST.hs:628:24: Warning: Tab character
+
+c2hs/c/CAST.hs:629:1: Warning: Tab character
+
+c2hs/c/CAST.hs:629:23: Warning: Tab character
+
+c2hs/c/CAST.hs:630:1: Warning: Tab character
+
+c2hs/c/CAST.hs:630:24: Warning: Tab character
+
+c2hs/c/CAST.hs:631:1: Warning: Tab character
+
+c2hs/c/CAST.hs:631:24: Warning: Tab character
+
+c2hs/c/CAST.hs:632:1: Warning: Tab character
+
+c2hs/c/CAST.hs:632:24: Warning: Tab character
+
+c2hs/c/CAST.hs:633:1: Warning: Tab character
+
+c2hs/c/CAST.hs:633:23: Warning: Tab character
+
+c2hs/c/CAST.hs:634:1: Warning: Tab character
+
+c2hs/c/CAST.hs:634:24: Warning: Tab character
+
+c2hs/c/CAST.hs:635:1: Warning: Tab character
+
+c2hs/c/CAST.hs:635:24: Warning: Tab character
+
+c2hs/c/CAST.hs:636:1: Warning: Tab character
+
+c2hs/c/CAST.hs:640:26: Warning: Tab character
+
+c2hs/c/CAST.hs:641:1: Warning: Tab character
+
+c2hs/c/CAST.hs:641:26: Warning: Tab character
+
+c2hs/c/CAST.hs:642:1: Warning: Tab character
+
+c2hs/c/CAST.hs:642:27: Warning: Tab character
+
+c2hs/c/CAST.hs:643:1: Warning: Tab character
+
+c2hs/c/CAST.hs:643:27: Warning: Tab character
+
+c2hs/c/CAST.hs:644:1: Warning: Tab character
+
+c2hs/c/CAST.hs:644:23: Warning: Tab character
+
+c2hs/c/CAST.hs:645:1: Warning: Tab character
+
+c2hs/c/CAST.hs:645:23: Warning: Tab character
+
+c2hs/c/CAST.hs:646:1: Warning: Tab character
+
+c2hs/c/CAST.hs:646:24: Warning: Tab character
+
+c2hs/c/CAST.hs:647:1: Warning: Tab character
+
+c2hs/c/CAST.hs:647:23: Warning: Tab character
+
+c2hs/c/CAST.hs:648:1: Warning: Tab character
+
+c2hs/c/CAST.hs:648:24: Warning: Tab character
+
+c2hs/c/CAST.hs:649:1: Warning: Tab character
+
+c2hs/c/CAST.hs:649:23: Warning: Tab character
+
+c2hs/c/CAST.hs:650:1: Warning: Tab character
+
+c2hs/c/CAST.hs:657:1: Warning: Tab character
+
+c2hs/c/CAST.hs:658:1: Warning: Tab character
+
+c2hs/c/CAST.hs:659:1: Warning: Tab character
+
+c2hs/c/CAST.hs:660:1: Warning: Tab character
+
+c2hs/c/CAST.hs:661:1: Warning: Tab character
+
+c2hs/c/CAST.hs:662:1: Warning: Tab character
+
+c2hs/c/CAST.hs:663:1: Warning: Tab character
+[18 of 41] Compiling CPretty          ( c2hs/c/CPretty.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CPretty.o )
+[19 of 41] Compiling Lexers           ( c2hs/base/syntax/Lexers.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Lexers.o )
+
+c2hs/base/syntax/Lexers.hs:133:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:134:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:197:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:197:54: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:198:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:198:47: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:199:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:199:63: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:211:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:212:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:213:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:214:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:215:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:216:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:217:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:218:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:219:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:220:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:221:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:222:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:228:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:270:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:271:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:307:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:308:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:309:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:310:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:311:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:312:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:317:14: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:323:14: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:346:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:347:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:348:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:349:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:397:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:398:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:418:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:419:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:454:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:455:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:456:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:467:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:468:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:469:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:470:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:471:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:472:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:473:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:475:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:476:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:477:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:478:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:479:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:480:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:481:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:482:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:483:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:484:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:485:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:486:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:487:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:488:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:489:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:490:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:491:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:492:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:493:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:494:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:495:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:496:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:500:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:501:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:502:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:503:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:504:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:505:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:508:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:509:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:510:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:512:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:513:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:514:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:515:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:516:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:517:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:518:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:519:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:520:1: Warning: Tab character
+
+c2hs/base/syntax/Lexers.hs:520:15: Warning: Tab character
+[20 of 41] Compiling StateTrans       ( c2hs/base/state/StateTrans.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/StateTrans.o )
+
+c2hs/base/state/StateTrans.hs:65:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:66:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:67:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:68:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:69:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:70:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:71:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:72:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:73:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:74:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:75:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:76:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:77:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:78:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:79:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:142:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:143:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:144:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:145:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:146:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:147:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:148:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:149:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:150:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:166:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:167:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:168:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:169:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:171:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:172:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:198:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:199:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:200:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:220:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:221:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:222:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:241:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:242:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:243:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:244:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:245:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:246:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:247:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:248:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:249:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:250:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:251:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:258:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:259:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:260:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:261:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:307:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:308:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:311:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:312:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:313:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:314:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:315:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:316:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:317:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:318:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:319:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:320:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:321:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:322:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:323:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:324:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:324:46: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:340:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:341:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:342:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:343:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:344:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:345:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:346:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:347:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:348:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:349:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:350:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:351:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:352:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:353:1: Warning: Tab character
+
+c2hs/base/state/StateTrans.hs:354:1: Warning: Tab character
+[21 of 41] Compiling StateBase        ( c2hs/base/state/StateBase.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/StateBase.o )
+
+c2hs/base/state/StateBase.hs:55:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:56:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:65:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:66:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:83:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:83:33: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:84:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:89:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:90:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:91:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:92:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:93:1: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:93:37: Warning: Tab character
+
+c2hs/base/state/StateBase.hs:94:1: Warning: Tab character
+[22 of 41] Compiling NameSpaces       ( c2hs/base/syms/NameSpaces.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/NameSpaces.o )
+
+c2hs/base/syms/NameSpaces.hs:41:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:70:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:88:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:92:14: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:121:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:129:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:130:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:131:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:132:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:133:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:134:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:135:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:137:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:138:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:139:1: Warning: Tab character
+
+c2hs/base/syms/NameSpaces.hs:140:1: Warning: Tab character
+[23 of 41] Compiling CAttrs           ( c2hs/c/CAttrs.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CAttrs.o )
+
+c2hs/c/CAttrs.hs:58:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:59:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:60:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:61:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:62:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:63:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:64:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:65:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:66:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:67:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:68:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:71:17: Warning: Tab character
+
+c2hs/c/CAttrs.hs:73:18: Warning: Tab character
+
+c2hs/c/CAttrs.hs:77:14: Warning: Tab character
+
+c2hs/c/CAttrs.hs:79:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:81:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:94:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:94:38: Warning: Tab character
+
+c2hs/c/CAttrs.hs:95:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:95:37: Warning: Tab character
+
+c2hs/c/CAttrs.hs:96:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:96:37: Warning: Tab character
+
+c2hs/c/CAttrs.hs:97:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:97:40: Warning: Tab character
+
+c2hs/c/CAttrs.hs:98:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:98:39: Warning: Tab character
+
+c2hs/c/CAttrs.hs:99:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:105:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:106:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:107:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:108:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:109:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:110:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:125:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:126:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:127:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:133:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:134:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:140:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:141:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:142:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:148:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:149:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:157:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:158:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:159:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:176:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:177:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:178:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:179:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:187:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:188:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:189:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:206:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:207:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:208:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:209:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:225:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:231:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:232:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:233:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:234:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:235:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:240:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:240:38: Warning: Tab character
+
+c2hs/c/CAttrs.hs:241:21: Warning: Tab character
+
+c2hs/c/CAttrs.hs:278:28: Warning: Tab character
+
+c2hs/c/CAttrs.hs:279:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:279:28: Warning: Tab character
+
+c2hs/c/CAttrs.hs:280:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:280:34: Warning: Tab character
+
+c2hs/c/CAttrs.hs:281:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:281:22: Warning: Tab character
+
+c2hs/c/CAttrs.hs:291:4: Warning: Tab character
+
+c2hs/c/CAttrs.hs:291:27: Warning: Tab character
+
+c2hs/c/CAttrs.hs:305:39: Warning: Tab character
+
+c2hs/c/CAttrs.hs:306:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:306:32: Warning: Tab character
+
+c2hs/c/CAttrs.hs:315:4: Warning: Tab character
+
+c2hs/c/CAttrs.hs:315:31: Warning: Tab character
+
+c2hs/c/CAttrs.hs:327:20: Warning: Tab character
+
+c2hs/c/CAttrs.hs:328:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:328:23: Warning: Tab character
+
+c2hs/c/CAttrs.hs:329:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:329:28: Warning: Tab character
+
+c2hs/c/CAttrs.hs:330:1: Warning: Tab character
+
+c2hs/c/CAttrs.hs:330:28: Warning: Tab character
+
+c2hs/c/CAttrs.hs:340:20: Warning: Tab character
+
+c2hs/c/CAttrs.hs:341:4: Warning: Tab character
+
+c2hs/c/CAttrs.hs:342:20: Warning: Tab character
+
+c2hs/c/CAttrs.hs:344:4: Warning: Tab character
+
+c2hs/c/CAttrs.hs:346:4: Warning: Tab character
+
+c2hs/c/CAttrs.hs:346:20: Warning: Tab character
+
+c2hs/c/CAttrs.hs:353:12: Warning: Tab character
+
+c2hs/c/CAttrs.hs:356:15: Warning: Tab character
+[24 of 41] Compiling CBuiltin         ( c2hs/c/CBuiltin.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CBuiltin.o )
+[25 of 41] Compiling CParserMonad     ( c2hs/c/CParserMonad.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParserMonad.o )
+
+c2hs/c/CParserMonad.hs:61:14: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:73:30: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:76:33: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:77:31: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:78:31: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:79:31: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:80:36: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:81:35: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:120:1: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:121:1: Warning: Tab character
+
+c2hs/c/CParserMonad.hs:122:1: Warning: Tab character
+[26 of 41] Compiling CLexer           ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.o )
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:495:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:496:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:497:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:501:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:502:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:506:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:508:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:512:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:514:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:518:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:527:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:541:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:543:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:544:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:545:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:547:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:548:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:549:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:550:5: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:552:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:555:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:556:1: Warning:
+    Tab character
+
+.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CLexer.hs:557:1: Warning:
+    Tab character
+
+c2hs/c/CLexer.x:75:14: Warning: Tab character
+
+c2hs/c/CLexer.x:240:41: Warning: Tab character
+
+c2hs/c/CLexer.x:241:49: Warning: Tab character
+
+c2hs/c/CLexer.x:243:25: Warning: Tab character
+
+c2hs/c/CLexer.x:244:33: Warning: Tab character
+
+c2hs/c/CLexer.x:245:41: Warning: Tab character
+
+c2hs/c/CLexer.x:246:29: Warning: Tab character
+
+c2hs/c/CLexer.x:247:33: Warning: Tab character
+
+c2hs/c/CLexer.x:248:33: Warning: Tab character
+
+c2hs/c/CLexer.x:249:29: Warning: Tab character
+
+c2hs/c/CLexer.x:250:29: Warning: Tab character
+
+c2hs/c/CLexer.x:251:33: Warning: Tab character
+
+c2hs/c/CLexer.x:252:41: Warning: Tab character
+
+c2hs/c/CLexer.x:253:49: Warning: Tab character
+
+c2hs/c/CLexer.x:254:45: Warning: Tab character
+
+c2hs/c/CLexer.x:255:45: Warning: Tab character
+
+c2hs/c/CLexer.x:256:41: Warning: Tab character
+
+c2hs/c/CLexer.x:257:21: Warning: Tab character
+
+c2hs/c/CLexer.x:258:37: Warning: Tab character
+
+c2hs/c/CLexer.x:259:29: Warning: Tab character
+
+c2hs/c/CLexer.x:260:29: Warning: Tab character
+
+c2hs/c/CLexer.x:261:37: Warning: Tab character
+
+c2hs/c/CLexer.x:262:33: Warning: Tab character
+
+c2hs/c/CLexer.x:263:25: Warning: Tab character
+
+c2hs/c/CLexer.x:264:29: Warning: Tab character
+
+c2hs/c/CLexer.x:265:21: Warning: Tab character
+
+c2hs/c/CLexer.x:266:37: Warning: Tab character
+
+c2hs/c/CLexer.x:267:45: Warning: Tab character
+
+c2hs/c/CLexer.x:268:53: Warning: Tab character
+
+c2hs/c/CLexer.x:269:25: Warning: Tab character
+
+c2hs/c/CLexer.x:271:53: Warning: Tab character
+
+c2hs/c/CLexer.x:272:49: Warning: Tab character
+
+c2hs/c/CLexer.x:273:45: Warning: Tab character
+
+c2hs/c/CLexer.x:274:29: Warning: Tab character
+
+c2hs/c/CLexer.x:275:45: Warning: Tab character
+
+c2hs/c/CLexer.x:276:45: Warning: Tab character
+
+c2hs/c/CLexer.x:277:53: Warning: Tab character
+
+c2hs/c/CLexer.x:279:37: Warning: Tab character
+
+c2hs/c/CLexer.x:280:33: Warning: Tab character
+
+c2hs/c/CLexer.x:281:37: Warning: Tab character
+
+c2hs/c/CLexer.x:282:45: Warning: Tab character
+
+c2hs/c/CLexer.x:283:53: Warning: Tab character
+
+c2hs/c/CLexer.x:284:37: Warning: Tab character
+
+c2hs/c/CLexer.x:285:37: Warning: Tab character
+
+c2hs/c/CLexer.x:286:37: Warning: Tab character
+
+c2hs/c/CLexer.x:287:37: Warning: Tab character
+
+c2hs/c/CLexer.x:288:41: Warning: Tab character
+
+c2hs/c/CLexer.x:289:37: Warning: Tab character
+
+c2hs/c/CLexer.x:290:45: Warning: Tab character
+
+c2hs/c/CLexer.x:291:53: Warning: Tab character
+
+c2hs/c/CLexer.x:292:45: Warning: Tab character
+
+c2hs/c/CLexer.x:293:33: Warning: Tab character
+
+c2hs/c/CLexer.x:294:45: Warning: Tab character
+
+c2hs/c/CLexer.x:295:29: Warning: Tab character
+
+c2hs/c/CLexer.x:296:45: Warning: Tab character
+
+c2hs/c/CLexer.x:297:53: Warning: Tab character
+
+c2hs/c/CLexer.x:299:33: Warning: Tab character
+
+c2hs/c/CLexer.x:306:1: Warning: Tab character
+
+c2hs/c/CLexer.x:338:1: Warning: Tab character
+
+c2hs/c/CLexer.x:339:1: Warning: Tab character
+
+c2hs/c/CLexer.x:340:1: Warning: Tab character
+
+c2hs/c/CLexer.x:341:1: Warning: Tab character
+
+c2hs/c/CLexer.x:342:1: Warning: Tab character
+
+c2hs/c/CLexer.x:343:1: Warning: Tab character
+
+c2hs/c/CLexer.x:344:1: Warning: Tab character
+
+c2hs/c/CLexer.x:345:1: Warning: Tab character
+
+c2hs/c/CLexer.x:346:1: Warning: Tab character
+
+c2hs/c/CLexer.x:347:1: Warning: Tab character
+
+c2hs/c/CLexer.x:348:1: Warning: Tab character
+
+c2hs/c/CLexer.x:349:1: Warning: Tab character
+
+c2hs/c/CLexer.x:350:1: Warning: Tab character
+
+c2hs/c/CLexer.x:351:1: Warning: Tab character
+
+c2hs/c/CLexer.x:352:1: Warning: Tab character
+
+c2hs/c/CLexer.x:353:1: Warning: Tab character
+
+c2hs/c/CLexer.x:365:9: Warning: Tab character
+
+c2hs/c/CLexer.x:366:11: Warning: Tab character
+
+c2hs/c/CLexer.x:367:13: Warning: Tab character
+
+c2hs/c/CLexer.x:368:11: Warning: Tab character
+
+c2hs/c/CLexer.x:368:56: Warning: Tab character
+
+c2hs/c/CLexer.x:369:1: Warning: Tab character
+
+c2hs/c/CLexer.x:370:1: Warning: Tab character
+
+c2hs/c/CLexer.x:370:40: Warning: Tab character
+
+c2hs/c/CLexer.x:371:1: Warning: Tab character
+
+c2hs/c/CLexer.x:371:32: Warning: Tab character
+
+c2hs/c/CLexer.x:390:29: Warning: Tab character
+
+c2hs/c/CLexer.x:391:1: Warning: Tab character
+
+c2hs/c/CLexer.x:391:26: Warning: Tab character
+
+c2hs/c/CLexer.x:438:1: Warning: Tab character
+[27 of 41] Compiling FNameOps         ( c2hs/base/general/FNameOps.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FNameOps.o )
+[28 of 41] Compiling FileOps          ( c2hs/base/general/FileOps.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/FileOps.o )
+
+c2hs/base/general/FileOps.hs:38:17: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:39:21: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:60:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:61:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:85:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:90:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:91:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:92:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:93:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:94:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:103:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:104:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:105:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:106:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:107:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:108:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:112:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:113:1: Warning: Tab character
+
+c2hs/base/general/FileOps.hs:114:1: Warning: Tab character
+[29 of 41] Compiling CIO              ( c2hs/base/state/CIO.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CIO.o )
+
+c2hs/base/state/CIO.hs:43:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:44:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:45:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:46:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:47:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:48:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:49:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:50:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:51:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:52:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:53:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:54:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:55:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:56:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:57:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:58:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:59:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:60:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:61:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:62:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:63:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:64:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:65:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:66:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:67:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:68:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:69:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:70:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:71:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:72:1: Warning: Tab character
+
+c2hs/base/state/CIO.hs:77:1: Warning:
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+
+c2hs/base/state/CIO.hs:85:15: Warning: Tab character
+
+c2hs/base/state/CIO.hs:118:13: Warning: Tab character
+[30 of 41] Compiling State            ( c2hs/base/state/State.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/State.o )
+
+c2hs/base/state/State.hs:41:1: Warning: Tab character
+
+c2hs/base/state/State.hs:42:1: Warning: Tab character
+
+c2hs/base/state/State.hs:42:22: Warning: Tab character
+
+c2hs/base/state/State.hs:43:1: Warning: Tab character
+
+c2hs/base/state/State.hs:44:1: Warning: Tab character
+
+c2hs/base/state/State.hs:45:1: Warning: Tab character
+
+c2hs/base/state/State.hs:46:1: Warning: Tab character
+
+c2hs/base/state/State.hs:46:32: Warning: Tab character
+
+c2hs/base/state/State.hs:47:1: Warning: Tab character
+
+c2hs/base/state/State.hs:47:39: Warning: Tab character
+
+c2hs/base/state/State.hs:48:1: Warning: Tab character
+
+c2hs/base/state/State.hs:49:1: Warning: Tab character
+
+c2hs/base/state/State.hs:50:1: Warning: Tab character
+
+c2hs/base/state/State.hs:51:1: Warning: Tab character
+
+c2hs/base/state/State.hs:52:1: Warning: Tab character
+
+c2hs/base/state/State.hs:53:1: Warning: Tab character
+
+c2hs/base/state/State.hs:54:1: Warning: Tab character
+
+c2hs/base/state/State.hs:55:1: Warning: Tab character
+
+c2hs/base/state/State.hs:56:1: Warning: Tab character
+
+c2hs/base/state/State.hs:57:1: Warning: Tab character
+
+c2hs/base/state/State.hs:58:1: Warning: Tab character
+
+c2hs/base/state/State.hs:59:1: Warning: Tab character
+
+c2hs/base/state/State.hs:60:1: Warning: Tab character
+
+c2hs/base/state/State.hs:61:1: Warning: Tab character
+
+c2hs/base/state/State.hs:62:1: Warning: Tab character
+
+c2hs/base/state/State.hs:63:1: Warning: Tab character
+
+c2hs/base/state/State.hs:64:1: Warning: Tab character
+
+c2hs/base/state/State.hs:65:1: Warning: Tab character
+
+c2hs/base/state/State.hs:66:1: Warning: Tab character
+
+c2hs/base/state/State.hs:67:1: Warning: Tab character
+
+c2hs/base/state/State.hs:68:1: Warning: Tab character
+
+c2hs/base/state/State.hs:69:1: Warning: Tab character
+
+c2hs/base/state/State.hs:77:14: Warning: Tab character
+
+c2hs/base/state/State.hs:80:1: Warning: Tab character
+
+c2hs/base/state/State.hs:82:1: Warning: Tab character
+
+c2hs/base/state/State.hs:85:1: Warning: Tab character
+
+c2hs/base/state/State.hs:87:1: Warning: Tab character
+
+c2hs/base/state/State.hs:88:1: Warning: Tab character
+
+c2hs/base/state/State.hs:89:1: Warning: Tab character
+
+c2hs/base/state/State.hs:103:1: Warning: Tab character
+
+c2hs/base/state/State.hs:104:1: Warning: Tab character
+
+c2hs/base/state/State.hs:105:1: Warning: Tab character
+
+c2hs/base/state/State.hs:106:1: Warning: Tab character
+
+c2hs/base/state/State.hs:107:1: Warning: Tab character
+
+c2hs/base/state/State.hs:108:1: Warning: Tab character
+
+c2hs/base/state/State.hs:124:1: Warning: Tab character
+
+c2hs/base/state/State.hs:125:1: Warning: Tab character
+
+c2hs/base/state/State.hs:126:1: Warning: Tab character
+
+c2hs/base/state/State.hs:126:61: Warning: Tab character
+
+c2hs/base/state/State.hs:127:1: Warning: Tab character
+
+c2hs/base/state/State.hs:128:1: Warning: Tab character
+
+c2hs/base/state/State.hs:165:1: Warning: Tab character
+
+c2hs/base/state/State.hs:166:1: Warning: Tab character
+
+c2hs/base/state/State.hs:181:1: Warning: Tab character
+
+c2hs/base/state/State.hs:182:1: Warning: Tab character
+
+c2hs/base/state/State.hs:183:1: Warning: Tab character
+
+c2hs/base/state/State.hs:225:1: Warning: Tab character
+
+c2hs/base/state/State.hs:226:1: Warning: Tab character
+
+c2hs/base/state/State.hs:227:1: Warning: Tab character
+
+c2hs/base/state/State.hs:257:1: Warning: Tab character
+
+c2hs/base/state/State.hs:258:1: Warning: Tab character
+
+c2hs/base/state/State.hs:259:1: Warning: Tab character
+
+c2hs/base/state/State.hs:268:1: Warning: Tab character
+
+c2hs/base/state/State.hs:269:1: Warning: Tab character
+
+c2hs/base/state/State.hs:270:1: Warning: Tab character
+
+c2hs/base/state/State.hs:271:1: Warning: Tab character
+
+c2hs/base/state/State.hs:272:1: Warning: Tab character
+
+c2hs/base/state/State.hs:276:1: Warning: Tab character
+
+c2hs/base/state/State.hs:276:24: Warning: Tab character
+
+c2hs/base/state/State.hs:277:1: Warning: Tab character
+
+c2hs/base/state/State.hs:278:1: Warning: Tab character
+
+c2hs/base/state/State.hs:278:26: Warning: Tab character
+
+c2hs/base/state/State.hs:279:1: Warning: Tab character
+
+c2hs/base/state/State.hs:279:24: Warning: Tab character
+
+c2hs/base/state/State.hs:280:1: Warning: Tab character
+
+c2hs/base/state/State.hs:281:1: Warning: Tab character
+
+c2hs/base/state/State.hs:281:26: Warning: Tab character
+
+c2hs/base/state/State.hs:282:1: Warning: Tab character
+
+c2hs/base/state/State.hs:283:1: Warning: Tab character
+
+c2hs/base/state/State.hs:291:1: Warning: Tab character
+
+c2hs/base/state/State.hs:292:1: Warning: Tab character
+
+c2hs/base/state/State.hs:293:1: Warning: Tab character
+
+c2hs/base/state/State.hs:294:1: Warning: Tab character
+
+c2hs/base/state/State.hs:295:1: Warning: Tab character
+
+c2hs/base/state/State.hs:296:1: Warning: Tab character
+
+c2hs/base/state/State.hs:298:1: Warning: Tab character
+
+c2hs/base/state/State.hs:299:1: Warning: Tab character
+
+c2hs/base/state/State.hs:306:1: Warning: Tab character
+
+c2hs/base/state/State.hs:307:1: Warning: Tab character
+
+c2hs/base/state/State.hs:318:1: Warning: Tab character
+
+c2hs/base/state/State.hs:319:1: Warning: Tab character
+
+c2hs/base/state/State.hs:325:1: Warning: Tab character
+
+c2hs/base/state/State.hs:326:1: Warning: Tab character
+
+c2hs/base/state/State.hs:327:1: Warning: Tab character
+
+c2hs/base/state/State.hs:328:1: Warning: Tab character
+
+c2hs/base/state/State.hs:329:1: Warning: Tab character
+
+c2hs/base/state/State.hs:339:1: Warning: Tab character
+
+c2hs/base/state/State.hs:340:1: Warning: Tab character
+
+c2hs/base/state/State.hs:341:1: Warning: Tab character
+
+c2hs/base/state/State.hs:342:1: Warning: Tab character
+
+c2hs/base/state/State.hs:343:1: Warning: Tab character
+[31 of 41] Compiling C2HSState        ( c2hs/state/C2HSState.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C2HSState.o )
+
+c2hs/state/C2HSState.hs:41:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:42:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:43:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:44:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:45:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:46:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:47:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:48:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:49:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:50:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:51:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:59:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:93:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:94:1: Warning: Tab character
+
+c2hs/state/C2HSState.hs:95:1: Warning: Tab character
+[32 of 41] Compiling CHSLexer         ( c2hs/chs/CHSLexer.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CHSLexer.o )
+
+c2hs/chs/CHSLexer.hs:172:17: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:173:17: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:174:21: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:179:14: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:182:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:183:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:193:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:194:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:194:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:195:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:195:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:196:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:196:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:197:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:197:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:198:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:198:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:199:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:199:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:200:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:200:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:201:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:201:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:202:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:202:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:203:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:203:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:204:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:204:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:205:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:205:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:206:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:206:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:207:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:207:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:208:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:208:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:209:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:209:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:210:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:210:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:211:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:211:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:212:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:212:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:213:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:214:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:214:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:215:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:215:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:216:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:216:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:217:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:217:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:218:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:218:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:219:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:219:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:220:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:220:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:221:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:221:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:222:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:222:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:223:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:223:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:224:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:224:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:225:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:225:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:226:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:226:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:227:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:227:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:228:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:228:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:229:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:229:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:230:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:230:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:231:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:231:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:232:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:232:46: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:233:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:233:46: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:234:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:234:45: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:235:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:235:46: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:236:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:236:46: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:237:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:238:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:238:24: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:238:46: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:239:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:239:44: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:240:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:240:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:241:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:241:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:337:13: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:337:37: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:338:11: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:338:35: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:339:14: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:339:38: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:342:4: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:342:28: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:389:23: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:401:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:401:39: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:402:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:402:40: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:403:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:404:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:410:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:411:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:412:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:413:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:414:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:415:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:422:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:424:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:437:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:438:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:442:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:443:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:444:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:445:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:446:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:456:24: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:457:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:457:25: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:458:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:458:24: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:459:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:459:22: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:460:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:460:22: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:461:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:461:21: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:466:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:470:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:471:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:488:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:489:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:490:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:490:30: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:491:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:492:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:493:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:494:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:494:25: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:495:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:496:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:497:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:498:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:499:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:500:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:501:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:502:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:502:22: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:503:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:503:20: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:504:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:504:17: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:515:19: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:522:29: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:523:21: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:524:36: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:525:31: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:529:35: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:530:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:530:28: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:531:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:532:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:533:36: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:534:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:534:28: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:535:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:535:43: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:536:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:536:29: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:537:36: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:538:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:538:28: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:539:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:539:43: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:540:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:540:23: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:546:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:547:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:548:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:554:40: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:555:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:555:31: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:556:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:556:29: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:562:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:563:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:564:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:565:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:566:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:567:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:567:29: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:593:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:605:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:606:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:607:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:607:33: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:608:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:609:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:609:47: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:610:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:612:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:612:47: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:613:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:618:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:619:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:627:9: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:628:11: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:629:13: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:630:11: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:630:56: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:631:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:632:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:632:40: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:633:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:633:32: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:641:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:642:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:643:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:644:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:645:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:646:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:646:56: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:647:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:648:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:649:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:650:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:651:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:652:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:653:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:658:22: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:659:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:659:19: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:660:31: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:661:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:661:24: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:662:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:663:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:664:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:665:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:666:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:667:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:668:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:677:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:698:27: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:698:37: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:700:26: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:700:37: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:712:25: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:712:37: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:712:55: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:727:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:728:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:729:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:730:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:731:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:732:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:733:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:734:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:735:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:736:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:737:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:738:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:739:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:740:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:746:1: Warning: Tab character
+
+c2hs/chs/CHSLexer.hs:752:1: Warning: Tab character
+[33 of 41] Compiling CHS              ( c2hs/chs/CHS.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CHS.o )
+
+c2hs/chs/CHS.hs:91:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:92:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:93:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:94:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:98:17: Warning: Tab character
+
+c2hs/chs/CHS.hs:99:17: Warning: Tab character
+
+c2hs/chs/CHS.hs:100:21: Warning: Tab character
+
+c2hs/chs/CHS.hs:104:14: Warning: Tab character
+
+c2hs/chs/CHS.hs:109:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:110:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:138:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:139:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:140:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:140:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:141:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:141:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:142:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:144:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:144:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:145:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:146:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:146:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:147:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:147:37: Warning: Tab character
+
+c2hs/chs/CHS.hs:148:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:148:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:149:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:149:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:150:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:159:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:160:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:165:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:166:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:166:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:167:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:167:33: Warning: Tab character
+
+c2hs/chs/CHS.hs:168:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:169:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:169:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:170:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:170:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:171:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:171:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:172:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:173:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:173:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:174:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:175:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:175:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:176:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:177:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:177:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:178:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:178:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:179:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:179:35: Warning: Tab character
+
+c2hs/chs/CHS.hs:180:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:180:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:181:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:181:34: Warning: Tab character
+
+c2hs/chs/CHS.hs:182:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:183:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:183:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:184:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:184:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:185:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:185:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:186:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:186:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:187:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:187:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:188:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:189:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:189:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:190:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:190:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:191:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:191:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:192:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:192:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:193:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:193:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:194:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:194:41: Warning: Tab character
+
+c2hs/chs/CHS.hs:195:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:195:36: Warning: Tab character
+
+c2hs/chs/CHS.hs:196:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:196:34: Warning: Tab character
+
+c2hs/chs/CHS.hs:197:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:198:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:198:36: Warning: Tab character
+
+c2hs/chs/CHS.hs:199:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:199:35: Warning: Tab character
+
+c2hs/chs/CHS.hs:200:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:201:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:201:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:202:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:202:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:203:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:203:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:204:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:204:37: Warning: Tab character
+
+c2hs/chs/CHS.hs:205:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:205:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:206:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:206:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:207:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:208:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:209:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:209:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:210:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:210:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:211:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:223:26: Warning: Tab character
+
+c2hs/chs/CHS.hs:243:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:248:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:256:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:257:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:257:42: Warning: Tab character
+
+c2hs/chs/CHS.hs:264:47: Warning: Tab character
+
+c2hs/chs/CHS.hs:265:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:265:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:266:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:266:28: Warning: Tab character
+
+c2hs/chs/CHS.hs:267:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:267:47: Warning: Tab character
+
+c2hs/chs/CHS.hs:268:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:272:24: Warning: Tab character
+
+c2hs/chs/CHS.hs:273:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:273:23: Warning: Tab character
+
+c2hs/chs/CHS.hs:274:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:274:25: Warning: Tab character
+
+c2hs/chs/CHS.hs:275:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:279:24: Warning: Tab character
+
+c2hs/chs/CHS.hs:280:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:280:24: Warning: Tab character
+
+c2hs/chs/CHS.hs:281:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:285:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:286:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:286:43: Warning: Tab character
+
+c2hs/chs/CHS.hs:287:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:287:23: Warning: Tab character
+
+c2hs/chs/CHS.hs:287:40: Warning: Tab character
+
+c2hs/chs/CHS.hs:288:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:293:25: Warning: Tab character
+
+c2hs/chs/CHS.hs:294:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:294:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:295:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:295:31: Warning: Tab character
+
+c2hs/chs/CHS.hs:296:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:299:14: Warning: Tab character
+
+c2hs/chs/CHS.hs:300:21: Warning: Tab character
+
+c2hs/chs/CHS.hs:301:20: Warning: Tab character
+
+c2hs/chs/CHS.hs:311:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:312:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:365:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:366:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:368:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:369:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:371:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:372:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:374:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:375:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:388:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:389:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:394:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:401:22: Warning: Tab character
+
+c2hs/chs/CHS.hs:402:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:402:22: Warning: Tab character
+
+c2hs/chs/CHS.hs:403:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:403:24: Warning: Tab character
+
+c2hs/chs/CHS.hs:404:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:423:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:424:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:424:18: Warning: Tab character
+
+c2hs/chs/CHS.hs:425:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:425:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:426:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:427:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:427:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:428:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:428:18: Warning: Tab character
+
+c2hs/chs/CHS.hs:430:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:431:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:432:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:433:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:434:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:459:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:526:9: Warning: Tab character
+
+c2hs/chs/CHS.hs:543:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:544:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:545:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:567:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:568:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:569:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:570:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:584:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:637:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:638:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:639:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:640:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:641:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:642:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:643:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:644:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:645:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:646:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:647:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:648:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:650:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:651:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:652:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:653:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:654:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:655:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:656:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:657:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:658:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:659:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:660:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:661:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:662:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:663:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:664:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:665:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:666:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:667:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:668:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:669:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:670:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:672:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:673:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:674:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:675:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:676:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:677:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:678:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:679:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:680:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:681:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:682:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:683:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:684:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:685:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:686:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:687:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:688:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:689:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:690:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:708:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:709:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:710:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:735:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:736:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:737:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:750:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:751:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:756:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:757:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:759:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:760:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:762:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:763:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:765:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:766:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:779:62: Warning: Tab character
+
+c2hs/chs/CHS.hs:780:21: Warning: Tab character
+
+c2hs/chs/CHS.hs:796:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:797:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:799:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:800:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:801:25: Warning: Tab character
+
+c2hs/chs/CHS.hs:813:8: Warning: Tab character
+
+c2hs/chs/CHS.hs:835:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:836:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:837:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:838:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:838:33: Warning: Tab character
+
+c2hs/chs/CHS.hs:839:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:840:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:841:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:865:38: Warning: Tab character
+
+c2hs/chs/CHS.hs:866:14: Warning: Tab character
+
+c2hs/chs/CHS.hs:866:39: Warning: Tab character
+
+c2hs/chs/CHS.hs:867:37: Warning: Tab character
+
+c2hs/chs/CHS.hs:872:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:883:9: Warning: Tab character
+
+c2hs/chs/CHS.hs:897:37: Warning: Tab character
+
+c2hs/chs/CHS.hs:898:36: Warning: Tab character
+
+c2hs/chs/CHS.hs:899:11: Warning: Tab character
+
+c2hs/chs/CHS.hs:899:39: Warning: Tab character
+
+c2hs/chs/CHS.hs:900:37: Warning: Tab character
+
+c2hs/chs/CHS.hs:908:25: Warning: Tab character
+
+c2hs/chs/CHS.hs:915:15: Warning: Tab character
+
+c2hs/chs/CHS.hs:925:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:930:17: Warning: Tab character
+
+c2hs/chs/CHS.hs:935:19: Warning: Tab character
+
+c2hs/chs/CHS.hs:939:19: Warning: Tab character
+
+c2hs/chs/CHS.hs:944:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:952:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:953:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:954:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:954:34: Warning: Tab character
+
+c2hs/chs/CHS.hs:955:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:956:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:956:13: Warning: Tab character
+
+c2hs/chs/CHS.hs:967:23: Warning: Tab character
+
+c2hs/chs/CHS.hs:982:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:983:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:984:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:984:10: Warning: Tab character
+
+c2hs/chs/CHS.hs:990:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:991:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:992:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:992:10: Warning: Tab character
+
+c2hs/chs/CHS.hs:993:11: Warning: Tab character
+
+c2hs/chs/CHS.hs:1003:39: Warning: Tab character
+
+c2hs/chs/CHS.hs:1007:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1023:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1024:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1025:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1026:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1032:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1033:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1042:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1043:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1044:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1044:19: Warning: Tab character
+
+c2hs/chs/CHS.hs:1045:30: Warning: Tab character
+
+c2hs/chs/CHS.hs:1046:17: Warning: Tab character
+
+c2hs/chs/CHS.hs:1050:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1051:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1052:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1052:20: Warning: Tab character
+
+c2hs/chs/CHS.hs:1053:32: Warning: Tab character
+
+c2hs/chs/CHS.hs:1054:18: Warning: Tab character
+
+c2hs/chs/CHS.hs:1058:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1059:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1060:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1060:28: Warning: Tab character
+
+c2hs/chs/CHS.hs:1062:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1063:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1064:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1065:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1065:28: Warning: Tab character
+
+c2hs/chs/CHS.hs:1068:26: Warning: Tab character
+
+c2hs/chs/CHS.hs:1079:17: Warning: Tab character
+
+c2hs/chs/CHS.hs:1079:56: Warning: Tab character
+
+c2hs/chs/CHS.hs:1092:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1093:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1094:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1095:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1141:8: Warning: Tab character
+
+c2hs/chs/CHS.hs:1143:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1144:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1145:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1146:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1147:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1148:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1152:21: Warning: Tab character
+
+c2hs/chs/CHS.hs:1156:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1157:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1158:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1159:21: Warning: Tab character
+
+c2hs/chs/CHS.hs:1167:20: Warning: Tab character
+
+c2hs/chs/CHS.hs:1188:16: Warning: Tab character
+
+c2hs/chs/CHS.hs:1192:18: Warning: Tab character
+
+c2hs/chs/CHS.hs:1200:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1201:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1202:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1204:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1208:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1209:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1210:1: Warning: Tab character
+
+c2hs/chs/CHS.hs:1211:1: Warning: Tab character
+[34 of 41] Compiling GenHeader        ( c2hs/gen/GenHeader.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GenHeader.o )
+
+c2hs/gen/GenHeader.hs:55:14: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:56:14: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:57:14: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:62:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:65:11: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:84:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:91:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:92:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:93:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:95:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:108:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:109:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:110:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:111:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:118:12: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:154:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:155:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:156:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:157:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:165:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:165:37: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:166:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:166:38: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:179:44: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:187:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:188:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:191:16: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:207:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:208:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:209:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:210:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:211:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:211:10: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:211:24: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:212:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:212:10: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:212:24: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:213:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:213:10: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:213:24: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:214:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:215:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:216:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:217:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:218:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:219:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:219:24: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:219:31: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:220:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:221:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:222:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:223:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:223:10: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:223:24: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:224:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:225:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:226:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:227:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:228:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:229:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:230:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:231:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:232:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:233:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:233:31: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:234:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:235:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:236:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:237:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:238:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:239:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:240:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:251:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:252:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:253:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:254:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:255:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:256:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:257:1: Warning: Tab character
+
+c2hs/gen/GenHeader.hs:258:1: Warning: Tab character
+[35 of 41] Compiling CTrav            ( c2hs/c/CTrav.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CTrav.o )
+
+c2hs/c/CTrav.hs:65:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:66:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:67:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:68:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:69:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:70:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:71:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:72:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:73:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:74:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:75:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:76:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:77:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:78:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:79:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:80:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:84:18: Warning: Tab character
+
+c2hs/c/CTrav.hs:85:21: Warning: Tab character
+
+c2hs/c/CTrav.hs:89:14: Warning: Tab character
+
+c2hs/c/CTrav.hs:90:14: Warning: Tab character
+
+c2hs/c/CTrav.hs:94:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:97:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:98:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:99:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:100:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:101:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:121:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:122:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:123:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:137:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:138:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:139:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:156:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:157:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:158:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:159:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:160:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:249:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:250:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:250:39: Warning: Tab character
+
+c2hs/c/CTrav.hs:252:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:253:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:254:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:255:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:256:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:256:42: Warning: Tab character
+
+c2hs/c/CTrav.hs:273:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:276:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:279:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:281:23: Warning: Tab character
+
+c2hs/c/CTrav.hs:315:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:316:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:317:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:342:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:343:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:344:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:345:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:346:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:347:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:347:32: Warning: Tab character
+
+c2hs/c/CTrav.hs:352:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:353:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:354:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:356:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:357:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:359:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:361:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:376:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:377:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:382:14: Warning: Tab character
+
+c2hs/c/CTrav.hs:405:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:406:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:411:14: Warning: Tab character
+
+c2hs/c/CTrav.hs:425:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:426:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:427:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:451:6: Warning: Tab character
+
+c2hs/c/CTrav.hs:478:19: Warning: Tab character
+
+c2hs/c/CTrav.hs:494:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:499:11: Warning: Tab character
+
+c2hs/c/CTrav.hs:505:11: Warning: Tab character
+
+c2hs/c/CTrav.hs:510:9: Warning: Tab character
+
+c2hs/c/CTrav.hs:521:10: Warning: Tab character
+
+c2hs/c/CTrav.hs:581:12: Warning: Tab character
+
+c2hs/c/CTrav.hs:591:13: Warning: Tab character
+
+c2hs/c/CTrav.hs:610:13: Warning: Tab character
+
+c2hs/c/CTrav.hs:611:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:659:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:660:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:661:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:677:36: Warning: Tab character
+
+c2hs/c/CTrav.hs:709:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:710:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:713:47: Warning: Tab character
+
+c2hs/c/CTrav.hs:714:38: Warning: Tab character
+
+c2hs/c/CTrav.hs:715:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:716:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:717:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:718:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:741:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:742:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:747:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:748:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:759:16: Warning: Tab character
+
+c2hs/c/CTrav.hs:764:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:767:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:768:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:769:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:770:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:771:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:801:25: Warning: Tab character
+
+c2hs/c/CTrav.hs:801:39: Warning: Tab character
+
+c2hs/c/CTrav.hs:803:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:803:16: Warning: Tab character
+
+c2hs/c/CTrav.hs:804:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:805:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:806:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:807:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:807:22: Warning: Tab character
+
+c2hs/c/CTrav.hs:808:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:820:37: Warning: Tab character
+
+c2hs/c/CTrav.hs:821:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:822:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:823:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:824:1: Warning: Tab character
+
+c2hs/c/CTrav.hs:824:40: Warning: Tab character
+
+c2hs/c/CTrav.hs:825:6: Warning: Tab character
+
+c2hs/c/CTrav.hs:851:21: Warning: Tab character
+
+c2hs/c/CTrav.hs:859:23: Warning: Tab character
+
+c2hs/c/CTrav.hs:892:1: Warning: Tab character
+[36 of 41] Compiling CNames           ( c2hs/c/CNames.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CNames.o )
+
+c2hs/c/CNames.hs:40:21: Warning: Tab character
+
+c2hs/c/CNames.hs:43:14: Warning: Tab character
+
+c2hs/c/CNames.hs:50:1: Warning: Tab character
+
+c2hs/c/CNames.hs:51:1: Warning: Tab character
+
+c2hs/c/CNames.hs:65:1: Warning: Tab character
+
+c2hs/c/CNames.hs:66:1: Warning: Tab character
+
+c2hs/c/CNames.hs:78:1: Warning: Tab character
+
+c2hs/c/CNames.hs:79:1: Warning: Tab character
+
+c2hs/c/CNames.hs:80:1: Warning: Tab character
+
+c2hs/c/CNames.hs:81:1: Warning: Tab character
+
+c2hs/c/CNames.hs:82:1: Warning: Tab character
+
+c2hs/c/CNames.hs:83:1: Warning: Tab character
+
+c2hs/c/CNames.hs:84:1: Warning: Tab character
+
+c2hs/c/CNames.hs:85:1: Warning: Tab character
+
+c2hs/c/CNames.hs:106:1: Warning: Tab character
+
+c2hs/c/CNames.hs:108:1: Warning: Tab character
+
+c2hs/c/CNames.hs:108:27: Warning: Tab character
+
+c2hs/c/CNames.hs:109:1: Warning: Tab character
+
+c2hs/c/CNames.hs:109:27: Warning: Tab character
+
+c2hs/c/CNames.hs:113:14: Warning: Tab character
+
+c2hs/c/CNames.hs:119:1: Warning: Tab character
+
+c2hs/c/CNames.hs:120:1: Warning: Tab character
+
+c2hs/c/CNames.hs:121:14: Warning: Tab character
+
+c2hs/c/CNames.hs:127:14: Warning: Tab character
+
+c2hs/c/CNames.hs:129:14: Warning: Tab character
+
+c2hs/c/CNames.hs:138:1: Warning: Tab character
+
+c2hs/c/CNames.hs:139:1: Warning: Tab character
+
+c2hs/c/CNames.hs:153:14: Warning: Tab character
+
+c2hs/c/CNames.hs:155:14: Warning: Tab character
+
+c2hs/c/CNames.hs:165:1: Warning: Tab character
+
+c2hs/c/CNames.hs:167:31: Warning: Tab character
+
+c2hs/c/CNames.hs:168:28: Warning: Tab character
+
+c2hs/c/CNames.hs:170:26: Warning: Tab character
+
+c2hs/c/CNames.hs:172:27: Warning: Tab character
+
+c2hs/c/CNames.hs:173:16: Warning: Tab character
+
+c2hs/c/CNames.hs:174:15: Warning: Tab character
+
+c2hs/c/CNames.hs:176:14: Warning: Tab character
+
+c2hs/c/CNames.hs:176:26: Warning: Tab character
+
+c2hs/c/CNames.hs:177:1: Warning: Tab character
+
+c2hs/c/CNames.hs:178:1: Warning: Tab character
+
+c2hs/c/CNames.hs:179:16: Warning: Tab character
+
+c2hs/c/CNames.hs:179:24: Warning: Tab character
+
+c2hs/c/CNames.hs:190:1: Warning: Tab character
+
+c2hs/c/CNames.hs:191:1: Warning: Tab character
+
+c2hs/c/CNames.hs:192:1: Warning: Tab character
+
+c2hs/c/CNames.hs:193:1: Warning: Tab character
+[37 of 41] Compiling CParser          ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/CParser.o )
+[38 of 41] Compiling C                ( c2hs/c/C.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/C.o )
+
+c2hs/c/C.hs:34:1: Warning: Tab character
+
+c2hs/c/C.hs:35:1: Warning: Tab character
+
+c2hs/c/C.hs:36:1: Warning: Tab character
+
+c2hs/c/C.hs:37:1: Warning: Tab character
+
+c2hs/c/C.hs:38:1: Warning: Tab character
+
+c2hs/c/C.hs:39:1: Warning: Tab character
+
+c2hs/c/C.hs:40:1: Warning: Tab character
+
+c2hs/c/C.hs:41:1: Warning: Tab character
+
+c2hs/c/C.hs:42:1: Warning: Tab character
+
+c2hs/c/C.hs:43:1: Warning: Tab character
+
+c2hs/c/C.hs:44:1: Warning: Tab character
+
+c2hs/c/C.hs:45:1: Warning: Tab character
+
+c2hs/c/C.hs:46:1: Warning: Tab character
+
+c2hs/c/C.hs:47:1: Warning: Tab character
+
+c2hs/c/C.hs:48:1: Warning: Tab character
+
+c2hs/c/C.hs:49:1: Warning: Tab character
+
+c2hs/c/C.hs:50:1: Warning: Tab character
+
+c2hs/c/C.hs:51:1: Warning: Tab character
+
+c2hs/c/C.hs:52:1: Warning: Tab character
+
+c2hs/c/C.hs:53:1: Warning: Tab character
+
+c2hs/c/C.hs:54:1: Warning: Tab character
+
+c2hs/c/C.hs:55:1: Warning: Tab character
+
+c2hs/c/C.hs:56:1: Warning: Tab character
+
+c2hs/c/C.hs:57:1: Warning: Tab character
+
+c2hs/c/C.hs:58:1: Warning: Tab character
+
+c2hs/c/C.hs:58:21: Warning: Tab character
+
+c2hs/c/C.hs:59:1: Warning: Tab character
+
+c2hs/c/C.hs:60:1: Warning: Tab character
+
+c2hs/c/C.hs:61:1: Warning: Tab character
+
+c2hs/c/C.hs:62:1: Warning: Tab character
+
+c2hs/c/C.hs:63:1: Warning: Tab character
+
+c2hs/c/C.hs:64:1: Warning: Tab character
+
+c2hs/c/C.hs:65:1: Warning: Tab character
+
+c2hs/c/C.hs:66:1: Warning: Tab character
+
+c2hs/c/C.hs:70:14: Warning: Tab character
+
+c2hs/c/C.hs:74:1: Warning: Tab character
+
+c2hs/c/C.hs:75:1: Warning: Tab character
+
+c2hs/c/C.hs:76:1: Warning: Tab character
+
+c2hs/c/C.hs:77:1: Warning: Tab character
+
+c2hs/c/C.hs:81:14: Warning: Tab character
+
+c2hs/c/C.hs:82:1: Warning: Tab character
+
+c2hs/c/C.hs:83:1: Warning: Tab character
+
+c2hs/c/C.hs:104:1: Warning: Tab character
+
+c2hs/c/C.hs:105:1: Warning: Tab character
+
+c2hs/c/C.hs:106:1: Warning: Tab character
+
+c2hs/c/C.hs:107:1: Warning: Tab character
+
+c2hs/c/C.hs:109:1: Warning: Tab character
+
+c2hs/c/C.hs:110:1: Warning: Tab character
+
+c2hs/c/C.hs:111:1: Warning: Tab character
+
+c2hs/c/C.hs:112:1: Warning: Tab character
+
+c2hs/c/C.hs:113:1: Warning: Tab character
+
+c2hs/c/C.hs:115:1: Warning: Tab character
+
+c2hs/c/C.hs:116:1: Warning: Tab character
+
+c2hs/c/C.hs:117:1: Warning: Tab character
+
+c2hs/c/C.hs:118:1: Warning: Tab character
+
+c2hs/c/C.hs:120:1: Warning: Tab character
+
+c2hs/c/C.hs:121:1: Warning: Tab character
+
+c2hs/c/C.hs:122:1: Warning: Tab character
+
+c2hs/c/C.hs:123:1: Warning: Tab character
+
+c2hs/c/C.hs:124:1: Warning: Tab character
+
+c2hs/c/C.hs:125:1: Warning: Tab character
+
+c2hs/c/C.hs:126:1: Warning: Tab character
+
+c2hs/c/C.hs:127:1: Warning: Tab character
+
+c2hs/c/C.hs:129:1: Warning: Tab character
+
+c2hs/c/C.hs:130:1: Warning: Tab character
+
+c2hs/c/C.hs:131:1: Warning: Tab character
+
+c2hs/c/C.hs:132:1: Warning: Tab character
+
+c2hs/c/C.hs:133:1: Warning: Tab character
+
+c2hs/c/C.hs:134:1: Warning: Tab character
+
+c2hs/c/C.hs:135:1: Warning: Tab character
+
+c2hs/c/C.hs:136:1: Warning: Tab character
+
+c2hs/c/C.hs:137:1: Warning: Tab character
+
+c2hs/c/C.hs:138:1: Warning: Tab character
+
+c2hs/c/C.hs:139:1: Warning: Tab character
+
+c2hs/c/C.hs:140:1: Warning: Tab character
+
+c2hs/c/C.hs:141:1: Warning: Tab character
+
+c2hs/c/C.hs:142:1: Warning: Tab character
+
+c2hs/c/C.hs:143:1: Warning: Tab character
+
+c2hs/c/C.hs:144:1: Warning: Tab character
+
+c2hs/c/C.hs:145:1: Warning: Tab character
+
+c2hs/c/C.hs:146:1: Warning: Tab character
+
+c2hs/c/C.hs:147:1: Warning: Tab character
+
+c2hs/c/C.hs:148:1: Warning: Tab character
+[39 of 41] Compiling GBMonad          ( c2hs/gen/GBMonad.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GBMonad.o )
+
+c2hs/gen/GBMonad.hs:75:17: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:77:18: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:81:14: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:87:9: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:90:11: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:91:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:106:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:106:31: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:107:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:108:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:109:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:110:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:111:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:112:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:113:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:114:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:115:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:116:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:129:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:130:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:130:31: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:131:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:132:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:132:33: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:133:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:134:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:134:35: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:135:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:135:44: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:136:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:137:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:138:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:138:40: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:139:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:140:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:141:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:142:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:143:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:144:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:145:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:146:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:147:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:147:42: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:148:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:155:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:155:38: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:156:21: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:194:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:195:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:195:42: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:196:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:197:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:198:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:199:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:199:27: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:199:43: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:200:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:214:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:215:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:216:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:217:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:219:16: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:220:16: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:238:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:238:37: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:239:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:239:37: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:240:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:241:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:242:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:242:41: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:243:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:243:41: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:244:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:264:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:265:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:266:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:267:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:268:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:302:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:303:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:304:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:305:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:306:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:307:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:307:24: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:308:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:310:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:324:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:325:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:331:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:332:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:339:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:340:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:346:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:347:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:355:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:356:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:357:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:358:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:359:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:359:32: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:360:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:360:33: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:368:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:369:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:370:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:371:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:372:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:372:32: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:373:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:373:33: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:392:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:393:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:394:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:398:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:400:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:406:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:407:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:408:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:409:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:410:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:411:1: Warning: Tab character
+
+c2hs/gen/GBMonad.hs:412:1: Warning: Tab character
+[40 of 41] Compiling GenBind          ( c2hs/gen/GenBind.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/GenBind.o )
+
+c2hs/gen/GenBind.hs:115:17: Warning: Tab character
+
+c2hs/gen/GenBind.hs:117:18: Warning: Tab character
+
+c2hs/gen/GenBind.hs:118:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:124:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:131:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:132:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:133:9: Warning: Tab character
+
+c2hs/gen/GenBind.hs:134:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:135:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:136:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:137:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:138:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:139:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:140:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:141:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:142:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:143:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:144:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:145:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:146:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:147:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:148:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:149:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:152:11: Warning: Tab character
+
+c2hs/gen/GenBind.hs:153:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:154:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:156:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:158:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:159:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:160:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:177:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:180:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:185:27: Warning: Tab character
+
+c2hs/gen/GenBind.hs:210:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:213:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:218:27: Warning: Tab character
+
+c2hs/gen/GenBind.hs:240:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:247:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:257:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:258:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:267:38: Warning: Tab character
+
+c2hs/gen/GenBind.hs:301:13: Warning: Tab character
+
+c2hs/gen/GenBind.hs:319:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:320:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:321:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:322:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:324:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:325:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:326:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:329:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:331:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:333:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:357:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:358:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:360:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:361:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:362:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:363:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:364:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:365:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:365:42: Warning: Tab character
+
+c2hs/gen/GenBind.hs:366:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:370:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:371:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:373:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:374:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:375:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:376:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:386:40: Warning: Tab character
+
+c2hs/gen/GenBind.hs:392:44: Warning: Tab character
+
+c2hs/gen/GenBind.hs:404:44: Warning: Tab character
+
+c2hs/gen/GenBind.hs:417:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:436:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:452:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:453:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:454:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:456:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:472:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:473:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:476:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:483:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:484:44: Warning: Tab character
+
+c2hs/gen/GenBind.hs:490:23: Warning: Tab character
+
+c2hs/gen/GenBind.hs:491:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:492:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:493:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:494:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:495:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:496:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:497:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:498:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:499:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:500:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:501:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:502:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:503:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:504:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:505:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:506:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:507:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:508:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:509:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:510:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:511:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:512:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:513:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:514:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:515:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:517:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:518:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:518:24: Warning: Tab character
+
+c2hs/gen/GenBind.hs:519:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:520:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:521:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:522:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:523:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:524:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:530:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:530:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:541:45: Warning: Tab character
+
+c2hs/gen/GenBind.hs:547:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:555:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:556:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:556:12: Warning: Tab character
+
+c2hs/gen/GenBind.hs:557:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:557:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:558:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:576:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:577:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:577:13: Warning: Tab character
+
+c2hs/gen/GenBind.hs:578:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:579:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:592:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:593:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:594:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:595:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:596:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:598:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:709:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:713:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:739:15: Warning: Tab character
+
+c2hs/gen/GenBind.hs:740:17: Warning: Tab character
+
+c2hs/gen/GenBind.hs:741:17: Warning: Tab character
+
+c2hs/gen/GenBind.hs:742:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:743:23: Warning: Tab character
+
+c2hs/gen/GenBind.hs:745:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:746:18: Warning: Tab character
+
+c2hs/gen/GenBind.hs:747:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:748:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:762:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:766:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:767:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:769:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:770:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:771:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:772:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:773:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:774:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:774:48: Warning: Tab character
+
+c2hs/gen/GenBind.hs:775:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:777:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:778:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:778:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:781:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:782:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:783:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:784:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:785:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:799:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:800:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:801:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:804:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:805:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:806:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:807:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:808:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:809:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:810:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:816:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:822:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:824:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:824:10: Warning: Tab character
+
+c2hs/gen/GenBind.hs:825:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:825:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:826:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:826:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:827:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:828:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:829:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:830:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:831:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:832:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:833:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:834:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:835:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:836:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:837:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:838:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:839:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:839:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:840:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:842:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:843:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:844:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:845:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:846:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:857:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:858:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:859:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:860:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:865:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:882:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:889:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:890:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:891:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:892:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:901:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:907:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:916:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:924:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:954:27: Warning: Tab character
+
+c2hs/gen/GenBind.hs:958:40: Warning: Tab character
+
+c2hs/gen/GenBind.hs:962:47: Warning: Tab character
+
+c2hs/gen/GenBind.hs:968:55: Warning: Tab character
+
+c2hs/gen/GenBind.hs:974:31: Warning: Tab character
+
+c2hs/gen/GenBind.hs:986:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:986:10: Warning: Tab character
+
+c2hs/gen/GenBind.hs:987:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:997:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:999:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1000:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1001:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1001:10: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1002:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1029:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1039:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1040:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1050:2: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1059:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1060:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1067:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1068:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1069:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1071:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1072:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1072:50: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1073:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1074:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1076:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1076:50: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1077:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1078:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1079:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1080:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1081:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1082:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1083:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1084:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1085:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1086:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1087:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1088:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1089:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1090:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1091:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1092:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1093:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1094:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1095:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1096:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1097:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1098:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1099:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1100:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1103:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1104:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1116:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1120:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1125:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1126:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1126:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1127:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1127:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1128:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1128:25: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1129:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1129:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1130:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1130:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1131:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1131:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1132:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1137:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1137:28: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1138:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1139:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1139:30: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1140:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1140:30: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1142:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1143:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1144:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1145:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1148:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1149:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1150:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1164:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1165:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1165:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1166:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1166:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1167:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1167:23: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1168:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1168:17: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1169:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1170:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1175:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1177:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1180:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1181:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1184:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1185:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1186:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1188:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1189:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1196:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1197:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1199:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1201:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1203:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1203:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1204:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1205:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1206:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1207:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1208:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1209:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1210:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1211:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1212:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1213:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1222:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1243:41: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1244:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1244:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1245:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1245:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1245:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1246:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1247:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1247:35: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1248:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1248:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1256:9: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1256:31: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1260:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1261:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1261:23: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1261:38: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1279:28: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1280:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1281:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1282:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1283:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1284:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1285:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1286:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1304:56: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1306:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1319:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1331:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1336:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1337:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1354:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1358:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1421:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1422:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1422:40: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1423:7: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1429:39: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1430:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1433:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1434:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1437:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1437:25: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1438:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1439:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1440:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1441:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1449:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1450:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1451:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1460:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1461:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1462:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1463:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1464:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1464:28: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1465:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1466:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1467:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1469:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1470:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1471:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1482:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1483:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1484:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1485:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1501:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1501:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1502:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1502:30: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1503:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1503:28: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1504:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1504:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1505:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1505:19: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1506:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1506:27: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1507:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1507:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1508:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1508:26: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1509:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1509:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1510:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1511:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1512:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1513:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1514:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1515:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1516:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1517:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1518:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1519:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1519:24: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1520:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1520:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1521:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1521:31: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1522:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1522:36: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1523:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1523:30: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1524:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1524:35: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1525:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1525:36: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1526:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1527:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1527:21: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1528:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1528:22: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1529:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1529:28: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1530:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1530:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1531:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1532:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1533:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1534:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1535:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1536:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1537:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1538:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1539:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1540:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1541:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1552:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1552:30: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1553:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1553:24: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1556:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1557:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1558:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1559:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1559:10: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1564:24: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1575:18: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1589:13: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1589:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1595:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1596:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1597:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1598:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1599:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1600:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1601:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1602:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1603:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1604:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1605:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1606:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1607:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1608:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1608:16: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1608:34: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1609:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1610:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1611:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1612:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1613:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1628:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1635:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1674:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1674:15: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1675:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1681:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1708:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1712:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1713:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1720:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1721:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1722:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1723:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1724:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1725:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1725:29: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1726:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1727:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1728:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1729:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1731:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1733:46: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1734:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1735:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1736:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1745:34: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1747:34: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1749:20: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1749:33: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1750:27: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1750:34: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1752:14: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1752:34: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1757:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1815:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1816:8: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1818:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1830:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1831:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1832:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1833:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1834:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1835:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1836:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1837:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1838:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1839:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1840:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1840:15: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1841:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1842:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1842:15: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1843:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1865:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1866:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1867:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1868:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1870:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1872:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1874:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1876:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1878:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1880:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1883:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1885:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1887:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1889:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1891:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1893:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1896:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1898:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1907:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:1910:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:2009:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:2010:1: Warning: Tab character
+
+c2hs/gen/GenBind.hs:2015:1: Warning: Tab character
+[41 of 41] Compiling Main             ( c2hs/toplevel/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs-tmp/Main.o )
+
+c2hs/toplevel/Main.hs:143:17: Warning: Tab character
+
+c2hs/toplevel/Main.hs:144:17: Warning: Tab character
+
+c2hs/toplevel/Main.hs:145:22: Warning: Tab character
+
+c2hs/toplevel/Main.hs:151:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:154:14: Warning: Tab character
+
+c2hs/toplevel/Main.hs:156:14: Warning: Tab character
+
+c2hs/toplevel/Main.hs:160:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:161:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:162:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:163:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:164:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:165:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:166:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:167:9: Warning: Tab character
+
+c2hs/toplevel/Main.hs:168:11: Warning: Tab character
+
+c2hs/toplevel/Main.hs:169:2: Warning: Tab character
+
+c2hs/toplevel/Main.hs:171:15: Warning: Tab character
+
+c2hs/toplevel/Main.hs:208:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:209:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:210:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:210:17: Warning: Tab character
+
+c2hs/toplevel/Main.hs:211:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:211:17: Warning: Tab character
+
+c2hs/toplevel/Main.hs:212:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:212:27: Warning: Tab character
+
+c2hs/toplevel/Main.hs:213:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:214:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:215:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:216:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:217:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:217:20: Warning: Tab character
+
+c2hs/toplevel/Main.hs:218:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:219:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:221:22: Warning: Tab character
+
+c2hs/toplevel/Main.hs:222:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:222:24: Warning: Tab character
+
+c2hs/toplevel/Main.hs:223:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:223:22: Warning: Tab character
+
+c2hs/toplevel/Main.hs:224:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:224:20: Warning: Tab character
+
+c2hs/toplevel/Main.hs:225:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:232:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:233:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:234:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:236:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:237:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:238:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:240:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:241:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:242:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:244:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:245:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:246:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:248:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:249:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:250:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:252:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:253:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:254:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:256:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:257:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:258:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:260:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:261:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:262:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:272:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:273:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:274:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:304:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:308:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:309:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:310:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:321:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:322:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:323:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:324:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:325:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:326:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:332:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:333:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:334:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:340:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:341:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:342:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:356:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:356:30: Warning: Tab character
+
+c2hs/toplevel/Main.hs:359:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:374:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:380:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:384:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:385:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:386:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:387:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:393:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:394:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:395:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:412:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:413:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:420:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:421:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:422:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:435:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:435:35: Warning: Tab character
+
+c2hs/toplevel/Main.hs:436:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:436:20: Warning: Tab character
+
+c2hs/toplevel/Main.hs:438:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:440:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:441:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:442:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:479:52: Warning: Tab character
+
+c2hs/toplevel/Main.hs:502:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:503:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:504:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:554:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:555:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:556:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:557:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:558:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:559:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:562:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:567:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:568:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:569:2: Warning: Tab character
+
+c2hs/toplevel/Main.hs:569:12: Warning: Tab character
+
+c2hs/toplevel/Main.hs:573:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:574:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:575:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:577:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:651:23: Warning: Tab character
+
+c2hs/toplevel/Main.hs:658:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:660:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:661:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:662:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:663:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:664:1: Warning: Tab character
+
+c2hs/toplevel/Main.hs:665:1: Warning: Tab character
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gtk2hsC2hs/gtk2hsC2hs ...
+Installing executable(s) in
+/home/rewrite/.stack/snapshots/x86_64-linux/lts-3.8/7.10.2/bin

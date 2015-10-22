@@ -1,0 +1,242 @@
+
+==================== FINAL INTERFACE ====================
+2015-10-12 14:36:29.547103 UTC
+
+interface main@main:Main 7102
+  interface hash: a3e41eac3d81b27a9e37bfdba0be9886
+  ABI hash: b648ec4206ca81a25ef805d04d684133
+  export-list hash: 2358ac2ad40a0db36666585850eb73ad
+  orphan hash: 81d5f054f8aecc6b045bb23441148290
+  flag hash: edbfeafbfeeac619f25bd16ac4b0d153
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      cairo-0.13.1.0@cairo_BvHflyquX9N2z5gGhce0bJ
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o ghc-prim-0.4.0.0
+                      gio-0.13.1.0@gio_I2Ei99vVSfU429nrcQ9gf6
+                      glib-0.13.2.1@glib_2BPmpQ0mKMn8YAJWQDEtyV
+                      gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq integer-gmp-1.0.0.0
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      pango-0.13.1.0@pango_9Vedum0zzMv51jkXhkovdY
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Entry.Entry
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Entry.SpinButton
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.General.IconFactory
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.General.Structs
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.ModelView.CellLayout
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.ModelView.TreeModel
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.ModelView.TreeModelFilter
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.ModelView.TreeModelSort
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Printing.PrintOperation
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Selectors.FileChooserButton
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Selectors.FileChooserDialog
+         gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Selectors.FileChooserWidget
+         pango-0.13.1.0@pango_9Vedum0zzMv51jkXhkovdY:Graphics.Rendering.Pango.Font
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk db75a36b2838ec4d23ba3ad6f9d93f73
+import  -/  gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Abstract.Widget 9553bd7abd100a8dfe2a755400cbe34d
+import  -/  gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Builder d3e573a3d980500a58c83b10d7b62a14
+import  -/  gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.General.General e243b8216a3875184953d7a10ffa9c34
+import  -/  gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq:Graphics.UI.Gtk.Types d88f64619d1dec41cb2ae3a4caa267b5
+06367d7640551df357e6d69fef038117
+  $scastToWindow ::
+    System.Glib.Types.GObject -> Graphics.UI.Gtk.Types.Window
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, False)
+                (\ eta :: System.Glib.Types.GObject ->
+                 Graphics.UI.Gtk.Types.castTo
+                   @ System.Glib.Types.GObject
+                   @ Graphics.UI.Gtk.Types.Window
+                   System.Glib.Types.$fGObjectClassGObject
+                   Graphics.UI.Gtk.Types.$fGObjectClassWindow
+                   Graphics.UI.Gtk.Types.gTypeWindow
+                   Graphics.UI.Gtk.Types.castToWindow1
+                   eta) -}
+2c0d06196f124667c47def4abc2dbd7a
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+d3f19d26d18ad3deecea1bf84a541519
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case Graphics.UI.Gtk.General.General.initGUI
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <[GHC.Base.String]>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case System.Glib.GObject.$wa4
+                        @ Graphics.UI.Gtk.Types.Builder
+                        Graphics.UI.Gtk.Types.mkBuilder1
+                          `cast`
+                        (<GHC.ForeignPtr.ForeignPtr Graphics.UI.Gtk.Types.Builder>_R
+                         ->_R Sym (Graphics.UI.Gtk.Types.NTCo:Builder[0]))
+                        (Graphics.UI.Gtk.General.Threading.objectUnrefFromMainloop
+                           @ Graphics.UI.Gtk.Types.Builder)
+                        Graphics.UI.Gtk.Builder.gtk_builder_new
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case Graphics.UI.Gtk.Builder.builderAddFromFile1
+                        @ [GHC.Types.Char]
+                        System.Glib.UTFString.$fGlibFilePath[]
+                        ipv3
+                        Main.main4
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case Graphics.UI.Gtk.Builder.$wa
+                        @ Graphics.UI.Gtk.Types.Window
+                        @ [GHC.Types.Char]
+                        System.Glib.UTFString.$fGlibString[]
+                        ipv3
+                        Main.$scastToWindow
+                        Main.main3
+                        ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                 case ipv7
+                        `cast`
+                      (Trans
+                           (Graphics.UI.Gtk.Types.NTCo:Window[0])
+                           (GHC.ForeignPtr.ForeignPtr
+                              (UnivCo opt_phantom phantom Graphics.UI.Gtk.Types.Window Graphics.UI.Gtk.Types.Widget))_R) of wild { GHC.ForeignPtr.ForeignPtr fo ds5 ->
+                 case {__pkg_ccall_GC gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq gtk_widget_show_all GHC.Prim.Addr#
+                                                                                                -> GHC.Prim.State#
+                                                                                                     GHC.Prim.RealWorld
+                                                                                                -> (# GHC.Prim.State#
+                                                                                                        GHC.Prim.RealWorld #)}
+                        fo
+                        ipv6 of wild1 { (##) ds ->
+                 case GHC.Prim.touch#
+                        @ GHC.ForeignPtr.ForeignPtrContents
+                        ds5
+                        ds of s' { DEFAULT ->
+                 case GHC.Prim.makeStablePtr#
+                        @ (GHC.Ptr.Ptr System.Glib.Types.GObject -> GHC.Types.IO ())
+                        Main.main2
+                          `cast`
+                        (<GHC.Ptr.Ptr System.Glib.Types.GObject>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        s' of ds6 { (#,#) ipv8 ipv9 ->
+                 case {__pkg_ccall glib-0.13.2.1@glib_2BPmpQ0mKMn8YAJWQDEtyV gtk2hs_closure_new forall a.
+                                                                                                GHC.Prim.StablePtr#
+                                                                                                  a
+                                                                                                -> GHC.Prim.State#
+                                                                                                     GHC.Prim.RealWorld
+                                                                                                -> (# GHC.Prim.State#
+                                                                                                        GHC.Prim.RealWorld,
+                                                                                                      GHC.Prim.Addr# #)}
+                        @ (GHC.Ptr.Ptr System.Glib.Types.GObject -> GHC.Types.IO ())
+                        ipv9
+                        ipv8 of wild2 { (#,#) ds7 ds8 ->
+                 case GHC.IO.Encoding.getForeignEncoding1 of wild3 { (,) getForeignEncoding5 setForeignEncoding1 ->
+                 case getForeignEncoding5
+                        `cast`
+                      (GHC.Types.NTCo:IO[0] <GHC.IO.Encoding.Types.TextEncoding>_R)
+                        ds7 of ds9 { (#,#) ipv10 ipv11 ->
+                 case GHC.Foreign.charIsRepresentable3
+                        @ Foreign.C.Types.CULong
+                        ipv11
+                        Graphics.UI.Gtk.Abstract.Widget.afterDestroy2
+                        (\ signalPtr :: Foreign.C.String.CString
+                           s1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                         case signalPtr of ds10 { GHC.Ptr.Ptr ds11 ->
+                         case {__pkg_ccall_GC glib-0.13.2.1@glib_2BPmpQ0mKMn8YAJWQDEtyV g_signal_connect_closure GHC.Prim.Addr#
+                                                                                                                 -> GHC.Prim.Addr#
+                                                                                                                 -> GHC.Prim.Addr#
+                                                                                                                 -> GHC.Prim.Int#
+                                                                                                                 -> GHC.Prim.State#
+                                                                                                                      GHC.Prim.RealWorld
+                                                                                                                 -> (# GHC.Prim.State#
+                                                                                                                         GHC.Prim.RealWorld,
+                                                                                                                       GHC.Prim.Word# #)}
+                                fo
+                                ds11
+                                ds8
+                                0
+                                s1 of wild4 { (#,#) ds12 ds13 ->
+                         case GHC.Prim.touch#
+                                @ GHC.ForeignPtr.ForeignPtrContents
+                                ds5
+                                ds12 of s'1 { DEFAULT ->
+                         (# s'1,
+                            (GHC.Word.W64# ds13)
+                              `cast`
+                            (Sym (Foreign.C.Types.NTCo:CULong[0])) #) } } })
+                          `cast`
+                        (<Foreign.C.String.CString>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <Foreign.C.Types.CULong>_R))
+                        ipv10 of ds10 { (#,#) ipv12 ipv13 ->
+                 case {__pkg_ccall_GC gtk-0.13.9@gtk_B0TXGUSGKqn75mCRvP80Zq gtk_main GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                     -> (# GHC.Prim.State#
+                                                                                             GHC.Prim.RealWorld #)}
+                        ipv12 of wild4 { (##) ds11 ->
+                 (# ds11, GHC.Tuple.() #) } } } } } } } } } } } } }) -}
+74777e2b0afecfb989a24ac21c42659a
+  main2 ::
+    GHC.Ptr.Ptr System.Glib.Types.GObject
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: GHC.Ptr.Ptr System.Glib.Types.GObject
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.Prim.catch#
+                   @ ()
+                   @ GHC.Exception.SomeException
+                   Graphics.UI.Gtk.General.General.mainQuit
+                     `cast`
+                   (GHC.Types.NTCo:IO[0] <()>_R)
+                   (System.Glib.GError.failOnGError2 @ ())
+                   eta1) -}
+4236c058c61d6f2644cef8ad4c2463e1
+  main3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "window1"#) -}
+a1aa0f14a3866ab5acea17a529611cd2
+  main4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "frame.glade"#) -}
+92175a7507a9e799b860b499f77c4b83
+  main5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+"SPEC/Main castToWindow @ GObject" [ALWAYS] forall $dGObjectClass :: System.Glib.Types.GObjectClass
+                                                                       System.Glib.Types.GObject
+  Graphics.UI.Gtk.Types.castToWindow @ System.Glib.Types.GObject
+                                     $dGObjectClass
+  = Main.$scastToWindow
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

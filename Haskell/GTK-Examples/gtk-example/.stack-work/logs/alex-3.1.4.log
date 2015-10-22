@@ -1,0 +1,883 @@
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:55:3: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:64:1: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:70:1: Warning: Tab character
+Configuring alex-3.1.4...
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:55:3: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:64:1: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:70:1: Warning: Tab character
+Building alex-3.1.4...
+Preprocessing executable 'alex' for alex-3.1.4...
+[ 1 of 22] Compiling Set              ( src/Set.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Set.o )
+[ 2 of 22] Compiling DFS              ( src/DFS.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/DFS.o )
+
+src/DFS.hs:39:1: Warning: Tab character
+
+src/DFS.hs:40:1: Warning: Tab character
+
+src/DFS.hs:42:1: Warning: Tab character
+
+src/DFS.hs:46:1: Warning: Tab character
+
+src/DFS.hs:47:1: Warning: Tab character
+
+src/DFS.hs:60:1: Warning: Tab character
+
+src/DFS.hs:61:1: Warning: Tab character
+
+src/DFS.hs:86:1: Warning: Tab character
+
+src/DFS.hs:87:1: Warning: Tab character
+
+src/DFS.hs:88:1: Warning: Tab character
+
+src/DFS.hs:112:1: Warning: Tab character
+
+src/DFS.hs:113:1: Warning: Tab character
+
+src/DFS.hs:114:1: Warning: Tab character
+
+src/DFS.hs:119:1: Warning: Tab character
+
+src/DFS.hs:120:1: Warning: Tab character
+
+src/DFS.hs:121:1: Warning: Tab character
+
+src/DFS.hs:122:1: Warning: Tab character
+
+src/DFS.hs:123:1: Warning: Tab character
+
+src/DFS.hs:124:1: Warning: Tab character
+
+src/DFS.hs:125:1: Warning: Tab character
+[ 3 of 22] Compiling Sort             ( src/Sort.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Sort.o )
+
+src/Sort.hs:43:1: Warning: Tab character
+
+src/Sort.hs:45:1: Warning: Tab character
+
+src/Sort.hs:51:1: Warning: Tab character
+
+src/Sort.hs:52:1: Warning: Tab character
+
+src/Sort.hs:58:1: Warning: Tab character
+
+src/Sort.hs:59:1: Warning: Tab character
+
+src/Sort.hs:60:1: Warning: Tab character
+
+src/Sort.hs:69:1: Warning: Tab character
+
+src/Sort.hs:70:1: Warning: Tab character
+
+src/Sort.hs:71:1: Warning: Tab character
+[ 4 of 22] Compiling Data.Ranged.Boundaries ( src/Data/Ranged/Boundaries.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Data/Ranged/Boundaries.o )
+[ 5 of 22] Compiling Data.Ranged.Ranges ( src/Data/Ranged/Ranges.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Data/Ranged/Ranges.o )
+[ 6 of 22] Compiling Data.Ranged.RangedSet ( src/Data/Ranged/RangedSet.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Data/Ranged/RangedSet.o )
+
+src/Data/Ranged/RangedSet.hs:61:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[ 7 of 22] Compiling Data.Ranged      ( src/Data/Ranged.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Data/Ranged.o )
+[ 8 of 22] Compiling UTF8             ( src/UTF8.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/UTF8.o )
+[ 9 of 22] Compiling Paths_alex       ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/autogen/Paths_alex.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Paths_alex.o )
+[10 of 22] Compiling Util             ( src/Util.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Util.o )
+[11 of 22] Compiling Map              ( src/Map.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Map.o )
+[12 of 22] Compiling CharSet          ( src/CharSet.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/CharSet.o )
+
+src/CharSet.hs:154:10: Warning:
+    Orphan instance: instance DiscreteOrdered Word8
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.
+[13 of 22] Compiling AbsSyn           ( src/AbsSyn.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/AbsSyn.o )
+
+src/AbsSyn.hs:42:29: Warning: Tab character
+
+src/AbsSyn.hs:57:1: Warning: Tab character
+
+src/AbsSyn.hs:61:1: Warning: Tab character
+
+src/AbsSyn.hs:62:1: Warning: Tab character
+
+src/AbsSyn.hs:62:29: Warning: Tab character
+
+src/AbsSyn.hs:63:1: Warning: Tab character
+
+src/AbsSyn.hs:64:1: Warning: Tab character
+
+src/AbsSyn.hs:64:31: Warning: Tab character
+
+src/AbsSyn.hs:65:1: Warning: Tab character
+
+src/AbsSyn.hs:75:1: Warning: Tab character
+
+src/AbsSyn.hs:109:1: Warning: Tab character
+
+src/AbsSyn.hs:110:1: Warning: Tab character
+
+src/AbsSyn.hs:111:1: Warning: Tab character
+
+src/AbsSyn.hs:158:14: Warning: Tab character
+
+src/AbsSyn.hs:244:1: Warning: Tab character
+
+src/AbsSyn.hs:245:1: Warning: Tab character
+
+src/AbsSyn.hs:247:1: Warning: Tab character
+
+src/AbsSyn.hs:248:1: Warning: Tab character
+
+src/AbsSyn.hs:250:1: Warning: Tab character
+
+src/AbsSyn.hs:251:1: Warning: Tab character
+
+src/AbsSyn.hs:253:1: Warning: Tab character
+
+src/AbsSyn.hs:254:1: Warning: Tab character
+
+src/AbsSyn.hs:255:1: Warning: Tab character
+
+src/AbsSyn.hs:256:1: Warning: Tab character
+
+src/AbsSyn.hs:257:1: Warning: Tab character
+
+src/AbsSyn.hs:258:1: Warning: Tab character
+
+src/AbsSyn.hs:259:1: Warning: Tab character
+
+src/AbsSyn.hs:260:1: Warning: Tab character
+
+src/AbsSyn.hs:261:1: Warning: Tab character
+
+src/AbsSyn.hs:263:1: Warning: Tab character
+
+src/AbsSyn.hs:265:1: Warning: Tab character
+
+src/AbsSyn.hs:267:1: Warning: Tab character
+
+src/AbsSyn.hs:268:1: Warning: Tab character
+
+src/AbsSyn.hs:282:1: Warning: Tab character
+
+src/AbsSyn.hs:284:1: Warning: Tab character
+[14 of 22] Compiling DFAMin           ( src/DFAMin.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/DFAMin.o )
+[15 of 22] Compiling NFA              ( src/NFA.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/NFA.o )
+
+src/NFA.hs:26:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/NFA.hs:52:1: Warning: Tab character
+
+src/NFA.hs:82:1: Warning: Tab character
+
+src/NFA.hs:83:1: Warning: Tab character
+
+src/NFA.hs:84:1: Warning: Tab character
+
+src/NFA.hs:85:1: Warning: Tab character
+
+src/NFA.hs:86:1: Warning: Tab character
+
+src/NFA.hs:87:1: Warning: Tab character
+
+src/NFA.hs:89:1: Warning: Tab character
+
+src/NFA.hs:90:1: Warning: Tab character
+
+src/NFA.hs:91:1: Warning: Tab character
+
+src/NFA.hs:92:1: Warning: Tab character
+
+src/NFA.hs:94:1: Warning: Tab character
+
+src/NFA.hs:95:1: Warning: Tab character
+
+src/NFA.hs:96:1: Warning: Tab character
+
+src/NFA.hs:97:1: Warning: Tab character
+
+src/NFA.hs:98:1: Warning: Tab character
+
+src/NFA.hs:100:1: Warning: Tab character
+
+src/NFA.hs:101:1: Warning: Tab character
+
+src/NFA.hs:102:1: Warning: Tab character
+
+src/NFA.hs:103:1: Warning: Tab character
+
+src/NFA.hs:104:1: Warning: Tab character
+
+src/NFA.hs:105:1: Warning: Tab character
+
+src/NFA.hs:106:1: Warning: Tab character
+
+src/NFA.hs:107:1: Warning: Tab character
+
+src/NFA.hs:108:1: Warning: Tab character
+
+src/NFA.hs:108:18: Warning: Tab character
+
+src/NFA.hs:109:1: Warning: Tab character
+
+src/NFA.hs:110:1: Warning: Tab character
+
+src/NFA.hs:112:1: Warning: Tab character
+
+src/NFA.hs:114:1: Warning: Tab character
+
+src/NFA.hs:116:1: Warning: Tab character
+
+src/NFA.hs:117:1: Warning: Tab character
+
+src/NFA.hs:119:1: Warning: Tab character
+
+src/NFA.hs:120:1: Warning: Tab character
+
+src/NFA.hs:121:1: Warning: Tab character
+
+src/NFA.hs:122:1: Warning: Tab character
+
+src/NFA.hs:181:1: Warning: Tab character
+
+src/NFA.hs:182:1: Warning: Tab character
+
+src/NFA.hs:186:1: Warning: Tab character
+
+src/NFA.hs:187:1: Warning: Tab character
+
+src/NFA.hs:188:1: Warning: Tab character
+
+src/NFA.hs:189:1: Warning: Tab character
+
+src/NFA.hs:242:1: Warning: Tab character
+
+src/NFA.hs:244:1: Warning: Tab character
+
+src/NFA.hs:253:16: Warning: Tab character
+
+src/NFA.hs:262:1: Warning: Tab character
+
+src/NFA.hs:264:1: Warning: Tab character
+[16 of 22] Compiling DFA              ( src/DFA.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/DFA.o )
+
+src/DFA.hs:97:1: Warning: Tab character
+
+src/DFA.hs:98:1: Warning: Tab character
+
+src/DFA.hs:99:1: Warning: Tab character
+
+src/DFA.hs:116:1: Warning: Tab character
+
+src/DFA.hs:122:1: Warning: Tab character
+
+src/DFA.hs:123:1: Warning: Tab character
+
+src/DFA.hs:124:1: Warning: Tab character
+
+src/DFA.hs:125:1: Warning: Tab character
+
+src/DFA.hs:127:1: Warning: Tab character
+
+src/DFA.hs:128:1: Warning: Tab character
+
+src/DFA.hs:131:1: Warning: Tab character
+
+src/DFA.hs:133:1: Warning: Tab character
+
+src/DFA.hs:140:1: Warning: Tab character
+
+src/DFA.hs:141:1: Warning: Tab character
+
+src/DFA.hs:142:1: Warning: Tab character
+
+src/DFA.hs:144:1: Warning: Tab character
+
+src/DFA.hs:169:1: Warning: Tab character
+
+src/DFA.hs:189:1: Warning: Tab character
+
+src/DFA.hs:191:1: Warning: Tab character
+
+src/DFA.hs:192:1: Warning: Tab character
+
+src/DFA.hs:194:1: Warning: Tab character
+
+src/DFA.hs:196:1: Warning: Tab character
+
+src/DFA.hs:197:1: Warning: Tab character
+
+src/DFA.hs:198:1: Warning: Tab character
+
+src/DFA.hs:201:1: Warning: Tab character
+
+src/DFA.hs:202:1: Warning: Tab character
+
+src/DFA.hs:203:1: Warning: Tab character
+
+src/DFA.hs:203:32: Warning: Tab character
+
+src/DFA.hs:204:1: Warning: Tab character
+
+src/DFA.hs:205:1: Warning: Tab character
+
+src/DFA.hs:206:1: Warning: Tab character
+
+src/DFA.hs:207:1: Warning: Tab character
+[17 of 22] Compiling Info             ( src/Info.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Info.o )
+
+src/Info.hs:36:1: Warning: Tab character
+
+src/Info.hs:39:1: Warning: Tab character
+
+src/Info.hs:52:1: Warning: Tab character
+
+src/Info.hs:53:1: Warning: Tab character
+
+src/Info.hs:54:1: Warning: Tab character
+
+src/Info.hs:57:1: Warning: Tab character
+
+src/Info.hs:59:1: Warning: Tab character
+
+src/Info.hs:62:1: Warning: Tab character
+
+src/Info.hs:63:1: Warning: Tab character
+[18 of 22] Compiling Output           ( src/Output.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Output.o )
+
+src/Output.hs:34:1: Warning: Tab character
+
+src/Output.hs:55:1: Warning: Tab character
+
+src/Output.hs:56:1: Warning: Tab character
+
+src/Output.hs:57:1: Warning: Tab character
+
+src/Output.hs:58:1: Warning: Tab character
+
+src/Output.hs:61:1: Warning: Tab character
+
+src/Output.hs:62:1: Warning: Tab character
+
+src/Output.hs:63:1: Warning: Tab character
+
+src/Output.hs:64:1: Warning: Tab character
+
+src/Output.hs:67:1: Warning: Tab character
+
+src/Output.hs:68:1: Warning: Tab character
+
+src/Output.hs:69:1: Warning: Tab character
+
+src/Output.hs:70:1: Warning: Tab character
+
+src/Output.hs:71:1: Warning: Tab character
+
+src/Output.hs:75:1: Warning: Tab character
+
+src/Output.hs:77:1: Warning: Tab character
+
+src/Output.hs:79:1: Warning: Tab character
+
+src/Output.hs:81:1: Warning: Tab character
+
+src/Output.hs:82:1: Warning: Tab character
+
+src/Output.hs:85:1: Warning: Tab character
+
+src/Output.hs:86:1: Warning: Tab character
+
+src/Output.hs:87:1: Warning: Tab character
+
+src/Output.hs:91:1: Warning: Tab character
+
+src/Output.hs:93:1: Warning: Tab character
+
+src/Output.hs:95:1: Warning: Tab character
+
+src/Output.hs:96:1: Warning: Tab character
+
+src/Output.hs:97:1: Warning: Tab character
+
+src/Output.hs:103:1: Warning: Tab character
+
+src/Output.hs:105:1: Warning: Tab character
+
+src/Output.hs:108:1: Warning: Tab character
+
+src/Output.hs:109:1: Warning: Tab character
+
+src/Output.hs:142:1: Warning: Tab character
+
+src/Output.hs:143:1: Warning: Tab character
+
+src/Output.hs:143:21: Warning: Tab character
+
+src/Output.hs:144:1: Warning: Tab character
+
+src/Output.hs:144:21: Warning: Tab character
+
+src/Output.hs:145:1: Warning: Tab character
+
+src/Output.hs:145:21: Warning: Tab character
+
+src/Output.hs:146:1: Warning: Tab character
+
+src/Output.hs:146:21: Warning: Tab character
+
+src/Output.hs:147:1: Warning: Tab character
+
+src/Output.hs:147:30: Warning: Tab character
+
+src/Output.hs:148:1: Warning: Tab character
+
+src/Output.hs:158:1: Warning: Tab character
+
+src/Output.hs:160:1: Warning: Tab character
+
+src/Output.hs:161:1: Warning: Tab character
+
+src/Output.hs:162:1: Warning: Tab character
+
+src/Output.hs:164:1: Warning: Tab character
+
+src/Output.hs:165:1: Warning: Tab character
+
+src/Output.hs:167:1: Warning: Tab character
+
+src/Output.hs:168:1: Warning: Tab character
+
+src/Output.hs:169:1: Warning: Tab character
+
+src/Output.hs:170:1: Warning: Tab character
+
+src/Output.hs:171:1: Warning: Tab character
+
+src/Output.hs:172:1: Warning: Tab character
+
+src/Output.hs:174:1: Warning: Tab character
+
+src/Output.hs:175:1: Warning: Tab character
+
+src/Output.hs:177:1: Warning: Tab character
+
+src/Output.hs:178:1: Warning: Tab character
+
+src/Output.hs:180:1: Warning: Tab character
+
+src/Output.hs:181:1: Warning: Tab character
+
+src/Output.hs:183:1: Warning: Tab character
+
+src/Output.hs:184:1: Warning: Tab character
+
+src/Output.hs:185:1: Warning: Tab character
+
+src/Output.hs:186:1: Warning: Tab character
+
+src/Output.hs:187:1: Warning: Tab character
+
+src/Output.hs:188:1: Warning: Tab character
+
+src/Output.hs:189:1: Warning: Tab character
+
+src/Output.hs:191:1: Warning: Tab character
+
+src/Output.hs:193:1: Warning: Tab character
+
+src/Output.hs:194:1: Warning: Tab character
+
+src/Output.hs:195:1: Warning: Tab character
+
+src/Output.hs:197:1: Warning: Tab character
+
+src/Output.hs:198:1: Warning: Tab character
+
+src/Output.hs:200:1: Warning: Tab character
+
+src/Output.hs:201:1: Warning: Tab character
+
+src/Output.hs:202:1: Warning: Tab character
+
+src/Output.hs:205:1: Warning: Tab character
+
+src/Output.hs:205:16: Warning: Tab character
+
+src/Output.hs:206:1: Warning: Tab character
+
+src/Output.hs:206:16: Warning: Tab character
+
+src/Output.hs:207:1: Warning: Tab character
+
+src/Output.hs:207:34: Warning: Tab character
+
+src/Output.hs:208:1: Warning: Tab character
+
+src/Output.hs:208:34: Warning: Tab character
+
+src/Output.hs:209:1: Warning: Tab character
+
+src/Output.hs:209:34: Warning: Tab character
+
+src/Output.hs:210:1: Warning: Tab character
+
+src/Output.hs:210:34: Warning: Tab character
+
+src/Output.hs:211:1: Warning: Tab character
+
+src/Output.hs:211:23: Warning: Tab character
+
+src/Output.hs:211:28: Warning: Tab character
+
+src/Output.hs:212:1: Warning: Tab character
+
+src/Output.hs:232:1: Warning: Tab character
+
+src/Output.hs:232:31: Warning: Tab character
+
+src/Output.hs:233:1: Warning: Tab character
+
+src/Output.hs:233:31: Warning: Tab character
+
+src/Output.hs:234:1: Warning: Tab character
+
+src/Output.hs:234:31: Warning: Tab character
+
+src/Output.hs:235:1: Warning: Tab character
+
+src/Output.hs:235:31: Warning: Tab character
+
+src/Output.hs:236:1: Warning: Tab character
+
+src/Output.hs:236:34: Warning: Tab character
+
+src/Output.hs:237:1: Warning: Tab character
+
+src/Output.hs:237:16: Warning: Tab character
+
+src/Output.hs:238:1: Warning: Tab character
+
+src/Output.hs:238:22: Warning: Tab character
+
+src/Output.hs:238:28: Warning: Tab character
+
+src/Output.hs:241:1: Warning: Tab character
+
+src/Output.hs:244:1: Warning: Tab character
+
+src/Output.hs:245:1: Warning: Tab character
+
+src/Output.hs:246:1: Warning: Tab character
+
+src/Output.hs:247:1: Warning: Tab character
+
+src/Output.hs:248:1: Warning: Tab character
+
+src/Output.hs:250:1: Warning: Tab character
+
+src/Output.hs:251:1: Warning: Tab character
+
+src/Output.hs:252:1: Warning: Tab character
+
+src/Output.hs:253:1: Warning: Tab character
+
+src/Output.hs:255:1: Warning: Tab character
+
+src/Output.hs:256:1: Warning: Tab character
+
+src/Output.hs:257:1: Warning: Tab character
+
+src/Output.hs:258:1: Warning: Tab character
+
+src/Output.hs:259:1: Warning: Tab character
+
+src/Output.hs:260:1: Warning: Tab character
+
+src/Output.hs:261:1: Warning: Tab character
+
+src/Output.hs:262:1: Warning: Tab character
+
+src/Output.hs:264:2: Warning: Tab character
+
+src/Output.hs:266:1: Warning: Tab character
+
+src/Output.hs:267:1: Warning: Tab character
+
+src/Output.hs:268:1: Warning: Tab character
+
+src/Output.hs:269:1: Warning: Tab character
+
+src/Output.hs:290:1: Warning: Tab character
+
+src/Output.hs:300:1: Warning: Tab character
+
+src/Output.hs:312:1: Warning: Tab character
+
+src/Output.hs:313:1: Warning: Tab character
+
+src/Output.hs:314:1: Warning: Tab character
+
+src/Output.hs:324:5: Warning: Tab character
+
+src/Output.hs:325:3: Warning: Tab character
+
+src/Output.hs:326:1: Warning: Tab character
+
+src/Output.hs:332:1: Warning: Tab character
+
+src/Output.hs:336:1: Warning: Tab character
+
+src/Output.hs:343:1: Warning: Tab character
+[19 of 22] Compiling ParseMonad       ( src/ParseMonad.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/ParseMonad.o )
+
+src/ParseMonad.hs:10:3: Warning: Tab character
+
+src/ParseMonad.hs:11:3: Warning: Tab character
+
+src/ParseMonad.hs:13:1: Warning: Tab character
+
+src/ParseMonad.hs:14:1: Warning: Tab character
+
+src/ParseMonad.hs:23:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/ParseMonad.hs:32:29: Warning: Tab character
+
+src/ParseMonad.hs:33:1: Warning: Tab character
+
+src/ParseMonad.hs:33:24: Warning: Tab character
+
+src/ParseMonad.hs:35:1: Warning: Tab character
+
+src/ParseMonad.hs:35:26: Warning: Tab character
+
+src/ParseMonad.hs:44:1: Warning: Tab character
+
+src/ParseMonad.hs:65:1: Warning: Tab character
+
+src/ParseMonad.hs:82:1: Warning: Tab character
+
+src/ParseMonad.hs:83:1: Warning: Tab character
+
+src/ParseMonad.hs:84:1: Warning: Tab character
+
+src/ParseMonad.hs:85:1: Warning: Tab character
+
+src/ParseMonad.hs:86:1: Warning: Tab character
+
+src/ParseMonad.hs:99:1: Warning: Tab character
+
+src/ParseMonad.hs:100:1: Warning: Tab character
+
+src/ParseMonad.hs:104:1: Warning: Tab character
+
+src/ParseMonad.hs:107:1: Warning: Tab character
+
+src/ParseMonad.hs:108:1: Warning: Tab character
+
+src/ParseMonad.hs:110:2: Warning: Tab character
+
+src/ParseMonad.hs:111:1: Warning: Tab character
+
+src/ParseMonad.hs:124:1: Warning: Tab character
+
+src/ParseMonad.hs:125:1: Warning: Tab character
+
+src/ParseMonad.hs:131:1: Warning: Tab character
+
+src/ParseMonad.hs:132:1: Warning: Tab character
+[20 of 22] Compiling Scan             ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Scan.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Scan.o )
+[21 of 22] Compiling Parser           ( .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Parser.o )
+[22 of 22] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex-tmp/Main.o )
+
+src/Main.hs:73:7: Warning: Tab character
+
+src/Main.hs:77:1: Warning: Tab character
+
+src/Main.hs:80:1: Warning: Tab character
+
+src/Main.hs:82:1: Warning: Tab character
+
+src/Main.hs:84:1: Warning: Tab character
+
+src/Main.hs:99:1: Warning: Tab character
+
+src/Main.hs:100:1: Warning: Tab character
+
+src/Main.hs:110:1: Warning: Tab character
+
+src/Main.hs:111:1: Warning: Tab character
+
+src/Main.hs:112:1: Warning: Tab character
+
+src/Main.hs:113:1: Warning: Tab character
+
+src/Main.hs:114:1: Warning: Tab character
+
+src/Main.hs:116:1: Warning: Tab character
+
+src/Main.hs:124:2: Warning: Tab character
+
+src/Main.hs:125:2: Warning: Tab character
+
+src/Main.hs:126:2: Warning: Tab character
+
+src/Main.hs:127:2: Warning: Tab character
+
+src/Main.hs:130:1: Warning: Tab character
+
+src/Main.hs:131:1: Warning: Tab character
+
+src/Main.hs:132:1: Warning: Tab character
+
+src/Main.hs:135:1: Warning: Tab character
+
+src/Main.hs:136:1: Warning: Tab character
+
+src/Main.hs:143:1: Warning: Tab character
+
+src/Main.hs:147:1: Warning: Tab character
+
+src/Main.hs:148:1: Warning: Tab character
+
+src/Main.hs:151:1: Warning: Tab character
+
+src/Main.hs:152:2: Warning: Tab character
+
+src/Main.hs:153:1: Warning: Tab character
+
+src/Main.hs:164:1: Warning: Tab character
+
+src/Main.hs:165:1: Warning: Tab character
+
+src/Main.hs:212:1: Warning: Tab character
+
+src/Main.hs:213:1: Warning: Tab character
+
+src/Main.hs:215:1: Warning: Tab character
+
+src/Main.hs:216:1: Warning: Tab character
+
+src/Main.hs:216:35: Warning: Tab character
+
+src/Main.hs:224:1: Warning: Tab character
+
+src/Main.hs:225:1: Warning: Tab character
+
+src/Main.hs:226:1: Warning: Tab character
+
+src/Main.hs:227:1: Warning: Tab character
+
+src/Main.hs:228:1: Warning: Tab character
+
+src/Main.hs:229:1: Warning: Tab character
+
+src/Main.hs:230:1: Warning: Tab character
+
+src/Main.hs:231:1: Warning: Tab character
+
+src/Main.hs:232:1: Warning: Tab character
+
+src/Main.hs:233:1: Warning: Tab character
+
+src/Main.hs:234:1: Warning: Tab character
+
+src/Main.hs:235:1: Warning: Tab character
+
+src/Main.hs:239:1: Warning: Tab character
+
+src/Main.hs:240:1: Warning: Tab character
+
+src/Main.hs:241:1: Warning: Tab character
+
+src/Main.hs:242:1: Warning: Tab character
+
+src/Main.hs:246:1: Warning: Tab character
+
+src/Main.hs:247:1: Warning: Tab character
+
+src/Main.hs:248:1: Warning: Tab character
+
+src/Main.hs:249:1: Warning: Tab character
+
+src/Main.hs:250:1: Warning: Tab character
+
+src/Main.hs:251:1: Warning: Tab character
+
+src/Main.hs:252:1: Warning: Tab character
+
+src/Main.hs:264:1: Warning: Tab character
+
+src/Main.hs:268:1: Warning: Tab character
+
+src/Main.hs:269:1: Warning: Tab character
+
+src/Main.hs:270:1: Warning: Tab character
+
+src/Main.hs:270:22: Warning: Tab character
+
+src/Main.hs:272:1: Warning: Tab character
+
+src/Main.hs:273:1: Warning: Tab character
+
+src/Main.hs:274:1: Warning: Tab character
+
+src/Main.hs:275:1: Warning: Tab character
+
+src/Main.hs:276:1: Warning: Tab character
+
+src/Main.hs:281:1: Warning: Tab character
+
+src/Main.hs:282:1: Warning: Tab character
+
+src/Main.hs:283:1: Warning: Tab character
+
+src/Main.hs:288:1: Warning: Tab character
+
+src/Main.hs:289:1: Warning: Tab character
+
+src/Main.hs:290:1: Warning: Tab character
+
+src/Main.hs:291:3: Warning: Tab character
+
+src/Main.hs:292:1: Warning: Tab character
+
+src/Main.hs:307:1: Warning: Tab character
+
+src/Main.hs:308:1: Warning: Tab character
+
+src/Main.hs:309:1: Warning: Tab character
+
+src/Main.hs:331:1: Warning: Tab character
+
+src/Main.hs:333:1: Warning: Tab character
+
+src/Main.hs:335:1: Warning: Tab character
+
+src/Main.hs:337:1: Warning: Tab character
+
+src/Main.hs:341:1: Warning: Tab character
+
+src/Main.hs:343:1: Warning: Tab character
+
+src/Main.hs:345:1: Warning: Tab character
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/alex/alex ...
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:55:3: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:64:1: Warning: Tab character
+
+/tmp/stack25182/alex-3.1.4/Setup.lhs:70:1: Warning: Tab character
+Installing executable(s) in
+/home/rewrite/.stack/snapshots/x86_64-linux/lts-3.8/7.10.2/bin
