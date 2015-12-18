@@ -1,0 +1,2995 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-27 21:21:30.647107 UTC
+
+interface main@main:Main 7102
+  interface hash: 607267288e473c4fd3da73ec24b9bad0
+  ABI hash: 6ecbe037f069302a0a6541fe2fa1f7cf
+  export-list hash: f0b3738ae65337ce34a76dcf15cd195d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7d238af8c11497678b94a7199392b6d0
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.convertHandler
+  Main.error405
+  Main.genericError
+  Main.homeHandler
+  Main.main
+  Main.picInfoHandler
+  Main.saveFile
+  Main.site
+  Main.uploadHandler
+  Main.uploadPost
+module dependencies: RawRGB
+package dependencies: JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo
+                      MonadCatchIO-transformers-0.3.1.3@Monad_IcmDzXN0OWK8xOQBXuQe8c
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      attoparsec-enumerator-0.3.4@attop_BnNGRbSu0XHBaNlHLSkvSS
+                      attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ base-4.8.1.0
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      blaze-builder-0.4.0.1@blaze_6BKEupqZliOD9r4rLG9ckJ
+                      blaze-builder-enumerator-0.2.1.0@blaze_FckjsNmTwiQ8mbLpXPn4nb
+                      bytestring-mmap-0.2.2@bytes_22ehBy8IVzRElTy0mIpsr7
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      case-insensitive-1.2.0.5@casei_9NseolisKnP80bb65s7rJ9
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      enumerator-0.4.20@enume_AAmjNt08igrHulyFTlxTKz
+                      extensible-exceptions-0.1.1.4@exten_CmaSmA8CMpz45lfrjKH2bq
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy integer-gmp-1.0.0.0
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE
+                      primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb
+                      scientific-0.3.4.2@scien_4y53jPjKCJD6UICjmI9WaH
+                      snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven
+                      snap-server-0.9.5.1@snaps_Lstr6KNnUnlLmRmKI2su8G
+                      streaming-commons-0.1.14.2@strea_6MWdbeujUEQEUDv55904UY
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+                      unix-compat-0.4.1.4@unixc_DeAF5HEzYMu4CPLnbGbHUz
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+                      utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72
+                      vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ
+                      zlib-0.5.4.2@zlib_7EfFFsXSCF6JCVS3xlYBS8
+                      zlib-bindings-0.1.1.5@zlibb_J8fdhjx0VM70N5Y2vwEnLh
+                      zlib-enum-0.2.3.1@zlibe_36AZ1GuI2RfJJwI3OH7Sys
+orphans: attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.Text.Internal
+         base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE:Network.Socket
+         network-2.6.2.1@netwo_F6mK9sCIw3M5SbZMt2lUQE:Network.Socket.Types
+         snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Internal.Instances
+         snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Iteratee
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Fusion.Stream
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tga
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tiff
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Types
+                         attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.Internal.Types
+                         base-4.8.1.0:Control.Applicative base-4.8.1.0:Data.Either
+                         base-4.8.1.0:Data.Functor.Identity base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:Data.Void
+                         base-4.8.1.0:GHC.Exts base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb:Control.Monad.Primitive
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Primitive
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Storable
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed.Base
+import  -/  base-4.8.1.0:Control.Applicative a283901553892ce761385d18e455c2ce
+import  -/  base-4.8.1.0:Control.Monad dfea142d91349c4861427789d50d5b80
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString 65bd6f108f33ac736977e12af3a12795
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Internal bf4b7d23d1b8365e073bc2ac77444155
+import  -/  directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg:System.Directory e213821d92cebb4dc934424f9b152303
+import  -/  enumerator-0.4.20@enume_AAmjNt08igrHulyFTlxTKz:Data.Enumerator.List 2191ef2d1c73e79fb03313d77cc174ca
+import  -/  filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A:System.FilePath.Posix 21938741ac31651631a60d9842b1d5bf
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  RawRGB 290f60fde53bb05b6593912f7acf2b27
+  exports: 36f37146faa097a0e0507fcfa14d5e54
+  convertBmpDirToTxt 20a6ec1b3cfb2e49d57105815af3f03e
+  convertJpgDirToBMP 6c5bbb4d66b0ae73fa5cdef9616ffc96
+  removeWithExtentionAt 12b7069d3be7962ff06dcf7234a1f7eb
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Core ade151d57a59de843a656cd17ffb5f7a
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Internal.Http.Types 217e424b4c6eb998dfa43647e2b8f9cb
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Internal.Routing 77c842cca367d543f02f8a3de04310d9
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Internal.Types 899a7bc3c322b44b00a8fdb75d03b0e2
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Util.FileServe 2cdc128b1db1b7b4bf5d35dd34c12763
+import  -/  snap-core-0.9.8.0@snapc_HwGHD3fbufF3Axa9XY8Ven:Snap.Util.FileUploads 3f92695a4600e4fcc853fdb8ad773cf5
+import  -/  snap-server-0.9.5.1@snaps_Lstr6KNnUnlLmRmKI2su8G:Snap.Http.Server 342c1db4d1d399a4d5b6af7c3a703d44
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text a305d268b7ef3fbd1de87bd464ac8e2a
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Encoding dd55773185676aee3ee972ff5aca13b5
+import  -/  transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.IO.Class 9605d683dd45bfe8c9f8bdf894951b7c
+import  -/  utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72:Data.ByteString.UTF8 55c54179642b0ff49f5950703ea2361d
+c868669605d3a00b0d7bc8faab2b976a
+  $smethod1 ::
+    Snap.Internal.Types.SnapState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ eta :: Snap.Internal.Types.SnapState
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# s,
+                    Data.Enumerator.Internal.Yield
+                      @ Data.ByteString.Internal.ByteString
+                      @ GHC.Types.IO
+                      @ (Snap.Internal.Types.SnapResult (),
+                         Snap.Internal.Types.SnapState)
+                      (Snap.Internal.Types.SnapValue @ () GHC.Tuple.(), eta)
+                      (Data.Enumerator.Internal.$c>>=1
+                         @ Data.ByteString.Internal.ByteString) #)) -}
+f6af75a0dd01196a86b2b0ad574f8a10
+  convertHandler :: Snap.Internal.Types.Snap ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.convertHandler1
+                  `cast`
+                (Trans
+                     (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                               <Snap.Internal.Types.SnapState>_N
+                               <Data.Enumerator.Internal.Iteratee
+                                  Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                               <Snap.Internal.Types.SnapResult ()>_N))
+                     (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) -}
+b327bc7d1ab84a3c03535496d3d93662
+  convertHandler1 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Snap.Internal.Types.$fMonadIOSnap1
+                      @ [GHC.IO.FilePath]
+                      Main.convertHandler6
+                        `cast`
+                      (Sym (GHC.Types.NTCo:IO[0] <[GHC.IO.FilePath]>_R))
+                      eta)
+                   Main.convertHandler2
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+74f450f94944fcdb7f4b2fe4f3eeca70
+  convertHandler10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".."#) -}
+8cf09b27ab44f8c3a72dc367d35e3c8a
+  convertHandler11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "."#) -}
+72fa1aa413556e392f79998552a4dcdd
+  convertHandler12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".bmp"#) -}
+dc81a55cfd465b471483577c23a9f18f
+  convertHandler13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "raw"#) -}
+f3e05bdfa2dd92a22fcbc564634f9bfc
+  convertHandler14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "jpg"#) -}
+06da978c0276351be117da69fbe82970
+  convertHandler2 ::
+    (Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            [GHC.IO.FilePath],
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> ((Snap.Internal.Types.writeBS
+                          @ Snap.Internal.Types.Snap
+                          Snap.Internal.Types.$fMonadSnapSnap
+                          (case GHC.ST.runSTRep
+                                  @ Data.Text.Internal.Text
+                                  (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                   case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                                   Main.convertHandler5
+                                     @ s1
+                                     (Data.Text.Array.MArray @ s1 ipv1)
+                                     Main.convertHandler4
+                                     (GHC.Types.:
+                                        @ GHC.Types.Char
+                                        Main.convertHandler3
+                                        (case GHC.List.$wlenAcc
+                                                @ [GHC.Types.Char]
+                                                a74
+                                                0 of ww2 { DEFAULT ->
+                                         case GHC.Show.$wshowSignedInt
+                                                0
+                                                ww2
+                                                (GHC.Types.[]
+                                                   @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                         GHC.Types.: @ GHC.Types.Char ww5 ww6 } }))
+                                     0
+                                     ipv }) of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           Data.Text.Encoding.$wencodeUtf8 ww1 ww2 ww3 }))
+                         `cast`
+                       (Trans
+                            (Snap.Internal.Types.NTCo:Snap[0] <()>_N)
+                            (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                 <Snap.Internal.Types.SnapState>_N
+                                 <Data.Enumerator.Internal.Iteratee
+                                    Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                 <Snap.Internal.Types.SnapResult ()>_N))
+                         s')
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+659eba480507f33183cae208a389b7ed
+  convertHandler3 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# '#') -}
+1bb210ada99158d43ca4b1d32e768d35
+  convertHandler4 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 4) -}
+83094dd4a4f747bcbdb28dbf48854124
+  convertHandler5 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+824aa8b981a1311846bcd9b91ececf3f
+  convertHandler6 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [GHC.IO.FilePath] #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case RawRGB.convertJpgDirToBMP1
+                        Main.convertHandler14
+                        Main.convertHandler13
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case RawRGB.convertBmpDirToTxt1
+                        Main.convertHandler13
+                        Main.convertHandler13
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case RawRGB.removeWithExtentionAt1
+                        Main.convertHandler13
+                        Main.convertHandler12
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case System.Directory.getDirectoryContents1
+                        Main.convertHandler13
+                        ipv4 of ds { (#,#) ipv6 ipv7 ->
+                 (# ipv6,
+                    GHC.List.filter
+                      @ [GHC.Types.Char]
+                      Main.convertHandler7
+                      ipv7 #) } } } }) -}
+7cec1df81d2fd21c0025d083d4296dcb
+  convertHandler7 :: GHC.IO.FilePath -> GHC.Types.Bool
+  {- Arity: 1,
+     Unfolding: (\ ds :: GHC.IO.FilePath ->
+                 case GHC.List.elem
+                        @ GHC.IO.FilePath
+                        GHC.Classes.$fEq[]_$s$fEq[]1
+                        ds
+                        Main.convertHandler8 of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+f70bf6afca157baf34e536a1756da5b0
+  convertHandler8 :: [GHC.IO.FilePath]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.IO.FilePath
+                   Main.convertHandler11
+                   Main.convertHandler9) -}
+1477dde447024658118e530d9bd55ed8
+  convertHandler9 :: [GHC.IO.FilePath]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ GHC.IO.FilePath
+                   Main.convertHandler10
+                   (GHC.Types.[] @ GHC.IO.FilePath)) -}
+a60c2b3638daefc089dbf13869d75028
+  error1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Method Not Allowed"#) -}
+7c2451211241cdbad595c04f2ae45199
+  error2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 405) -}
+1b14f5751a11b22ac02ced5953fd6444
+  error405 :: Snap.Internal.Types.Snap ()
+  {- Unfolding: (Main.genericError Main.error2 Main.error1) -}
+57efac296406de2b0b1911e8e71def91
+  genericError ::
+    GHC.Types.Int -> GHC.Base.String -> Snap.Internal.Types.Snap ()
+  {- Arity: 2, Strictness: <L,U(U)><L,U>,
+     Unfolding: (\ c :: GHC.Types.Int s :: GHC.Base.String ->
+                 let {
+                   a10 :: Snap.Internal.Types.Snap ()
+                   = Snap.Internal.Types.writeText
+                       @ Snap.Internal.Types.Snap
+                       Snap.Internal.Types.$fMonadSnapSnap
+                       (case c of ww2 { GHC.Types.I# ww3 ->
+                        case GHC.Show.$wshowSignedInt
+                               0
+                               ww3
+                               (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                        case GHC.Base.++
+                               @ GHC.Types.Char
+                               (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                               (GHC.CString.unpackAppendCString# " - "# s) of dt { DEFAULT ->
+                        GHC.ST.runSTRep
+                          @ Data.Text.Internal.Text
+                          (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                           case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                           Main.genericError5
+                             @ s1
+                             (Data.Text.Array.MArray @ s1 ipv1)
+                             Main.convertHandler4
+                             dt
+                             0
+                             ipv }) } } })
+                 } in
+                 let {
+                   lvl6 :: (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                           -> GHC.Prim.State# GHC.Prim.RealWorld
+                           -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                 Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState) #)
+                     {- Arity: 2 -}
+                   = \ ds :: (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                       eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case ds of wild { (,) a11 s' ->
+                     case a11 of wild1 {
+                       Snap.Internal.Types.SnapValue a74
+                       -> (Data.Enumerator.Internal.$w$c>>=
+                             @ Data.ByteString.Internal.ByteString
+                             @ GHC.Types.IO
+                             GHC.Base.$fMonadIO
+                             @ (Snap.Internal.Types.SnapResult (),
+                                Snap.Internal.Types.SnapState)
+                             @ (Snap.Internal.Types.SnapResult (),
+                                Snap.Internal.Types.SnapState)
+                             (a10
+                                `cast`
+                              (Trans
+                                   (Snap.Internal.Types.NTCo:Snap[0] <()>_N)
+                                   (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                        <Snap.Internal.Types.SnapState>_N
+                                        <Data.Enumerator.Internal.Iteratee
+                                           Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                        <Snap.Internal.Types.SnapResult ()>_N))
+                                s')
+                             Main.genericError3
+                               `cast`
+                             (<(Snap.Internal.Types.SnapResult (),
+                                Snap.Internal.Types.SnapState)>_R
+                              ->_R Trans
+                                       (Sym (GHC.Types.NTCo:IO[0]
+                                                 <Data.Enumerator.Internal.Step
+                                                    Data.ByteString.Internal.ByteString
+                                                    GHC.Types.IO
+                                                    (Snap.Internal.Types.SnapResult (),
+                                                     Snap.Internal.Types.SnapState)>_R))
+                                       (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                 <Data.ByteString.Internal.ByteString>_N
+                                                 <GHC.Types.IO>_N
+                                                 <(Snap.Internal.Types.SnapResult (),
+                                                   Snap.Internal.Types.SnapState)>_N))))
+                            `cast`
+                          (Trans
+                               (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                    <Data.ByteString.Internal.ByteString>_N
+                                    <GHC.Types.IO>_N
+                                    <(Snap.Internal.Types.SnapResult (),
+                                      Snap.Internal.Types.SnapState)>_N)
+                               (GHC.Types.NTCo:IO[0]
+                                    <Data.Enumerator.Internal.Step
+                                       Data.ByteString.Internal.ByteString
+                                       GHC.Types.IO
+                                       (Snap.Internal.Types.SnapResult (),
+                                        Snap.Internal.Types.SnapState)>_R))
+                            eta
+                       Snap.Internal.Types.PassOnProcessing r
+                       -> (# eta,
+                             Data.Enumerator.Internal.Yield
+                               @ Data.ByteString.Internal.ByteString
+                               @ GHC.Types.IO
+                               @ (Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)
+                               wild
+                               (Data.Enumerator.Internal.$c>>=1
+                                  @ Data.ByteString.Internal.ByteString) #)
+                       Snap.Internal.Types.EarlyTermination r
+                       -> (# eta,
+                             Data.Enumerator.Internal.Yield
+                               @ Data.ByteString.Internal.ByteString
+                               @ GHC.Types.IO
+                               @ (Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)
+                               wild
+                               (Data.Enumerator.Internal.$c>>=1
+                                  @ Data.ByteString.Internal.ByteString) #) } }
+                 } in
+                 let {
+                   a11 :: Data.ByteString.Internal.ByteString
+                   = Data.ByteString.UTF8.fromString s
+                 } in
+                 (\ eta :: Snap.Internal.Types.SnapState ->
+                  Data.Enumerator.Internal.$w$c>>=
+                    @ Data.ByteString.Internal.ByteString
+                    @ GHC.Types.IO
+                    GHC.Base.$fMonadIO
+                    @ (Snap.Internal.Types.SnapResult (),
+                       Snap.Internal.Types.SnapState)
+                    @ (Snap.Internal.Types.SnapResult (),
+                       Snap.Internal.Types.SnapState)
+                    (Data.Enumerator.Internal.$w$c>>=
+                       @ Data.ByteString.Internal.ByteString
+                       @ GHC.Types.IO
+                       GHC.Base.$fMonadIO
+                       @ ((), Snap.Internal.Types.SnapState)
+                       @ (Snap.Internal.Types.SnapResult (),
+                          Snap.Internal.Types.SnapState)
+                       (\ s1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                        (# s1,
+                           Data.Enumerator.Internal.Yield
+                             @ Data.ByteString.Internal.ByteString
+                             @ GHC.Types.IO
+                             @ ((), Snap.Internal.Types.SnapState)
+                             (GHC.Tuple.(),
+                              case eta of wild { Snap.Internal.Types.SnapState ds1 ds2 ds3 ds4 ->
+                              Snap.Internal.Types.SnapState
+                                ds1
+                                (case ds2 of wild1 { Snap.Internal.Http.Types.Response ds7 ds8 dt dt1 ds9 ds10 dt2 dt3 dt4 dt5 dt6 ds5 ds6 ->
+                                 case c of dt7 { GHC.Types.I# dt8 ->
+                                 case a11 of dt9 { Data.ByteString.Internal.PS dt10 dt11 dt12 dt13 ->
+                                 Snap.Internal.Http.Types.Response
+                                   ds7
+                                   ds8
+                                   dt
+                                   dt1
+                                   ds9
+                                   ds10
+                                   dt8
+                                   dt10
+                                   dt11
+                                   dt12
+                                   dt13
+                                   ds5
+                                   ds6 } } })
+                                ds3
+                                ds4 })
+                             (Data.Enumerator.Internal.$c>>=1
+                                @ Data.ByteString.Internal.ByteString) #))
+                         `cast`
+                       (Trans
+                            (Sym (GHC.Types.NTCo:IO[0]
+                                      <Data.Enumerator.Internal.Step
+                                         Data.ByteString.Internal.ByteString
+                                         GHC.Types.IO
+                                         ((), Snap.Internal.Types.SnapState)>_R))
+                            (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                      <Data.ByteString.Internal.ByteString>_N
+                                      <GHC.Types.IO>_N
+                                      <((), Snap.Internal.Types.SnapState)>_N)))
+                       Main.genericError1
+                         `cast`
+                       (<((), Snap.Internal.Types.SnapState)>_R
+                        ->_R Trans
+                                 (Sym (GHC.Types.NTCo:IO[0]
+                                           <Data.Enumerator.Internal.Step
+                                              Data.ByteString.Internal.ByteString
+                                              GHC.Types.IO
+                                              (Snap.Internal.Types.SnapResult (),
+                                               Snap.Internal.Types.SnapState)>_R))
+                                 (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                           <Data.ByteString.Internal.ByteString>_N
+                                           <GHC.Types.IO>_N
+                                           <(Snap.Internal.Types.SnapResult (),
+                                             Snap.Internal.Types.SnapState)>_N))))
+                    lvl6
+                      `cast`
+                    (<(Snap.Internal.Types.SnapResult (),
+                       Snap.Internal.Types.SnapState)>_R
+                     ->_R Trans
+                              (Sym (GHC.Types.NTCo:IO[0]
+                                        <Data.Enumerator.Internal.Step
+                                           Data.ByteString.Internal.ByteString
+                                           GHC.Types.IO
+                                           (Snap.Internal.Types.SnapResult (),
+                                            Snap.Internal.Types.SnapState)>_R))
+                              (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                        <Data.ByteString.Internal.ByteString>_N
+                                        <GHC.Types.IO>_N
+                                        <(Snap.Internal.Types.SnapResult (),
+                                          Snap.Internal.Types.SnapState)>_N))))
+                   `cast`
+                 (Trans
+                      (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                <Snap.Internal.Types.SnapState>_N
+                                <Data.Enumerator.Internal.Iteratee
+                                   Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                <Snap.Internal.Types.SnapResult ()>_N))
+                      (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))) -}
+e1ed25dfc89009ccdbd967ec8415e769
+  genericError1 ::
+    ((), Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (\ ds :: ((), Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta,
+                    Data.Enumerator.Internal.Yield
+                      @ Data.ByteString.Internal.ByteString
+                      @ GHC.Types.IO
+                      @ (Snap.Internal.Types.SnapResult (),
+                         Snap.Internal.Types.SnapState)
+                      (Main.genericError2, case ds of wild { (,) a10 s' -> s' })
+                      (Data.Enumerator.Internal.$c>>=1
+                         @ Data.ByteString.Internal.ByteString) #)) -}
+ffb659667867bd92ab5c45fa3fc3079d
+  genericError2 :: Snap.Internal.Types.SnapResult ()
+  {- HasNoCafRefs,
+     Unfolding: (Snap.Internal.Types.SnapValue @ () GHC.Tuple.()) -}
+c68911659b49112049f7b5b091666872
+  genericError3 ::
+    (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult (),
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Data.Enumerator.Internal.$w$c>>=
+                         @ Data.ByteString.Internal.ByteString
+                         @ GHC.Types.IO
+                         GHC.Base.$fMonadIO
+                         @ (Snap.Internal.Types.SnapResult
+                              Snap.Internal.Http.Types.Response,
+                            Snap.Internal.Types.SnapState)
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         (Snap.Internal.Types.$fAlternativeSnap5
+                            @ Snap.Internal.Types.SnapState
+                            @ Snap.Internal.Http.Types.Response
+                            Snap.Internal.Types._snapResponse
+                            Snap.Internal.Types.sget
+                            s')
+                         Main.genericError4
+                           `cast`
+                         (<(Snap.Internal.Types.SnapResult
+                              Snap.Internal.Http.Types.Response,
+                            Snap.Internal.Types.SnapState)>_R
+                          ->_R Trans
+                                   (Sym (GHC.Types.NTCo:IO[0]
+                                             <Data.Enumerator.Internal.Step
+                                                Data.ByteString.Internal.ByteString
+                                                GHC.Types.IO
+                                                (Snap.Internal.Types.SnapResult (),
+                                                 Snap.Internal.Types.SnapState)>_R))
+                                   (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                             <Data.ByteString.Internal.ByteString>_N
+                                             <GHC.Types.IO>_N
+                                             <(Snap.Internal.Types.SnapResult (),
+                                               Snap.Internal.Types.SnapState)>_N))))
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+5e5f17cb42d0e202ba450fa9ee638028
+  genericError4 ::
+    (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Response,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Snap.Internal.Http.Types.Response,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () a74, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+f441d966c8563d01dc13c6a408dedf97
+  genericError5 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+5bd713d305cb004b379c36a9c12953fd
+  homeHandler :: Snap.Internal.Types.Snap ()
+  {- Unfolding: (Snap.Internal.Types.writeBS
+                   @ Snap.Internal.Types.Snap
+                   Snap.Internal.Types.$fMonadSnapSnap
+                   Main.homeHandler1) -}
+5f7cbfd2c856e1674ec99f09f61b754a
+  homeHandler1 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "#This is my first Snap Server!"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+e8275949b8d3c7174d6bfd6ab82a2c47
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+aac52840da88d930aaa96c7353eacdf1
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Snap.Http.Server.quickHttpServe1
+                   Main.main2
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                  <Snap.Internal.Types.SnapState>_N
+                                  <Data.Enumerator.Internal.Iteratee
+                                     Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                  <Snap.Internal.Types.SnapResult ()>_N))
+                        (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))) -}
+80f5aba896fb99fc5b2ab604e72ca19b
+  main10 :: Data.ByteString.Internal.ByteString -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (\ x :: Data.ByteString.Internal.ByteString ->
+                 case x of wild { Data.ByteString.Internal.PS dt dt1 dt2 dt3 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.<=# dt3 0) of wild1 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False } }) -}
+b52ac8da50e8b4fff4007a251f45e13e
+  main11 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 0) -}
+574c3a14bac0d19720b466855bb83bd4
+  main12 :: GHC.Prim.Word# -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ c# :: GHC.Prim.Word# ->
+                 case c# of wild {
+                   DEFAULT -> GHC.Types.False __word 47 -> GHC.Types.True }) -}
+69b1c315c886c2b2af4f1de5d169c61f
+  main13 :: Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "upload"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 case GHC.Prim.word2Int# ds4 of ds2 {
+                   DEFAULT
+                   -> let {
+                        dt1 :: GHC.ForeignPtr.ForeignPtrContents
+                        = GHC.ForeignPtr.PlainForeignPtr ipv1
+                      } in
+                      let {
+                        lvl6 :: GHC.Ptr.Ptr GHC.Word.Word8 = GHC.Ptr.Ptr @ GHC.Word.Word8 s
+                      } in
+                      letrec {
+                        $wa1 :: (GHC.Prim.Word# -> GHC.Types.Bool)
+                                -> GHC.Ptr.Ptr GHC.Word.Word8
+                                -> GHC.Prim.Int#
+                                -> GHC.Types.Int
+                                -> GHC.Prim.Int#
+                                -> GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                                -> GHC.Prim.State# GHC.Prim.RealWorld
+                                -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                      [Data.ByteString.Internal.ByteString] #)
+                          {- Arity: 7,
+                             Strictness: <L,U><L,1*U(U)><L,U><L,1*U(U)><L,U><L,U(U,U)><L,U>,
+                             Inline: [0] -}
+                        = \ w :: GHC.Prim.Word# -> GHC.Types.Bool
+                            w1 :: GHC.Ptr.Ptr GHC.Word.Word8
+                            ww :: GHC.Prim.Int#
+                            w2 :: GHC.Types.Int
+                            ww1 :: GHC.Prim.Int#
+                            w3 :: GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                            w4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.>=# ww ww1) of wild4 {
+                            GHC.Types.False
+                            -> case w1 of wild1 { GHC.Ptr.Ptr a10 ->
+                               case w2 of wild2 { GHC.Types.I# x ->
+                               case GHC.Prim.readWord8OffAddr#
+                                      @ GHC.Prim.RealWorld
+                                      a10
+                                      (GHC.Prim.+# x ww)
+                                      w4 of ds7 { (#,#) ipv2 ipv3 ->
+                               case w ipv3 of wild6 {
+                                 GHC.Types.False
+                                 -> $wa1 w wild1 (GHC.Prim.+# ww 1) wild2 ww1 w3 ipv2
+                                 GHC.Types.True
+                                 -> (# ipv2,
+                                       GHC.Types.:
+                                         @ Data.ByteString.Internal.ByteString
+                                         (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                          Data.ByteString.Internal.PS dt5 dt6 x ww })
+                                         (case w3 of ww2 { GHC.ForeignPtr.ForeignPtr ww3 ww4 ->
+                                          case w of pred'1 { DEFAULT ->
+                                          case $wa1
+                                                 pred'1
+                                                 lvl6
+                                                 0
+                                                 (GHC.Types.I# (GHC.Prim.+# (GHC.Prim.+# x ww) 1))
+                                                 (GHC.Prim.-# (GHC.Prim.-# ww1 ww) 1)
+                                                 ww2
+                                                 GHC.Prim.realWorld# of ds8 { (#,#) ipv4 ipv5 ->
+                                          case GHC.Prim.touch#
+                                                 @ GHC.ForeignPtr.ForeignPtrContents
+                                                 dt1
+                                                 ipv4 of s' { DEFAULT ->
+                                          ipv5 } } } }) #) } } } }
+                            GHC.Types.True
+                            -> (# w4,
+                                  GHC.Types.:
+                                    @ Data.ByteString.Internal.ByteString
+                                    (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                     case w2 of dt7 { GHC.Types.I# dt8 ->
+                                     Data.ByteString.Internal.PS dt5 dt6 dt8 ww } })
+                                    (GHC.Types.[] @ Data.ByteString.Internal.ByteString) #) }
+                      } in
+                      case $wa1
+                             Main.main12
+                             lvl6
+                             0
+                             Main.main11
+                             ds2
+                             (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 s dt1)
+                             GHC.Prim.realWorld# of ds7 { (#,#) ipv2 ipv3 ->
+                      case GHC.Prim.touch#
+                             @ GHC.ForeignPtr.ForeignPtrContents
+                             dt1
+                             ipv2 of s' { DEFAULT ->
+                      Main.main_go1
+                        (GHC.List.filter
+                           @ Data.ByteString.Internal.ByteString
+                           Main.main10
+                           ipv3) } }
+                   0 -> Main.main_go1 Main.main9 } } }) -}
+0519837457134856f56a752f811f5507
+  main14 :: Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "picCount"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 case GHC.Prim.word2Int# ds4 of ds2 {
+                   DEFAULT
+                   -> let {
+                        dt1 :: GHC.ForeignPtr.ForeignPtrContents
+                        = GHC.ForeignPtr.PlainForeignPtr ipv1
+                      } in
+                      let {
+                        lvl6 :: GHC.Ptr.Ptr GHC.Word.Word8 = GHC.Ptr.Ptr @ GHC.Word.Word8 s
+                      } in
+                      letrec {
+                        $wa1 :: (GHC.Prim.Word# -> GHC.Types.Bool)
+                                -> GHC.Ptr.Ptr GHC.Word.Word8
+                                -> GHC.Prim.Int#
+                                -> GHC.Types.Int
+                                -> GHC.Prim.Int#
+                                -> GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                                -> GHC.Prim.State# GHC.Prim.RealWorld
+                                -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                      [Data.ByteString.Internal.ByteString] #)
+                          {- Arity: 7,
+                             Strictness: <L,U><L,1*U(U)><L,U><L,1*U(U)><L,U><L,U(U,U)><L,U>,
+                             Inline: [0] -}
+                        = \ w :: GHC.Prim.Word# -> GHC.Types.Bool
+                            w1 :: GHC.Ptr.Ptr GHC.Word.Word8
+                            ww :: GHC.Prim.Int#
+                            w2 :: GHC.Types.Int
+                            ww1 :: GHC.Prim.Int#
+                            w3 :: GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                            w4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.>=# ww ww1) of wild4 {
+                            GHC.Types.False
+                            -> case w1 of wild1 { GHC.Ptr.Ptr a10 ->
+                               case w2 of wild2 { GHC.Types.I# x ->
+                               case GHC.Prim.readWord8OffAddr#
+                                      @ GHC.Prim.RealWorld
+                                      a10
+                                      (GHC.Prim.+# x ww)
+                                      w4 of ds7 { (#,#) ipv2 ipv3 ->
+                               case w ipv3 of wild6 {
+                                 GHC.Types.False
+                                 -> $wa1 w wild1 (GHC.Prim.+# ww 1) wild2 ww1 w3 ipv2
+                                 GHC.Types.True
+                                 -> (# ipv2,
+                                       GHC.Types.:
+                                         @ Data.ByteString.Internal.ByteString
+                                         (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                          Data.ByteString.Internal.PS dt5 dt6 x ww })
+                                         (case w3 of ww2 { GHC.ForeignPtr.ForeignPtr ww3 ww4 ->
+                                          case w of pred'1 { DEFAULT ->
+                                          case $wa1
+                                                 pred'1
+                                                 lvl6
+                                                 0
+                                                 (GHC.Types.I# (GHC.Prim.+# (GHC.Prim.+# x ww) 1))
+                                                 (GHC.Prim.-# (GHC.Prim.-# ww1 ww) 1)
+                                                 ww2
+                                                 GHC.Prim.realWorld# of ds8 { (#,#) ipv4 ipv5 ->
+                                          case GHC.Prim.touch#
+                                                 @ GHC.ForeignPtr.ForeignPtrContents
+                                                 dt1
+                                                 ipv4 of s' { DEFAULT ->
+                                          ipv5 } } } }) #) } } } }
+                            GHC.Types.True
+                            -> (# w4,
+                                  GHC.Types.:
+                                    @ Data.ByteString.Internal.ByteString
+                                    (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                     case w2 of dt7 { GHC.Types.I# dt8 ->
+                                     Data.ByteString.Internal.PS dt5 dt6 dt8 ww } })
+                                    (GHC.Types.[] @ Data.ByteString.Internal.ByteString) #) }
+                      } in
+                      case $wa1
+                             Main.main12
+                             lvl6
+                             0
+                             Main.main11
+                             ds2
+                             (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 s dt1)
+                             GHC.Prim.realWorld# of ds7 { (#,#) ipv2 ipv3 ->
+                      case GHC.Prim.touch#
+                             @ GHC.ForeignPtr.ForeignPtrContents
+                             dt1
+                             ipv2 of s' { DEFAULT ->
+                      Main.main_go2
+                        (GHC.List.filter
+                           @ Data.ByteString.Internal.ByteString
+                           Main.main10
+                           ipv3) } }
+                   0 -> Main.main_go2 Main.main9 } } }) -}
+ede0af488d9dd4bc501b6d0a485f09bf
+  main15 ::
+    Snap.Internal.Types.SnapState
+    -> Data.ByteString.Internal.ByteString
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(LLLLLLLLLLSSLLLLLLLLLLLLLLLLLLLLL)LLL),1*U(1*U(A,A,A,A,A,A,A,A,A,A,1*H,1*H,A,A,U,U,U,U,A,A,A,A,A,A,A,A,A,A,A,A,A,A,A),A,A,A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Snap.Internal.Types.SnapState ->
+                 case x of wild { Snap.Internal.Types.SnapState ds2 ds3 ds4 ds5 ->
+                 case ds2 of wild1 { Snap.Internal.Http.Types.Request ds1 dt ds8 ds9 ds10 ds6 ds7 ds11 ds12 dt1 ds13 ds14 ds15 ds16 dt2 dt3 dt4 dt5 dt6 dt7 dt8 dt9 dt10 dt11 dt12 dt13 dt14 dt15 dt16 dt17 ds17 ds18 ds19 ->
+                 Data.ByteString.Internal.PS dt2 dt3 dt4 dt5 } }) -}
+39229f3e0b564db2da827da22bbd85b9
+  main16 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1,
+     Unfolding: (Snap.Internal.Types.$fAlternativeSnap4
+                   @ ()
+                   Main.main24
+                   Main.main17) -}
+ac116b24ee1432797e0d3863b3f97ce0
+  main17 :: Snap.Internal.Types.Snap ()
+  {- Unfolding: (Snap.Internal.Types.pathWith
+                   @ Snap.Internal.Types.Snap
+                   @ ()
+                   Snap.Internal.Types.$fMonadSnapSnap
+                   Main.main23
+                   Main.main22
+                   Main.main18) -}
+4762ecda0091edea668101e9dbb3cc86
+  main18 :: Snap.Internal.Types.Snap ()
+  {- Unfolding: (Snap.Util.FileServe.serveDirectoryWith
+                   @ Snap.Internal.Types.Snap
+                   Snap.Internal.Types.$fMonadSnapSnap
+                   Main.main19
+                   Main.convertHandler11) -}
+a5b607c4aa9b0b9a1c553331c9aca55d
+  main19 ::
+    Snap.Util.FileServe.DirectoryConfig Snap.Internal.Types.Snap
+  {- Strictness: m,
+     Unfolding: (Snap.Util.FileServe.DirectoryConfig
+                   @ Snap.Internal.Types.Snap
+                   Snap.Util.FileServe.defaultDirectoryConfig1
+                   Main.main21
+                     `cast`
+                   (<GHC.IO.FilePath>_R
+                    ->_R Trans
+                             (<Snap.Internal.Types.SnapState>_R
+                              ->_R Trans
+                                       (Sym (GHC.Types.NTCo:IO[0]
+                                                 <Data.Enumerator.Internal.Step
+                                                    Data.ByteString.Internal.ByteString
+                                                    GHC.Types.IO
+                                                    (Snap.Internal.Types.SnapResult (),
+                                                     Snap.Internal.Types.SnapState)>_R))
+                                       (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                 <Data.ByteString.Internal.ByteString>_N
+                                                 <GHC.Types.IO>_N
+                                                 <(Snap.Internal.Types.SnapResult (),
+                                                   Snap.Internal.Types.SnapState)>_N)))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                            <Snap.Internal.Types.SnapState>_N
+                                            <Data.Enumerator.Internal.Iteratee
+                                               Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                            <Snap.Internal.Types.SnapResult ()>_N))
+                                  (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))))
+                   (Data.HashMap.Base.Empty
+                      @ GHC.IO.FilePath
+                      @ (GHC.IO.FilePath -> Snap.Internal.Types.Snap ()))
+                   Snap.Util.FileServe.defaultMimeTypes
+                   Main.main20
+                     `cast`
+                   (<GHC.IO.FilePath>_R
+                    ->_R Trans
+                             (<Snap.Internal.Types.SnapState>_R
+                              ->_R Trans
+                                       (Sym (GHC.Types.NTCo:IO[0]
+                                                 <Data.Enumerator.Internal.Step
+                                                    Data.ByteString.Internal.ByteString
+                                                    GHC.Types.IO
+                                                    (Snap.Internal.Types.SnapResult (),
+                                                     Snap.Internal.Types.SnapState)>_R))
+                                       (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                 <Data.ByteString.Internal.ByteString>_N
+                                                 <GHC.Types.IO>_N
+                                                 <(Snap.Internal.Types.SnapResult (),
+                                                   Snap.Internal.Types.SnapState)>_N)))
+                             (Trans
+                                  (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                            <Snap.Internal.Types.SnapState>_N
+                                            <Data.Enumerator.Internal.Iteratee
+                                               Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                            <Snap.Internal.Types.SnapResult ()>_N))
+                                  (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))))) -}
+eefa693e194025910f09aa9a8102b82a
+  main2 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1,
+     Unfolding: (Snap.Internal.Types.$fAlternativeSnap4
+                   @ ()
+                   Main.main16
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                  <Snap.Internal.Types.SnapState>_N
+                                  <Data.Enumerator.Internal.Iteratee
+                                     Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                  <Snap.Internal.Types.SnapResult ()>_N))
+                        (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))
+                   Main.main3
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                  <Snap.Internal.Types.SnapState>_N
+                                  <Data.Enumerator.Internal.Iteratee
+                                     Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                  <Snap.Internal.Types.SnapResult ()>_N))
+                        (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))) -}
+97eb4878b8ac4ec1ba790a6cd2e26cba
+  main20 ::
+    GHC.IO.FilePath
+    -> Snap.Internal.Types.SnapState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ ds1 :: GHC.IO.FilePath
+                   eta :: Snap.Internal.Types.SnapState
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta1,
+                    Data.Enumerator.Internal.Yield
+                      @ Data.ByteString.Internal.ByteString
+                      @ GHC.Types.IO
+                      @ (Snap.Internal.Types.SnapResult (),
+                         Snap.Internal.Types.SnapState)
+                      (Snap.Internal.Types.SnapValue @ () GHC.Tuple.(), eta)
+                      (Data.Enumerator.Internal.$c>>=1
+                         @ Data.ByteString.Internal.ByteString) #)) -}
+878e8fe36caa62a57d4dde0bc9066746
+  main21 ::
+    GHC.IO.FilePath
+    -> Snap.Internal.Types.SnapState
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,A><L,U><L,U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ ds1 :: GHC.IO.FilePath
+                   eta :: Snap.Internal.Types.SnapState
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Snap.Internal.Types.$fAlternativeSnap7 @ () eta eta1) -}
+5fd2dbc919f7562eaa8c969c8172ddc1
+  main22 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "static"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+ac390526ee46c24ebc22ffb7557ce044
+  main23 ::
+    Data.ByteString.Internal.ByteString
+    -> Data.ByteString.Internal.ByteString -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (\ dr :: Data.ByteString.Internal.ByteString
+                   pinfo :: Data.ByteString.Internal.ByteString[OneShot] ->
+                 case dr of wild { Data.ByteString.Internal.PS dt dt1 dt2 dt3 ->
+                 case pinfo of wild1 { Data.ByteString.Internal.PS dt4 dt5 dt6 dt7 ->
+                 let {
+                   l :: GHC.Types.Int {- Strictness: m -} = GHC.Types.I# dt7
+                 } in
+                 letrec {
+                   $wa1 :: GHC.Prim.Addr#
+                           -> GHC.Prim.Int#
+                           -> GHC.Prim.State# GHC.Prim.RealWorld
+                           -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Types.Int #)
+                     {- Arity: 3, Strictness: <L,U><L,U><L,U>, Inline: [0] -}
+                   = \ ww :: GHC.Prim.Addr#
+                       ww1 :: GHC.Prim.Int#
+                       w :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case GHC.Prim.tagToEnum#
+                            @ GHC.Types.Bool
+                            (GHC.Prim.>=# ww1 dt7) of wild2 {
+                       GHC.Types.False
+                       -> case GHC.Prim.readWord8OffAddr#
+                                 @ GHC.Prim.RealWorld
+                                 ww
+                                 0
+                                 w of ds2 { (#,#) ipv2 ipv3 ->
+                          case GHC.Prim.chr# (GHC.Prim.word2Int# ipv3) of wild3 {
+                            DEFAULT -> $wa1 (GHC.Prim.plusAddr# ww 1) (GHC.Prim.+# ww1 1) ipv2
+                            '/' -> (# ipv2, GHC.Types.I# ww1 #) } }
+                       GHC.Types.True -> (# w, l #) }
+                 } in
+                 case $wa1
+                        (GHC.Prim.plusAddr# dt4 dt6)
+                        0
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.Prim.touch#
+                        @ GHC.ForeignPtr.ForeignPtrContents
+                        dt5
+                        ipv of s' { DEFAULT ->
+                 case ipv1 of dt8 { GHC.Types.I# dt9 ->
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim./=# dt3 dt9) of wild3 {
+                   GHC.Types.False
+                   -> case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.eqAddr# dt dt4) of wild2 {
+                        GHC.Types.False
+                        -> case Data.ByteString.Internal.$wcompareBytes
+                                  dt
+                                  dt1
+                                  dt2
+                                  dt3
+                                  dt4
+                                  dt5
+                                  dt6
+                                  dt9 of wild4 {
+                             DEFAULT -> GHC.Types.False GHC.Types.EQ -> GHC.Types.True }
+                        GHC.Types.True
+                        -> case GHC.Prim.tagToEnum#
+                                  @ GHC.Types.Bool
+                                  (GHC.Prim.==# dt2 dt6) of wild4 {
+                             GHC.Types.False
+                             -> case Data.ByteString.Internal.$wcompareBytes
+                                       dt
+                                       dt1
+                                       dt2
+                                       dt3
+                                       dt4
+                                       dt5
+                                       dt6
+                                       dt9 of wild6 {
+                                  DEFAULT -> GHC.Types.False GHC.Types.EQ -> GHC.Types.True }
+                             GHC.Types.True -> GHC.Types.True } }
+                   GHC.Types.True -> GHC.Types.False } } } } } }) -}
+18343b0d68de990e22e0a8ce513d2d00
+  main24 :: Snap.Internal.Types.Snap ()
+  {- Unfolding: (Snap.Internal.Types.pathWith
+                   @ Snap.Internal.Types.Snap
+                   @ ()
+                   Snap.Internal.Types.$fMonadSnapSnap
+                   Data.ByteString.Internal.eq
+                   Main.main_eta
+                   Main.main25
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                  <Snap.Internal.Types.SnapState>_N
+                                  <Data.Enumerator.Internal.Iteratee
+                                     Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                  <Snap.Internal.Types.SnapResult ()>_N))
+                        (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))) -}
+c7e76d1b2e5aa7cddd6573b0117f06e0
+  main25 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Snap.Internal.Types.$fAlternativeSnap5
+                      @ Snap.Internal.Types.SnapState
+                      @ Snap.Internal.Http.Types.Request
+                      Snap.Internal.Types._snapRequest
+                      Snap.Internal.Types.sget
+                      eta)
+                   Main.main26
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+4c7816ea718da6dd1ece969dbe5d9086
+  main26 ::
+    (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Snap.Internal.Http.Types.Request,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Data.Enumerator.Internal.$w$c>>=
+                         @ Data.ByteString.Internal.ByteString
+                         @ GHC.Types.IO
+                         GHC.Base.$fMonadIO
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         (case Snap.Internal.Http.Types.$c==
+                                 (Snap.Internal.Http.Types.rqMethod a74)
+                                 Snap.Internal.Http.Types.GET of wild2 {
+                            GHC.Types.False
+                            -> (Snap.Internal.Types.$fAlternativeSnap7 @ () s')
+                                 `cast`
+                               (Trans
+                                    (Sym (GHC.Types.NTCo:IO[0]
+                                              <Data.Enumerator.Internal.Step
+                                                 Data.ByteString.Internal.ByteString
+                                                 GHC.Types.IO
+                                                 (Snap.Internal.Types.SnapResult (),
+                                                  Snap.Internal.Types.SnapState)>_R))
+                                    (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                              <Data.ByteString.Internal.ByteString>_N
+                                              <GHC.Types.IO>_N
+                                              <(Snap.Internal.Types.SnapResult (),
+                                                Snap.Internal.Types.SnapState)>_N)))
+                            GHC.Types.True
+                            -> (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                (# s,
+                                   Data.Enumerator.Internal.Yield
+                                     @ Data.ByteString.Internal.ByteString
+                                     @ GHC.Types.IO
+                                     @ (Snap.Internal.Types.SnapResult (),
+                                        Snap.Internal.Types.SnapState)
+                                     (Main.genericError2, s')
+                                     (Data.Enumerator.Internal.$c>>=1
+                                        @ Data.ByteString.Internal.ByteString) #))
+                                 `cast`
+                               (Trans
+                                    (Sym (GHC.Types.NTCo:IO[0]
+                                              <Data.Enumerator.Internal.Step
+                                                 Data.ByteString.Internal.ByteString
+                                                 GHC.Types.IO
+                                                 (Snap.Internal.Types.SnapResult (),
+                                                  Snap.Internal.Types.SnapState)>_R))
+                                    (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                              <Data.ByteString.Internal.ByteString>_N
+                                              <GHC.Types.IO>_N
+                                              <(Snap.Internal.Types.SnapResult (),
+                                                Snap.Internal.Types.SnapState)>_N))) })
+                         Main.main27
+                           `cast`
+                         (<(Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)>_R
+                          ->_R Trans
+                                   (Sym (GHC.Types.NTCo:IO[0]
+                                             <Data.Enumerator.Internal.Step
+                                                Data.ByteString.Internal.ByteString
+                                                GHC.Types.IO
+                                                (Snap.Internal.Types.SnapResult (),
+                                                 Snap.Internal.Types.SnapState)>_R))
+                                   (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                             <Data.ByteString.Internal.ByteString>_N
+                                             <GHC.Types.IO>_N
+                                             <(Snap.Internal.Types.SnapResult (),
+                                               Snap.Internal.Types.SnapState)>_N))))
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+854c297e3b59e112abc7f34e24070263
+  main27 ::
+    (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult (),
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Main.homeHandler
+                         `cast`
+                       (Trans
+                            (Snap.Internal.Types.NTCo:Snap[0] <()>_N)
+                            (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                 <Snap.Internal.Types.SnapState>_N
+                                 <Data.Enumerator.Internal.Iteratee
+                                    Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                 <Snap.Internal.Types.SnapResult ()>_N))
+                         s')
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+938283536bb23c1d0ec711f1969a2da0
+  main28 :: GHC.Types.Int
+  {- Unfolding: (case GHC.List.$wlenAcc
+                        @ GHC.Types.Char
+                        (GHC.Types.[] @ GHC.Types.Char)
+                        0 of ww2 { DEFAULT ->
+                 GHC.Types.I# ww2 }) -}
+d9e4a7aa585ed52bc7b0996dafff1ddf
+  main29 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+942904cf04bbe43ac0ed48c357812015
+  main3 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult
+                        Data.ByteString.Internal.ByteString,
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Snap.Internal.Types.$fAlternativeSnap5
+                      @ Snap.Internal.Types.SnapState
+                      @ Data.ByteString.Internal.ByteString
+                      Main.main15
+                      Snap.Internal.Types.sget
+                      eta)
+                   Main.main4
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult
+                        Data.ByteString.Internal.ByteString,
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+031a00c0cbe498a0492e27a66afd0fd6
+  main4 ::
+    (Snap.Internal.Types.SnapResult
+       Data.ByteString.Internal.ByteString,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Data.ByteString.Internal.ByteString,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> ((Snap.Internal.Routing.route'
+                          @ Snap.Internal.Types.Snap
+                          @ ()
+                          Snap.Internal.Types.$fMonadSnapSnap
+                          Main.$smethod1
+                            `cast`
+                          (Trans
+                               (<Snap.Internal.Types.SnapState>_R
+                                ->_R Trans
+                                         (Sym (GHC.Types.NTCo:IO[0]
+                                                   <Data.Enumerator.Internal.Step
+                                                      Data.ByteString.Internal.ByteString
+                                                      GHC.Types.IO
+                                                      (Snap.Internal.Types.SnapResult (),
+                                                       Snap.Internal.Types.SnapState)>_R))
+                                         (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                   <Data.ByteString.Internal.ByteString>_N
+                                                   <GHC.Types.IO>_N
+                                                   <(Snap.Internal.Types.SnapResult (),
+                                                     Snap.Internal.Types.SnapState)>_N)))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                              <Snap.Internal.Types.SnapState>_N
+                                              <Data.Enumerator.Internal.Iteratee
+                                                 Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                              <Snap.Internal.Types.SnapResult ()>_N))
+                                    (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))))
+                          (GHC.Types.[] @ Data.ByteString.Internal.ByteString)
+                          (case a74 of wild2 { Data.ByteString.Internal.PS dt dt1 dt2 dt3 ->
+                           case dt3 of ds1 {
+                             DEFAULT
+                             -> let {
+                                  lvl6 :: GHC.Ptr.Ptr GHC.Word.Word8
+                                  = GHC.Ptr.Ptr @ GHC.Word.Word8 dt
+                                } in
+                                letrec {
+                                  $wa1 :: (GHC.Prim.Word# -> GHC.Types.Bool)
+                                          -> GHC.Ptr.Ptr GHC.Word.Word8
+                                          -> GHC.Prim.Int#
+                                          -> GHC.Types.Int
+                                          -> GHC.Prim.Int#
+                                          -> GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                                          -> GHC.Prim.State# GHC.Prim.RealWorld
+                                          -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                                [Data.ByteString.Internal.ByteString] #)
+                                    {- Arity: 7,
+                                       Strictness: <L,U><L,1*U(U)><L,U><L,1*U(U)><L,U><L,U(U,U)><L,U>,
+                                       Inline: [0] -}
+                                  = \ w :: GHC.Prim.Word# -> GHC.Types.Bool
+                                      w1 :: GHC.Ptr.Ptr GHC.Word.Word8
+                                      ww :: GHC.Prim.Int#
+                                      w2 :: GHC.Types.Int
+                                      ww1 :: GHC.Prim.Int#
+                                      w3 :: GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                                      w4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                    case GHC.Prim.tagToEnum#
+                                           @ GHC.Types.Bool
+                                           (GHC.Prim.>=# ww ww1) of wild3 {
+                                      GHC.Types.False
+                                      -> case w1 of wild4 { GHC.Ptr.Ptr a11 ->
+                                         case w2 of wild5 { GHC.Types.I# x ->
+                                         case GHC.Prim.readWord8OffAddr#
+                                                @ GHC.Prim.RealWorld
+                                                a11
+                                                (GHC.Prim.+# x ww)
+                                                w4 of ds2 { (#,#) ipv ipv1 ->
+                                         case w ipv1 of wild6 {
+                                           GHC.Types.False
+                                           -> $wa1 w wild4 (GHC.Prim.+# ww 1) wild5 ww1 w3 ipv
+                                           GHC.Types.True
+                                           -> (# ipv,
+                                                 GHC.Types.:
+                                                   @ Data.ByteString.Internal.ByteString
+                                                   (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                                    Data.ByteString.Internal.PS dt5 dt6 x ww })
+                                                   (case w3 of ww2 { GHC.ForeignPtr.ForeignPtr ww3 ww4 ->
+                                                    case w of pred'1 { DEFAULT ->
+                                                    case $wa1
+                                                           pred'1
+                                                           lvl6
+                                                           0
+                                                           (GHC.Types.I#
+                                                              (GHC.Prim.+# (GHC.Prim.+# x ww) 1))
+                                                           (GHC.Prim.-# (GHC.Prim.-# ww1 ww) 1)
+                                                           ww2
+                                                           GHC.Prim.realWorld# of ds4 { (#,#) ipv2 ipv3 ->
+                                                    case GHC.Prim.touch#
+                                                           @ GHC.ForeignPtr.ForeignPtrContents
+                                                           dt1
+                                                           ipv2 of s'1 { DEFAULT ->
+                                                    ipv3 } } } }) #) } } } }
+                                      GHC.Types.True
+                                      -> (# w4,
+                                            GHC.Types.:
+                                              @ Data.ByteString.Internal.ByteString
+                                              (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                               case w2 of dt7 { GHC.Types.I# dt8 ->
+                                               Data.ByteString.Internal.PS dt5 dt6 dt8 ww } })
+                                              (GHC.Types.[]
+                                                 @ Data.ByteString.Internal.ByteString) #) }
+                                } in
+                                case $wa1
+                                       Main.main12
+                                       lvl6
+                                       0
+                                       (GHC.Types.I# dt2)
+                                       ds1
+                                       (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 dt dt1)
+                                       GHC.Prim.realWorld# of ds2 { (#,#) ipv ipv1 ->
+                                case GHC.Prim.touch#
+                                       @ GHC.ForeignPtr.ForeignPtrContents
+                                       dt1
+                                       ipv of s'1 { DEFAULT ->
+                                ipv1 } }
+                             0 -> GHC.Types.[] @ Data.ByteString.Internal.ByteString } })
+                          (Data.Map.Base.Tip
+                             @ Data.ByteString.Internal.ByteString
+                             @ [Data.ByteString.Internal.ByteString])
+                          Main.main_rts')
+                         `cast`
+                       (Trans
+                            (Snap.Internal.Types.NTCo:Snap[0] <()>_N)
+                            (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                 <Snap.Internal.Types.SnapState>_N
+                                 <Data.Enumerator.Internal.Iteratee
+                                    Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                 <Snap.Internal.Types.SnapResult ()>_N))
+                         s')
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+ce58fabd2ff64d794d3580f495486cd2
+  main5 :: [Snap.Internal.Routing.Route () Snap.Internal.Types.Snap]
+  {- Unfolding: (GHC.Types.:
+                   @ (Snap.Internal.Routing.Route () Snap.Internal.Types.Snap)
+                   Main.main14
+                   Main.main6) -}
+7e278482f91262ab5b7bcc15301a5857
+  main6 :: [Snap.Internal.Routing.Route () Snap.Internal.Types.Snap]
+  {- Unfolding: (GHC.Types.:
+                   @ (Snap.Internal.Routing.Route () Snap.Internal.Types.Snap)
+                   Main.main13
+                   Main.main7) -}
+2c4dcc7be35306513c44aca6e38e9a6c
+  main7 :: [Snap.Internal.Routing.Route () Snap.Internal.Types.Snap]
+  {- Unfolding: (GHC.Types.:
+                   @ (Snap.Internal.Routing.Route () Snap.Internal.Types.Snap)
+                   Main.main8
+                   (GHC.Types.[]
+                      @ (Snap.Internal.Routing.Route () Snap.Internal.Types.Snap))) -}
+b0dcb6490710fa283aae6300b97718f5
+  main8 :: Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "convert"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 case GHC.Prim.word2Int# ds4 of ds2 {
+                   DEFAULT
+                   -> let {
+                        dt1 :: GHC.ForeignPtr.ForeignPtrContents
+                        = GHC.ForeignPtr.PlainForeignPtr ipv1
+                      } in
+                      let {
+                        lvl6 :: GHC.Ptr.Ptr GHC.Word.Word8 = GHC.Ptr.Ptr @ GHC.Word.Word8 s
+                      } in
+                      letrec {
+                        $wa1 :: (GHC.Prim.Word# -> GHC.Types.Bool)
+                                -> GHC.Ptr.Ptr GHC.Word.Word8
+                                -> GHC.Prim.Int#
+                                -> GHC.Types.Int
+                                -> GHC.Prim.Int#
+                                -> GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                                -> GHC.Prim.State# GHC.Prim.RealWorld
+                                -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+                                      [Data.ByteString.Internal.ByteString] #)
+                          {- Arity: 7,
+                             Strictness: <L,U><L,1*U(U)><L,U><L,1*U(U)><L,U><L,U(U,U)><L,U>,
+                             Inline: [0] -}
+                        = \ w :: GHC.Prim.Word# -> GHC.Types.Bool
+                            w1 :: GHC.Ptr.Ptr GHC.Word.Word8
+                            ww :: GHC.Prim.Int#
+                            w2 :: GHC.Types.Int
+                            ww1 :: GHC.Prim.Int#
+                            w3 :: GHC.ForeignPtr.ForeignPtr GHC.Word.Word8
+                            w4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case GHC.Prim.tagToEnum#
+                                 @ GHC.Types.Bool
+                                 (GHC.Prim.>=# ww ww1) of wild4 {
+                            GHC.Types.False
+                            -> case w1 of wild1 { GHC.Ptr.Ptr a10 ->
+                               case w2 of wild2 { GHC.Types.I# x ->
+                               case GHC.Prim.readWord8OffAddr#
+                                      @ GHC.Prim.RealWorld
+                                      a10
+                                      (GHC.Prim.+# x ww)
+                                      w4 of ds7 { (#,#) ipv2 ipv3 ->
+                               case w ipv3 of wild6 {
+                                 GHC.Types.False
+                                 -> $wa1 w wild1 (GHC.Prim.+# ww 1) wild2 ww1 w3 ipv2
+                                 GHC.Types.True
+                                 -> (# ipv2,
+                                       GHC.Types.:
+                                         @ Data.ByteString.Internal.ByteString
+                                         (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                          Data.ByteString.Internal.PS dt5 dt6 x ww })
+                                         (case w3 of ww2 { GHC.ForeignPtr.ForeignPtr ww3 ww4 ->
+                                          case w of pred'1 { DEFAULT ->
+                                          case $wa1
+                                                 pred'1
+                                                 lvl6
+                                                 0
+                                                 (GHC.Types.I# (GHC.Prim.+# (GHC.Prim.+# x ww) 1))
+                                                 (GHC.Prim.-# (GHC.Prim.-# ww1 ww) 1)
+                                                 ww2
+                                                 GHC.Prim.realWorld# of ds8 { (#,#) ipv4 ipv5 ->
+                                          case GHC.Prim.touch#
+                                                 @ GHC.ForeignPtr.ForeignPtrContents
+                                                 dt1
+                                                 ipv4 of s' { DEFAULT ->
+                                          ipv5 } } } }) #) } } } }
+                            GHC.Types.True
+                            -> (# w4,
+                                  GHC.Types.:
+                                    @ Data.ByteString.Internal.ByteString
+                                    (case w3 of dt4 { GHC.ForeignPtr.ForeignPtr dt5 dt6 ->
+                                     case w2 of dt7 { GHC.Types.I# dt8 ->
+                                     Data.ByteString.Internal.PS dt5 dt6 dt8 ww } })
+                                    (GHC.Types.[] @ Data.ByteString.Internal.ByteString) #) }
+                      } in
+                      case $wa1
+                             Main.main12
+                             lvl6
+                             0
+                             Main.main11
+                             ds2
+                             (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 s dt1)
+                             GHC.Prim.realWorld# of ds7 { (#,#) ipv2 ipv3 ->
+                      case GHC.Prim.touch#
+                             @ GHC.ForeignPtr.ForeignPtrContents
+                             dt1
+                             ipv2 of s' { DEFAULT ->
+                      Main.main_go
+                        (GHC.List.filter
+                           @ Data.ByteString.Internal.ByteString
+                           Main.main10
+                           ipv3) } }
+                   0 -> Main.main_go Main.main9 } } }) -}
+fa96ec54b86f16c2a8dbf7d1b8195273
+  main9 :: [Data.ByteString.Internal.ByteString]
+  {- Unfolding: (GHC.List.filter
+                   @ Data.ByteString.Internal.ByteString
+                   Main.main10
+                   (GHC.Types.[] @ Data.ByteString.Internal.ByteString)) -}
+c5f928b5a98d85867d719ce1245ce4b1
+  main_eta :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Internal.unsafePackLenChars
+                   Main.main28
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+24245954e7c6f3ee13626d4266a3767d
+  main_go ::
+    [Data.ByteString.Internal.ByteString]
+    -> Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Arity: 1, Strictness: <S,1*U> -}
+7f93eb143c574955bb250a9aeb1ca799
+  main_go1 ::
+    [Data.ByteString.Internal.ByteString]
+    -> Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Arity: 1, Strictness: <S,1*U> -}
+b2d8f5df92028cd2bc465333b4e2c772
+  main_go2 ::
+    [Data.ByteString.Internal.ByteString]
+    -> Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Arity: 1, Strictness: <S,1*U> -}
+b5d1c45807eeb83064adcc0c2a813b81
+  main_rts' ::
+    Snap.Internal.Routing.Route () Snap.Internal.Types.Snap
+  {- Unfolding: (Snap.Internal.Routing.$fMonoidRoute1
+                   @ ()
+                   @ Snap.Internal.Types.Snap
+                   Main.main5) -}
+d6080e43ca4ef3ecb890654e5777f00d
+  picInfoHandler :: Snap.Internal.Types.Snap ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.picInfoHandler1
+                  `cast`
+                (Trans
+                     (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                               <Snap.Internal.Types.SnapState>_N
+                               <Data.Enumerator.Internal.Iteratee
+                                  Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                               <Snap.Internal.Types.SnapResult ()>_N))
+                     (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) -}
+375d8a1fef56e6ab1b402a0db3e18a59
+  picInfoHandler1 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Snap.Internal.Types.$fMonadIOSnap1
+                      @ [GHC.IO.FilePath]
+                      Main.picInfoHandler5
+                        `cast`
+                      (Sym (GHC.Types.NTCo:IO[0] <[GHC.IO.FilePath]>_R))
+                      eta)
+                   Main.picInfoHandler2
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+68e985fe6a262803fefdd6d05e176553
+  picInfoHandler2 ::
+    (Snap.Internal.Types.SnapResult [GHC.IO.FilePath],
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            [GHC.IO.FilePath],
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> ((Snap.Internal.Types.writeBS
+                          @ Snap.Internal.Types.Snap
+                          Snap.Internal.Types.$fMonadSnapSnap
+                          (case GHC.ST.runSTRep
+                                  @ Data.Text.Internal.Text
+                                  (\ @ s1 s2 :: GHC.Prim.State# s1[OneShot] ->
+                                   case GHC.Prim.newByteArray# @ s1 8 s2 of ds1 { (#,#) ipv ipv1 ->
+                                   Main.picInfoHandler4
+                                     @ s1
+                                     (Data.Text.Array.MArray @ s1 ipv1)
+                                     Main.convertHandler4
+                                     (GHC.Types.:
+                                        @ GHC.Types.Char
+                                        Main.convertHandler3
+                                        (let {
+                                           elements :: [GHC.IO.FilePath]
+                                           = GHC.List.filter
+                                               @ [GHC.Types.Char]
+                                               Main.convertHandler7
+                                               a74
+                                         } in
+                                         case GHC.List.$wlenAcc
+                                                @ [GHC.Types.Char]
+                                                elements
+                                                0 of ww2 { DEFAULT ->
+                                         case GHC.Show.$wshowSignedInt
+                                                0
+                                                (GHC.Prim.-# ww2 1)
+                                                (GHC.Types.[]
+                                                   @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                                         GHC.Base.++
+                                           @ GHC.Types.Char
+                                           (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                                           (GHC.Types.:
+                                              @ GHC.Types.Char
+                                              Main.picInfoHandler3
+                                              (Main.picInfoHandler_go elements)) } }))
+                                     0
+                                     ipv }) of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                           Data.Text.Encoding.$wencodeUtf8 ww1 ww2 ww3 }))
+                         `cast`
+                       (Trans
+                            (Snap.Internal.Types.NTCo:Snap[0] <()>_N)
+                            (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                 <Snap.Internal.Types.SnapState>_N
+                                 <Data.Enumerator.Internal.Iteratee
+                                    Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                 <Snap.Internal.Types.SnapResult ()>_N))
+                         s')
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+78149a8acb00c4a1a98cc841f3bdb360
+  picInfoHandler3 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# '\n') -}
+fdd9e0b4da0792ae938e9bee5e1c83b1
+  picInfoHandler4 ::
+    Data.Text.Array.MArray s1
+    -> GHC.Types.Int
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# s1
+    -> (# GHC.Prim.State# s1, Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U(U)><L,U(U)><S,1*U><L,U><L,U>,
+     Inline: [0] -}
+2db2b60abcab90ff514f8be9b92b19f3
+  picInfoHandler5 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [GHC.IO.FilePath] #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Posix.Directory.getWorkingDirectory1
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 System.Directory.getDirectoryContents1
+                   (System.FilePath.Posix.combine ipv1 Main.convertHandler13)
+                   ipv }) -}
+0da31650bc44972dd9a62482d5e51466
+  picInfoHandler_go :: [[GHC.Types.Char]] -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <S,1*U> -}
+379831d338b81843b39f09c1fa2e19db
+  saveFile ::
+    ((Snap.Util.FileUploads.PartInfo,
+      Data.ByteString.Internal.ByteString),
+     GHC.Base.String)
+    -> Snap.Internal.Types.Snap ()
+  {- Arity: 1, Strictness: <S(SL),1*U(1*U(A,U(U,U,U,U)),1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: ((Snap.Util.FileUploads.PartInfo,
+                          Data.ByteString.Internal.ByteString),
+                         GHC.Base.String) ->
+                 case w of ww { (,) ww1 ww2 ->
+                 case ww1 of ww3 { (,) ww4 ww5 ->
+                 (Main.saveFile1 ww5 ww2)
+                   `cast`
+                 (Trans
+                      (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                <Snap.Internal.Types.SnapState>_N
+                                <Data.Enumerator.Internal.Iteratee
+                                   Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                <Snap.Internal.Types.SnapResult ()>_N))
+                      (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) } }) -}
+06520ce56da572ed5edbf11a4c8e97d0
+  saveFile1 ::
+    Data.ByteString.Internal.ByteString
+    -> GHC.Base.String
+    -> Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 2, Strictness: <L,U(U,U,U,U)><L,1*U>,
+     Unfolding: (\ ww :: Data.ByteString.Internal.ByteString
+                   ww1 :: GHC.Base.String ->
+                 Snap.Internal.Types.$fMonadIOSnap1
+                   @ ()
+                   (Data.ByteString.writeFile1
+                      (GHC.Base.++ @ GHC.Types.Char ww1 Main.saveFile2)
+                      ww)
+                     `cast`
+                   (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+d9a83446bdfa5a8725501fc13911c0e6
+  saveFile2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".jpg"#) -}
+fcd3ae306fdbba4d27d1da75f5599710
+  site :: Snap.Internal.Types.Snap ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main2
+                  `cast`
+                (Trans
+                     (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                               <Snap.Internal.Types.SnapState>_N
+                               <Data.Enumerator.Internal.Iteratee
+                                  Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                               <Snap.Internal.Types.SnapResult ()>_N))
+                     (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) -}
+bd4a8fbeb45e47fbe6224660b36509e2
+  uploadHandler :: Snap.Internal.Types.Snap ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.uploadHandler1
+                  `cast`
+                (Trans
+                     (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                               <Snap.Internal.Types.SnapState>_N
+                               <Data.Enumerator.Internal.Iteratee
+                                  Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                               <Snap.Internal.Types.SnapResult ()>_N))
+                     (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) -}
+88d10f3d88dd628884c07431b9ca7564
+  uploadHandler1 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1,
+     Unfolding: (Snap.Internal.Types.$fAlternativeSnap4
+                   @ ()
+                   Main.uploadHandler2
+                     `cast`
+                   (Trans
+                        (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                                  <Snap.Internal.Types.SnapState>_N
+                                  <Data.Enumerator.Internal.Iteratee
+                                     Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                                  <Snap.Internal.Types.SnapResult ()>_N))
+                        (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N)))
+                   Main.error405) -}
+da63dd0d4b03ca3e237d1709b7ad2059
+  uploadHandler10 ::
+    (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult
+               (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Snap.Internal.Http.Types.Request,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> case Main.uploadHandler_eta1 of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                      case case Snap.Internal.Http.Types.$wpoly_go10
+                                  @ [Data.ByteString.Internal.ByteString]
+                                  ww1
+                                  ww2
+                                  ww3
+                                  ww4
+                                  (Snap.Internal.Http.Types.rqPostParams a74) of wild2 {
+                             GHC.Base.Nothing
+                             -> GHC.Base.Nothing @ Data.ByteString.Internal.ByteString
+                             GHC.Base.Just a11
+                             -> GHC.Base.Just
+                                  @ Data.ByteString.Internal.ByteString
+                                  (case a11 of wild3 {
+                                     [] -> Main.uploadHandler9
+                                     : x1 xs
+                                     -> Data.ByteString.Internal.$fMonoidByteString_$cmconcat
+                                          (GHC.Types.:
+                                             @ Data.ByteString.Internal.ByteString
+                                             x1
+                                             (Data.OldList.prependToAll
+                                                @ Data.ByteString.Internal.ByteString
+                                                Main.uploadHandler11
+                                                xs)) }) } of vx { DEFAULT ->
+                      (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.SnapValue
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              vx,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              r,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              r,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+e29018eb9ba1747b9ef66732399698a2
+  uploadHandler11 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s2 :: GHC.Prim.Addr# = " "#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s2
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s2
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+f814111160f4de76b9064cf3545f1708
+  uploadHandler2 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Snap.Internal.Types.$fAlternativeSnap5
+                      @ Snap.Internal.Types.SnapState
+                      @ Snap.Internal.Http.Types.Request
+                      Snap.Internal.Types._snapRequest
+                      Snap.Internal.Types.sget
+                      eta)
+                   Main.uploadHandler3
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+ee8a003dcf20fe8b1fe4abe4e40f5f4a
+  uploadHandler3 ::
+    (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Snap.Internal.Http.Types.Request,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Data.Enumerator.Internal.$w$c>>=
+                         @ Data.ByteString.Internal.ByteString
+                         @ GHC.Types.IO
+                         GHC.Base.$fMonadIO
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         (case Snap.Internal.Http.Types.$c==
+                                 (Snap.Internal.Http.Types.rqMethod a74)
+                                 Snap.Internal.Http.Types.POST of wild2 {
+                            GHC.Types.False
+                            -> (Snap.Internal.Types.$fAlternativeSnap7 @ () s')
+                                 `cast`
+                               (Trans
+                                    (Sym (GHC.Types.NTCo:IO[0]
+                                              <Data.Enumerator.Internal.Step
+                                                 Data.ByteString.Internal.ByteString
+                                                 GHC.Types.IO
+                                                 (Snap.Internal.Types.SnapResult (),
+                                                  Snap.Internal.Types.SnapState)>_R))
+                                    (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                              <Data.ByteString.Internal.ByteString>_N
+                                              <GHC.Types.IO>_N
+                                              <(Snap.Internal.Types.SnapResult (),
+                                                Snap.Internal.Types.SnapState)>_N)))
+                            GHC.Types.True
+                            -> (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                                (# s,
+                                   Data.Enumerator.Internal.Yield
+                                     @ Data.ByteString.Internal.ByteString
+                                     @ GHC.Types.IO
+                                     @ (Snap.Internal.Types.SnapResult (),
+                                        Snap.Internal.Types.SnapState)
+                                     (Main.genericError2, s')
+                                     (Data.Enumerator.Internal.$c>>=1
+                                        @ Data.ByteString.Internal.ByteString) #))
+                                 `cast`
+                               (Trans
+                                    (Sym (GHC.Types.NTCo:IO[0]
+                                              <Data.Enumerator.Internal.Step
+                                                 Data.ByteString.Internal.ByteString
+                                                 GHC.Types.IO
+                                                 (Snap.Internal.Types.SnapResult (),
+                                                  Snap.Internal.Types.SnapState)>_R))
+                                    (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                              <Data.ByteString.Internal.ByteString>_N
+                                              <GHC.Types.IO>_N
+                                              <(Snap.Internal.Types.SnapResult (),
+                                                Snap.Internal.Types.SnapState)>_N))) })
+                         Main.uploadHandler4
+                           `cast`
+                         (<(Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)>_R
+                          ->_R Trans
+                                   (Sym (GHC.Types.NTCo:IO[0]
+                                             <Data.Enumerator.Internal.Step
+                                                Data.ByteString.Internal.ByteString
+                                                GHC.Types.IO
+                                                (Snap.Internal.Types.SnapResult (),
+                                                 Snap.Internal.Types.SnapState)>_R))
+                                   (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                             <Data.ByteString.Internal.ByteString>_N
+                                             <GHC.Types.IO>_N
+                                             <(Snap.Internal.Types.SnapResult (),
+                                               Snap.Internal.Types.SnapState)>_N))))
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+76f4c499ed7afc954b38d4374c1c9dd5
+  uploadHandler4 ::
+    (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult (),
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Main.uploadHandler5 s')
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           wild
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+4520ebe0537b19eb43aa56a9c48aef81
+  uploadHandler5 ::
+    Snap.Internal.Types.SnapState
+    -> Data.Enumerator.Internal.Iteratee
+         Data.ByteString.Internal.ByteString
+         GHC.Types.IO
+         (Snap.Internal.Types.SnapResult (), Snap.Internal.Types.SnapState)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: Snap.Internal.Types.SnapState ->
+                 Data.Enumerator.Internal.$w$c>>=
+                   @ Data.ByteString.Internal.ByteString
+                   @ GHC.Types.IO
+                   GHC.Base.$fMonadIO
+                   @ (Snap.Internal.Types.SnapResult
+                        (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                      Snap.Internal.Types.SnapState)
+                   @ (Snap.Internal.Types.SnapResult (),
+                      Snap.Internal.Types.SnapState)
+                   (Data.Enumerator.Internal.$w$c>>=
+                      @ Data.ByteString.Internal.ByteString
+                      @ GHC.Types.IO
+                      GHC.Base.$fMonadIO
+                      @ (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                         Snap.Internal.Types.SnapState)
+                      @ (Snap.Internal.Types.SnapResult
+                           (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                         Snap.Internal.Types.SnapState)
+                      (Snap.Internal.Types.$fAlternativeSnap5
+                         @ Snap.Internal.Types.SnapState
+                         @ Snap.Internal.Http.Types.Request
+                         Snap.Internal.Types._snapRequest
+                         Snap.Internal.Types.sget
+                         eta)
+                      Main.uploadHandler10
+                        `cast`
+                      (<(Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                         Snap.Internal.Types.SnapState)>_R
+                       ->_R Trans
+                                (Sym (GHC.Types.NTCo:IO[0]
+                                          <Data.Enumerator.Internal.Step
+                                             Data.ByteString.Internal.ByteString
+                                             GHC.Types.IO
+                                             (Snap.Internal.Types.SnapResult
+                                                (GHC.Base.Maybe
+                                                   Data.ByteString.Internal.ByteString),
+                                              Snap.Internal.Types.SnapState)>_R))
+                                (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                          <Data.ByteString.Internal.ByteString>_N
+                                          <GHC.Types.IO>_N
+                                          <(Snap.Internal.Types.SnapResult
+                                              (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                                            Snap.Internal.Types.SnapState)>_N))))
+                   Main.uploadHandler6
+                     `cast`
+                   (<(Snap.Internal.Types.SnapResult
+                        (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                      Snap.Internal.Types.SnapState)>_R
+                    ->_R Trans
+                             (Sym (GHC.Types.NTCo:IO[0]
+                                       <Data.Enumerator.Internal.Step
+                                          Data.ByteString.Internal.ByteString
+                                          GHC.Types.IO
+                                          (Snap.Internal.Types.SnapResult (),
+                                           Snap.Internal.Types.SnapState)>_R))
+                             (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                       <Data.ByteString.Internal.ByteString>_N
+                                       <GHC.Types.IO>_N
+                                       <(Snap.Internal.Types.SnapResult (),
+                                         Snap.Internal.Types.SnapState)>_N)))) -}
+d64c890d1ec7c9c9a5eb7b99ad4deb37
+  uploadHandler6 ::
+    (Snap.Internal.Types.SnapResult
+       (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult (),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> (Data.Enumerator.Internal.$w$c>>=
+                         @ Data.ByteString.Internal.ByteString
+                         @ GHC.Types.IO
+                         GHC.Base.$fMonadIO
+                         @ (Snap.Internal.Types.SnapResult
+                              (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                            Snap.Internal.Types.SnapState)
+                         @ (Snap.Internal.Types.SnapResult (),
+                            Snap.Internal.Types.SnapState)
+                         (Data.Enumerator.Internal.$w$c>>=
+                            @ Data.ByteString.Internal.ByteString
+                            @ GHC.Types.IO
+                            GHC.Base.$fMonadIO
+                            @ (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                               Snap.Internal.Types.SnapState)
+                            @ (Snap.Internal.Types.SnapResult
+                                 (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                               Snap.Internal.Types.SnapState)
+                            (Snap.Internal.Types.$fAlternativeSnap5
+                               @ Snap.Internal.Types.SnapState
+                               @ Snap.Internal.Http.Types.Request
+                               Snap.Internal.Types._snapRequest
+                               Snap.Internal.Types.sget
+                               s')
+                            Main.uploadHandler7
+                              `cast`
+                            (<(Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+                               Snap.Internal.Types.SnapState)>_R
+                             ->_R Trans
+                                      (Sym (GHC.Types.NTCo:IO[0]
+                                                <Data.Enumerator.Internal.Step
+                                                   Data.ByteString.Internal.ByteString
+                                                   GHC.Types.IO
+                                                   (Snap.Internal.Types.SnapResult
+                                                      (GHC.Base.Maybe
+                                                         Data.ByteString.Internal.ByteString),
+                                                    Snap.Internal.Types.SnapState)>_R))
+                                      (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                <Data.ByteString.Internal.ByteString>_N
+                                                <GHC.Types.IO>_N
+                                                <(Snap.Internal.Types.SnapResult
+                                                    (GHC.Base.Maybe
+                                                       Data.ByteString.Internal.ByteString),
+                                                  Snap.Internal.Types.SnapState)>_N))))
+                         (\ ds1 :: (Snap.Internal.Types.SnapResult
+                                      (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                                    Snap.Internal.Types.SnapState)
+                            eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                          case ds1 of wild2 { (,) a11 s'1 ->
+                          case a11 of wild3 {
+                            Snap.Internal.Types.SnapValue a12
+                            -> case a74 of wild4 {
+                                 GHC.Base.Nothing
+                                 -> (# eta1,
+                                       Data.Enumerator.Internal.Yield
+                                         @ Data.ByteString.Internal.ByteString
+                                         @ GHC.Types.IO
+                                         @ (Snap.Internal.Types.SnapResult (),
+                                            Snap.Internal.Types.SnapState)
+                                         (Main.genericError2, s'1)
+                                         (Data.Enumerator.Internal.$c>>=1
+                                            @ Data.ByteString.Internal.ByteString) #)
+                                 GHC.Base.Just count
+                                 -> case a12 of wild5 {
+                                      GHC.Base.Nothing
+                                      -> (# eta1,
+                                            Data.Enumerator.Internal.Yield
+                                              @ Data.ByteString.Internal.ByteString
+                                              @ GHC.Types.IO
+                                              @ (Snap.Internal.Types.SnapResult (),
+                                                 Snap.Internal.Types.SnapState)
+                                              (Main.genericError2, s'1)
+                                              (Data.Enumerator.Internal.$c>>=1
+                                                 @ Data.ByteString.Internal.ByteString) #)
+                                      GHC.Base.Just bs
+                                      -> (Snap.Internal.Types.$fMonadIOSnap1
+                                            @ ()
+                                            (\ eta2 :: GHC.Prim.State#
+                                                         GHC.Prim.RealWorld[OneShot] ->
+                                             GHC.IO.Handle.Text.hPutStr2
+                                               GHC.IO.Handle.FD.stdout
+                                               (Data.ByteString.UTF8.toString count)
+                                               GHC.Types.True
+                                               eta2)
+                                              `cast`
+                                            (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                                            s'1)
+                                           `cast`
+                                         (Trans
+                                              (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                                   <Data.ByteString.Internal.ByteString>_N
+                                                   <GHC.Types.IO>_N
+                                                   <(Snap.Internal.Types.SnapResult (),
+                                                     Snap.Internal.Types.SnapState)>_N)
+                                              (GHC.Types.NTCo:IO[0]
+                                                   <Data.Enumerator.Internal.Step
+                                                      Data.ByteString.Internal.ByteString
+                                                      GHC.Types.IO
+                                                      (Snap.Internal.Types.SnapResult (),
+                                                       Snap.Internal.Types.SnapState)>_R))
+                                           eta1 } }
+                            Snap.Internal.Types.PassOnProcessing r
+                            -> (# eta1,
+                                  Data.Enumerator.Internal.Yield
+                                    @ Data.ByteString.Internal.ByteString
+                                    @ GHC.Types.IO
+                                    @ (Snap.Internal.Types.SnapResult (),
+                                       Snap.Internal.Types.SnapState)
+                                    (Snap.Internal.Types.PassOnProcessing @ () r, s'1)
+                                    (Data.Enumerator.Internal.$c>>=1
+                                       @ Data.ByteString.Internal.ByteString) #)
+                            Snap.Internal.Types.EarlyTermination r
+                            -> (# eta1,
+                                  Data.Enumerator.Internal.Yield
+                                    @ Data.ByteString.Internal.ByteString
+                                    @ GHC.Types.IO
+                                    @ (Snap.Internal.Types.SnapResult (),
+                                       Snap.Internal.Types.SnapState)
+                                    (Snap.Internal.Types.EarlyTermination @ () r, s'1)
+                                    (Data.Enumerator.Internal.$c>>=1
+                                       @ Data.ByteString.Internal.ByteString) #) } })
+                           `cast`
+                         (<(Snap.Internal.Types.SnapResult
+                              (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                            Snap.Internal.Types.SnapState)>_R
+                          ->_R Trans
+                                   (Sym (GHC.Types.NTCo:IO[0]
+                                             <Data.Enumerator.Internal.Step
+                                                Data.ByteString.Internal.ByteString
+                                                GHC.Types.IO
+                                                (Snap.Internal.Types.SnapResult (),
+                                                 Snap.Internal.Types.SnapState)>_R))
+                                   (Sym (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                             <Data.ByteString.Internal.ByteString>_N
+                                             <GHC.Types.IO>_N
+                                             <(Snap.Internal.Types.SnapResult (),
+                                               Snap.Internal.Types.SnapState)>_N))))
+                        `cast`
+                      (Trans
+                           (Data.Enumerator.Internal.NTCo:Iteratee[0]
+                                <Data.ByteString.Internal.ByteString>_N
+                                <GHC.Types.IO>_N
+                                <(Snap.Internal.Types.SnapResult (),
+                                  Snap.Internal.Types.SnapState)>_N)
+                           (GHC.Types.NTCo:IO[0]
+                                <Data.Enumerator.Internal.Step
+                                   Data.ByteString.Internal.ByteString
+                                   GHC.Types.IO
+                                   (Snap.Internal.Types.SnapResult (),
+                                    Snap.Internal.Types.SnapState)>_R))
+                        eta
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult (),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination @ () r, s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+864e0ef75f6c2ea5fb03367fc8ce6b90
+  uploadHandler7 ::
+    (Snap.Internal.Types.SnapResult Snap.Internal.Http.Types.Request,
+     Snap.Internal.Types.SnapState)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Enumerator.Internal.Step
+            Data.ByteString.Internal.ByteString
+            GHC.Types.IO
+            (Snap.Internal.Types.SnapResult
+               (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+             Snap.Internal.Types.SnapState) #)
+  {- Arity: 2,
+     Unfolding: (\ ds :: (Snap.Internal.Types.SnapResult
+                            Snap.Internal.Http.Types.Request,
+                          Snap.Internal.Types.SnapState)
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case ds of wild { (,) a10 s' ->
+                 case a10 of wild1 {
+                   Snap.Internal.Types.SnapValue a74
+                   -> case Main.uploadHandler_eta of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                      case case Snap.Internal.Http.Types.$wpoly_go10
+                                  @ [Data.ByteString.Internal.ByteString]
+                                  ww1
+                                  ww2
+                                  ww3
+                                  ww4
+                                  (Snap.Internal.Http.Types.rqPostParams a74) of wild2 {
+                             GHC.Base.Nothing
+                             -> GHC.Base.Nothing @ Data.ByteString.Internal.ByteString
+                             GHC.Base.Just a11
+                             -> GHC.Base.Just
+                                  @ Data.ByteString.Internal.ByteString
+                                  (case a11 of wild3 {
+                                     [] -> Main.uploadHandler9
+                                     : x1 xs
+                                     -> Data.ByteString.Internal.$fMonoidByteString_$cmconcat
+                                          (GHC.Types.:
+                                             @ Data.ByteString.Internal.ByteString
+                                             x1
+                                             (Data.OldList.prependToAll
+                                                @ Data.ByteString.Internal.ByteString
+                                                Main.uploadHandler8
+                                                xs)) }) } of vx { DEFAULT ->
+                      (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.SnapValue
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              vx,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }
+                   Snap.Internal.Types.PassOnProcessing r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.PassOnProcessing
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              r,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #)
+                   Snap.Internal.Types.EarlyTermination r
+                   -> (# eta,
+                         Data.Enumerator.Internal.Yield
+                           @ Data.ByteString.Internal.ByteString
+                           @ GHC.Types.IO
+                           @ (Snap.Internal.Types.SnapResult
+                                (GHC.Base.Maybe Data.ByteString.Internal.ByteString),
+                              Snap.Internal.Types.SnapState)
+                           (Snap.Internal.Types.EarlyTermination
+                              @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                              r,
+                            s')
+                           (Data.Enumerator.Internal.$c>>=1
+                              @ Data.ByteString.Internal.ByteString) #) } }) -}
+eda1da257e7d29edef6c92fc91315f46
+  uploadHandler8 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s2 :: GHC.Prim.Addr# = " "#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s2
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s2
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+6704136712b961f4c4b065f76b8a903f
+  uploadHandler9 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Internal.$fMonoidByteString_$cmconcat
+                   (GHC.Types.[] @ Data.ByteString.Internal.ByteString)) -}
+322412aee57b6ec14e016121230f3e93
+  uploadHandler_eta :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "bytestring"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+6f79d8a10925b1c1a93f9d6bc234c1d1
+  uploadHandler_eta1 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   s :: GHC.Prim.Addr# = "count"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH strlen GHC.Prim.Addr#
+                                                                                           -> GHC.Prim.State#
+                                                                                                GHC.Prim.RealWorld
+                                                                                           -> (# GHC.Prim.State#
+                                                                                                   GHC.Prim.RealWorld,
+                                                                                                 GHC.Prim.Word# #)}
+                        s
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 Data.ByteString.Internal.PS
+                   s
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0
+                   (GHC.Prim.word2Int# ds4) } }) -}
+4061bc1f6bb8498249b7d79a77a4f64c
+  uploadPost :: Snap.Internal.Types.Snap ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.uploadHandler5
+                  `cast`
+                (Trans
+                     (Sym (Control.Monad.Trans.State.Lazy.NTCo:StateT[0]
+                               <Snap.Internal.Types.SnapState>_N
+                               <Data.Enumerator.Internal.Iteratee
+                                  Data.ByteString.Internal.ByteString GHC.Types.IO>_R
+                               <Snap.Internal.Types.SnapResult ()>_N))
+                     (Sym (Snap.Internal.Types.NTCo:Snap[0] <()>_N))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

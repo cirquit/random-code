@@ -1,0 +1,396 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-27 21:21:29.664105 UTC
+
+interface main@main:RawRGB 7102
+  interface hash: 5108d9689ee5d791b776149587a3bc9b
+  ABI hash: 290f60fde53bb05b6593912f7acf2b27
+  export-list hash: 36f37146faa097a0e0507fcfa14d5e54
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 19b6562b725ed55587e315c1a5bb84e4
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  RawRGB.convertBmpDirToTxt
+  RawRGB.convertJpgDirToBMP
+  RawRGB.convertJpgToBMP
+  RawRGB.removeWithExtentionAt
+module dependencies:
+package dependencies: JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+                      utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72
+                      vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ
+                      zlib-0.5.4.2@zlib_7EfFFsXSCF6JCVS3xlYBS8
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Fusion.Stream
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tga
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tiff
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Types
+                         base-4.8.1.0:Control.Applicative base-4.8.1.0:Data.Either
+                         base-4.8.1.0:Data.Functor.Identity base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:Data.Void
+                         base-4.8.1.0:GHC.Exts base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb:Control.Monad.Primitive
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Primitive
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Storable
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed.Base
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture fd6d6d575efc95c7c43d4dfaf22f23c7
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Jpg ae5cf4455b6d86e4a19d2a0036630163
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Saving 7aea4109aaa86974a0e0d065c16144b3
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Types 195c729159b81b02c1884fe454db1057
+import  -/  base-4.8.1.0:Data.Either bc9482e78cc431fce439b593377aa2e6
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.Function 6b13a8d3a5e3bd757a91434dce3fc7f3
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.Maybe 1cb58de2b04ee3c0c0a7dc9201184aff
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.IO c40fa9051eafbe02c69624c2ae0f498f
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString 65bd6f108f33ac736977e12af3a12795
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder 05fa158fa35156ed7608341184d617ff
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Internal bf4b7d23d1b8365e073bc2ac77444155
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Lazy ebc05917f240e5ff4bf7a3f2db5cbf62
+import  -/  directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg:System.Directory e213821d92cebb4dc934424f9b152303
+import  -/  filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A:System.FilePath.Posix 21938741ac31651631a60d9842b1d5bf
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text a305d268b7ef3fbd1de87bd464ac8e2a
+import  -/  text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Encoding dd55773185676aee3ee972ff5aca13b5
+import  -/  utf8-string-1.0.1.1@utf8s_HWC8Qen5AZrArJxFQJuE72:Data.ByteString.UTF8 55c54179642b0ff49f5950703ea2361d
+68d7f78dec480d777d9a685f609dd5d2
+  $ctoRGBA1 ::
+    Codec.Picture.Types.PixelYA8 -> Codec.Picture.Types.PixelRGBA8
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Codec.Picture.Types.PixelYA8 ->
+                 case ds of wild { Codec.Picture.Types.PixelYA8 dt dt1 ->
+                 Codec.Picture.Types.PixelRGBA8 dt dt dt dt1 }) -}
+ba7f6818ab06c1c54ce11abb4e527cc6
+  $ctoRGBA2 ::
+    Codec.Picture.Types.PixelRGB8 -> Codec.Picture.Types.PixelRGBA8
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Codec.Picture.Types.PixelRGB8 ->
+                 case ds of wild { Codec.Picture.Types.PixelRGB8 dt dt1 dt2 ->
+                 Codec.Picture.Types.PixelRGBA8 dt dt1 dt2 __word 255 }) -}
+9df7587fb00b942a756121411935266e
+  $ctoRGBA8 ::
+    Codec.Picture.Types.Pixel8 -> Codec.Picture.Types.PixelRGBA8
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ b :: Codec.Picture.Types.Pixel8 ->
+                 case b of dt { GHC.Word.W8# dt1 ->
+                 Codec.Picture.Types.PixelRGBA8 dt1 dt1 dt1 __word 255 }) -}
+c33c165af5cd73975a726bafac7ad1cd
+  $fToPixelRGBA8PixelRGB8 ::
+    RawRGB.ToPixelRGBA8 Codec.Picture.Types.PixelRGB8
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U)>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                RawRGB.$ctoRGBA2
+                  `cast`
+                (Sym (RawRGB.NTCo:ToPixelRGBA8[0]
+                          <Codec.Picture.Types.PixelRGB8>_N)) -}
+c33c165af5cd73975a726bafac7ad1cd
+  $fToPixelRGBA8PixelRGBA8 ::
+    RawRGB.ToPixelRGBA8 Codec.Picture.Types.PixelRGBA8
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                (GHC.Base.id @ Codec.Picture.Types.PixelRGBA8)
+                  `cast`
+                (Sym (RawRGB.NTCo:ToPixelRGBA8[0]
+                          <Codec.Picture.Types.PixelRGBA8>_N)) -}
+c33c165af5cd73975a726bafac7ad1cd
+  $fToPixelRGBA8PixelYA8 ::
+    RawRGB.ToPixelRGBA8 Codec.Picture.Types.PixelYA8
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                RawRGB.$ctoRGBA1
+                  `cast`
+                (Sym (RawRGB.NTCo:ToPixelRGBA8[0]
+                          <Codec.Picture.Types.PixelYA8>_N)) -}
+c33c165af5cd73975a726bafac7ad1cd
+  $fToPixelRGBA8Word8 ::
+    RawRGB.ToPixelRGBA8 Codec.Picture.Types.Pixel8
+  DFunId[0]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U)>m,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                RawRGB.$ctoRGBA8
+                  `cast`
+                (Sym (RawRGB.NTCo:ToPixelRGBA8[0]
+                          <Codec.Picture.Types.Pixel8>_N)) -}
+c33c165af5cd73975a726bafac7ad1cd
+  class ToPixelRGBA8 a where
+    toRGBA8 :: a -> Codec.Picture.Types.PixelRGBA8
+20a6ec1b3cfb2e49d57105815af3f03e
+  convertBmpDirToTxt ::
+    GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                RawRGB.convertBmpDirToTxt1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+3cbb2485559d0e0a0a21bd5eeda18979
+  convertBmpDirToTxt1 ::
+    GHC.IO.FilePath
+    -> GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U> -}
+6c5bbb4d66b0ae73fa5cdef9616ffc96
+  convertJpgDirToBMP ::
+    GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                RawRGB.convertJpgDirToBMP1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+4bfda7aa0d538f29ecc2c27aa698c237
+  convertJpgDirToBMP1 ::
+    GHC.IO.FilePath
+    -> GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: (\ jpegdir :: GHC.IO.FilePath
+                   bmpdir :: GHC.IO.FilePath
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Directory.getDirectoryContents1
+                        jpegdir
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 letrec {
+                   a :: [[GHC.Types.Char]]
+                        -> GHC.Prim.State# GHC.Prim.RealWorld
+                        -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 2, Strictness: <S,1*U><L,U> -}
+                   = \ ds :: [[GHC.Types.Char]]
+                       eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case ds of wild {
+                       [] -> (# eta1, GHC.Tuple.() #)
+                       : y ys
+                       -> case GHC.List.elem
+                                 @ [GHC.Types.Char]
+                                 GHC.Classes.$fEq[]_$s$fEq[]1
+                                 y
+                                 RawRGB.convertJpgDirToBMP7 of wild1 {
+                            GHC.Types.False
+                            -> case RawRGB.convertJpgDirToBMP2
+                                      bmpdir
+                                      (System.FilePath.Posix.combine jpegdir y)
+                                      eta1 of ds2 { (#,#) ipv2 ipv3 ->
+                               a ys ipv2 }
+                            GHC.Types.True -> a ys eta1 } }
+                 } in
+                 a ipv1 ipv }) -}
+5d7b3b7b1c5e0f74d843c5be5e84259c
+  convertJpgDirToBMP10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "."#) -}
+14bc5762be7088b60882b8487c7ad44b
+  convertJpgDirToBMP2 ::
+    GHC.IO.FilePath
+    -> GHC.IO.FilePath
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,1*U><L,U><L,U>,
+     Unfolding: (\ dir :: GHC.IO.FilePath
+                   fp :: GHC.IO.FilePath
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Directory.doesFileExist1
+                        fp
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case System.FilePath.Posix.$wsplitExtension
+                        (System.FilePath.Posix.takeFileName fp) of ww { (#,#) ww1 ww2 ->
+                 case GHC.Base.eqString ww2 RawRGB.convertJpgDirToBMP6 of wild {
+                   GHC.Types.False
+                   -> GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.CString.unpackAppendCString#
+                           "Sorry, "#
+                           (GHC.Base.++ @ GHC.Types.Char fp RawRGB.convertJpgDirToBMP5))
+                        GHC.Types.True
+                        ipv
+                   GHC.Types.True
+                   -> case Data.ByteString.readFile1
+                             fp
+                             ipv of ds2 { (#,#) ipv2 ipv3 ->
+                      case Codec.Picture.Jpg.decodeJpegWithMetadata ipv3 of wild1 {
+                        Data.Either.Left x1
+                        -> GHC.IO.Handle.Text.hPutStr2
+                             GHC.IO.Handle.FD.stdout
+                             (GHC.CString.unpackAppendCString#
+                                "Sorry, I couldn't decode "#
+                                (GHC.Base.++ @ GHC.Types.Char ww1 RawRGB.convertJpgDirToBMP4))
+                             GHC.Types.True
+                             ipv2
+                        Data.Either.Right y
+                        -> Data.ByteString.Lazy.writeFile1
+                             (System.FilePath.Posix.combine
+                                dir
+                                (GHC.Base.++ @ GHC.Types.Char ww1 RawRGB.convertJpgDirToBMP3))
+                             (Codec.Picture.Saving.imageToBitmap
+                                (Data.Tuple.fst
+                                   @ Codec.Picture.Types.DynamicImage
+                                   @ Codec.Picture.Metadata.Metadatas
+                                   y))
+                             ipv2 } } } } }) -}
+dddf465fcc5e683bd4ebcc49476fa972
+  convertJpgDirToBMP3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".bmp"#) -}
+200ca29766e5e11c5257de4ead58c811
+  convertJpgDirToBMP4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".jpg..."#) -}
+7b3d42296c9e50538539e42860b51f99
+  convertJpgDirToBMP5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "is not a .jpg!"#) -}
+9e3829e97720f56b1a886869bb4a3113
+  convertJpgDirToBMP6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".jpg"#) -}
+21b042fb35f1ba6ce0542ac16e79a399
+  convertJpgDirToBMP7 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   RawRGB.convertJpgDirToBMP10
+                   RawRGB.convertJpgDirToBMP8) -}
+fc1e71ca2f04f5b881f9bc2809a6091e
+  convertJpgDirToBMP8 :: [[GHC.Types.Char]]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ [GHC.Types.Char]
+                   RawRGB.convertJpgDirToBMP9
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+8ddef66446bdec64136372b53ee7d08d
+  convertJpgDirToBMP9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ".."#) -}
+d552d7ae656f352bc9242bd4c08ac42c
+  convertJpgToBMP ::
+    GHC.IO.FilePath -> GHC.IO.FilePath -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,1*U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                RawRGB.convertJpgDirToBMP2
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.IO.FilePath>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+12b7069d3be7962ff06dcf7234a1f7eb
+  removeWithExtentionAt ::
+    GHC.IO.FilePath -> GHC.Base.String -> GHC.Types.IO ()
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                RawRGB.removeWithExtentionAt1
+                  `cast`
+                (<GHC.IO.FilePath>_R
+                 ->_R <GHC.Base.String>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+4d6a78c30f85665cb7939242c269f51d
+  removeWithExtentionAt1 ::
+    GHC.IO.FilePath
+    -> GHC.Base.String
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: (\ dir :: GHC.IO.FilePath
+                   extention :: GHC.Base.String
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.Directory.getDirectoryContents1
+                        dir
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 letrec {
+                   a :: [[GHC.Types.Char]]
+                        -> GHC.Prim.State# GHC.Prim.RealWorld
+                        -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+                     {- Arity: 2, Strictness: <S,1*U><L,U> -}
+                   = \ ds :: [[GHC.Types.Char]]
+                       eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                     case ds of wild {
+                       [] -> (# eta1, GHC.Tuple.() #)
+                       : y ys
+                       -> case GHC.List.elem
+                                 @ [GHC.Types.Char]
+                                 GHC.Classes.$fEq[]_$s$fEq[]1
+                                 y
+                                 RawRGB.convertJpgDirToBMP7 of wild1 {
+                            GHC.Types.False
+                            -> case System.FilePath.Posix.$wsplitExtension
+                                      y of ww { (#,#) ww1 ww2 ->
+                               case GHC.Base.eqString ww2 extention of wild2 {
+                                 GHC.Types.False -> a ys eta1
+                                 GHC.Types.True
+                                 -> case System.Posix.Files.removeLink1
+                                           (System.FilePath.Posix.combine dir y)
+                                           eta1 of ds2 { (#,#) ipv2 ipv3 ->
+                                    a ys ipv2 } } }
+                            GHC.Types.True -> a ys eta1 } }
+                 } in
+                 a ipv1 ipv }) -}
+instance RawRGB.ToPixelRGBA8 [Codec.Picture.Types.PixelRGB8]
+  = RawRGB.$fToPixelRGBA8PixelRGB8
+instance RawRGB.ToPixelRGBA8 [Codec.Picture.Types.PixelRGBA8]
+  = RawRGB.$fToPixelRGBA8PixelRGBA8
+instance RawRGB.ToPixelRGBA8 [Codec.Picture.Types.PixelYA8]
+  = RawRGB.$fToPixelRGBA8PixelYA8
+instance RawRGB.ToPixelRGBA8 [GHC.Word.Word8]
+  = RawRGB.$fToPixelRGBA8Word8
+"SPEC/RawRGB toRGBA8 @ Pixel8" [ALWAYS] forall tpl :: RawRGB.ToPixelRGBA8
+                                                        Codec.Picture.Types.Pixel8
+  RawRGB.toRGBA8 @ GHC.Word.Word8 tpl = RawRGB.$ctoRGBA8
+"SPEC/RawRGB toRGBA8 @ PixelRGB8" [ALWAYS] forall tpl :: RawRGB.ToPixelRGBA8
+                                                           Codec.Picture.Types.PixelRGB8
+  RawRGB.toRGBA8 @ Codec.Picture.Types.PixelRGB8 tpl
+  = RawRGB.$ctoRGBA2
+"SPEC/RawRGB toRGBA8 @ PixelYA8" [ALWAYS] forall tpl :: RawRGB.ToPixelRGBA8
+                                                          Codec.Picture.Types.PixelYA8
+  RawRGB.toRGBA8 @ Codec.Picture.Types.PixelYA8 tpl
+  = RawRGB.$ctoRGBA1
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

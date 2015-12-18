@@ -1,0 +1,66 @@
+Configuring gloss-juicy-0.2...
+Building gloss-juicy-0.2...
+Preprocessing library gloss-juicy-0.2...
+[1 of 1] Compiling Graphics.Gloss.Juicy ( Graphics/Gloss/Juicy.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Graphics/Gloss/Juicy.o )
+
+Graphics/Gloss/Juicy.hs:5:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:6:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:7:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:8:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:9:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:18:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:30:1: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘fromDynamicImage’:
+        Patterns not matched:
+            ImageY16 _
+            ImageYA16 _
+            ImageRGB16 _
+            ImageRGBA16 _
+            ...
+In-place registering gloss-juicy-0.2...
+Preprocessing executable 'gloss-juicy-viewer' for gloss-juicy-0.2...
+[1 of 2] Compiling Graphics.Gloss.Juicy ( Graphics/Gloss/Juicy.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gloss-juicy-viewer/gloss-juicy-viewer-tmp/Graphics/Gloss/Juicy.o )
+
+Graphics/Gloss/Juicy.hs:5:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:6:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:7:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:8:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:9:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:18:1: Warning: Tab character
+
+Graphics/Gloss/Juicy.hs:30:1: Warning:
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘fromDynamicImage’:
+        Patterns not matched:
+            ImageY16 _
+            ImageYA16 _
+            ImageRGB16 _
+            ImageRGBA16 _
+            ...
+[2 of 2] Compiling Main             ( gloss-juicy.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gloss-juicy-viewer/gloss-juicy-viewer-tmp/Main.o )
+
+gloss-juicy.hs:9:1: Warning: Tab character
+
+gloss-juicy.hs:10:1: Warning: Tab character
+
+gloss-juicy.hs:11:1: Warning: Tab character
+
+gloss-juicy.hs:12:1: Warning: Tab character
+Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/gloss-juicy-viewer/gloss-juicy-viewer ...
+Installing library in
+/home/rewrite/Documents/Personal-Repository/Haskell/Gloss/mandelbrot/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/lib/x86_64-linux-ghc-7.10.2/gloss-juicy-0.2-JtYpLYCGjFb9CPtryaYuG7
+Installing executable(s) in
+/home/rewrite/Documents/Personal-Repository/Haskell/Gloss/mandelbrot/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/bin
+Registering gloss-juicy-0.2...

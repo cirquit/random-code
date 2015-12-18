@@ -1,0 +1,158 @@
+
+==================== FINAL INTERFACE ====================
+2015-11-26 12:15:42.630371 UTC
+
+interface main@main:Main 7102
+  interface hash: efd0d433554e0e7d26fed22b7a74465c
+  ABI hash: 25e62238ebdd8145e689347225e7f340
+  export-list hash: 9cf4b491fe96e7d5003f07c54d266276
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: c314651d5a04190a7eb26aa700edd796
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: GLURaw-1.5.0.2@GLURa_JiNeBtgnHhXHoEQLxBj5eE
+                      GLUT-2.7.0.3@GLUT_FFXiDYE1CfiDHjNKroBerv
+                      JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo
+                      JuicyPixels-util-0.2@Juicy_LMD4KbDIuV9IuqI9P0bivV
+                      ObjectName-1.1.0.0@Objec_Ej1Cgp8vUjN6m1ytQ9jTTT
+                      OpenGL-2.12.0.1@OpenG_1mF2IiBqi6B5eAj9FXbuRh
+                      OpenGLRaw-2.5.5.0@OpenG_Hbrsh6PAzCc14JgcVImI2l
+                      StateVar-1.1.0.1@State_6K4a3UqSdqh6lGAm1wlr9s
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bmp-1.2.5.2@bmp_3glgeKBRcmxLNjYfdSEbIj
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o ghc-prim-0.4.0.0
+                      gloss-rendering-1.9.3.1@gloss_86npcqSdVR4GRK4LepKW2I
+                      gloss-1.9.4.1@gloss_Dzf55j2nNZUE3uDaSlV0dz
+                      gloss-juicy-0.2@gloss_JtYpLYCGjFb9CPtryaYuG7 integer-gmp-1.0.0.0
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb
+                      stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr
+                      text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ
+                      zlib-0.5.4.2@zlib_7EfFFsXSCF6JCVS3xlYBS8
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         gloss-rendering-1.9.3.1@gloss_86npcqSdVR4GRK4LepKW2I:Graphics.Gloss.Internals.Data.Picture
+         stm-2.4.4@stm_C1kFMnPqFjvDhFjgMZGUpr:Control.Monad.STM
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Fusion.Stream
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+family instance modules: JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tga
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Tiff
+                         JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Types
+                         base-4.8.1.0:Control.Applicative base-4.8.1.0:Data.Either
+                         base-4.8.1.0:Data.Functor.Identity base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:Data.Void
+                         base-4.8.1.0:GHC.Exts base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb:Control.Monad.Primitive
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Primitive
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Storable
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Unboxed.Base
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture fd6d6d575efc95c7c43d4dfaf22f23c7
+import  -/  JuicyPixels-3.2.6.2@Juicy_C96xY0k5fKVAc5hwhuRiDo:Codec.Picture.Types 195c729159b81b02c1884fe454db1057
+import  -/  JuicyPixels-util-0.2@Juicy_LMD4KbDIuV9IuqI9P0bivV:Codec.Picture.RGBA8 b59d1e8a796a854a07802808ff8fd65b
+import  -/  base-4.8.1.0:Data.Complex 0c58c51a303f1f20d02024628fd3fda1
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Real 4c3b525ecbd4d62bb287aec36d4c2f0d
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  gloss-1.9.4.1@gloss_Dzf55j2nNZUE3uDaSlV0dz:Graphics.Gloss d0a074d2aae00b58be754941e7f35d64
+import  -/  gloss-1.9.4.1@gloss_Dzf55j2nNZUE3uDaSlV0dz:Graphics.Gloss.Data.Color 91e7bb5faf3cc9205fa19dcb7b1686bf
+import  -/  gloss-1.9.4.1@gloss_Dzf55j2nNZUE3uDaSlV0dz:Graphics.Gloss.Data.Display ec385597b9e2010733ce0f53fb4d5aa1
+import  -/  gloss-1.9.4.1@gloss_Dzf55j2nNZUE3uDaSlV0dz:Graphics.Gloss.Interface.Pure.Animate 4595298edb5bec1180d9fee2149da49b
+import  -/  gloss-juicy-0.2@gloss_JtYpLYCGjFb9CPtryaYuG7:Graphics.Gloss.Juicy a135bd0e1a845bceefd517b1832c5326
+a6480abcd09c5112127cc71e4afb2aa7
+  height :: GHC.Types.Int
+  {- Unfolding: (case GHC.Classes.divInt# 512 2 of ww4 { DEFAULT ->
+                 GHC.Types.I# ww4 }) -}
+ef408fdee7ec3aa5641cb561ac0b8702
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+df72c220fe6834341a78e3ab9f1943f2
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Graphics.Gloss.Internals.Interface.Animate.animateWithBackendIO1
+                   @ Graphics.Gloss.Internals.Interface.Backend.GLUT.GLUTState
+                   Graphics.Gloss.Internals.Interface.Backend.GLUT.$fBackendGLUTState
+                   Graphics.Gloss.Internals.Interface.Backend.GLUT.GLUTState
+                   GHC.Types.True
+                   Main.main3
+                   Graphics.Gloss.Data.Color.black
+                   Main.main2
+                     `cast`
+                   (<GHC.Types.Float>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0]
+                                  <Graphics.Gloss.Internals.Data.Picture.Picture>_R))
+                   eta) -}
+bf9a3c5c22b4581952de9451a2c5a77c
+  main2 ::
+    GHC.Types.Float
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Graphics.Gloss.Internals.Data.Picture.Picture #)
+  {- Arity: 2 -}
+c034d4bb1eff313257f516ac5867c3d5
+  main3 :: Graphics.Gloss.Data.Display.Display
+  {- Unfolding: (Graphics.Gloss.Data.Display.InWindow
+                   Main.main7
+                   Main.main6
+                   Main.main4) -}
+37099777c4881cfd51abcd25b2e6948c
+  main4 :: (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Unfolding: ((Main.main5, Main.main5)) -}
+d2188471e28a6601706730b5bee701c0
+  main5 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
+2cafcd8a504b935f6a297ae2c9c17765
+  main6 :: (GHC.Types.Int, GHC.Types.Int)
+  {- Unfolding: ((Main.width, Main.height)) -}
+feb51c3f4527f013520be55672715550
+  main7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Mandelbrot"#) -}
+6d10ddcc1c9eccabdb9873197610cf25
+  main8 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+397faa6231b0dc2ddb0edb6bb16db139
+  width :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 512) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,150 @@
+
+==================== FINAL INTERFACE ====================
+2015-12-17 16:57:40.517045 UTC
+
+interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day04 7102
+  interface hash: edc0e282473efd027cd686d6b38da281
+  ABI hash: 38c87101d762c8d409f0e6ab130e3103
+  export-list hash: c858442bbfbc8639018c50b0cb632491
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: f10f07d119edc6ef185ca36c2d90c5c1
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day04.encodeMD5
+  Day04.input
+  Day04.part1
+  Day04.part2
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0 binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      cereal-0.4.1.1@cerea_LMaR4P6lFvNJtmY00msKYH
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      crypto-api-0.13.2@crypt_Cf9PpCUM2HxIcKjYUCdWjU
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      entropy-0.3.7@entro_BTeyFmIz5b6F1k5rgnvcgO ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 pureMD5-2.1.2.1@pureM_Bh8dayuy05z4y0vlTkwwMp
+                      tagged-0.8.2@tagge_4zanMqQLQHpBO0ZYm7KGkc
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         crypto-api-0.13.2@crypt_Cf9PpCUM2HxIcKjYUCdWjU:Crypto.Classes
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         tagged-0.8.2@tagge_4zanMqQLQHpBO0ZYm7KGkc:Data.Tagged
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Lazy ebc05917f240e5ff4bf7a3f2db5cbf62
+import  -/  bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Lazy.Char8 8bd74e884b1af0b7347d2a16dea4eb83
+import  -/  pureMD5-2.1.2.1@pureM_Bh8dayuy05z4y0vlTkwwMp:Data.Digest.Pure.MD5 a010000933797929512157301f21dac1
+b890ea38b2a0953a26a1d597f03d6152
+  encodeMD5 ::
+    GHC.Show.Show a =>
+    a -> Data.ByteString.Lazy.Internal.ByteString -> GHC.Base.String
+  {- Arity: 3, Strictness: <L,1*U(A,1*C1(U),A)><L,U><L,1*U>,
+     Unfolding: (\ @ a
+                   $dShow :: GHC.Show.Show a
+                   i :: a
+                   input2 :: Data.ByteString.Lazy.Internal.ByteString ->
+                 case Data.Digest.Pure.MD5.$fHashMD5ContextMD5Digest_$chash
+                        Data.Digest.Pure.MD5.$fHashMD5ContextMD5Digest
+                        (let {
+                           ys :: Data.ByteString.Lazy.Internal.ByteString
+                           = Data.ByteString.Lazy.Internal.packChars_$spackChunks
+                               32
+                               (GHC.Show.show @ a $dShow i)
+                         } in
+                         letrec {
+                           go1 :: Data.ByteString.Lazy.Internal.ByteString
+                                  -> Data.ByteString.Lazy.Internal.ByteString
+                             {- Arity: 1, Strictness: <S,1*U> -}
+                           = \ ds :: Data.ByteString.Lazy.Internal.ByteString ->
+                             case ds of wild {
+                               Data.ByteString.Lazy.Internal.Empty -> ys
+                               Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 cs
+                               -> Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 (go1 cs) }
+                         } in
+                         go1 input2) of wild { Data.Digest.Pure.MD5.MD5Digest h ->
+                 Data.Digest.Pure.MD5.$fShowMD5Digest_$cshow1 h }) -}
+4f65b630c55b37d2ad3129e427714495
+  encodeMD5_$sencodeMD5 ::
+    GHC.Integer.Type.Integer
+    -> Data.ByteString.Lazy.Internal.ByteString -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,U><L,1*U>,
+     Unfolding: (\ i :: GHC.Integer.Type.Integer
+                   input2 :: Data.ByteString.Lazy.Internal.ByteString ->
+                 case Data.Digest.Pure.MD5.$fHashMD5ContextMD5Digest_$chash
+                        Data.Digest.Pure.MD5.$fHashMD5ContextMD5Digest
+                        (let {
+                           ys :: Data.ByteString.Lazy.Internal.ByteString
+                           = Data.ByteString.Lazy.Internal.packChars_$spackChunks
+                               32
+                               (GHC.Show.$fShowInteger_$cshow i)
+                         } in
+                         letrec {
+                           go1 :: Data.ByteString.Lazy.Internal.ByteString
+                                  -> Data.ByteString.Lazy.Internal.ByteString
+                             {- Arity: 1, Strictness: <S,1*U> -}
+                           = \ ds :: Data.ByteString.Lazy.Internal.ByteString ->
+                             case ds of wild {
+                               Data.ByteString.Lazy.Internal.Empty -> ys
+                               Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 cs
+                               -> Data.ByteString.Lazy.Internal.Chunk dt dt1 dt2 dt3 (go1 cs) }
+                         } in
+                         go1 input2) of wild { Data.Digest.Pure.MD5.MD5Digest h ->
+                 Data.Digest.Pure.MD5.$fShowMD5Digest_$cshow1 h }) -}
+69d1ad792d35c87beab8ba330ea70296
+  input :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.packChars_$spackChunks
+                   32
+                   Day04.input1) -}
+868682fb12ce8c972b1b1c54e5e30f17
+  input1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "iwrupvqb"#) -}
+5b1d4059ef2c39d0f74dc439f10c640a
+  part1 :: GHC.Integer.Type.Integer
+  {- Unfolding: (Day04.part1_go Day04.part4 Day04.input) -}
+c12899f1eaa96c371b2bb9012e46e055
+  part1_go ::
+    GHC.Integer.Type.Integer
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> GHC.Integer.Type.Integer
+  {- Arity: 2, Strictness: <S,U><L,U> -}
+f383ad4d6816d17088ef20f4298fdc2b
+  part2 :: GHC.Integer.Type.Integer
+  {- Unfolding: (Day04.part2_go Day04.part4 Day04.input) -}
+f511385a064a3f25c4c5c1a337eb6d11
+  part2_go ::
+    GHC.Integer.Type.Integer
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> GHC.Integer.Type.Integer
+  {- Arity: 2, Strictness: <S,U><L,U> -}
+c4715bf26e140f5c197c7183902a4d61
+  part4 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+"SPEC encodeMD5 @ Integer" [ALWAYS] forall $dShow :: GHC.Show.Show
+                                                       GHC.Integer.Type.Integer
+  Day04.encodeMD5 @ GHC.Integer.Type.Integer $dShow
+  = Day04.encodeMD5_$sencodeMD5
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

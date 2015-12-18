@@ -1,0 +1,151 @@
+
+==================== FINAL INTERFACE ====================
+2015-12-17 17:36:01.862486 UTC
+
+interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day05 7102
+  interface hash: acc241666b31263713cc2fb2a148452a
+  ABI hash: 2b36ed11607731a6800bd81dbb2bed12
+  export-list hash: bca400065143f5abcbcd6859d0857a6d
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: b49ac43a2dcea5d8c160dc52ed86966e
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day05.complexPairs
+  Day05.contains3Vowels
+  Day05.doubleLetters
+  Day05.noPairs
+  Day05.oneLetterBetween
+  Day05.part1
+  Day05.part2
+module dependencies:
+package dependencies: array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      base-4.8.1.0* containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map 8137ae58be1ec45e0e573cabbb314b88
+import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base f612c5e011acafca0324bd65cbb4b781
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+08ab0f58faf221707311ff237441c798
+  $w$sgo10 ::
+    ([GHC.Types.Char] -> a1 -> a1 -> a1)
+    -> [GHC.Types.Char]
+    -> a1
+    -> Data.Map.Base.Map [GHC.Types.Char] a1
+    -> (# GHC.Base.Maybe a1, Data.Map.Base.Map [GHC.Types.Char] a1 #)
+  {- Arity: 4, Strictness: <L,1*C1(C1(C1(U)))><S,1*U><L,U><S,1*U>,
+     Inline: [0] -}
+def48aacc217689af9f774862ae09c3a
+  $wgo :: GHC.Prim.Int# -> GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <S,U><L,1*U>, Inline: [0] -}
+ba30185b6985e945e4ec11e6c3edc98d
+  $wgo1 :: [GHC.Base.String] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+2c8a17922f1259f99879e7b0c068e64e
+  $wgo2 :: [GHC.Base.String] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+428899442bae019953239cb6831368f5
+  complexPairs :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1,
+     Unfolding: (Day05.complexPairs_go
+                   (Data.Map.Base.Tip @ GHC.Base.String @ GHC.Types.Int)) -}
+9dbec9fb9d7983555f57aae70d4d19fe
+  complexPairs_go ::
+    Data.Map.Base.Map GHC.Base.String GHC.Types.Int
+    -> GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
+9853e875bf927944cd3e12d7d0e3a490
+  contains3Vowels :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1,
+     Unfolding: (\ w :: GHC.Base.String -> Day05.$wgo 0 w) -}
+32c86a6e0765aa30dfd8eaac2f5b9405
+  doubleLetters :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+f600ff79af3d55e0da9c40088ce4ca5f
+  noPairs :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U> -}
+18c211f4caacef05d0e063b493a197a9
+  oneLetterBetween :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+9db01a8059afecb5ce4b42ccc5165d65
+  part1 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day05.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+99bf8a9756997c591ab10b2331bb580e
+  part2 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day05.part6 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+fa8842ac2f6ef050989fec23aaa7b416
+  part4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day05.part5
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (case Day05.$wgo1 (Data.OldList.lines ipv3) 0 of ww { DEFAULT ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+aca17abfd03f3f1e9157aefb4d3f104a
+  part5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "day05-input.txt"#) -}
+43dc41eb54640353434ba7446a7e12e0
+  part6 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day05.part5
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (case Day05.$wgo2 (Data.OldList.lines ipv3) 0 of ww { DEFAULT ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

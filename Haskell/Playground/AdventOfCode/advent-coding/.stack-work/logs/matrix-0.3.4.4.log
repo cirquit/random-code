@@ -1,0 +1,38 @@
+Configuring matrix-0.3.4.4...
+Building matrix-0.3.4.4...
+Preprocessing library matrix-0.3.4.4...
+[1 of 1] Compiling Data.Matrix      ( Data/Matrix.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Data/Matrix.o )
+
+Data/Matrix.hs:72:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+Data/Matrix.hs:74:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+Data/Matrix.hs:1185:1: Warning:
+    Rule "matrix/traceOfSum" may never fire
+      because ‘trace’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma on ‘trace’
+
+Data/Matrix.hs:1188:1: Warning:
+    Rule "matrix/traceOfScale" may never fire
+      because ‘trace’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma on ‘trace’
+
+Data/Matrix.hs:1213:1: Warning:
+    Rule "matrix/detLaplaceProduct" may never fire
+      because ‘detLaplace’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma on ‘detLaplace’
+
+Data/Matrix.hs:1216:1: Warning:
+    Rule "matrix/detLUProduct" may never fire
+      because ‘detLU’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma on ‘detLU’
+In-place registering matrix-0.3.4.4...
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux/lts-3.14/7.10.2/lib/x86_64-linux-ghc-7.10.2/matrix-0.3.4.4-AtloKBQ0sJh0fVbfwJdXPl
+Registering matrix-0.3.4.4...

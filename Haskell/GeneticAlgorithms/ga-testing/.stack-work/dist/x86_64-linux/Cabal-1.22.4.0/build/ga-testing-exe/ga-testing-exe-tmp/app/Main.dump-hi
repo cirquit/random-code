@@ -1,0 +1,694 @@
+
+==================== FINAL INTERFACE ====================
+2015-12-10 21:24:21.109678 UTC
+
+interface main@main:Main [orphan module] 7102
+  interface hash: 918264048532a6a37bbd1b86a158d726
+  ABI hash: 84bf8ea54b40fc92205d83c50693986f
+  export-list hash: c8bc7e1c88bfe9152adfa702bbbfdceb
+  orphan hash: 19985dd4097c1224490c32446f4859c6
+  flag hash: 0b86d0c0c9c2dbdbc7249f1ab7f8064b
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.sum'
+  Main.Letter
+  Main.Sentence
+  Main.Target
+module dependencies:
+package dependencies: GA-1.0@GA_EOefvbGy6SuAYY1TisurE9
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0*
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 random-1.1@rando_1z8Ujelqc6aKgvPnbRUKkP*
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+import  -/  GA-1.0@GA_EOefvbGy6SuAYY1TisurE9:GA 95c0d2a33c04eade2713bbc7f3e760fa
+import  -/  base-4.8.1.0:Data.Char ba93ec4ca3776f6d9a8c8a6223b2fb26
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.Tuple 012ad951a59a9d85fe1de36a2f012986
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Char 612e350e38947989d78fc181dfd596f1
+import  -/  base-4.8.1.0:GHC.Enum d0db4d619cd8916cc7a23444816222af
+import  -/  base-4.8.1.0:GHC.IO.Handle fda05b0a879e69b0b19e31645e2a560c
+import  -/  base-4.8.1.0:GHC.IO.Handle.FD 54084174c7327478f2d75bda2d43d4a9
+import  -/  base-4.8.1.0:GHC.IO.Handle.Text ad03cb260078f569197eef288a99a983
+import  -/  base-4.8.1.0:GHC.IO.IOMode 322ecfdfea0791ba55fa98d605d1fcc8
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Real 4c3b525ecbd4d62bb287aec36d4c2f0d
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  random-1.1@rando_1z8Ujelqc6aKgvPnbRUKkP:System.Random 043afd3a72ee464fc1e36264f990a1de
+7938b3d52abfdedec4858897395761ff
+  $fEntity[]Double[][]IO ::
+    GA.Entity
+      Main.Sentence
+      GHC.Types.Double
+      Main.Target
+      [Main.Letter]
+      GHC.Types.IO
+  DFunId[0]
+  {- Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Sentence
+                  @ GHC.Types.Double
+                  @ Main.Target
+                  @ [Main.Letter]
+                  @ GHC.Types.IO
+                  Main.$fEntity[]Double[][]IO12
+                  Main.$fEntity[]Double[][]IO11
+                  Main.$fEntity[]Double[][]IO10
+                  Main.$fEntity[]Double[][]IO9
+                  GHC.Classes.$fOrdDouble
+                  GHC.Read.$fReadDouble
+                  GHC.Float.$fShowDouble
+                  GHC.Base.$fMonadIO
+                  Main.$fEntity[]Double[][]IO_$cgenRandom
+                  Main.$fEntity[]Double[][]IO_$ccrossover
+                  Main.$fEntity[]Double[][]IO_$cmutation
+                  Main.$fEntity[]Double[][]IO_$cscore'
+                  Main.$fEntity[]Double[][]IO_$cscore
+                  Main.$fEntity[]Double[][]IO_$cscorePop
+                  Main.$fEntity[]Double[][]IO_$cisPerfect
+                  Main.$fEntity[]Double[][]IO_$cshowGeneration
+                  Main.$fEntity[]Double[][]IO_$s$dmhasConverged -}
+fb6df3e7dd6d5c314ed8b7ba00e871f3
+  $fEntity[]Double[][]IO1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "]"#) -}
+76023b704322a05b097487603a8040eb
+  $fEntity[]Double[][]IO10 :: GHC.Read.Read Main.Sentence
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Read.$fRead[]_$s$fRead[]1 -}
+409a9f6f66102827afb5fc2c3b9c765a
+  $fEntity[]Double[][]IO11 :: GHC.Classes.Ord Main.Sentence
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fOrd[]_$s$fOrd[]1 -}
+0e3391e373ea7bb2e9174202b74706e2
+  $fEntity[]Double[][]IO12 :: GHC.Classes.Eq Main.Sentence
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Classes.$fEq[]_$s$fEq[]1 -}
+66e024c09dd5239ffac0942f142619cc
+  $fEntity[]Double[][]IO2 :: [GHC.Types.Char]
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.shows6
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+1e9536d0d17135efb8d58c2739fa767c
+  $fEntity[]Double[][]IO3 :: (GHC.Types.Double, Main.Sentence)
+  {- Strictness: b -}
+f0e4dad2e51e183e2c5a46ab1a882ce1
+  $fEntity[]Double[][]IO4 ::
+    Main.Target
+    -> [Main.Sentence]
+    -> [Main.Sentence]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe [GHC.Base.Maybe GHC.Types.Double] #)
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (4, True, True)
+                (\ eta :: Main.Target
+                   eta1 :: [Main.Sentence]
+                   eta2 :: [Main.Sentence]
+                   s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# s, GHC.Base.Nothing @ [GHC.Base.Maybe GHC.Types.Double] #)) -}
+b2e1a15824ff8560e0cdca233074a0d4
+  $fEntity[]Double[][]IO5 ::
+    Main.Target
+    -> Main.Sentence
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe GHC.Types.Double #)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: (\ fn :: Main.Target
+                   e :: Main.Sentence
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        fn
+                        GHC.IO.IOMode.ReadMode
+                        eta of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.List.$wlenAcc @ GHC.Types.Char ipv3 0 of ww2 { DEFAULT ->
+                 case GHC.IO.Handle.hClose1 ipv1 ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 (# ipv4,
+                    GHC.Base.Just
+                      @ GHC.Types.Double
+                      (case Main.$wgo
+                              e
+                              (GHC.Base.map @ GHC.Types.Char @ GHC.Types.Int GHC.Base.ord ipv3)
+                              0 of ww { DEFAULT ->
+                       case GHC.List.$wlenAcc @ GHC.Types.Char e 0 of ww1 { DEFAULT ->
+                       let {
+                         x :: GHC.Prim.Int# = GHC.Prim.-# ww2 ww1
+                       } in
+                       case GHC.Prim.tagToEnum#
+                              @ GHC.Types.Bool
+                              (GHC.Prim.>=# x 0) of wild1 {
+                         GHC.Types.False
+                         -> GHC.Types.D#
+                              (GHC.Prim.int2Double#
+                                 (GHC.Prim.+# ww (GHC.Prim.*# 100 (GHC.Prim.negateInt# x))))
+                         GHC.Types.True
+                         -> GHC.Types.D#
+                              (GHC.Prim.int2Double#
+                                 (GHC.Prim.+# ww (GHC.Prim.*# 100 x))) } } }) #) } } } }) -}
+8d5fb6052e37807f73b43b66161f7023
+  $fEntity[]Double[][]IO6 ::
+    [Main.Letter]
+    -> GHC.Types.Float
+    -> GHC.Types.Int
+    -> Main.Sentence
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe [GHC.Types.Char] #)
+  {- Arity: 5, Strictness: <L,U><L,1*U(U)><L,U(U)><L,1*U><L,U> -}
+6d35264938fe9acb7b9fb9d93c2ead61
+  $fEntity[]Double[][]IO7 ::
+    [Main.Letter]
+    -> GHC.Types.Float
+    -> GHC.Types.Int
+    -> Main.Sentence
+    -> Main.Sentence
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe [GHC.Types.Char] #)
+  {- Arity: 6, Strictness: <L,A><L,A><L,1*U(U)><L,1*U><L,1*U><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, True)
+                (\ w :: [Main.Letter]
+                   w1 :: GHC.Types.Float
+                   w2 :: GHC.Types.Int
+                   w3 :: Main.Sentence
+                   w4 :: Main.Sentence
+                   w5 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 Main.$wa w2 w3 w4 w5) -}
+d30280798c52ac0c7474acec8edc8276
+  $fEntity[]Double[][]IO8 ::
+    [Main.Letter]
+    -> GHC.Types.Int
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, [Main.Letter] #)
+  {- Arity: 3, Strictness: <L,U><L,1*U(U)><L,U>,
+     Unfolding: (\ pool :: [Main.Letter]
+                   seed :: GHC.Types.Int
+                   eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta,
+                    let {
+                      g :: System.Random.StdGen
+                      = case seed of wild { GHC.Types.I# x# ->
+                        case GHC.Int.$w$cdivMod1
+                               (GHC.Prim.word2Int#
+                                  (GHC.Prim.and#
+                                     (GHC.Prim.int2Word# (GHC.Prim.narrow32Int# x#))
+                                     __word 2147483647))
+                               2147483562 of ww4 { (#,#) ww5 ww6 ->
+                        case ww6 of wild1 { GHC.Int.I32# x#1 ->
+                        case ww5 of ww2 { GHC.Int.I32# ww3 ->
+                        case GHC.Classes.modInt# ww3 2147483398 of wild2 { DEFAULT ->
+                        System.Random.StdGen
+                          (GHC.Prim.narrow32Int# (GHC.Prim.+# x#1 1))
+                          (GHC.Prim.narrow32Int#
+                             (GHC.Prim.+# (GHC.Prim.narrow32Int# wild2) 1)) } } } } }
+                    } in
+                    case System.Random.$wrandomIvalInteger
+                           @ System.Random.StdGen
+                           @ GHC.Types.Int
+                           System.Random.$fRandomGenStdGen
+                           GHC.Num.$fNumInt
+                           System.Random.$fRandomCIntMax4
+                           System.Random.$fRandomCIntMax3
+                           g of ww { (#,#) ww1 ww2 ->
+                    case ww1 of wild1 { GHC.Types.I# x ->
+                    case GHC.Classes.modInt# x 101 of ww4 { DEFAULT ->
+                    case GHC.Prim.tagToEnum#
+                           @ GHC.Types.Bool
+                           (GHC.Prim.<# 0 ww4) of wild {
+                      GHC.Types.False -> GHC.Types.[] @ GHC.Types.Char
+                      GHC.Types.True
+                      -> let {
+                           x1 :: GHC.Types.Int
+                           = case GHC.List.$wlenAcc
+                                    @ GHC.Types.Char
+                                    pool
+                                    0 of ww5 { DEFAULT ->
+                             GHC.Types.I# ww5 }
+                         } in
+                         let {
+                           lvl3 :: Main.Letter = GHC.List.$w!! @ Main.Letter pool 0
+                         } in
+                         letrec {
+                           $wgo2 :: System.Random.StdGen -> GHC.Prim.Int# -> [GHC.Types.Char]
+                             {- Arity: 2, Strictness: <L,U><S,1*U>, Inline: [0] -}
+                           = \ w :: System.Random.StdGen ww5 :: GHC.Prim.Int# ->
+                             case System.Random.$wrandomIvalInteger
+                                    @ System.Random.StdGen
+                                    @ GHC.Types.Int
+                                    System.Random.$fRandomGenStdGen
+                                    GHC.Num.$fNumInt
+                                    System.Random.$fRandomCIntMax4
+                                    System.Random.$fRandomCIntMax3
+                                    w of ww6 { (#,#) ww7 ww8 ->
+                             case ww7 of x2 { GHC.Types.I# ipv ->
+                             let {
+                               x3 :: GHC.Types.Char
+                               = case x1 of ww9 { GHC.Types.I# ww10 ->
+                                 case ww10 of wild2 {
+                                   DEFAULT
+                                   -> case GHC.Classes.modInt# ipv wild2 of ww11 { DEFAULT ->
+                                      GHC.List.$w!! @ Main.Letter pool ww11 }
+                                   (-1) -> lvl3
+                                   0 -> case GHC.Real.divZeroError ret_ty GHC.Types.Char of {} } }
+                             } in
+                             case ww5 of ds1 {
+                               DEFAULT
+                               -> GHC.Types.: @ GHC.Types.Char x3 ($wgo2 ww8 (GHC.Prim.-# ds1 1))
+                               1
+                               -> GHC.Types.:
+                                    @ GHC.Types.Char
+                                    x3
+                                    (GHC.Types.[] @ GHC.Types.Char) } } }
+                         } in
+                         $wgo2 g ww4 } } } } #)) -}
+57cb7dfd6d7d2ba5f4f0bc6a0f4e363f
+  $fEntity[]Double[][]IO9 :: GHC.Show.Show GHC.Base.String
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                GHC.Show.$fShow[]_$s$fShow[]1 -}
+c41f89d985ab9424938eab9682c39f1e
+  $fEntity[]Double[][]IO_$ccrossover ::
+    [Main.Letter]
+    -> GHC.Types.Float
+    -> GHC.Types.Int
+    -> Main.Sentence
+    -> Main.Sentence
+    -> GHC.Types.IO (GHC.Base.Maybe Main.Sentence)
+  {- Arity: 6, Strictness: <L,A><L,A><L,1*U(U)><L,1*U><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fEntity[]Double[][]IO7
+                  `cast`
+                (<[Main.Letter]>_R
+                 ->_R <GHC.Types.Float>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R <Main.Sentence>_R
+                 ->_R <Main.Sentence>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe [GHC.Types.Char]>_R)) -}
+3d5556f3471aabb38a06e49c9d57eb63
+  $fEntity[]Double[][]IO_$cgenRandom ::
+    [Main.Letter] -> GHC.Types.Int -> GHC.Types.IO Main.Sentence
+  {- Arity: 3, Strictness: <L,U><L,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fEntity[]Double[][]IO8
+                  `cast`
+                (<[Main.Letter]>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <[Main.Letter]>_R)) -}
+d6c1d04631beb12e4e282427d5be40fd
+  $fEntity[]Double[][]IO_$cisPerfect ::
+    (Main.Sentence, GHC.Types.Double) -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS(S)),1*U(A,1*U(1*U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: (Main.Sentence, GHC.Types.Double) ->
+                 case ds of wild { (,) ds1 s ->
+                 case s of wild1 { GHC.Types.D# x ->
+                 case x of wild2 {
+                   DEFAULT -> GHC.Types.False 0.0 -> GHC.Types.True } } }) -}
+42c9df94b1d73e6a67b1ed79f58e8e8b
+  $fEntity[]Double[][]IO_$cmutation ::
+    [Main.Letter]
+    -> GHC.Types.Float
+    -> GHC.Types.Int
+    -> Main.Sentence
+    -> GHC.Types.IO (GHC.Base.Maybe Main.Sentence)
+  {- Arity: 5, Strictness: <L,U><L,1*U(U)><L,U(U)><L,1*U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fEntity[]Double[][]IO6
+                  `cast`
+                (<[Main.Letter]>_R
+                 ->_R <GHC.Types.Float>_R
+                 ->_R <GHC.Types.Int>_R
+                 ->_R <Main.Sentence>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe [GHC.Types.Char]>_R)) -}
+8b1df54986eb17842d66193405ae384e
+  $fEntity[]Double[][]IO_$cscore ::
+    Main.Target
+    -> Main.Sentence -> GHC.Types.IO (GHC.Base.Maybe GHC.Types.Double)
+  {- Arity: 3, Strictness: <L,U><L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fEntity[]Double[][]IO5
+                  `cast`
+                (<Main.Target>_R
+                 ->_R <Main.Sentence>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe GHC.Types.Double>_R)) -}
+b11e2ac9a21c64dcdba83e0d006626ba
+  $fEntity[]Double[][]IO_$cscore' ::
+    Main.Target -> Main.Sentence -> GHC.Base.Maybe GHC.Types.Double
+  {- Arity: 2, Strictness: <B,A><B,A>b, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ w :: Main.Target w1 :: Main.Sentence ->
+                 Main.$w$cscore' GHC.Prim.void#) -}
+4bf64f76bbac89f23d1fd24bc0b4bfe5
+  $fEntity[]Double[][]IO_$cscorePop ::
+    Main.Target
+    -> [Main.Sentence]
+    -> [Main.Sentence]
+    -> GHC.Types.IO (GHC.Base.Maybe [GHC.Base.Maybe GHC.Types.Double])
+  {- Arity: 4, HasNoCafRefs, Strictness: <L,A><L,A><L,A><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.$fEntity[]Double[][]IO4
+                  `cast`
+                (<Main.Target>_R
+                 ->_R <[Main.Sentence]>_R
+                 ->_R <[Main.Sentence]>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0]
+                               <GHC.Base.Maybe [GHC.Base.Maybe GHC.Types.Double]>_R)) -}
+6f089449f77ee65b19e08fec5a01f458
+  $fEntity[]Double[][]IO_$cshowGeneration ::
+    GHC.Types.Int
+    -> GA.Generation Main.Sentence GHC.Types.Double -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,1*U(U)><S,1*U(A,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int
+                   w1 :: GA.Generation Main.Sentence GHC.Types.Double ->
+                 case w1 of ww { (,) ww1 ww2 -> Main.$w$cshowGeneration w ww2 }) -}
+dfa50c887bc6d3b47887cf86e962eb04
+  $fEntity[]Double[][]IO_$s$dmhasConverged ::
+    [GA.Archive Main.Sentence GHC.Types.Double] -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ ds :: [GA.Archive Main.Sentence GHC.Types.Double] ->
+                 GHC.Types.False) -}
+6b7374424a87f19bfe8756c91f9d728d
+  $fEntity[]Double[][]IO_go ::
+    System.Random.StdGen -> [GHC.Types.Int]
+  {- Arity: 1, Strictness: <L,U> -}
+17a052040115a2f26c9cd935179ddd14
+  $fEntity[]Double[][]IO_go1 ::
+    [GHC.Types.Char]
+    -> [GHC.Types.Char] -> [GHC.Types.Int] -> [GHC.Types.Char]
+  {- Arity: 3, Strictness: <S,1*U><L,1*U><L,1*U> -}
+22cba21920174759d0122b3b8fa79f56
+  $w$cscore' :: GHC.Prim.Void# -> GHC.Base.Maybe GHC.Types.Double
+  {- Arity: 1, Strictness: <L,U>b, Inline: [0] -}
+94ca3419b056d273691e50d45a579e86
+  $w$cshowGeneration ::
+    GHC.Types.Int
+    -> GA.Archive Main.Sentence GHC.Types.Double -> [GHC.Types.Char]
+  {- Arity: 2, Strictness: <L,1*U(U)><L,1*U>, Inline: [0],
+     Unfolding: (\ w :: GHC.Types.Int
+                   ww :: GA.Archive Main.Sentence GHC.Types.Double ->
+                 GHC.CString.unpackAppendCString#
+                   "best entity (gen. "#
+                   (case w of ww2 { GHC.Types.I# ww3 ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww3
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Base.++
+                      @ GHC.Types.Char
+                      (GHC.Types.: @ GHC.Types.Char ww5 ww6)
+                      (GHC.CString.unpackAppendCString#
+                         "): "#
+                         (let {
+                            ds1 :: (GHC.Types.Double, Main.Sentence)
+                            = case ww of wild {
+                                []
+                                -> case GHC.List.badHead
+                                   ret_ty (GHC.Types.Double, Main.Sentence)
+                                   of {}
+                                : x ds2
+                                -> case x of wild1 { (,) ds3 e1 ->
+                                   case ds3 of wild2 {
+                                     GHC.Base.Nothing -> Main.$fEntity[]Double[][]IO3
+                                     GHC.Base.Just fitness -> (fitness, e1) } } }
+                          } in
+                          GHC.Base.++
+                            @ GHC.Types.Char
+                            (GHC.Types.:
+                               @ GHC.Types.Char
+                               GHC.Show.shows6
+                               (case ds1 of ds2 { (,) fitness e1 ->
+                                GHC.Show.showLitString e1 Main.$fEntity[]Double[][]IO2 }))
+                            (GHC.CString.unpackAppendCString#
+                               " [fitness: "#
+                               (case ds1 of ds2 { (,) fitness e1 ->
+                                case fitness of ww1 { GHC.Types.D# ww8 ->
+                                GHC.Base.++
+                                  @ GHC.Types.Char
+                                  (GHC.Float.$w$sshowSignedFloat
+                                     GHC.Float.$fShowDouble_$sshowFloat
+                                     GHC.Show.shows18
+                                     ww8
+                                     (GHC.Types.[] @ GHC.Types.Char))
+                                  Main.$fEntity[]Double[][]IO1 } })))) } })) -}
+353b339d7c257b2b73451d5b38eed57c
+  $wa ::
+    GHC.Types.Int
+    -> Main.Sentence
+    -> Main.Sentence
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          GHC.Base.Maybe [GHC.Types.Char] #)
+  {- Arity: 4, Strictness: <L,1*U(U)><L,1*U><L,1*U><L,U>,
+     Inline: [0],
+     Unfolding: (\ w :: GHC.Types.Int
+                   w1 :: Main.Sentence
+                   w2 :: Main.Sentence
+                   w3 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# w3,
+                    GHC.Base.Just
+                      @ [GHC.Types.Char]
+                      (Main.$fEntity[]Double[][]IO_go1
+                         w1
+                         w2
+                         (Main.$fEntity[]Double[][]IO_go
+                            (case w of wild { GHC.Types.I# x# ->
+                             case GHC.Int.$w$cdivMod1
+                                    (GHC.Prim.word2Int#
+                                       (GHC.Prim.and#
+                                          (GHC.Prim.int2Word# (GHC.Prim.narrow32Int# x#))
+                                          __word 2147483647))
+                                    2147483562 of ww4 { (#,#) ww5 ww6 ->
+                             case ww6 of wild1 { GHC.Int.I32# x#1 ->
+                             case ww5 of ww2 { GHC.Int.I32# ww3 ->
+                             case GHC.Classes.modInt# ww3 2147483398 of wild2 { DEFAULT ->
+                             System.Random.StdGen
+                               (GHC.Prim.narrow32Int# (GHC.Prim.+# x#1 1))
+                               (GHC.Prim.narrow32Int#
+                                  (GHC.Prim.+# (GHC.Prim.narrow32Int# wild2) 1)) } } } } }))) #)) -}
+effab0943c2fffc747ed0e9168e49090
+  $wgo ::
+    [GHC.Types.Char]
+    -> [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 3, HasNoCafRefs, Strictness: <S,1*U><L,1*U><L,U>,
+     Inline: [0] -}
+6c158c861aa5a90693ee9217c017164e
+  $wgo1 :: GHC.Prim.Int# -> (# GHC.Types.Char, [GHC.Types.Char] #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+2857b564b098d6451470cd38b2d31fa2
+  type Letter = GHC.Types.Char
+5c53193df0b502372e318a0204060aba
+  type Sentence = GHC.Base.String
+a6b413d266c40fa9dd53a20505ecad41
+  type Target = GHC.Base.String
+2f96df557ba51321596c5f32fd65d664
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+af88d4026d2cf11ecd696757ba442894
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case System.IO.writeFile1
+                        Main.main_fileName
+                        Main.main10
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case (GA.evolveVerbose
+                         @ [GHC.Types.Char]
+                         @ [GHC.Types.Char]
+                         @ GHC.Types.IO
+                         @ GHC.Base.String
+                         @ GHC.Types.Double
+                         Main.$fEntity[]Double[][]IO
+                         Control.Monad.IO.Class.$fMonadIOIO
+                         Main.main_g
+                         Main.main3
+                         Main.main_charsPool
+                         Main.main_fileName)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0]
+                           <GA.Archive GHC.Base.String GHC.Types.Double>_R)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.CString.unpackAppendCString#
+                           "best entity (GA): "#
+                           (GHC.Types.:
+                              @ GHC.Types.Char
+                              GHC.Show.shows6
+                              (case ipv3 of wild {
+                                 [] -> case GHC.List.badHead ret_ty [GHC.Types.Char] of {}
+                                 : x ds3
+                                 -> case x of wild1 { (,) ds4 y ->
+                                    GHC.Show.showLitString y Main.$fEntity[]Double[][]IO2 } })))
+                        GHC.Types.True
+                        ipv2 of ds3 { (#,#) ipv4 ipv5 ->
+                 case (GA.randomSearch
+                         @ [GHC.Types.Char]
+                         @ [GHC.Types.Char]
+                         @ GHC.Types.IO
+                         @ GHC.Base.String
+                         @ GHC.Types.Double
+                         Main.$fEntity[]Double[][]IO
+                         Main.main_g
+                         Main.main2
+                         Main.main_charsPool
+                         Main.main_fileName)
+                        `cast`
+                      (GHC.Types.NTCo:IO[0]
+                           <GA.Archive GHC.Base.String GHC.Types.Double>_R)
+                        ipv4 of ds4 { (#,#) ipv6 ipv7 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (GHC.CString.unpackAppendCString#
+                      "best entity (random search): "#
+                      (GHC.Types.:
+                         @ GHC.Types.Char
+                         GHC.Show.shows6
+                         (case ipv7 of wild {
+                            [] -> case GHC.List.badHead ret_ty [GHC.Types.Char] of {}
+                            : x ds5
+                            -> case x of wild1 { (,) ds6 y ->
+                               GHC.Show.showLitString y Main.$fEntity[]Double[][]IO2 } })))
+                   GHC.Types.True
+                   ipv6 } } } }) -}
+4cfbe5cf150e51e9f7773a55d4d2f1e6
+  main10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Hello World!"#) -}
+3c3e08b950e2566d02441d5b8d9bcacd
+  main11 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+a859cc573e36a67fe95b92fce9264e43
+  main2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 100000) -}
+91e2bc38a497c80fe8e30c6a337dfb50
+  main3 :: GA.GAConfig
+  {- HasNoCafRefs,
+     Unfolding: (GA.GAConfig
+                   Main.main9
+                   Main.main8
+                   Main.main7
+                   Main.main6
+                   Main.main5
+                   Main.main4
+                   Main.main5
+                   GHC.Types.False
+                   GHC.Types.False) -}
+f880c49a2c9692cbc8341fff5282aa33
+  main4 :: GHC.Types.Float
+  {- HasNoCafRefs, Unfolding: (GHC.Types.F# __float 0.0) -}
+81ae451952edee37d9c9e4cad75194d5
+  main5 :: GHC.Types.Float
+  {- HasNoCafRefs, Unfolding: (GHC.Types.F# __float 0.2) -}
+a6f05f9e37def1c9b333daddc4a639bf
+  main6 :: GHC.Types.Float
+  {- HasNoCafRefs, Unfolding: (GHC.Types.F# __float 0.8) -}
+13dfe1fa92a04b7a53b63cb2647bbc91
+  main7 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 300) -}
+7460e32304fde6b6cf9c90c4dc5f40af
+  main8 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 25) -}
+2b560ce496df236f58cf62490718edd3
+  main9 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 100) -}
+cb4cc8500ae608c6fac72b387e804e0a
+  main_charsPool :: [GHC.Types.Char]
+  {- Unfolding: (case Main.$wgo1 32 of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.: @ GHC.Types.Char ww1 ww2 }) -}
+529c8639dc3a40f9a21c6a5cf7b170d5
+  main_fileName :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "goal.txt"#) -}
+41de5be878e5d57b72f943bf5bf2cf6d
+  main_g :: System.Random.StdGen
+  {- Unfolding: (case GHC.Int.$w$cdivMod1
+                        0
+                        2147483562 of ww4 { (#,#) ww5 ww6 ->
+                 case ww6 of wild { GHC.Int.I32# x# ->
+                 case ww5 of ww2 { GHC.Int.I32# ww3 ->
+                 case GHC.Classes.modInt# ww3 2147483398 of wild1 { DEFAULT ->
+                 System.Random.StdGen
+                   (GHC.Prim.narrow32Int# (GHC.Prim.+# x# 1))
+                   (GHC.Prim.narrow32Int#
+                      (GHC.Prim.+# (GHC.Prim.narrow32Int# wild1) 1)) } } } }) -}
+fc670c33d51455d7966007bb8817b29a
+  sum' :: GHC.Num.Num a => [a] -> a
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <L,U(1*C(C1(U)),A,A,A,A,A,1*C1(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ a3 $dNum :: GHC.Num.Num a3 ->
+                 GHC.List.foldl'
+                   @ a3
+                   @ a3
+                   (GHC.Num.+ @ a3 $dNum)
+                   (GHC.Num.fromInteger @ a3 $dNum Main.sum'2)) -}
+3d8e700f90c4c324aa877e3b19e3edc0
+  sum'2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+instance GA.Entity [[], GHC.Types.Double, [], [], GHC.Types.IO]
+  = Main.$fEntity[]Double[][]IO
+"SPEC/Main $dmhasConverged @ Sentence @ Double @ Target @ [Letter] @ IO" [ALWAYS] forall $dEntity :: GA.Entity
+                                                                                                       Main.Sentence
+                                                                                                       GHC.Types.Double
+                                                                                                       Main.Target
+                                                                                                       [Main.Letter]
+                                                                                                       GHC.Types.IO
+  GA.$dmhasConverged @ [GHC.Types.Char]
+                     @ GHC.Types.Double
+                     @ [GHC.Types.Char]
+                     @ [Main.Letter]
+                     @ GHC.Types.IO
+                     $dEntity
+  = Main.$fEntity[]Double[][]IO_$s$dmhasConverged
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

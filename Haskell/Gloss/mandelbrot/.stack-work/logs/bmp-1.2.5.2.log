@@ -1,0 +1,1663 @@
+Configuring bmp-1.2.5.2...
+Building bmp-1.2.5.2...
+Preprocessing library bmp-1.2.5.2...
+[ 1 of 12] Compiling Codec.BMP.CIEXYZ ( Codec/BMP/CIEXYZ.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/CIEXYZ.o )
+
+Codec/BMP/CIEXYZ.hs:3:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:14:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:15:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:20:7: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:20:10: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:21:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:21:10: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:22:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:22:10: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:23:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:23:15: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:24:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:26:7: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:27:1: Warning: Tab character
+
+Codec/BMP/CIEXYZ.hs:28:1: Warning: Tab character
+[ 2 of 12] Compiling Codec.BMP.Compression ( Codec/BMP/Compression.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/Compression.o )
+[ 3 of 12] Compiling Codec.BMP.Error  ( Codec/BMP/Error.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/Error.o )
+
+Codec/BMP/Error.hs:3:1: Warning: Tab character
+
+Codec/BMP/Error.hs:17:1: Warning: Tab character
+
+Codec/BMP/Error.hs:20:1: Warning: Tab character
+
+Codec/BMP/Error.hs:23:1: Warning: Tab character
+
+Codec/BMP/Error.hs:28:1: Warning: Tab character
+
+Codec/BMP/Error.hs:32:1: Warning: Tab character
+
+Codec/BMP/Error.hs:37:1: Warning: Tab character
+
+Codec/BMP/Error.hs:41:1: Warning: Tab character
+
+Codec/BMP/Error.hs:45:1: Warning: Tab character
+
+Codec/BMP/Error.hs:49:1: Warning: Tab character
+
+Codec/BMP/Error.hs:60:1: Warning: Tab character
+[ 4 of 12] Compiling Codec.BMP.BitmapInfoV3 ( Codec/BMP/BitmapInfoV3.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/BitmapInfoV3.o )
+
+Codec/BMP/BitmapInfoV3.hs:3:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:3:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:4:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:5:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:6:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:12:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:20:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:20:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:21:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:22:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:22:19: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:24:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:25:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:25:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:26:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:27:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:28:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:28:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:29:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:34:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:35:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:35:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:37:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:38:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:38:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:40:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:41:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:41:26: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:43:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:44:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:46:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:47:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:49:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:49:24: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:51:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:52:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:52:28: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:54:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:55:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:55:28: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:57:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:58:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:58:25: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:60:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:61:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:61:30: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:62:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:63:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:73:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:73:13: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:74:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:74:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:79:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:86:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:86:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:87:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:87:13: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:88:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:88:13: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:89:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:89:16: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:90:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:90:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:91:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:91:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:92:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:92:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:93:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:93:13: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:94:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:95:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:95:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:96:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:96:27: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:97:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:97:28: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:98:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:98:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:100:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:100:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:101:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:101:31: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:102:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:102:34: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:103:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:103:32: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:104:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:104:36: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:105:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:105:36: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:106:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:106:33: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:107:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:107:38: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:110:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:110:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:111:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:111:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:112:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:112:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:113:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:113:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:114:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:114:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:115:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:115:12: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:116:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:116:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:117:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:117:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:118:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:118:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:119:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:119:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:120:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:120:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:121:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:122:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:128:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:129:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:129:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:130:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:132:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:134:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:134:16: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:161:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:162:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV3.hs:163:1: Warning: Tab character
+[ 5 of 12] Compiling Codec.BMP.FileHeader ( Codec/BMP/FileHeader.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/FileHeader.o )
+
+Codec/BMP/FileHeader.hs:3:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:3:21: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:4:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:5:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:6:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:11:23: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:17:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:17:21: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:18:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:19:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:19:25: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:20:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:21:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:22:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:22:29: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:24:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:25:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:25:30: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:27:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:28:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:28:30: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:30:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:31:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:31:27: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:32:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:33:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:48:7: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:48:10: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:49:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:49:13: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:50:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:50:13: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:51:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:51:13: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:52:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:52:15: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:53:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:54:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:54:15: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:55:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:55:33: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:56:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:56:37: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:57:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:57:38: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:58:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:59:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:59:35: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:62:7: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:62:20: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:63:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:63:20: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:64:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:64:20: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:65:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:65:20: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:66:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:66:20: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:67:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:70:45: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:72:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:73:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:73:15: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:83:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:84:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:84:16: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:86:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:87:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:87:16: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:89:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:91:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:91:15: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:92:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:94:1: Warning: Tab character
+
+Codec/BMP/FileHeader.hs:95:1: Warning: Tab character
+[ 6 of 12] Compiling Codec.BMP.BitmapInfoV4 ( Codec/BMP/BitmapInfoV4.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/BitmapInfoV4.o )
+
+Codec/BMP/BitmapInfoV4.hs:3:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:3:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:4:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:5:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:6:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:13:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:19:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:20:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:21:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:21:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:23:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:24:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:25:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:25:22: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:26:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:26:24: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:27:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:27:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:28:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:28:24: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:30:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:31:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:31:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:33:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:36:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:36:24: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:38:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:39:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:40:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:40:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:41:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:41:25: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:42:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:42:24: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:43:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:44:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:54:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:54:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:55:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:55:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:56:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:56:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:57:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:57:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:58:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:58:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:59:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:59:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:60:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:60:13: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:61:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:61:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:62:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:62:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:63:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:63:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:64:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:65:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:65:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:66:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:66:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:67:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:67:30: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:68:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:68:32: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:69:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:69:31: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:70:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:70:32: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:71:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:71:37: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:72:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:72:32: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:73:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:73:31: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:74:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:74:33: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:75:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:75:32: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:76:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:79:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:79:12: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:79:37: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:80:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:80:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:80:38: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:81:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:81:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:81:40: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:82:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:82:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:82:39: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:83:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:83:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:83:40: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:84:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:84:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:84:45: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:85:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:85:12: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:85:41: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:86:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:86:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:86:39: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:87:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:87:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:87:41: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:88:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:88:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:88:40: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:90:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:97:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:99:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:100:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:100:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:127:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:132:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:133:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:134:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:135:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:136:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:137:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:138:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:139:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:140:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:146:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:147:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:148:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:149:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:150:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:151:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV4.hs:151:14: Warning: Tab character
+[ 7 of 12] Compiling Codec.BMP.BitmapInfoV5 ( Codec/BMP/BitmapInfoV5.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/BitmapInfoV5.o )
+
+Codec/BMP/BitmapInfoV5.hs:3:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:3:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:4:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:5:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:11:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:17:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:18:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:18:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:19:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:20:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:21:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:21:21: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:23:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:25:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:25:26: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:27:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:28:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:28:26: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:29:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:30:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:31:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:31:23: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:32:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:33:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:42:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:42:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:43:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:43:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:44:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:44:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:45:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:45:14: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:46:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:46:12: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:47:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:48:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:48:15: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:49:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:49:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:50:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:50:29: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:51:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:51:34: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:52:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:52:34: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:53:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:53:31: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:54:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:57:7: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:57:12: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:57:37: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:58:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:58:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:58:37: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:59:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:59:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:59:42: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:60:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:60:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:60:42: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:61:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:61:20: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:61:39: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:63:1: Warning: Tab character
+
+Codec/BMP/BitmapInfoV5.hs:68:1: Warning: Tab character
+[ 8 of 12] Compiling Codec.BMP.BitmapInfo ( Codec/BMP/BitmapInfo.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/BitmapInfo.o )
+
+Codec/BMP/BitmapInfo.hs:3:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:3:21: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:4:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:18:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:19:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:20:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:21:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:39:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:42:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:42:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:43:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:43:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:44:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:44:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:45:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:51:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:51:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:52:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:52:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:53:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:53:20: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:54:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:56:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:57:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:58:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:59:1: Warning: Tab character
+
+Codec/BMP/BitmapInfo.hs:60:1: Warning: Tab character
+[ 9 of 12] Compiling Codec.BMP.Base   ( Codec/BMP/Base.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/Base.o )
+
+Codec/BMP/Base.hs:3:1: Warning: Tab character
+
+Codec/BMP/Base.hs:3:14: Warning: Tab character
+
+Codec/BMP/Base.hs:15:1: Warning: Tab character
+
+Codec/BMP/Base.hs:16:1: Warning: Tab character
+
+Codec/BMP/Base.hs:16:24: Warning: Tab character
+
+Codec/BMP/Base.hs:17:1: Warning: Tab character
+
+Codec/BMP/Base.hs:17:24: Warning: Tab character
+
+Codec/BMP/Base.hs:18:1: Warning: Tab character
+
+Codec/BMP/Base.hs:18:26: Warning: Tab character
+
+Codec/BMP/Base.hs:19:1: Warning: Tab character
+[10 of 12] Compiling Codec.BMP.Unpack ( Codec/BMP/Unpack.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/Unpack.o )
+
+Codec/BMP/Unpack.hs:3:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:4:6: Warning: Tab character
+
+Codec/BMP/Unpack.hs:13:23: Warning: Tab character
+
+Codec/BMP/Unpack.hs:14:30: Warning: Tab character
+
+Codec/BMP/Unpack.hs:15:15: Warning: Tab character
+
+Codec/BMP/Unpack.hs:21:7: Warning: Tab character
+
+Codec/BMP/Unpack.hs:21:13: Warning: Tab character
+
+Codec/BMP/Unpack.hs:22:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:22:14: Warning: Tab character
+
+Codec/BMP/Unpack.hs:23:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:23:15: Warning: Tab character
+
+Codec/BMP/Unpack.hs:25:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:25:17: Warning: Tab character
+
+Codec/BMP/Unpack.hs:26:6: Warning: Tab character
+
+Codec/BMP/Unpack.hs:27:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:27:12: Warning: Tab character
+
+Codec/BMP/Unpack.hs:28:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:28:12: Warning: Tab character
+
+Codec/BMP/Unpack.hs:29:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:29:11: Warning: Tab character
+
+Codec/BMP/Unpack.hs:37:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:37:16: Warning: Tab character
+
+Codec/BMP/Unpack.hs:38:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:38:15: Warning: Tab character
+
+Codec/BMP/Unpack.hs:40:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:40:23: Warning: Tab character
+
+Codec/BMP/Unpack.hs:41:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:42:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:44:7: Warning: Tab character
+
+Codec/BMP/Unpack.hs:46:24: Warning: Tab character
+
+Codec/BMP/Unpack.hs:47:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:47:17: Warning: Tab character
+
+Codec/BMP/Unpack.hs:50:6: Warning: Tab character
+
+Codec/BMP/Unpack.hs:51:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:52:2: Warning: Tab character
+
+Codec/BMP/Unpack.hs:53:8: Warning: Tab character
+
+Codec/BMP/Unpack.hs:53:10: Warning: Tab character
+
+Codec/BMP/Unpack.hs:54:4: Warning: Tab character
+
+Codec/BMP/Unpack.hs:54:12: Warning: Tab character
+
+Codec/BMP/Unpack.hs:55:13: Warning: Tab character
+
+Codec/BMP/Unpack.hs:55:22: Warning: Tab character
+
+Codec/BMP/Unpack.hs:59:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:61:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:66:7: Warning: Tab character
+
+Codec/BMP/Unpack.hs:84:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:85:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:86:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:87:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:88:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:89:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:90:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:91:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:91:14: Warning: Tab character
+
+Codec/BMP/Unpack.hs:91:31: Warning: Tab character
+
+Codec/BMP/Unpack.hs:92:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:92:31: Warning: Tab character
+
+Codec/BMP/Unpack.hs:93:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:93:31: Warning: Tab character
+
+Codec/BMP/Unpack.hs:95:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:96:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:97:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:98:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:99:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:100:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:108:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:108:16: Warning: Tab character
+
+Codec/BMP/Unpack.hs:109:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:109:15: Warning: Tab character
+
+Codec/BMP/Unpack.hs:111:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:111:23: Warning: Tab character
+
+Codec/BMP/Unpack.hs:112:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:113:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:117:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:118:2: Warning: Tab character
+
+Codec/BMP/Unpack.hs:119:8: Warning: Tab character
+
+Codec/BMP/Unpack.hs:119:10: Warning: Tab character
+
+Codec/BMP/Unpack.hs:120:4: Warning: Tab character
+
+Codec/BMP/Unpack.hs:120:12: Warning: Tab character
+
+Codec/BMP/Unpack.hs:121:13: Warning: Tab character
+
+Codec/BMP/Unpack.hs:121:22: Warning: Tab character
+
+Codec/BMP/Unpack.hs:124:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:126:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:131:7: Warning: Tab character
+
+Codec/BMP/Unpack.hs:132:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:142:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:153:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:154:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:155:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:156:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:156:14: Warning: Tab character
+
+Codec/BMP/Unpack.hs:156:32: Warning: Tab character
+
+Codec/BMP/Unpack.hs:157:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:157:32: Warning: Tab character
+
+Codec/BMP/Unpack.hs:158:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:158:32: Warning: Tab character
+
+Codec/BMP/Unpack.hs:159:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:161:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:162:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:163:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:164:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:165:1: Warning: Tab character
+
+Codec/BMP/Unpack.hs:166:1: Warning: Tab character
+[11 of 12] Compiling Codec.BMP.Pack   ( Codec/BMP/Pack.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP/Pack.o )
+
+Codec/BMP/Pack.hs:17:23: Warning: Tab character
+
+Codec/BMP/Pack.hs:18:30: Warning: Tab character
+
+Codec/BMP/Pack.hs:19:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:100:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:101:16: Warning: Tab character
+
+Codec/BMP/Pack.hs:102:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:102:16: Warning: Tab character
+
+Codec/BMP/Pack.hs:103:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:103:22: Warning: Tab character
+
+Codec/BMP/Pack.hs:105:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:106:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:109:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:110:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:110:33: Warning: Tab character
+
+Codec/BMP/Pack.hs:112:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:112:37: Warning: Tab character
+
+Codec/BMP/Pack.hs:114:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:114:64: Warning: Tab character
+
+Codec/BMP/Pack.hs:117:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:117:38: Warning: Tab character
+
+Codec/BMP/Pack.hs:118:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:118:38: Warning: Tab character
+
+Codec/BMP/Pack.hs:119:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:119:35: Warning: Tab character
+
+Codec/BMP/Pack.hs:122:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:123:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:124:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:124:27: Warning: Tab character
+
+Codec/BMP/Pack.hs:125:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:125:28: Warning: Tab character
+
+Codec/BMP/Pack.hs:126:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:126:29: Warning: Tab character
+
+Codec/BMP/Pack.hs:128:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:128:29: Warning: Tab character
+
+Codec/BMP/Pack.hs:129:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:129:31: Warning: Tab character
+
+Codec/BMP/Pack.hs:130:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:130:34: Warning: Tab character
+
+Codec/BMP/Pack.hs:131:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:131:32: Warning: Tab character
+
+Codec/BMP/Pack.hs:133:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:134:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:135:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:136:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:136:36: Warning: Tab character
+
+Codec/BMP/Pack.hs:137:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:137:36: Warning: Tab character
+
+Codec/BMP/Pack.hs:139:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:139:33: Warning: Tab character
+
+Codec/BMP/Pack.hs:140:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:140:38: Warning: Tab character
+
+Codec/BMP/Pack.hs:141:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:144:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:144:13: Warning: Tab character
+
+Codec/BMP/Pack.hs:144:28: Warning: Tab character
+
+Codec/BMP/Pack.hs:145:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:146:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:148:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:149:6: Warning: Tab character
+
+Codec/BMP/Pack.hs:150:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:151:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:151:32: Warning: Tab character
+
+Codec/BMP/Pack.hs:152:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:152:32: Warning: Tab character
+
+Codec/BMP/Pack.hs:153:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:153:34: Warning: Tab character
+
+Codec/BMP/Pack.hs:154:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:155:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:162:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:162:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:163:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:163:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:164:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:165:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:166:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:172:7: Warning: Tab character
+
+Codec/BMP/Pack.hs:172:19: Warning: Tab character
+
+Codec/BMP/Pack.hs:173:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:174:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:174:18: Warning: Tab character
+
+Codec/BMP/Pack.hs:175:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:175:18: Warning: Tab character
+
+Codec/BMP/Pack.hs:176:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:177:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:177:17: Warning: Tab character
+
+Codec/BMP/Pack.hs:178:6: Warning: Tab character
+
+Codec/BMP/Pack.hs:179:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:179:33: Warning: Tab character
+
+Codec/BMP/Pack.hs:180:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:180:37: Warning: Tab character
+
+Codec/BMP/Pack.hs:181:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:181:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:183:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:183:19: Warning: Tab character
+
+Codec/BMP/Pack.hs:184:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:185:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:186:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:190:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:192:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:193:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:194:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:194:14: Warning: Tab character
+
+Codec/BMP/Pack.hs:195:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:196:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:197:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:198:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:199:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:200:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:201:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:202:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:203:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:204:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:204:20: Warning: Tab character
+
+Codec/BMP/Pack.hs:205:22: Warning: Tab character
+
+Codec/BMP/Pack.hs:206:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:206:21: Warning: Tab character
+
+Codec/BMP/Pack.hs:207:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:208:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:209:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:210:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:211:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:212:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:218:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:218:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:219:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:219:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:220:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:221:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:228:17: Warning: Tab character
+
+Codec/BMP/Pack.hs:229:6: Warning: Tab character
+
+Codec/BMP/Pack.hs:230:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:230:33: Warning: Tab character
+
+Codec/BMP/Pack.hs:231:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:231:37: Warning: Tab character
+
+Codec/BMP/Pack.hs:232:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:232:15: Warning: Tab character
+
+Codec/BMP/Pack.hs:234:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:234:19: Warning: Tab character
+
+Codec/BMP/Pack.hs:235:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:235:23: Warning: Tab character
+
+Codec/BMP/Pack.hs:236:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:240:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:242:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:243:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:244:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:245:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:246:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:247:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:248:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:249:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:250:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:251:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:252:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:252:20: Warning: Tab character
+
+Codec/BMP/Pack.hs:253:22: Warning: Tab character
+
+Codec/BMP/Pack.hs:254:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:254:21: Warning: Tab character
+
+Codec/BMP/Pack.hs:255:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:255:22: Warning: Tab character
+
+Codec/BMP/Pack.hs:256:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:257:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:258:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:259:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:260:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:261:1: Warning: Tab character
+
+Codec/BMP/Pack.hs:262:1: Warning: Tab character
+[12 of 12] Compiling Codec.BMP        ( Codec/BMP.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Codec/BMP.o )
+
+Codec/BMP.hs:40:1: Warning: Tab character
+
+Codec/BMP.hs:41:14: Warning: Tab character
+
+Codec/BMP.hs:42:1: Warning: Tab character
+
+Codec/BMP.hs:42:23: Warning: Tab character
+
+Codec/BMP.hs:43:1: Warning: Tab character
+
+Codec/BMP.hs:44:1: Warning: Tab character
+
+Codec/BMP.hs:44:23: Warning: Tab character
+
+Codec/BMP.hs:45:1: Warning: Tab character
+
+Codec/BMP.hs:46:1: Warning: Tab character
+
+Codec/BMP.hs:47:1: Warning: Tab character
+
+Codec/BMP.hs:48:1: Warning: Tab character
+
+Codec/BMP.hs:49:1: Warning: Tab character
+
+Codec/BMP.hs:52:1: Warning: Tab character
+
+Codec/BMP.hs:55:1: Warning: Tab character
+
+Codec/BMP.hs:58:1: Warning: Tab character
+
+Codec/BMP.hs:61:1: Warning: Tab character
+
+Codec/BMP.hs:62:1: Warning: Tab character
+
+Codec/BMP.hs:74:23: Warning: Tab character
+
+Codec/BMP.hs:75:28: Warning: Tab character
+
+Codec/BMP.hs:85:6: Warning: Tab character
+
+Codec/BMP.hs:85:10: Warning: Tab character
+
+Codec/BMP.hs:86:1: Warning: Tab character
+
+Codec/BMP.hs:87:1: Warning: Tab character
+
+Codec/BMP.hs:91:6: Warning: Tab character
+
+Codec/BMP.hs:92:1: Warning: Tab character
+
+Codec/BMP.hs:92:12: Warning: Tab character
+
+Codec/BMP.hs:100:1: Warning: Tab character
+
+Codec/BMP.hs:101:1: Warning: Tab character
+
+Codec/BMP.hs:104:1: Warning: Tab character
+
+Codec/BMP.hs:104:14: Warning: Tab character
+
+Codec/BMP.hs:105:1: Warning: Tab character
+
+Codec/BMP.hs:105:14: Warning: Tab character
+
+Codec/BMP.hs:106:1: Warning: Tab character
+
+Codec/BMP.hs:111:1: Warning: Tab character
+
+Codec/BMP.hs:113:7: Warning: Tab character
+
+Codec/BMP.hs:114:1: Warning: Tab character
+
+Codec/BMP.hs:115:1: Warning: Tab character
+
+Codec/BMP.hs:115:19: Warning: Tab character
+
+Codec/BMP.hs:116:1: Warning: Tab character
+
+Codec/BMP.hs:117:1: Warning: Tab character
+
+Codec/BMP.hs:118:1: Warning: Tab character
+
+Codec/BMP.hs:119:1: Warning: Tab character
+
+Codec/BMP.hs:129:1: Warning: Tab character
+
+Codec/BMP.hs:129:15: Warning: Tab character
+
+Codec/BMP.hs:130:1: Warning: Tab character
+
+Codec/BMP.hs:130:15: Warning: Tab character
+
+Codec/BMP.hs:134:1: Warning: Tab character
+
+Codec/BMP.hs:135:1: Warning: Tab character
+
+Codec/BMP.hs:135:19: Warning: Tab character
+
+Codec/BMP.hs:136:1: Warning: Tab character
+
+Codec/BMP.hs:137:1: Warning: Tab character
+
+Codec/BMP.hs:137:26: Warning: Tab character
+
+Codec/BMP.hs:138:1: Warning: Tab character
+
+Codec/BMP.hs:145:1: Warning: Tab character
+
+Codec/BMP.hs:146:1: Warning: Tab character
+
+Codec/BMP.hs:146:19: Warning: Tab character
+
+Codec/BMP.hs:147:1: Warning: Tab character
+
+Codec/BMP.hs:148:1: Warning: Tab character
+
+Codec/BMP.hs:148:26: Warning: Tab character
+
+Codec/BMP.hs:149:1: Warning: Tab character
+
+Codec/BMP.hs:149:25: Warning: Tab character
+
+Codec/BMP.hs:155:1: Warning: Tab character
+
+Codec/BMP.hs:156:1: Warning: Tab character
+
+Codec/BMP.hs:157:1: Warning: Tab character
+
+Codec/BMP.hs:157:19: Warning: Tab character
+
+Codec/BMP.hs:158:1: Warning: Tab character
+
+Codec/BMP.hs:159:1: Warning: Tab character
+
+Codec/BMP.hs:159:26: Warning: Tab character
+
+Codec/BMP.hs:160:1: Warning: Tab character
+
+Codec/BMP.hs:160:25: Warning: Tab character
+
+Codec/BMP.hs:166:1: Warning: Tab character
+
+Codec/BMP.hs:167:1: Warning: Tab character
+
+Codec/BMP.hs:168:2: Warning: Tab character
+
+Codec/BMP.hs:175:1: Warning: Tab character
+
+Codec/BMP.hs:176:1: Warning: Tab character
+
+Codec/BMP.hs:177:1: Warning: Tab character
+
+Codec/BMP.hs:177:33: Warning: Tab character
+
+Codec/BMP.hs:178:1: Warning: Tab character
+
+Codec/BMP.hs:178:32: Warning: Tab character
+
+Codec/BMP.hs:179:1: Warning: Tab character
+
+Codec/BMP.hs:179:34: Warning: Tab character
+
+Codec/BMP.hs:186:6: Warning: Tab character
+
+Codec/BMP.hs:186:10: Warning: Tab character
+
+Codec/BMP.hs:187:1: Warning: Tab character
+
+Codec/BMP.hs:188:1: Warning: Tab character
+
+Codec/BMP.hs:189:1: Warning: Tab character
+
+Codec/BMP.hs:209:18: Warning: Tab character
+
+Codec/BMP.hs:210:7: Warning: Tab character
+
+Codec/BMP.hs:210:13: Warning: Tab character
+
+Codec/BMP.hs:211:6: Warning: Tab character
+
+Codec/BMP.hs:212:1: Warning: Tab character
+In-place registering bmp-1.2.5.2...
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux/lts-3.14/7.10.2/lib/x86_64-linux-ghc-7.10.2/bmp-1.2.5.2-3glgeKBRcmxLNjYfdSEbIj
+Registering bmp-1.2.5.2...

@@ -1,0 +1,15 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+extra-deps:
+- GLURaw-1.5.0.2
+- GLUT-2.7.0.3
+- ObjectName-1.1.0.0
+- OpenGL-2.12.0.1
+- OpenGLRaw-2.5.5.0
+- gloss-1.9.4.1
+- gloss-juicy-0.2
+- gloss-rendering-1.9.3.1
+- JuicyPixels-util-0.2
+resolver: lts-3.14

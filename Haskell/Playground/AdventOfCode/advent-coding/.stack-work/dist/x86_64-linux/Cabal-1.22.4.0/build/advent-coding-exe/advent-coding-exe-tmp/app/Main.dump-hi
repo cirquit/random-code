@@ -1,0 +1,53 @@
+
+==================== FINAL INTERFACE ====================
+2015-12-18 19:14:58.434849 UTC
+
+interface main@main:Main 7102
+  interface hash: e63c57f75cb347292e57edaf078ae867
+  ABI hash: 593941791b0457e065ea9b85b52e0acc
+  export-list hash: d26fdeba4034c76b09b7ac0112794ff3
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ff2d91b337fb42dc60cc765417012eb9
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: advent-coding-0.1.0.0@adven_DdIfP9OJOkiGBtIwpnkiVR
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ base-4.8.1.0
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Functor.Identity
+                         base-4.8.1.0:Data.Monoid base-4.8.1.0:Data.Type.Equality
+                         base-4.8.1.0:Data.Void base-4.8.1.0:GHC.Exts
+                         base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+import  -/  advent-coding-0.1.0.0@adven_DdIfP9OJOkiGBtIwpnkiVR:Day07 1a3773e88be37feef2d5a242ed4a6c1e
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+f72d5f1a5431d13aa8119894c99ee830
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day07.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+f31f431a69e3e51035efbfe3517ba0cd
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Day07.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

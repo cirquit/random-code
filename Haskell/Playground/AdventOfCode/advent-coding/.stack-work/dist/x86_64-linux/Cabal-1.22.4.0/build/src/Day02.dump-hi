@@ -1,0 +1,180 @@
+
+==================== FINAL INTERFACE ====================
+2015-12-17 16:57:40.977154 UTC
+
+interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day02 7102
+  interface hash: b6d422d0bbd3869b364a7fa48fc35a87
+  ABI hash: 676cbd9f733b38018822ea48f5405779
+  export-list hash: 318276bf11cc9bafe1b79ebfbcd7d9e1
+  orphan hash: cabc83d0267dbeff75cefdc1e03b549d
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day02.input
+  Day02.part1
+  Day02.part2
+  Day02.ribbon
+  Day02.surface
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
+import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split 191d865ea862c301707cccb38cecb628
+import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split.Internals 9a9700f4e3c2bb24917a9d1daa5a114d
+c32077b8395ec5a91aa9c68908289119
+  $sread :: GHC.Base.String -> GHC.Types.Int
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ s :: GHC.Base.String ->
+                 case Text.Read.readEither
+                        @ GHC.Types.Int
+                        GHC.Read.$fReadInt
+                        s of wild {
+                   Data.Either.Left x -> GHC.Err.error @ GHC.Types.Int x
+                   Data.Either.Right y -> y }) -}
+73b4f502fac83b2f233c42f8dcd1cd18
+  $wgo :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+7fd252c9ba93a2be910283b0427eaf43
+  $wgo1 :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+2089f44777bdce72c75a8142fe5b7adc
+  $wgo2 :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
+e909b9f69257c67d1e3a68241bd96d94
+  $wribbon :: [GHC.Types.Int] -> GHC.Prim.Int#
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [GHC.Types.Int] ->
+                 case w of wild {
+                   [] -> case Day02.ribbon1 ret_ty GHC.Prim.Int# of {}
+                   : l ds
+                   -> case ds of wild1 {
+                        [] -> case Day02.ribbon1 ret_ty GHC.Prim.Int# of {}
+                        : w1 ds1
+                        -> case ds1 of wild2 {
+                             [] -> case Day02.ribbon1 ret_ty GHC.Prim.Int# of {}
+                             : h ds2
+                             -> case ds2 of wild3 {
+                                  []
+                                  -> case Data.OldList.sortBy
+                                            @ GHC.Types.Int
+                                            GHC.Classes.compareInt
+                                            (GHC.Types.:
+                                               @ GHC.Types.Int
+                                               l
+                                               (GHC.Types.:
+                                                  @ GHC.Types.Int
+                                                  w1
+                                                  (GHC.Types.:
+                                                     @ GHC.Types.Int
+                                                     h
+                                                     (GHC.Types.[] @ GHC.Types.Int)))) of wild4 {
+                                       [] -> case GHC.List.init2 ret_ty GHC.Prim.Int# of {}
+                                       : x xs
+                                       -> case Day02.$wgo2
+                                                 (GHC.List.init1 @ GHC.Types.Int x xs)
+                                                 0 of ww { DEFAULT ->
+                                          case l of wild5 { GHC.Types.I# x1 ->
+                                          case w1 of wild6 { GHC.Types.I# y ->
+                                          case h of wild7 { GHC.Types.I# y1 ->
+                                          GHC.Prim.+#
+                                            (GHC.Prim.*# 2 ww)
+                                            (GHC.Prim.*# (GHC.Prim.*# x1 y) y1) } } } } }
+                                  : ipv ipv1
+                                  -> case Day02.ribbon1 ret_ty GHC.Prim.Int# of {} } } } }) -}
+b17b6e93c14a73b0c458517e40197202
+  $wsurface :: [GHC.Types.Int] -> GHC.Prim.Int#
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [GHC.Types.Int] ->
+                 case w of wild {
+                   [] -> case Day02.surface1 ret_ty GHC.Prim.Int# of {}
+                   : l ds
+                   -> case ds of wild1 {
+                        [] -> case Day02.surface1 ret_ty GHC.Prim.Int# of {}
+                        : w1 ds1
+                        -> case ds1 of wild2 {
+                             [] -> case Day02.surface1 ret_ty GHC.Prim.Int# of {}
+                             : h ds2
+                             -> case ds2 of wild3 {
+                                  []
+                                  -> case l of wild4 { GHC.Types.I# y ->
+                                     case w1 of wild5 { GHC.Types.I# y1 ->
+                                     case h of wild6 { GHC.Types.I# y2 ->
+                                     case GHC.List.strictMinimum
+                                            @ GHC.Types.Int
+                                            GHC.Classes.$fOrdInt
+                                            (GHC.Types.:
+                                               @ GHC.Types.Int
+                                               (GHC.Types.I# (GHC.Prim.*# y y2))
+                                               (GHC.Types.:
+                                                  @ GHC.Types.Int
+                                                  (GHC.Types.I# (GHC.Prim.*# y1 y))
+                                                  (GHC.Types.:
+                                                     @ GHC.Types.Int
+                                                     (GHC.Types.I# (GHC.Prim.*# y1 y2))
+                                                     (GHC.Types.[]
+                                                        @ GHC.Types.Int)))) of wild7 { GHC.Types.I# y3 ->
+                                     GHC.Prim.+#
+                                       (GHC.Prim.+#
+                                          (GHC.Prim.+#
+                                             (GHC.Prim.*# (GHC.Prim.*# 2 y) y1)
+                                             (GHC.Prim.*# (GHC.Prim.*# 2 y1) y2))
+                                          (GHC.Prim.*# (GHC.Prim.*# 2 y2) y))
+                                       y3 } } } }
+                                  : ipv ipv1
+                                  -> case Day02.surface1 ret_ty GHC.Prim.Int# of {} } } } }) -}
+0286adb2f37d8810057a086e7ea357be
+  input :: [GHC.Types.Char]
+147c26032c6e4078cf3fbe085d8de922
+  part1 :: GHC.Types.Int
+  {- Unfolding: (case Day02.$wgo Day02.part4 0 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+5ca9f0055972bfaf4eacbf829d2de826
+  part2 :: GHC.Types.Int
+  {- Unfolding: (case Day02.$wgo1 Day02.part4 0 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+c37362399392f29eec729ce20090247e
+  part4 :: [GHC.Base.String]
+  {- Unfolding: (Data.OldList.lines Day02.input) -}
+fc1728f37fa7cb221d0da6d006861915
+  ribbon :: [GHC.Types.Int] -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [GHC.Types.Int] ->
+                 case Day02.$wribbon w of ww { DEFAULT -> GHC.Types.I# ww }) -}
+0aeb00915f652bab8b3ebb7e5d4e1155
+  ribbon1 :: GHC.Types.Int
+  {- Strictness: b -}
+ffc7a59c431081264cd96e2894decfd8
+  surface :: [GHC.Types.Int] -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [GHC.Types.Int] ->
+                 case Day02.$wsurface w of ww { DEFAULT -> GHC.Types.I# ww }) -}
+166ca57388fb011e5842156911ba4b43
+  surface1 :: GHC.Types.Int
+  {- Strictness: b -}
+"SPEC/Day02 read @ Int" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                    GHC.Types.Int
+  Text.Read.read @ GHC.Types.Int $dRead = Day02.$sread
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
