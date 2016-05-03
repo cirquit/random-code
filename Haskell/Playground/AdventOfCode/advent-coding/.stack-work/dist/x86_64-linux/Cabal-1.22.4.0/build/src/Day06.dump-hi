@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-18 11:33:48.940005 UTC
+2016-01-03 16:34:44.403159 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day06 7102
-  interface hash: 3a1313f7f93c9d07672d01e6609b39d5
-  ABI hash: 58b11bd2eaeada43d1054a294c665c22
-  export-list hash: 9d6fc3025727f869f3a8a0df4cb79893
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day06 7102
+  interface hash: b846da6133ea13f7075adf9876c8e139
+  ABI hash: 9c2ed9018db5d4c317e0120e10ca749d
+  export-list hash: 4d953c38c2038ea556b5bc5127ebf684
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 901c599dcffea864a3c918f220a36407
   sig of: Nothing
@@ -45,7 +45,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
 import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split 191d865ea862c301707cccb38cecb628
 import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split.Internals 9a9700f4e3c2bb24917a9d1daa5a114d
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   $fShowTurnType :: GHC.Show.Show Day06.TurnType
   DFunId[0]
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -54,16 +54,16 @@ ea8bc303fdc77e6ccd3982e262183ad6
                   Day06.$fShowTurnType_$cshowsPrec
                   Day06.$fShowTurnType_$cshow
                   Day06.$fShowTurnType_$cshowList -}
-ac11e8a8c2b319595b21dd3e46a2ac50
+72b6c1b7de2f362409c04647084f144a
   $fShowTurnType1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Toggle"#) -}
-78c3c5ae2b1a01bfc6c981185de3ab64
+4fd2aef21c788c3553a6d989938d6864
   $fShowTurnType2 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "Off"#) -}
-e8ec6adcd8ffa8e00b3f8c0191531043
+5395c6ba3d88be2fd56695d036bbdb6f
   $fShowTurnType3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "On"#) -}
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   $fShowTurnType_$cshow :: Day06.TurnType -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -72,20 +72,20 @@ ea8bc303fdc77e6ccd3982e262183ad6
                    Day06.On -> Day06.$fShowTurnType3
                    Day06.Off -> Day06.$fShowTurnType2
                    Day06.Toggle -> Day06.$fShowTurnType1 }) -}
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   $fShowTurnType_$cshowList :: [Day06.TurnType] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__
                    @ Day06.TurnType
                    Day06.$w$cshowsPrec) -}
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   $fShowTurnType_$cshowsPrec ::
     GHC.Types.Int -> Day06.TurnType -> GHC.Show.ShowS
   {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>, Inline: INLINE[0],
      Unfolding: InlineRule (3, True, True)
                 (\ w :: GHC.Types.Int w1 :: Day06.TurnType w2 :: GHC.Base.String ->
                  Day06.$w$cshowsPrec w1 w2) -}
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   $w$cshowsPrec ::
     Day06.TurnType -> GHC.Base.String -> GHC.Base.String
   {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0],
@@ -95,7 +95,7 @@ ea8bc303fdc77e6ccd3982e262183ad6
                    Day06.Off -> GHC.Base.++ @ GHC.Types.Char Day06.$fShowTurnType2 w1
                    Day06.Toggle
                    -> GHC.Base.++ @ GHC.Types.Char Day06.$fShowTurnType1 w1 }) -}
-97add22a6df904346722179b1cfc5ae7
+17a70ff9b6dde07f001df75988818666
   $wa ::
     GHC.Prim.Int#
     -> GHC.Types.Int
@@ -175,7 +175,7 @@ ea8bc303fdc77e6ccd3982e262183ad6
                       } in
                       a12 ww w2 } }
                    GHC.Types.True -> (# w2, GHC.Tuple.() #) }) -}
-6d055a40de3998d346d8d08eef0cb60b
+e9dde267fa7a402e29860ba40fc832d4
   $wa1 ::
     GHC.Prim.Int#
     -> GHC.Prim.Int#
@@ -429,7 +429,7 @@ ea8bc303fdc77e6ccd3982e262183ad6
                                                             GHC.Types.I# (GHC.Prim.+# x 2) })
                                                            ipv of s2# { DEFAULT ->
                                                     (# s2#, GHC.Tuple.() #) } } } } } } } } }) -}
-f8204818e9d368c60e6fc5b08436532e
+05495136c2262b94256e090511f1af2f
   $wa2 ::
     GHC.Prim.Int#
     -> GHC.Prim.Int#
@@ -683,19 +683,19 @@ f8204818e9d368c60e6fc5b08436532e
                                                             GHC.Types.I# (GHC.Prim.+# x 2) })
                                                            ipv of s2# { DEFAULT ->
                                                     (# s2#, GHC.Tuple.() #) } } } } } } } } }) -}
-fa6d616641a22b2253d0162526d7b503
+991539e525ae6f08474ce130bc13492d
   $wgo :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
-8079cd7d74cc499b91660da5e7dcd0f8
+1e502ea3b26aba6970b7be8c789aa10d
   $wparse ::
     GHC.Base.String -> (# Day06.Coords, Day06.Coords, Day06.TurnType #)
   {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
-22a83015141c1e39de7f3ee850948b37
+ee7970c6d098d866aa84bb283417848f
   type Coords = (GHC.Types.Int, GHC.Types.Int)
-ea8bc303fdc77e6ccd3982e262183ad6
+56b9d5d7ae5797967ab33acf58a4e382
   data TurnType = On | Off | Toggle
     Promotable
-5aec25a67d866c380949e1234b45b83d
+317779da8d4554b6523b3f1b0abf8fff
   mapInput ::
     [GHC.Base.String]
     -> GHC.IOArray.IOArray (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int
@@ -709,7 +709,7 @@ ea8bc303fdc77e6ccd3982e262183ad6
                  ->_R <GHC.IOArray.IOArray
                          (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int>_R
                  ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-e51ec3d2360bd1f0dc7be246ac7b0fe7
+4e440507c842661cfff97197091c775e
   mapInput1 ::
     [GHC.Base.String]
     -> GHC.IOArray.IOArray (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int
@@ -717,7 +717,7 @@ e51ec3d2360bd1f0dc7be246ac7b0fe7
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 3,
      Strictness: <S,1*U><L,U(U(U(U),U(U)),U(U(U),U(U)),U,U)><L,U> -}
-6113ab8d460d3de50e29862e6f5deb0d
+1c8eabcdad4a81a0de817c8727dd1dd4
   mapThrough ::
     Day06.Coords
     -> Day06.Coords
@@ -735,7 +735,7 @@ e51ec3d2360bd1f0dc7be246ac7b0fe7
                  ->_R <GHC.IOArray.IOArray
                          (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int>_R
                  ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-268c0f0c42c6474684cde68bb6f5ae66
+1c19bb502e072d319a341f95b4c79aa0
   mapThrough1 ::
     (GHC.Types.Int, GHC.Types.Int)
     -> (GHC.Types.Int, GHC.Types.Int)
@@ -758,13 +758,13 @@ e51ec3d2360bd1f0dc7be246ac7b0fe7
                  case w1 of ww5 { (,) ww6 ww7 ->
                  case ww6 of ww8 { GHC.Types.I# ww9 ->
                  Day06.$wa ww4 ww2 ww9 ww7 w2 w3 w4 } } } }) -}
-b7d79c21d0fb424d115dad81607e1950
+258060c5288deaf08853c511370893ba
   mapThrough2 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
-06153b188f27298e49b7055936832f9e
+75bef8055bf84b2e6f4b4bcaffdb2c63
   mapThrough3 :: GHC.Prim.Int# -> GHC.Prim.Int# -> GHC.Types.Int
   {- Arity: 2, Strictness: <L,U><L,U>b -}
-b6ffefc71252804588419906bdf9aef0
+bb8069e31d01843908478bf01986a970
   parse ::
     GHC.Base.String -> (Day06.Coords, Day06.Coords, Day06.TurnType)
   {- Arity: 1, Strictness: <S,U>m, Inline: INLINE[0],
@@ -772,7 +772,7 @@ b6ffefc71252804588419906bdf9aef0
                 (\ w :: GHC.Base.String ->
                  case Day06.$wparse w of ww { (#,,#) ww1 ww2 ww3 ->
                  (ww1, ww2, ww3) }) -}
-1ce5d7695f86f19ac3746bb4f240d0fb
+3c5fb61022f8cb394c2078cfbc5af1cb
   part1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -835,33 +835,33 @@ b6ffefc71252804588419906bdf9aef0
                     GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
                    GHC.Types.True
                    ipv8 } } } } }) -}
-f1ff8e2eef8ab49bd05b1c188868b093
+6ef6b745ee5b6cc3b287f1be93cb9950
   part2 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day06.part1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-11915e009466a631b05329b95c684d58
+dd79a90f93561b7bdaecf45ef5ab55d2
   part3 ::
     [GHC.Types.IO GHC.Types.Int]
     -> GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, [GHC.Types.Int] #)
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U> -}
-3495ced733280ad02aee056279fbfa6c
+7fddf0401ceff9556cf711d60afc91c8
   part4 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((Day06.part5, Day06.part5)) -}
-83de1a3cb172b7cee3dc7c1186d47218
+fe05d7b28c505b8f8c9ab5d9df138e8c
   part5 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 999) -}
-f2eab09b43c2cf0e6e580a128fc8cafb
+005008b9ecbbc6744d134e9c9acd148b
   part6 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((Day06.mapThrough2, Day06.mapThrough2)) -}
-2e95a6ed997674d964599ea30f353367
+d523baa9645803d5fffe85f5464dd4c7
   part7 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "lib/day06-input.txt"#) -}
-0fe1d6d70b139bf2b2e0ef6aefba969c
+76096d25e5efa5abc9699ed048b3b572
   turnp1 ::
     Day06.Coords
     -> Day06.TurnType
@@ -877,7 +877,7 @@ f2eab09b43c2cf0e6e580a128fc8cafb
                  ->_R <GHC.IOArray.IOArray
                          (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int>_R
                  ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-8296465fcd0c9c00ed1a2e59ae1186ba
+90da75d5453e4285f592a143eb1e0d9f
   turnp2 ::
     Day06.Coords
     -> Day06.TurnType
@@ -893,7 +893,7 @@ f2eab09b43c2cf0e6e580a128fc8cafb
                  ->_R <GHC.IOArray.IOArray
                          (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int>_R
                  ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-489a714594a96df2b2203c4692b04da8
+3087639163753f8b09657a1185ec8dad
   turnp4 ::
     Day06.Coords
     -> Day06.TurnType
@@ -933,7 +933,7 @@ f2eab09b43c2cf0e6e580a128fc8cafb
                    ww10
                    ww11
                    w3 } } } } } } } } } }) -}
-23c287502f5b2b16c7814ccfbc788074
+d7d0b7ae3d85563abc4e89a07e76d3d8
   turnp5 ::
     Day06.Coords
     -> Day06.TurnType

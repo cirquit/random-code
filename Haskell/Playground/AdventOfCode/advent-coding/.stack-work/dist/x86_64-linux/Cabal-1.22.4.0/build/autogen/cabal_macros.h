@@ -21,6 +21,13 @@
   (major1) == 4 && (major2) <  8 || \
   (major1) == 4 && (major2) == 8 && (minor) <= 1)
 
+/* package basic-prelude-0.5.0 */
+#define VERSION_basic_prelude "0.5.0"
+#define MIN_VERSION_basic_prelude(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 0)
+
 /* package bytestring-0.10.6.0 */
 #define VERSION_bytestring "0.10.6.0"
 #define MIN_VERSION_bytestring(major1,major2,minor) (\
@@ -41,6 +48,13 @@
   (major1) <  0 || \
   (major1) == 0 && (major2) <  11 || \
   (major1) == 0 && (major2) == 11 && (minor) <= 6)
+
+/* package inline-c-0.5.5.1 */
+#define VERSION_inline_c "0.5.5.1"
+#define MIN_VERSION_inline_c(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 5)
 
 /* package matrix-0.3.4.4 */
 #define VERSION_matrix "0.3.4.4"
@@ -140,5 +154,5 @@
   (major1) == 2 && (major2) <  25 || \
   (major1) == 2 && (major2) == 25 && (minor) <= 0)
 
-#define CURRENT_PACKAGE_KEY "adven_DdIfP9OJOkiGBtIwpnkiVR"
+#define CURRENT_PACKAGE_KEY "adven_50qzlX786zH5MCh4a2QQrZ"
 

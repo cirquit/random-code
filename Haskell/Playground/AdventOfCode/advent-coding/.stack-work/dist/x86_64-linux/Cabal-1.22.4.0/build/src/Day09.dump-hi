@@ -1,0 +1,176 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:43.420246 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day09 7102
+  interface hash: e546920df71155d5ef1ca700e4d987cd
+  ABI hash: 884ca50ca69bb59da129a331cdf6e201
+  export-list hash: 733ead42e23534f9aad624e6b4cdab74
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day09.calculatePath
+  Day09.isValid
+  Day09.parser
+  Day09.solution
+  Day09.Connections
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+7942386d1eb3055928cad9d8e010de36
+  $wcalculatePath ::
+    Day09.Connections -> [GHC.Base.String] -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <L,U><S,1*U>, Inline: [0] -}
+93c7ba60ef31e9fc7ab9e444c2a589db
+  $wgo ::
+    [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+    -> (# [GHC.Base.String], [GHC.Base.String], [GHC.Types.Int] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+3c38753409ddfc1d1ab66a9c492b7066
+  type Connections =
+    [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+274ec5501d9b6ef10c86a42cb4bf50e8
+  calculatePath ::
+    Day09.Connections -> [GHC.Base.String] -> GHC.Types.Int
+  {- Arity: 2, Strictness: <L,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Day09.Connections w1 :: [GHC.Base.String] ->
+                 case Day09.$wcalculatePath w w1 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+1d22313551b09dbb9a40604efce82d14
+  isValid :: Day09.Connections -> [GHC.Base.String] -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+7b87033cc57c4c2f5e73f01ce38b413c
+  parser :: GHC.Base.String -> Day09.Connections
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 Day09.parser_go
+                   (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int))
+                   (Day09.parser1 x)) -}
+73470083223cbcf38ed5e9670936fe0b
+  parser1 :: GHC.Base.String -> [[GHC.Base.String]]
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 GHC.Base.build
+                   @ [GHC.Base.String]
+                   (\ @ b1
+                      c :: [GHC.Base.String] -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.Base.foldr
+                      @ [GHC.Types.Char]
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ [GHC.Base.String]
+                         @ b1
+                         @ [GHC.Types.Char]
+                         c
+                         Data.OldList.words)
+                      n
+                      (Data.OldList.lines x))) -}
+6a911f01a110ba6afd0c59f67d01bc09
+  parser_go ::
+    Day09.Connections -> [[GHC.Base.String]] -> Day09.Connections
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+6d0ace384ec7668b60dd77f3f626442d
+  solution :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day09.solution1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+d11fda5daac1cff5824c88822accb086
+  solution1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day09.solution2
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (let {
+                      c :: Day09.Connections
+                      = Day09.parser_go
+                          (GHC.Types.[] @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int))
+                          (Day09.parser1 ipv3)
+                    } in
+                    letrec {
+                      go :: [[GHC.Base.String]] -> [GHC.Types.Int]
+                        {- Arity: 1, Strictness: <S,1*U> -}
+                      = \ ds :: [[GHC.Base.String]] ->
+                        case ds of wild {
+                          [] -> GHC.Types.[] @ GHC.Types.Int
+                          : y ys
+                          -> case Day09.isValid c y of wild1 {
+                               GHC.Types.False -> go ys
+                               GHC.Types.True
+                               -> GHC.Types.:
+                                    @ GHC.Types.Int
+                                    (Day09.calculatePath c y)
+                                    (go ys) } }
+                    } in
+                    let {
+                      xs0 :: [GHC.Base.String]
+                      = case Day09.$wgo c of ww { (#,,#) ww1 ww2 ww3 ->
+                        Data.OldList.nubBy
+                          @ GHC.Base.String
+                          GHC.Base.eqString
+                          (Data.OldList.unionBy
+                             @ GHC.Base.String
+                             GHC.Base.eqString
+                             ww1
+                             ww2) }
+                    } in
+                    case GHC.List.strictMaximum
+                           @ GHC.Types.Int
+                           GHC.Classes.$fOrdInt
+                           (go
+                              (GHC.Types.:
+                                 @ [GHC.Base.String]
+                                 xs0
+                                 (Data.OldList.permutations1
+                                    @ GHC.Base.String
+                                    xs0
+                                    (GHC.Types.[] @ GHC.Base.String)))) of ww2 { GHC.Types.I# ww3 ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww3
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+d4aca86334bf5376c94fd66750514bfb
+  solution2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "lib/day09-input.txt"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

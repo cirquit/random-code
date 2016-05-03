@@ -1,0 +1,476 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:42.448218 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day14 7102
+  interface hash: 6ec5a8005efe6e8cc80a5769afa590a9
+  ABI hash: 1cdb9633ef17988e903a69f53ba117dd
+  export-list hash: af7e7f4bcf9e698bcb79efc7ab3b164e
+  orphan hash: e08b048695dd072a1f960d11356806a6
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day14.parse
+  Day14.part1
+  Day14.Reindeer{Day14.Reindeer Day14.kms Day14.name Day14.rest Day14.seconds}
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+0ef53b0e67f12643736ceb9cdbe587cc
+  $fShowReindeer :: GHC.Show.Show Day14.Reindeer
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Day14.Reindeer
+                  Day14.$fShowReindeer_$cshowsPrec
+                  Day14.$fShowReindeer_$cshow
+                  Day14.$fShowReindeer_$cshowList -}
+0ef53b0e67f12643736ceb9cdbe587cc
+  $fShowReindeer1 :: Day14.Reindeer -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ w :: Day14.Reindeer w1 :: GHC.Base.String ->
+                 case w of ww { Day14.Reindeer ww1 ww2 ww3 ww4 ->
+                 Day14.$w$cshowsPrec 0 ww1 ww2 ww3 ww4 w1 }) -}
+4c458d251f31a06523b23fa6019b279d
+  $fShowReindeer2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+d6b771cb49ee7bff4da05d14817c2452
+  $fShowReindeer3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rest = "#) -}
+e052d1979cffe2df1c50265818f7285b
+  $fShowReindeer4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "seconds = "#) -}
+16dda9a4b465bbf52eb18298a0ef946e
+  $fShowReindeer5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "kms = "#) -}
+45f3e57da496d766505012bdd2223347
+  $fShowReindeer6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+34fa88839c5aa4a672bf01f075f3d70e
+  $fShowReindeer7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name = "#) -}
+1088820d93f521b9e07ee1878d3bae96
+  $fShowReindeer8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Reindeer {"#) -}
+0ef53b0e67f12643736ceb9cdbe587cc
+  $fShowReindeer_$cshow :: Day14.Reindeer -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U(U),1*U(U),1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Day14.Reindeer ->
+                 Day14.$fShowReindeer_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+0ef53b0e67f12643736ceb9cdbe587cc
+  $fShowReindeer_$cshowList :: [Day14.Reindeer] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Day14.Reindeer
+                   Day14.$fShowReindeer1) -}
+0ef53b0e67f12643736ceb9cdbe587cc
+  $fShowReindeer_$cshowsPrec ::
+    GHC.Types.Int -> Day14.Reindeer -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <S,1*U(U)><S,1*U(1*U,1*U(U),1*U(U),1*U(U))><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: GHC.Types.Int w1 :: Day14.Reindeer w2 :: GHC.Base.String ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Day14.Reindeer ww3 ww4 ww5 ww6 ->
+                 Day14.$w$cshowsPrec ww1 ww3 ww4 ww5 ww6 w2 } }) -}
+c9dacdb0a6597f38fc4b376b5116e62c
+  $sread :: GHC.Base.String -> GHC.Types.Int
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ s :: GHC.Base.String ->
+                 case Text.Read.readEither
+                        @ GHC.Types.Int
+                        GHC.Read.$fReadInt
+                        s of wild {
+                   Data.Either.Left x -> GHC.Err.error @ GHC.Types.Int x
+                   Data.Either.Right y -> y }) -}
+d5fa6c574ab21bbb5a846b1b83bed21b
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Types.Int
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 6,
+     Strictness: <L,U><L,1*U><L,1*U(U)><L,1*U(U)><L,1*U(U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Base.String
+                   ww2 :: GHC.Types.Int
+                   ww3 :: GHC.Types.Int
+                   ww4 :: GHC.Types.Int
+                   w :: GHC.Base.String ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Day14.$fShowReindeer8
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Day14.$fShowReindeer7
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      Day14.$fShowReindeer6
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Day14.$fShowReindeer5
+                                         (case ww2 of ww5 { GHC.Types.I# ww6 ->
+                                          case GHC.Show.$wshowSignedInt
+                                                 0
+                                                 ww6
+                                                 (GHC.Base.++
+                                                    @ GHC.Types.Char
+                                                    Day14.$fShowReindeer6
+                                                    (GHC.Base.++
+                                                       @ GHC.Types.Char
+                                                       Day14.$fShowReindeer4
+                                                       (case ww3 of ww7 { GHC.Types.I# ww8 ->
+                                                        case GHC.Show.$wshowSignedInt
+                                                               0
+                                                               ww8
+                                                               (GHC.Base.++
+                                                                  @ GHC.Types.Char
+                                                                  Day14.$fShowReindeer6
+                                                                  (GHC.Base.++
+                                                                     @ GHC.Types.Char
+                                                                     Day14.$fShowReindeer3
+                                                                     (case ww4 of ww9 { GHC.Types.I# ww10 ->
+                                                                      case GHC.Show.$wshowSignedInt
+                                                                             0
+                                                                             ww10
+                                                                             (GHC.Base.++
+                                                                                @ GHC.Types.Char
+                                                                                Day14.$fShowReindeer2
+                                                                                x) of ww11 { (#,#) ww12 ww13 ->
+                                                                      GHC.Types.:
+                                                                        @ GHC.Types.Char
+                                                                        ww12
+                                                                        ww13 } }))) of ww9 { (#,#) ww10 ww11 ->
+                                                        GHC.Types.:
+                                                          @ GHC.Types.Char
+                                                          ww10
+                                                          ww11 } }))) of ww7 { (#,#) ww8 ww9 ->
+                                          GHC.Types.: @ GHC.Types.Char ww8 ww9 } })))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 w)) }) -}
+6cb562c29d1155db961f8a1c2797856d
+  $wa ::
+    [GHC.Types.Char]
+    -> (# GHC.Base.String,
+          GHC.Types.Int,
+          GHC.Types.Int,
+          GHC.Types.Int #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: [GHC.Types.Char] ->
+                 case w of wild {
+                   []
+                   -> case GHC.List.init2
+                      ret_ty (# GHC.Base.String,
+                                GHC.Types.Int,
+                                GHC.Types.Int,
+                                GHC.Types.Int #)
+                      of {}
+                   : x xs
+                   -> case Data.OldList.words
+                             (GHC.List.init1 @ GHC.Types.Char x xs) of wild1 {
+                        []
+                        -> case Day14.parse2 (GHC.Types.[] @ GHC.Base.String)
+                           ret_ty (# GHC.Base.String,
+                                     GHC.Types.Int,
+                                     GHC.Types.Int,
+                                     GHC.Types.Int #)
+                           of {}
+                        : name1 ds
+                        -> case ds of wild2 {
+                             []
+                             -> case Day14.parse2 wild1
+                                ret_ty (# GHC.Base.String,
+                                          GHC.Types.Int,
+                                          GHC.Types.Int,
+                                          GHC.Types.Int #)
+                                of {}
+                             : ds1 ds2
+                             -> case ds2 of wild3 {
+                                  []
+                                  -> case Day14.parse2 wild1
+                                     ret_ty (# GHC.Base.String,
+                                               GHC.Types.Int,
+                                               GHC.Types.Int,
+                                               GHC.Types.Int #)
+                                     of {}
+                                  : ds3 ds4
+                                  -> case ds4 of wild4 {
+                                       []
+                                       -> case Day14.parse2 wild1
+                                          ret_ty (# GHC.Base.String,
+                                                    GHC.Types.Int,
+                                                    GHC.Types.Int,
+                                                    GHC.Types.Int #)
+                                          of {}
+                                       : km ds5
+                                       -> case ds5 of wild5 {
+                                            []
+                                            -> case Day14.parse2 wild1
+                                               ret_ty (# GHC.Base.String,
+                                                         GHC.Types.Int,
+                                                         GHC.Types.Int,
+                                                         GHC.Types.Int #)
+                                               of {}
+                                            : ds6 ds7
+                                            -> case ds7 of wild6 {
+                                                 []
+                                                 -> case Day14.parse2 wild1
+                                                    ret_ty (# GHC.Base.String,
+                                                              GHC.Types.Int,
+                                                              GHC.Types.Int,
+                                                              GHC.Types.Int #)
+                                                    of {}
+                                                 : ds8 ds9
+                                                 -> case ds9 of wild7 {
+                                                      []
+                                                      -> case Day14.parse2 wild1
+                                                         ret_ty (# GHC.Base.String,
+                                                                   GHC.Types.Int,
+                                                                   GHC.Types.Int,
+                                                                   GHC.Types.Int #)
+                                                         of {}
+                                                      : sec ds10
+                                                      -> case ds10 of wild8 {
+                                                           []
+                                                           -> case Day14.parse2 wild1
+                                                              ret_ty (# GHC.Base.String,
+                                                                        GHC.Types.Int,
+                                                                        GHC.Types.Int,
+                                                                        GHC.Types.Int #)
+                                                              of {}
+                                                           : ds11 ds12
+                                                           -> case ds12 of wild9 {
+                                                                []
+                                                                -> case Day14.parse2 wild1
+                                                                   ret_ty (# GHC.Base.String,
+                                                                             GHC.Types.Int,
+                                                                             GHC.Types.Int,
+                                                                             GHC.Types.Int #)
+                                                                   of {}
+                                                                : ds13 ds14
+                                                                -> case ds14 of wild10 {
+                                                                     []
+                                                                     -> case Day14.parse2 wild1
+                                                                        ret_ty (# GHC.Base.String,
+                                                                                  GHC.Types.Int,
+                                                                                  GHC.Types.Int,
+                                                                                  GHC.Types.Int #)
+                                                                        of {}
+                                                                     : ds15 ds16
+                                                                     -> case ds16 of wild11 {
+                                                                          []
+                                                                          -> case Day14.parse2 wild1
+                                                                             ret_ty (# GHC.Base.String,
+                                                                                       GHC.Types.Int,
+                                                                                       GHC.Types.Int,
+                                                                                       GHC.Types.Int #)
+                                                                             of {}
+                                                                          : ds17 ds18
+                                                                          -> case ds18 of wild12 {
+                                                                               []
+                                                                               -> case Day14.parse2
+                                                                                         wild1
+                                                                                  ret_ty (# GHC.Base.String,
+                                                                                            GHC.Types.Int,
+                                                                                            GHC.Types.Int,
+                                                                                            GHC.Types.Int #)
+                                                                                  of {}
+                                                                               : ds19 ds20
+                                                                               -> case ds20 of wild13 {
+                                                                                    []
+                                                                                    -> case Day14.parse2
+                                                                                              wild1
+                                                                                       ret_ty (# GHC.Base.String,
+                                                                                                 GHC.Types.Int,
+                                                                                                 GHC.Types.Int,
+                                                                                                 GHC.Types.Int #)
+                                                                                       of {}
+                                                                                    : ds21 ds22
+                                                                                    -> case ds22 of wild14 {
+                                                                                         []
+                                                                                         -> case Day14.parse2
+                                                                                                   wild1
+                                                                                            ret_ty (# GHC.Base.String,
+                                                                                                      GHC.Types.Int,
+                                                                                                      GHC.Types.Int,
+                                                                                                      GHC.Types.Int #)
+                                                                                            of {}
+                                                                                         : rest1 ds23
+                                                                                         -> case ds23 of wild15 {
+                                                                                              []
+                                                                                              -> case Day14.parse2
+                                                                                                        wild1
+                                                                                                 ret_ty (# GHC.Base.String,
+                                                                                                           GHC.Types.Int,
+                                                                                                           GHC.Types.Int,
+                                                                                                           GHC.Types.Int #)
+                                                                                                 of {}
+                                                                                              : ds24 ds25
+                                                                                              -> case ds25 of wild16 {
+                                                                                                   []
+                                                                                                   -> (# name1,
+                                                                                                         Day14.$sread
+                                                                                                           km,
+                                                                                                         Day14.$sread
+                                                                                                           sec,
+                                                                                                         Day14.$sread
+                                                                                                           rest1 #)
+                                                                                                   : ipv ipv1
+                                                                                                   -> case Day14.parse2
+                                                                                                             wild1
+                                                                                                      ret_ty (# GHC.Base.String,
+                                                                                                                GHC.Types.Int,
+                                                                                                                GHC.Types.Int,
+                                                                                                                GHC.Types.Int #)
+                                                                                                      of {} } } } } } } } } } } } } } } } } }) -}
+0ef53b0e67f12643736ceb9cdbe587cc
+  data Reindeer
+    = Reindeer {name :: GHC.Base.String,
+                kms :: GHC.Types.Int,
+                seconds :: GHC.Types.Int,
+                rest :: GHC.Types.Int}
+67ff65d4559c6d05149726bdf501e272
+  kms :: Day14.Reindeer -> GHC.Types.Int
+  RecSel Day14.Reindeer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSLL),1*U(A,1*U(U),A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Day14.Reindeer ->
+                 case ds of wild { Day14.Reindeer ds1 ds2 ds3 ds4 -> ds2 }) -}
+fa7a3b0f3d394629a02a9c49fdbc2499
+  name :: Day14.Reindeer -> GHC.Base.String
+  RecSel Day14.Reindeer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLLL),1*U(1*U,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Day14.Reindeer ->
+                 case ds of wild { Day14.Reindeer ds1 ds2 ds3 ds4 -> ds1 }) -}
+a0b8c0ccc8bfc81afc6c4e21c53a21ee
+  parse :: GHC.Base.String -> [Day14.Reindeer]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 GHC.Base.build
+                   @ Day14.Reindeer
+                   (\ @ b1
+                      c :: Day14.Reindeer -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.Base.foldr
+                      @ [GHC.Types.Char]
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ Day14.Reindeer
+                         @ b1
+                         @ [GHC.Types.Char]
+                         c
+                         Day14.parse1)
+                      n
+                      (Data.OldList.lines x))) -}
+e5bd24f0846072f299236d266141d5e3
+  parse1 :: [GHC.Types.Char] -> Day14.Reindeer
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [GHC.Types.Char] ->
+                 case Day14.$wa w of ww { (#,,,#) ww1 ww2 ww3 ww4 ->
+                 Day14.Reindeer ww1 ww2 ww3 ww4 }) -}
+2b66924f5e4c8cc553393db24c7bf1eb
+  parse2 :: [GHC.Base.String] -> Day14.Reindeer
+  {- Arity: 1, Strictness: <L,U>b -}
+f7d8273a452e70ac594f90463f769491
+  part1 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day14.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+b66a11fcff60b60db464378a651abda3
+  part2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day14.part4
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 Day14.part3 (Data.OldList.lines ipv3) ipv2 } }) -}
+56611b1e21eb34983e5aa2fcb72b7861
+  part3 ::
+    [[GHC.Types.Char]]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <S,1*U><L,U> -}
+c81c8386ac479f242a4a7b077e44fd20
+  part4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "lib/day14-input.txt"#) -}
+586945eac7e5cabc4e342b0faaa71a3d
+  rest :: Day14.Reindeer -> GHC.Types.Int
+  RecSel Day14.Reindeer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLLS),1*U(A,A,A,1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Day14.Reindeer ->
+                 case ds of wild { Day14.Reindeer ds1 ds2 ds3 ds4 -> ds4 }) -}
+f674a49dbc60ef868a59095dd71ceb23
+  seconds :: Day14.Reindeer -> GHC.Types.Int
+  RecSel Day14.Reindeer
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLSL),1*U(A,A,1*U(U),A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Day14.Reindeer ->
+                 case ds of wild { Day14.Reindeer ds1 ds2 ds3 ds4 -> ds3 }) -}
+instance GHC.Show.Show [Day14.Reindeer] = Day14.$fShowReindeer
+"SPEC/Day14 read @ Int" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                    GHC.Types.Int
+  Text.Read.read @ GHC.Types.Int $dRead = Day14.$sread
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

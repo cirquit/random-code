@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-17 16:57:40.747936 UTC
+2016-01-03 16:34:45.317147 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day03 7102
-  interface hash: a38587a5a1653c62a975d1255e01cb62
-  ABI hash: 0a7ae8acf245fe74b37c3717a94ab08a
-  export-list hash: f0f572bf9c82103cf19814928a088e57
-  orphan hash: 73532072a7d0bf8ff60f4ed343b02813
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day03 7102
+  interface hash: 5768628fa6c51173f6fe995ad05eca4a
+  ABI hash: 89daae93a9bd6912add709b667969283
+  export-list hash: 17752aaf3711b8010f9e023321748017
+  orphan hash: be391c31cbadab835bc80c6d131c32d3
   flag hash: 1177ed9910be22cb08b17094c1021b20
   sig of: Nothing
   used TH splices: False
@@ -38,7 +38,7 @@ import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
 import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
 import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map 8137ae58be1ec45e0e573cabbb314b88
 import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base f612c5e011acafca0324bd65cbb4b781
-cdc3ad77db02cc8691d4588ba0b037c8
+804747fd81e8266497928ebc0a7c8449
   $sfromList :: [(Day03.Coord, a)] -> Data.Map.Base.Map Day03.Coord a
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: (\ @ a ds :: [(Day03.Coord, a)] ->
@@ -126,12 +126,12 @@ cdc3ad77db02cc8691d4588ba0b037c8
                                      (Data.Map.Base.Tip @ Day03.Coord @ a)
                                      (Data.Map.Base.Tip @ Day03.Coord @ a))
                                   wild2 } } } } } } } } }) -}
-a5caedabf0655275ed5b4b32f4c4d8ef
+0e9031ebbb14524de928c1729ffb0258
   $sfromList1 ::
     Data.Map.Base.Map Day03.Coord a1
     -> [(Day03.Coord, a1)] -> Data.Map.Base.Map Day03.Coord a1
   {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
-d01b84bfa928646d8bf201d15dd3b217
+2765dc996bac6f827df3367bc7357ce5
   $w$sgo1 ::
     (Day03.Coord -> a1 -> a1 -> a1)
     -> GHC.Types.Int
@@ -142,7 +142,7 @@ d01b84bfa928646d8bf201d15dd3b217
   {- Arity: 5,
      Strictness: <L,1*C1(C1(C1(U)))><L,U(U)><L,U(U)><L,U><S,1*U>,
      Inline: [0] -}
-b6b315d9b14861c6ba81490bac908d07
+840e2619e995c5b6f6adb5275d0b53d5
   $w$sgo10 ::
     GHC.Types.Int
     -> GHC.Types.Int
@@ -151,18 +151,18 @@ b6b315d9b14861c6ba81490bac908d07
     -> Data.Map.Base.Map Day03.Coord a1
   {- Arity: 4, Strictness: <L,U(U)><L,U(U)><L,U><S,1*U>,
      Inline: [0] -}
-f955c2ef83c4fb3113ae1342cedd6060
+e76de6478c6830421b131211e8bef197
   $wpoly_go10 ::
     GHC.Prim.Int#
     -> Data.Map.Base.Map Day03.Coord a
     -> [(Day03.Coord, a)]
     -> Data.Map.Base.Map Day03.Coord a
   {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
-15aed625a2b0ee405cafd860243d46e2
+a2dd67436db8ec6cc7904b185c48ac71
   type Coord = (GHC.Types.Int, GHC.Types.Int)
-6b821b50fcef2073e0866de4ca60ce48
+6f84aa9f304a695285039d6276d83d3e
   input :: [GHC.Types.Char]
-3025835e33e637983c5606a8a40335b9
+dffab13730a2ea5f1fb42d207c829e66
   move :: GHC.Types.Char -> Day03.Coord -> Day03.Coord
   {- Arity: 2, Strictness: <S(S),1*U(1*U)><S,1*U(U(U),U(U))>m,
      Inline: INLINE[0],
@@ -188,48 +188,48 @@ f955c2ef83c4fb3113ae1342cedd6060
                    -> (ww3,
                        case ww4 of wild { GHC.Types.I# x ->
                        GHC.Types.I# (GHC.Prim.-# x 1) }) } } }) -}
-2aff324533dce3ee37d1352e34880452
+d20ee651a5235e51cfc1de3577544278
   move1 :: Day03.Coord
   {- Strictness: b -}
-c6ebd046a1c9ab53b7917f73a26623b9
+334341e62e4681a8a7b02d583c555f91
   part1 :: GHC.Types.Int
   {- Unfolding: (Day03.part5 Day03.part4) -}
-0d17824c924517dea931ccfd8cc13b5f
+8f1d43322a8639e6330ae9521dc24962
   part10 :: ((GHC.Types.Int, GHC.Types.Int), GHC.Types.Int)
   {- HasNoCafRefs, Unfolding: ((Day03.part7, Day03.part11)) -}
-e07ba270f12600b4ef29e66a0ff97d6c
+8a2c99cc0f39960717f38e50309c1b0b
   part11 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 1) -}
-b63dca1128a5a9a15c44c7309db16fe4
+3107a62ccd4745d9c17614a81605522b
   part12 :: GHC.Types.Int -> GHC.Types.Int
   {- Unfolding: (Day03.part2_go10
                    (GHC.Base.id @ GHC.Types.Int)
                    Day03.part13) -}
-50479d7097141e78c929de85b413a7c1
+5948bb098518cdd3728e1ab37b25bacf
   part13 :: Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Unfolding: (Day03.part2_go
                    Day03.part8
                    Day03.part7
                    Day03.part7
                    Day03.input) -}
-cca4c99e18925388e94ddf99f5b1c61d
+6b9b7db670799be416836ae8f68d551f
   part1_go ::
     Data.Map.Base.Map Day03.Coord GHC.Types.Int
     -> Day03.Coord
     -> GHC.Base.String
     -> Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Arity: 3, Strictness: <S,1*U><L,1*U(U(U),U(U))><S,1*U> -}
-3dd92e5d941b751becfdcf54903fa838
+e653c91844c3afe97b4aad28afcef4a0
   part1_go10 ::
     (GHC.Types.Int -> GHC.Types.Int)
     -> Data.Map.Base.Map (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int
     -> GHC.Types.Int
     -> GHC.Types.Int
   {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U> -}
-9df3ec5275b643fd422b67cf05f3f860
+329f3f8e45fe256a52a51b57897e3a5c
   part2 :: GHC.Types.Int
   {- Unfolding: (Day03.part12 Day03.part4) -}
-272d91ef63685308edab58717e103a09
+5636eac28e624a7b8b61641435ecdd47
   part2_go ::
     Data.Map.Base.Map Day03.Coord GHC.Types.Int
     -> Day03.Coord
@@ -238,47 +238,47 @@ cca4c99e18925388e94ddf99f5b1c61d
     -> Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Arity: 4,
      Strictness: <S,1*U><L,1*U(U(U),U(U))><L,1*U(U(U),U(U))><S,1*U> -}
-30907091fc700eee6a51864cf80695e1
+5249c3a050505462ef2470e0ce55391a
   part2_go10 ::
     (GHC.Types.Int -> GHC.Types.Int)
     -> Data.Map.Base.Map (GHC.Types.Int, GHC.Types.Int) GHC.Types.Int
     -> GHC.Types.Int
     -> GHC.Types.Int
   {- Arity: 2, HasNoCafRefs, Strictness: <L,1*U><S,1*U> -}
-9c6f9cff5d6a46c3052df15aae24f2b4
+d58d0c69cf83625977ccc602a52b0c9c
   part4 :: GHC.Types.Int
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0) -}
-985a05a2b7b43c3a261b9a4304e9fbd9
+199863094134c15263ffdf351f88c93e
   part5 :: GHC.Types.Int -> GHC.Types.Int
   {- Unfolding: (Day03.part1_go10
                    (GHC.Base.id @ GHC.Types.Int)
                    Day03.part6) -}
-551975de5dc6ca0037e1c099b9abaec9
+9087b4e5e5272f350702ba30782a2f9c
   part6 :: Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Unfolding: (Day03.part1_go
                    Day03.part8
                    Day03.part7
                    Day03.input) -}
-82aa06269aa5968441df54077dd7f491
+d264089497dcc0de52fe4ef5ee334f2a
   part7 :: (GHC.Types.Int, GHC.Types.Int)
   {- HasNoCafRefs, Strictness: m,
      Unfolding: ((Day03.part4, Day03.part4)) -}
-3a1ec62fccb6200cdabd095aaa2f9407
+66638a70a3b2ec2a418425d3b6cbec12
   part8 :: Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Unfolding: (Day03.$sfromList @ GHC.Types.Int Day03.part9) -}
-c52aa4a711d8c3db6bed80a2bbd8bfaf
+17756c3ac0d94757f82254977bbef856
   part9 :: [(Day03.Coord, GHC.Types.Int)]
   {- HasNoCafRefs,
      Unfolding: (GHC.Types.:
                    @ (Day03.Coord, GHC.Types.Int)
                    Day03.part10
                    (GHC.Types.[] @ (Day03.Coord, GHC.Types.Int))) -}
-fbfbe974cef70a5fa6af13feec8d412f
+062c9a2f014682baa72f6eacfb8ce7d7
   runRoboSantarun ::
     GHC.Base.String -> Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Arity: 1,
      Unfolding: (Day03.part2_go Day03.part8 Day03.part7 Day03.part7) -}
-8e3d48ce83cfc4dda6a24424ef168bf4
+0fa22c0d90941b9001482d59731bfe5d
   runSantarun ::
     GHC.Base.String -> Data.Map.Base.Map Day03.Coord GHC.Types.Int
   {- Arity: 1, Unfolding: (Day03.part1_go Day03.part8 Day03.part7) -}

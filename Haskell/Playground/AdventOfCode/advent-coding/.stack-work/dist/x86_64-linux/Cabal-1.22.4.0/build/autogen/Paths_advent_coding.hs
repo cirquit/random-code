@@ -17,7 +17,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/bin"
-libdir     = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/lib/x86_64-linux-ghc-7.10.2/advent-coding-0.1.0.0-DdIfP9OJOkiGBtIwpnkiVR"
+libdir     = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/lib/x86_64-linux-ghc-7.10.2/advent-coding-0.1.0.0-50qzlX786zH5MCh4a2QQrZ"
 datadir    = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/share/x86_64-linux-ghc-7.10.2/advent-coding-0.1.0.0"
 libexecdir = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/libexec"
 sysconfdir = "/home/rewrite/Documents/Personal-Repository/Haskell/Playground/AdventOfCode/advent-coding/.stack-work/install/x86_64-linux/lts-3.14/7.10.2/etc"

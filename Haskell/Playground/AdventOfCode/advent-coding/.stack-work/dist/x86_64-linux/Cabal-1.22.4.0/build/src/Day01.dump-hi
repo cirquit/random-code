@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-17 16:57:41.091878 UTC
+2016-01-03 16:34:45.615507 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day01 7102
-  interface hash: a98fd8965775a79c5dc0f16d603992a2
-  ABI hash: 922ab5c01e8aabaab1efc2572289c770
-  export-list hash: fbcf286fd59e989a7d9c5a261572c1db
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day01 7102
+  interface hash: 0cf8b70f693cc85a083a3d01297ad930
+  ABI hash: f732bd4ee6c83dd607f707c98d1ca83f
+  export-list hash: 30d7c60fa714d5449fdc8e4955f92c68
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 1177ed9910be22cb08b17094c1021b20
   sig of: Nothing
@@ -27,38 +27,38 @@ import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
 import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
 import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
 import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
-7e374d0c54d5a53b428d17bf5e309e22
+ccfb654e9db30e835a05bcf42ed38ace
   $wgo ::
     [(GHC.Types.Char, GHC.Types.Int)] -> GHC.Prim.Int# -> GHC.Types.Int
   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
-f80ab036b7209e8baa2741bb97b78a65
+4a5c82001c0b61fe72b1335dc09702a6
   input :: [GHC.Types.Char]
-8bf61fed11be2cc19c29e43aed87fef6
+16ba38bdb2a18990ee1a7fba6a36fb9d
   part1 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day01.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-7db1bba521cf13823fe4c727e3ba3820
+fcecd15b5e44b489904cdaa732624fe6
   part10 :: [(GHC.Types.Char, GHC.Types.Int)]
   {- Unfolding: (GHC.List.zip
                    @ GHC.Types.Char
                    @ GHC.Types.Int
                    Day01.input
                    Day01.part11) -}
-3f9b8212176f7c9a2c509f5c01f4deac
+8a006c9459a708f8ba436cf2d7aba513
   part11 :: [GHC.Types.Int]
   {- Unfolding: (GHC.Enum.eftInt 1 9223372036854775807) -}
-7945d61da8e67b9b340c8435e66d4b18
+b6cdd3707736f05090383217ae1f77a1
   part1_go ::
     [GHC.Types.Char]
     -> GHC.Integer.Type.Integer -> GHC.Integer.Type.Integer
   {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
-0a0eb7f1106a953d55bf1e996467a3a4
+ace69224d7708487938e033bc12e4405
   part2 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day01.part8 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-92aede6d21641c9e414469a2375a1678
+86785504eb01058db5bb3f34842bc4c3
   part4 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -69,20 +69,20 @@ f80ab036b7209e8baa2741bb97b78a65
                    Day01.part5
                    GHC.Types.True
                    eta) -}
-bebcc6d14192266975c32f90db834bd9
+e241110c07deeed576696bde0f59d1c7
   part5 :: GHC.Base.String
   {- Unfolding: (case GHC.Show.$w$cshowsPrec1
                         0
                         Day01.part6
                         (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
                  GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
-44619de931e4d0fa7bcd1ae1738225a4
+93df3808be4856d056d6dfeb2fdf427a
   part6 :: GHC.Integer.Type.Integer
   {- Unfolding: (Day01.part1_go Day01.input Day01.part7) -}
-5a6ed6f60ff581d432ff257908d2cc92
+6278053081001be629bf35395afe25e3
   part7 :: GHC.Integer.Type.Integer
   {- HasNoCafRefs, Unfolding: (__integer 0) -}
-bef96b1a7c12529d5ce4679a662e8787
+7ee3e05b9242bdd1477e3bb5438770b8
   part8 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -93,7 +93,7 @@ bef96b1a7c12529d5ce4679a662e8787
                    Day01.part9
                    GHC.Types.True
                    eta) -}
-3f5786a7548a83351addf35abf53e82c
+8fe48ee477e58a7ee34a1959bb13ecf2
   part9 :: GHC.Base.String
   {- Unfolding: (case Day01.$wgo
                         Day01.part10

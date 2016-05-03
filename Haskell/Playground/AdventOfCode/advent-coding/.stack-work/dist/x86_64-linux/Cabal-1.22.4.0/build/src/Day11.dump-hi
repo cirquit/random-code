@@ -1,0 +1,223 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:43.165266 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day11 7102
+  interface hash: ab0df19847c44eb48936895dcf7c041c
+  ABI hash: f5efe11b620ac3d3b19bd839c89f4af2
+  export-list hash: a11fb12130c3a5caca13581fa3da8116
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day11.differentPairs
+  Day11.genPW
+  Day11.increasingStraight
+  Day11.increasingStraight'
+  Day11.noIOLs
+  Day11.part1n2
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Enum d0db4d619cd8916cc7a23444816222af
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+6bec097196e37a4fa6df81f814ffbfe7
+  $wgenPW ::
+    GHC.Base.String -> (# GHC.Base.String, [GHC.Base.String] #)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0] -}
+8d267bf53c9432fe252c2aeaedb3cca1
+  $wgo :: [GHC.Base.String] -> GHC.Prim.Int# -> [[GHC.Types.Char]]
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>, Inline: [0] -}
+90f2681cbfec46e97310979f9d298894
+  differentPairs :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs,
+     Unfolding: (Day11.differentPairs_go
+                   (GHC.Types.[] @ [GHC.Types.Char])) -}
+6e7c4f50a140dbdda89b83fe1512ff0a
+  differentPairs_go ::
+    [[GHC.Types.Char]] -> [GHC.Types.Char] -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,U><L,1*U> -}
+3b4094fbd706977c289136dfbee3ef85
+  genPW :: GHC.Base.String -> [GHC.Base.String]
+  {- Arity: 1, Strictness: <L,1*U>m2, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Base.String ->
+                 case Day11.$wgenPW w of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.: @ GHC.Base.String ww1 ww2 }) -}
+6f3f1f0d9c5fb07b68cebbfb384f2adb
+  increasingStraight :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ ds :: [GHC.Types.Char] ->
+                 case ds of wild {
+                   [] -> Day11.increasingStraight3
+                   : x ds1
+                   -> case ds1 of wild1 {
+                        [] -> Day11.increasingStraight3
+                        : y z
+                        -> (Day11.increasingStraight_go
+                              (GHC.Base.map
+                                 @ (GHC.Types.Char, GHC.Types.Char, GHC.Types.Char)
+                                 @ GHC.Types.Bool
+                                 Day11.increasingStraight1
+                                 (GHC.List.zip3
+                                    @ GHC.Types.Char
+                                    @ GHC.Types.Char
+                                    @ GHC.Types.Char
+                                    wild
+                                    wild1
+                                    z)))
+                             `cast`
+                           (Data.Monoid.NTCo:Any[0]) } }) -}
+964c8f2976da6150b76599c695622353
+  increasingStraight' :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U> -}
+0bc2273c9687805bb330b7ee03bafada
+  increasingStraight1 ::
+    (GHC.Types.Char, GHC.Types.Char, GHC.Types.Char) -> GHC.Types.Bool
+  {- Arity: 1, Strictness: <S,1*U(U,U,U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: (GHC.Types.Char, GHC.Types.Char, GHC.Types.Char) ->
+                 case ds of wild { (,,) a b c ->
+                 Data.OldList.isInfixOf
+                   @ GHC.Types.Char
+                   GHC.Classes.$fEqChar
+                   (GHC.Types.:
+                      @ GHC.Types.Char
+                      a
+                      (GHC.Types.:
+                         @ GHC.Types.Char
+                         b
+                         (GHC.Types.: @ GHC.Types.Char c (GHC.Types.[] @ GHC.Types.Char))))
+                   Day11.increasingStraight2 }) -}
+9dde5a79b94f9bd1d9dbdefe72d94d97
+  increasingStraight2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.Enum.eftChar 97 122) -}
+1bae75f014945dd14619fb211964b3b0
+  increasingStraight3 :: GHC.Types.Bool
+  {- Strictness: b -}
+82b757d1f44ab8584a3d2bba364644a5
+  increasingStraight_go :: [GHC.Types.Bool] -> Data.Monoid.Any
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
+547fceb6ca3101a701585e30c400ca74
+  noIOLs :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,U>,
+     Unfolding: (\ l :: GHC.Base.String ->
+                 case GHC.List.elem
+                        @ GHC.Types.Char
+                        GHC.Classes.$fEqChar
+                        Day11.noIOLs3
+                        l of wild {
+                   GHC.Types.False
+                   -> case GHC.List.elem
+                             @ GHC.Types.Char
+                             GHC.Classes.$fEqChar
+                             Day11.noIOLs2
+                             l of wild1 {
+                        GHC.Types.False
+                        -> case GHC.List.elem
+                                  @ GHC.Types.Char
+                                  GHC.Classes.$fEqChar
+                                  Day11.noIOLs1
+                                  l of wild2 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True -> GHC.Types.False }
+                        GHC.Types.True -> GHC.Types.False }
+                   GHC.Types.True -> GHC.Types.False }) -}
+59c25287968324d308675907c6082209
+  noIOLs1 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# 'l') -}
+25a93fd10726b01e87fed32f2e9a8aae
+  noIOLs2 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# 'o') -}
+8ddb96d3c51b2cf0303576fc41697247
+  noIOLs3 :: GHC.Types.Char
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.C# 'i') -}
+ffa8a1828250258bda9b7ff45e135063
+  part1n1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Day11.part1n3
+                   GHC.Types.True
+                   eta) -}
+6076f57e70fd896f61017601ec09fc74
+  part1n2 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day11.part1n1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+69c0fd455d4fb1c96485a0ed78f6399d
+  part1n3 :: GHC.Base.String
+  {- Unfolding: (case Day11.$wgenPW
+                        Day11.part1n4 of ww { (#,#) ww1 ww2 ->
+                 case Day11.$wgo (GHC.Types.: @ GHC.Base.String ww1 ww2) 2 of wild {
+                   []
+                   -> GHC.CString.unpackAppendCString#
+                        "[]"#
+                        (GHC.Types.[] @ GHC.Types.Char)
+                   : x xs
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.showList__3
+                        (GHC.Types.:
+                           @ GHC.Types.Char
+                           GHC.Show.shows6
+                           (GHC.Show.showLitString
+                              x
+                              (GHC.Types.:
+                                 @ GHC.Types.Char
+                                 GHC.Show.shows6
+                                 (let {
+                                    lvl18 :: [GHC.Types.Char]
+                                    = GHC.Types.:
+                                        @ GHC.Types.Char
+                                        GHC.Show.showList__2
+                                        (GHC.Types.[] @ GHC.Types.Char)
+                                  } in
+                                  letrec {
+                                    showl :: [[GHC.Types.Char]] -> [GHC.Types.Char]
+                                      {- Arity: 1, Strictness: <S,1*U> -}
+                                    = \ ds2 :: [[GHC.Types.Char]] ->
+                                      case ds2 of wild1 {
+                                        [] -> lvl18
+                                        : y ys
+                                        -> GHC.Types.:
+                                             @ GHC.Types.Char
+                                             GHC.Show.showList__1
+                                             (GHC.Types.:
+                                                @ GHC.Types.Char
+                                                GHC.Show.shows6
+                                                (GHC.Show.showLitString
+                                                   y
+                                                   (GHC.Types.:
+                                                      @ GHC.Types.Char
+                                                      GHC.Show.shows6
+                                                      (showl ys)))) }
+                                  } in
+                                  showl xs)))) } }) -}
+c76ec101835505da9c996ddffea93fb7
+  part1n4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "vzbxkghb"#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

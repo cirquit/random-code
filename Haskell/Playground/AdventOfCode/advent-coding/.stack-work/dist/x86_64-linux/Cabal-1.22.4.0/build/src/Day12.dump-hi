@@ -1,0 +1,254 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:43.01358 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day12 7102
+  interface hash: b6c51b82f3a0f6b3c610031294f00645
+  ABI hash: 004455044b5ef7dfcbd88343b5acc8f8
+  export-list hash: 08d9fdd639790c3cc0c1ad5d385ee19a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day12.delims
+  Day12.getJSONContents
+  Day12.part1
+  Day12.part2
+  Day12.redElem
+  Day12.sumUp
+  Day12.topElem
+  Day12.trySum
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0 split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Char ba93ec4ca3776f6d9a8c8a6223b2fb26
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Unicode bed09d5db094d4196c8520e6b25efaa4
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split 191d865ea862c301707cccb38cecb628
+import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split.Internals 9a9700f4e3c2bb24917a9d1daa5a114d
+5053143526a14d5ac22d3656adc3cf78
+  $wdelims :: GHC.Prim.Char# -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Char# ->
+                 case ww of ds {
+                   DEFAULT
+                   -> case {__pkg_ccall base-4.8.1.0 u_iswalpha GHC.Prim.Int#
+                                                                -> GHC.Prim.State#
+                                                                     GHC.Prim.RealWorld
+                                                                -> (# GHC.Prim.State#
+                                                                        GHC.Prim.RealWorld,
+                                                                      GHC.Prim.Int# #)}
+                             (GHC.Prim.ord# ds)
+                             GHC.Prim.realWorld# of wild1 { (#,#) ds1 ds2 ->
+                      case ds2 of wild2 {
+                        DEFAULT -> GHC.Types.False 0 -> GHC.Types.True } }
+                   '"' -> GHC.Types.False
+                   ':' -> GHC.Types.False
+                   '[' -> GHC.Types.False
+                   ']' -> GHC.Types.False
+                   '{' -> GHC.Types.False
+                   '}' -> GHC.Types.False }) -}
+7c3bfbfff34cd9968a6b6c0f221a4dc0
+  $wgetJSONContents ::
+    GHC.Base.String -> (# GHC.Base.String, [GHC.Base.String] #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
+     Unfolding: (\ w :: GHC.Base.String ->
+                 case w of wild {
+                   []
+                   -> case Day12.getJSONContents1
+                      ret_ty (# GHC.Base.String, [GHC.Base.String] #)
+                      of {}
+                   : x xs
+                   -> let {
+                        ds :: (GHC.Base.String, [GHC.Base.String])
+                        = case Day12.$wgo
+                                 (GHC.Types.[] @ GHC.Types.Char)
+                                 (GHC.Types.[] @ GHC.Base.String)
+                                 (GHC.Types.[] @ GHC.Types.Char)
+                                 0
+                                 (GHC.List.init @ GHC.Types.Char xs) of ww { (#,#) ww1 ww2 ->
+                          (ww1, ww2) }
+                      } in
+                      (# GHC.Types.:
+                           @ GHC.Types.Char
+                           x
+                           (case ds of wild1 { (,) top kids ->
+                            GHC.Base.++
+                              @ GHC.Types.Char
+                              top
+                              (GHC.Types.:
+                                 @ GHC.Types.Char
+                                 (Day12.getJSONContents_go xs (GHC.List.lastError @ GHC.Types.Char))
+                                 (GHC.Types.[] @ GHC.Types.Char)) }),
+                         case ds of wild1 { (,) top kids -> kids } #) }) -}
+450f5558557515934638ecbeebd31e25
+  $wgo ::
+    GHC.Base.String
+    -> [GHC.Base.String]
+    -> GHC.Base.String
+    -> GHC.Prim.Int#
+    -> GHC.Base.String
+    -> (# GHC.Base.String, [GHC.Base.String] #)
+  {- Arity: 5, HasNoCafRefs, Strictness: <L,U><L,U><L,U><S,U><S,1*U>,
+     Inline: [0] -}
+79156efc5aa95ab86264e21fc120ca86
+  $wgo1 :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
+8023b620e1b0ad368c1a79a217d619fc
+  $wtrySum :: GHC.Base.String -> GHC.Prim.Int#
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
+824cf1006ca4ef1a4c00739906af8ed1
+  delims :: GHC.Types.Char -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Char ->
+                 case w of ww { GHC.Types.C# ww1 -> Day12.$wdelims ww1 }) -}
+87de9208c9e180c9ee8a8e52857c38f1
+  getJSONContents ::
+    GHC.Base.String -> (GHC.Base.String, [GHC.Base.String])
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Base.String ->
+                 case Day12.$wgetJSONContents w of ww { (#,#) ww1 ww2 ->
+                 (ww1, ww2) }) -}
+3a2c9b6326e857aa2b0732043d6b2e68
+  getJSONContents1 :: (GHC.Base.String, [GHC.Base.String])
+  {- Strictness: b -}
+e38661ad7d60b750fa64c539196b8418
+  getJSONContents_go ::
+    [GHC.Types.Char] -> GHC.Types.Char -> GHC.Types.Char
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U(U)> -}
+50e83ecbc910b64405bacd9f673d836e
+  part1 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day12.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+76962a8f88ba7311854afff54abcf6a6
+  part2 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day12.part8 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+8faa46485b244d399f922057c5083877
+  part4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day12.part7
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (case Day12.$wgo1 (Day12.part5 ipv3) 0 of ww { DEFAULT ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+c9203f6675fe42ee3fdf884101f62e31
+  part5 :: [GHC.Types.Char] -> [[GHC.Types.Char]]
+  {- Unfolding: (Data.List.Split.Internals.splitOn
+                   @ GHC.Types.Char
+                   GHC.Classes.$fEqChar
+                   Day12.part6) -}
+0e738dbd4f9d804a3011d014b7f64aa0
+  part6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ","#) -}
+a2a77b8b6a118836db75984186f117cf
+  part7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "lib/day12-input.txt"#) -}
+0706f06c7b60d10d7a1225c03cba9ce8
+  part8 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day12.part7
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (case Day12.$wtrySum ipv3 of ww { DEFAULT ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+4d01298b2743f47e8833e01c4df161c4
+  redElem :: GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 1, Unfolding: (Day12.topElem Day12.redElem1) -}
+88f482661c8c119954d1e7c46058ca53
+  redElem1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "red"#) -}
+e27d1fb9f002195aa1e4490a11da7cb0
+  sumUp :: GHC.Base.String -> GHC.Types.Int
+  {- Arity: 1, Strictness: <L,U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Base.String ->
+                 case Day12.$wgo1 (Day12.part5 w) 0 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+f2c11048c67e4966f7205929a3729934
+  topElem :: GHC.Base.String -> GHC.Base.String -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><S,1*U>,
+     Unfolding: (\ e :: GHC.Base.String ds :: [GHC.Types.Char] ->
+                 case ds of wild {
+                   []
+                   -> Data.OldList.isInfixOf
+                        @ GHC.Types.Char
+                        GHC.Classes.$fEqChar
+                        e
+                        (GHC.Types.[] @ GHC.Types.Char)
+                   : ds1 ds2
+                   -> case ds1 of wild1 { GHC.Types.C# ds3 ->
+                      case ds3 of ds4 {
+                        DEFAULT
+                        -> Data.OldList.isInfixOf
+                             @ GHC.Types.Char
+                             GHC.Classes.$fEqChar
+                             e
+                             wild
+                        '[' -> GHC.Types.False } } }) -}
+a0231978f29f622ffb48aa4fe659690a
+  trySum :: GHC.Base.String -> GHC.Types.Int
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Base.String ->
+                 case Day12.$wtrySum w of ww { DEFAULT -> GHC.Types.I# ww }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

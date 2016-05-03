@@ -1,46 +1,160 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-18 21:47:03.907973 UTC
+2016-01-03 16:48:54.895913 UTC
 
 interface main@main:Main 7102
-  interface hash: 9a1403f6acdc21388dbd8958086ff01e
-  ABI hash: e5a692b4216f0e210aba1dc1594c4251
-  export-list hash: f322cde2632f7e6bda8b3df851995388
+  interface hash: 1f8d26d8550a5ed9ca6c8ac447701283
+  ABI hash: 2a2ca78dc8ba1373ccd5240add2665bd
+  export-list hash: 9c35bf735085120bc67ef718618f319d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
-  flag hash: ff2d91b337fb42dc60cc765417012eb9
+  flag hash: e18b91f241076ad760a152779d9f1e79
   sig of: Nothing
-  used TH splices: False
+  used TH splices: True
   where
 exports:
   Main.main
 module dependencies:
-package dependencies: advent-coding-0.1.0.0@adven_DdIfP9OJOkiGBtIwpnkiVR
-                      base-4.8.1.0* ghc-prim-0.4.0.0 integer-gmp-1.0.0.0
+package dependencies: QuickCheck-2.8.1@Quick_BnZKeqxVf7FCbnejbqAnPL
+                      ansi-terminal-0.6.2.3@ansit_KW0LUY2zB7JCYzE4ZYrwBg
+                      ansi-wl-pprint-0.6.7.3@ansiw_KPlSW7tbqXS51Lj59n3FC4
+                      array-0.5.1.0@array_E0sTtauuKsGDLZoT7lTbgZ
+                      attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ base-4.8.1.0
+                      binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd
+                      byteable-0.1.1@bytea_F2pcQljAfpbDG2panTEyo8
+                      bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH
+                      charset-0.3.7.1@chars_99wFmoCEgSRDxI6nPAu9RN
+                      containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN
+                      cryptohash-0.11.6@crypt_5epyAhdyCoGIBkp2icUC24
+                      deepseq-1.4.1.1@deeps_LbCWUlehDDeLxurARKDH5o
+                      directory-1.2.2.0@direc_KowvXytSqazBcvN7MGpFtg
+                      filepath-1.4.0.0@filep_KsGE6pHE5eZHSN90ZVax6A ghc-prim-0.4.0.0
+                      hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy
+                      inline-c-0.5.5.1@inlin_I8GopbgqaGACFKaFmMPWQN integer-gmp-1.0.0.0
+                      mtl-2.2.1@mtl_KMpng31YRYc5JfMWFZ3FCU
+                      parsers-0.12.3@parse_8fGA7Q8euLfENfw9XQhW8d
+                      parsec-3.1.9@parse_8fSmqig53hOL2SEu1k9Tv0
+                      pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR
+                      primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb
+                      random-1.1@rando_1z8Ujelqc6aKgvPnbRUKkP
+                      scientific-0.3.4.2@scien_4y53jPjKCJD6UICjmI9WaH
+                      semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO
+                      template-haskell-2.10.0.0 text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh
+                      tf-random-0.5@tfran_28prfR75qTK8HkPsc02Mdm
+                      time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH
+                      transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X
+                      unix-2.7.1.0@unix_A3WgcI5QiHK4PDo4jSYdwQ
+                      unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a
+                      vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ
 orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
-family instance modules: base-4.8.1.0:Control.Applicative
-                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
-                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
-import  -/  advent-coding-0.1.0.0@adven_DdIfP9OJOkiGBtIwpnkiVR:Day07 97ec6301acbc396936d008c65d4e00e6
+         binary-0.7.5.0@binar_IvYoLp9H6Xy3zEH13MmZwd:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6elQVSg5cWdFrvRnfxTUrH:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_2GTZqecVp8NJZrNuKzGxfy:Data.Hashable.Generic
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Show
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.Format.Parse
+         time-1.5.0.1@time_AXTdBF9VRQoBOqJT6qtmVH:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_3eG64VdP2vzGjP6wJiCp5X:Control.Monad.Trans.Error
+         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Fusion.Stream
+family instance modules: attoparsec-0.12.1.6@attop_DspwQCeZhqd768dqqECCEZ:Data.Attoparsec.Internal.Types
+                         base-4.8.1.0:Control.Applicative base-4.8.1.0:Data.Either
+                         base-4.8.1.0:Data.Functor.Identity base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:Data.Void
+                         base-4.8.1.0:GHC.Exts base-4.8.1.0:GHC.Generics
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntMap.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.IntSet.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Sequence
+                         containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Set.Base
+                         inline-c-0.5.5.1@inlin_I8GopbgqaGACFKaFmMPWQN:Language.C.Inline
+                         inline-c-0.5.5.1@inlin_I8GopbgqaGACFKaFmMPWQN:Language.C.Inline.Context
+                         pretty-1.1.2.0@prett_7UQTOB05U7lIYPkFOVraeR:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_5Jnw7oEuYtM9dmKXelGXVb:Control.Monad.Primitive
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.List.NonEmpty
+                         semigroups-0.16.2.2@semig_509rjK42Yeb8JAwFst5KmO:Data.Semigroup
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text
+                         text-1.2.1.3@text_1l1AN4I48k37RaQ6fm6CEh:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_7E41cj9RvqSJeZ4jSnbs1a:Data.HashSet
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector
+                         vector-0.10.12.3@vecto_JrQt7SYKOQF2foH4Ugm8MQ:Data.Vector.Storable
+import  -/  base-4.8.1.0:Foreign.C.Types e5754634c3e77afa375b6d3d49ab7ce2
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
 import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
 import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
-e6307d162c84dd4e8b2b9a425f22a76e
+import  -/  inline-c-0.5.5.1@inlin_I8GopbgqaGACFKaFmMPWQN:Language.C.Inline 54f7dcf0c4a46f9ca44fc3e2eb5d0ec9
+import  -/  inline-c-0.5.5.1@inlin_I8GopbgqaGACFKaFmMPWQN:Language.C.Inline.Unsafe 94d453023c51a311ee58e2112fcb6bb0
+48c6297c8040308f0c54aafe1c7a3c8c
   main :: GHC.Types.IO ()
-  {- Arity: 1, Strictness: <L,U>,
+  {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
-                Day07.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-56f6275a84ea228486ce562d6f3fe7c6
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+ba206fdd32c9780bcc132f5a5afa6e01
   main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case {__pkg_ccall_GC main@main inline_c_Main_0_42140cb9a278508e912ca8596e2fbe9a38a9c569 GHC.Prim.Double#
+                                                                                                         -> GHC.Prim.Double#
+                                                                                                         -> GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld,
+                                                                                                               GHC.Prim.Double# #)}
+                        3.0
+                        4.0
+                        s of wild { (#,#) ds ds1 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.Float.$w$sshowSignedFloat
+                           GHC.Float.$fShowDouble_$sshowFloat
+                           GHC.Show.shows18
+                           ds1
+                           (GHC.Types.[] @ GHC.Types.Char))
+                        GHC.Types.True
+                        ds of ds2 { (#,#) ipv ipv1 ->
+                 case {__pkg_ccall main@main inline_c_Main_1_42140cb9a278508e912ca8596e2fbe9a38a9c569 GHC.Prim.Double#
+                                                                                                      -> GHC.Prim.Double#
+                                                                                                      -> GHC.Prim.State#
+                                                                                                           GHC.Prim.RealWorld
+                                                                                                      -> (# GHC.Prim.State#
+                                                                                                              GHC.Prim.RealWorld,
+                                                                                                            GHC.Prim.Double# #)}
+                        3.0
+                        4.0
+                        ipv of wild1 { (#,#) ds3 ds4 ->
+                 case GHC.IO.Handle.Text.hPutStr2
+                        GHC.IO.Handle.FD.stdout
+                        (GHC.Float.$w$sshowSignedFloat
+                           GHC.Float.$fShowDouble_$sshowFloat
+                           GHC.Show.shows18
+                           ds4
+                           (GHC.Types.[] @ GHC.Types.Char))
+                        GHC.Types.True
+                        ds3 of ds5 { (#,#) ipv2 ipv3 ->
+                 case {__pkg_ccall_GC main@main inline_c_Main_2_774c6cfaab943fece0afecfb8ec3fb8e2e9850c7 GHC.Prim.State#
+                                                                                                           GHC.Prim.RealWorld
+                                                                                                         -> (# GHC.Prim.State#
+                                                                                                                 GHC.Prim.RealWorld #)}
+                        ipv2 of wild2 { (##) ds6 ->
+                 (# ds6, GHC.Tuple.() #) } } } } }) -}
+7cee3b259babc1c0864db819bc4f27cb
+  main2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1,
      Unfolding: (GHC.TopHandler.runMainIO1
                    @ ()
-                   Day07.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
 vectorised variables:
 vectorised tycons:
 vectorised reused tycons:
 parallel variables:
 parallel tycons:
-trusted: safe
+trusted: none
 require own pkg trusted: False
 

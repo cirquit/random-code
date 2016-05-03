@@ -1,18 +1,18 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-18 21:54:10.514992 UTC
+2016-01-03 16:34:43.703017 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day07 7102
-  interface hash: c80b02dbca1b4663c35fa14d123300a2
-  ABI hash: 97ec6301acbc396936d008c65d4e00e6
-  export-list hash: 514d168299dd3ad3e5de4fb083008ef1
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day07 7102
+  interface hash: f0ff65ff92d412042dceae74327becc9
+  ABI hash: 96fb5a678ee73b52ed4251e8f41c6f11
+  export-list hash: 01324ee29575d9aa0b741c3a359eb2bf
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: fa9503a4b03c265efc8b5152b175dd63
   sig of: Nothing
   used TH splices: False
   where
 exports:
-  Day07.parseToMap
+  Day07.parseToList
   Day07.part1
   Day07.Circuit{Day07.AND Day07.I Day07.LSHIFT Day07.NOT Day07.OR Day07.RSHIFT Day07.Var}
 module dependencies:
@@ -34,11 +34,11 @@ import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
 import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
 import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
 import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
-4eadb7d26a5ab33fcbe10e11af3c6a3b
+94b8a1f4be09057ac240ef8f02b8e83a
   $wtoCircuit ::
     GHC.Base.String -> (# GHC.Base.String, Day07.Circuit #)
   {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
-8d52d94a678275285e69e0e599ec1db1
+aec60c7cead18ec2264def654880ff1f
   data Circuit
     = I GHC.Types.Int
     | Var GHC.Base.String
@@ -47,8 +47,9 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
     | OR Day07.Circuit Day07.Circuit
     | LSHIFT Day07.Circuit GHC.Types.Int
     | RSHIFT Day07.Circuit GHC.Types.Int
-0ad04c20d4bb7455f641de3648fc6587
-  parseToMap :: GHC.Base.String -> [(GHC.Base.String, Day07.Circuit)]
+b2f70777a4ff6f387c554d024d61081d
+  parseToList ::
+    GHC.Base.String -> [(GHC.Base.String, Day07.Circuit)]
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
                 (\ x :: GHC.Base.String ->
@@ -65,22 +66,22 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                          @ b1
                          @ [GHC.Types.Char]
                          c
-                         Day07.parseToMap_toCircuit)
+                         Day07.parseToList_toCircuit)
                       n
                       (Data.OldList.lines x))) -}
-54869e246e4f284df55e14c1b45b98fc
-  parseToMap_toCircuit ::
+55b1c8d243da937904564783dc7e332f
+  parseToList_toCircuit ::
     GHC.Base.String -> (GHC.Base.String, Day07.Circuit)
   {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
      Unfolding: InlineRule (1, True, False)
                 (\ w :: GHC.Base.String ->
                  case Day07.$wtoCircuit w of ww { (#,#) ww1 ww2 -> (ww1, ww2) }) -}
-edf28823b61c8419c53957bc85201ed8
+eb4b67d7a8f39e5f422ccc323718f685
   part1 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day07.part2 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-30a1a7eb562d11d49952ecd5470fd1d1
+049f9c988cac68220289f7354542918f
   part2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)

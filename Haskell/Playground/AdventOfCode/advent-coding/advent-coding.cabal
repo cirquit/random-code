@@ -22,6 +22,14 @@ library
                      , Day05
                      , Day06
                      , Day07
+                     , Day08
+                     , Day09
+                     , Day10
+                     , Day11
+                     , Day12
+                     , Day13
+                     , Day14
+                     , Day25
 
   build-depends:       base >= 4.7 && < 5
                      , cryptohash
@@ -33,6 +41,8 @@ library
                      , bytestring
                      , array
                      , matrix
+                     , basic-prelude
+                     , inline-c      ==0.5.5.1
   default-language:    Haskell2010
 
 executable advent-coding-exe
@@ -40,8 +50,12 @@ executable advent-coding-exe
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N -O2
   build-depends:       base
+                     , inline-c      ==0.5.5.1
                      , advent-coding
   default-language:    Haskell2010
+  c-sources:           app/Main.c
+  cc-options:          -Wall
+  ghc-options:         -Wall
 
 test-suite advent-coding-test
   type:                exitcode-stdio-1.0

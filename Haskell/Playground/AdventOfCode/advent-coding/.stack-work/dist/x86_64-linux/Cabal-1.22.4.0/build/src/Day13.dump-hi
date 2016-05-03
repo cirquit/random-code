@@ -1,0 +1,323 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:42.802984 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day13 7102
+  interface hash: 26bde1dcbe38bed0de42028e5d0af8e8
+  ABI hash: a4f704bbaa584c6632f164ca42741f4e
+  export-list hash: 4c0010c7385e069e812167b435d969ea
+  orphan hash: 39938171561c209e29e29c507dc85440
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day13.createMyself
+  Day13.getHappiness
+  Day13.happiness
+  Day13.parse
+  Day13.part1
+  Day13.part2
+  Day13.Feelings
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.List f31ed8784b3e05f1397195751f7d74ea
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+572370dd87bc7da380610b16910f2b53
+  $sread :: GHC.Base.String -> GHC.Types.Int
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ s :: GHC.Base.String ->
+                 case Text.Read.readEither
+                        @ GHC.Types.Int
+                        GHC.Read.$fReadInt
+                        s of wild {
+                   Data.Either.Left x -> GHC.Err.error @ GHC.Types.Int x
+                   Data.Either.Right y -> y }) -}
+12e3ce8b58f70e207434f803d77d6eca
+  $wa ::
+    [GHC.Types.Char]
+    -> (# GHC.Base.String, GHC.Base.String, GHC.Types.Int #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
+6405c91997e86533a53629c256cef9d1
+  $wgo :: Day13.Feelings -> [GHC.Base.String] -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <L,U><S,1*U>, Inline: [0] -}
+aadbaed6bfa302ce1265b0358256ed03
+  $wgo1 ::
+    [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+    -> (# [GHC.Base.String], [GHC.Base.String], [GHC.Types.Int] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+81781ce108cd4255e3bdd9824959c7a6
+  $wgo2 ::
+    [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+    -> (# [GHC.Base.String], [GHC.Base.String], [GHC.Types.Int] #)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>, Inline: [0] -}
+0f44fbead39835686e1c5d6921651717
+  $whappiness :: Day13.Feelings -> [GHC.Base.String] -> GHC.Prim.Int#
+  {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [0],
+     Unfolding: (\ w :: Day13.Feelings w1 :: [GHC.Base.String] ->
+                 case w1 of wild {
+                   [] -> case Day13.happiness1 ret_ty GHC.Prim.Int# of {}
+                   : x xs
+                   -> let {
+                        n2 :: GHC.Base.String
+                        = Day13.happiness_go xs (GHC.List.lastError @ GHC.Base.String)
+                      } in
+                      case Day13.getHappiness x n2 w of wild1 { GHC.Types.I# x1 ->
+                      case Day13.getHappiness n2 x w of wild2 { GHC.Types.I# y ->
+                      case Day13.$wgo w wild of ww { DEFAULT ->
+                      GHC.Prim.+# (GHC.Prim.+# x1 y) ww } } } }) -}
+880338e94ea28abe683351043fcaa9ee
+  type Feelings = [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+858fe80167d102af80cdee3334938289
+  createMyself ::
+    [GHC.Base.String]
+    -> [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+  {- Arity: 1, Strictness: <S,1*U> -}
+0bdbcc33994a055bd016fa70c58b7a87
+  getHappiness ::
+    GHC.Base.String
+    -> GHC.Base.String -> Day13.Feelings -> GHC.Types.Int
+  {- Arity: 3, Strictness: <L,U><L,U><S,1*U>,
+     Unfolding: (\ x :: GHC.Base.String
+                   y :: GHC.Base.String
+                   feels :: Day13.Feelings ->
+                 letrec {
+                   go1 :: [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)]
+                          -> Data.Monoid.First
+                               (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                     {- Arity: 1, Strictness: <S,1*U> -}
+                   = \ ds :: [(GHC.Base.String, GHC.Base.String, GHC.Types.Int)] ->
+                     case ds of wild {
+                       []
+                       -> (GHC.Base.Nothing
+                             @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int))
+                            `cast`
+                          (Sym (Data.Monoid.NTCo:First[0]) <(GHC.Base.String,
+                                                             GHC.Base.String,
+                                                             GHC.Types.Int)>_N)
+                       : y1 ys
+                       -> case y1 of wild1 { (,,) a b ds1 ->
+                          case GHC.Base.eqString x a of wild2 {
+                            GHC.Types.False -> go1 ys
+                            GHC.Types.True
+                            -> case GHC.Base.eqString y b of wild3 {
+                                 GHC.Types.False -> go1 ys
+                                 GHC.Types.True
+                                 -> (GHC.Base.Just
+                                       @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                                       wild1)
+                                      `cast`
+                                    (Sym (Data.Monoid.NTCo:First[0]) <(GHC.Base.String,
+                                                                       GHC.Base.String,
+                                                                       GHC.Types.Int)>_N) } } } }
+                 } in
+                 case (go1 feels)
+                        `cast`
+                      (Data.Monoid.NTCo:First[0] <(GHC.Base.String,
+                                                   GHC.Base.String,
+                                                   GHC.Types.Int)>_N) of wild {
+                   GHC.Base.Nothing -> Day13.getHappiness1 x y
+                   GHC.Base.Just ds -> case ds of wild1 { (,,) a b i -> i } }) -}
+7126b9d8ab24025cabe9c7574486ffce
+  getHappiness1 ::
+    GHC.Base.String -> GHC.Base.String -> GHC.Types.Int
+  {- Arity: 2, Strictness: <L,U><L,U>b -}
+ccabb31fea90d3246c4a9674fe8e1826
+  happiness :: Day13.Feelings -> [GHC.Base.String] -> GHC.Types.Int
+  {- Arity: 2, Strictness: <S,U><S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: Day13.Feelings w1 :: [GHC.Base.String] ->
+                 case Day13.$whappiness w w1 of ww { DEFAULT ->
+                 GHC.Types.I# ww }) -}
+f74cd830e0a065dfec4f2f3007d7b6d9
+  happiness1 :: GHC.Types.Int
+  {- Strictness: b -}
+de07cf54671e724b6fa752e12b5b8811
+  happiness_go ::
+    [GHC.Base.String] -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,1*U> -}
+d06af075922de0ec0bbd9aefc7170afb
+  parse :: GHC.Base.String -> Day13.Feelings
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: GHC.Base.String ->
+                 GHC.Base.build
+                   @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                   (\ @ b1
+                      c :: (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                           -> b1 -> b1[OneShot]
+                      n :: b1[OneShot] ->
+                    GHC.Base.foldr
+                      @ [GHC.Types.Char]
+                      @ b1
+                      (GHC.Base.mapFB
+                         @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                         @ b1
+                         @ [GHC.Types.Char]
+                         c
+                         Day13.parse1)
+                      n
+                      (Data.OldList.lines x))) -}
+86f347859833a7a906e10fd5b563b555
+  parse1 ::
+    [GHC.Types.Char]
+    -> (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+  {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: [GHC.Types.Char] ->
+                 case Day13.$wa w of ww { (#,,#) ww1 ww2 ww3 ->
+                 (ww1, ww2, ww3) }) -}
+635172e6b81eda75d405a1cb7d0bdcb1
+  part1 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day13.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+762245fb7c5ada4cd6f4828fa2d2cc08
+  part2 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day13.part6 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+0e76a44486d34684f3450eef626dd5c9
+  part4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day13.part5
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (let {
+                      feels :: Day13.Feelings
+                      = GHC.Base.map
+                          @ [GHC.Types.Char]
+                          @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                          Day13.parse1
+                          (Data.OldList.lines ipv3)
+                    } in
+                    let {
+                      xs0 :: [GHC.Base.String]
+                      = case Day13.$wgo1 feels of ww { (#,,#) ww1 ww2 ww3 ->
+                        Data.OldList.nubBy @ GHC.Base.String GHC.Base.eqString ww1 }
+                    } in
+                    case GHC.List.strictMaximum
+                           @ GHC.Types.Int
+                           GHC.Classes.$fOrdInt
+                           (GHC.Base.map
+                              @ [GHC.Base.String]
+                              @ GHC.Types.Int
+                              (Day13.happiness feels)
+                              (GHC.Types.:
+                                 @ [GHC.Base.String]
+                                 xs0
+                                 (Data.OldList.permutations1
+                                    @ GHC.Base.String
+                                    xs0
+                                    (GHC.Types.[] @ GHC.Base.String)))) of ww2 { GHC.Types.I# ww3 ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww3
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+6b44efc3c4f1630a00321814d4f3709e
+  part5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "lib/day13-input.txt"#) -}
+8330d39ba9082bbfa1ffc6ed867513f0
+  part6 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ s :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case GHC.IO.Handle.FD.openFile1
+                        Day13.part5
+                        GHC.IO.IOMode.ReadMode
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 case GHC.IO.Handle.Text.hGetContents1
+                        ipv1
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   (let {
+                      feels :: Day13.Feelings
+                      = GHC.Base.map
+                          @ [GHC.Types.Char]
+                          @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                          Day13.parse1
+                          (Data.OldList.lines ipv3)
+                    } in
+                    let {
+                      people :: [GHC.Base.String]
+                      = case Day13.$wgo2 feels of ww { (#,,#) ww1 ww2 ww3 ->
+                        Data.OldList.nubBy @ GHC.Base.String GHC.Base.eqString ww1 }
+                    } in
+                    let {
+                      xs0 :: [[GHC.Types.Char]]
+                      = GHC.Types.: @ [GHC.Types.Char] Day13.part7 people
+                    } in
+                    case GHC.List.strictMaximum
+                           @ GHC.Types.Int
+                           GHC.Classes.$fOrdInt
+                           (GHC.Base.map
+                              @ [GHC.Base.String]
+                              @ GHC.Types.Int
+                              (let {
+                                 w :: Day13.Feelings
+                                 = GHC.Base.++
+                                     @ (GHC.Base.String, GHC.Base.String, GHC.Types.Int)
+                                     (Day13.createMyself people)
+                                     feels
+                               } in
+                               \ w1 :: [GHC.Base.String] ->
+                               case Day13.$whappiness w w1 of ww { DEFAULT -> GHC.Types.I# ww })
+                              (GHC.Types.:
+                                 @ [[GHC.Types.Char]]
+                                 xs0
+                                 (Data.OldList.permutations1
+                                    @ [GHC.Types.Char]
+                                    xs0
+                                    (GHC.Types.[]
+                                       @ [GHC.Types.Char])))) of ww2 { GHC.Types.I# ww3 ->
+                    case GHC.Show.$wshowSignedInt
+                           0
+                           ww3
+                           (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                    GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
+                   GHC.Types.True
+                   ipv2 } }) -}
+a0f41f2b2c4bef2cb81b63f26989cbd9
+  part7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Me"#) -}
+"SPEC/Day13 read @ Int" [ALWAYS] forall $dRead :: GHC.Read.Read
+                                                    GHC.Types.Int
+  Text.Read.read @ GHC.Types.Int $dRead = Day13.$sread
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

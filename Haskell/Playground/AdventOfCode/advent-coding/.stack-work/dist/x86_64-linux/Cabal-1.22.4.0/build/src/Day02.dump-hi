@@ -1,12 +1,12 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-17 16:57:40.977154 UTC
+2016-01-03 16:34:45.520949 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day02 7102
-  interface hash: b6d422d0bbd3869b364a7fa48fc35a87
-  ABI hash: 676cbd9f733b38018822ea48f5405779
-  export-list hash: 318276bf11cc9bafe1b79ebfbcd7d9e1
-  orphan hash: cabc83d0267dbeff75cefdc1e03b549d
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day02 7102
+  interface hash: a969dd6e33cc8297ed08fc7be97760c2
+  ABI hash: 229235bf4ad2c0ac1fa7c3726833865b
+  export-list hash: f10b20f9d7ecc0857b93d079d84c1535
+  orphan hash: 44fae044149764f9384b5e66fe9c779a
   flag hash: 1177ed9910be22cb08b17094c1021b20
   sig of: Nothing
   used TH splices: False
@@ -34,7 +34,7 @@ import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
 import  -/  base-4.8.1.0:Text.Read 30509137a501bd56d136aca29a7a35a6
 import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split 191d865ea862c301707cccb38cecb628
 import  -/  split-0.2.2@split_E4yadeCDng9EtdbI5MZoDg:Data.List.Split.Internals 9a9700f4e3c2bb24917a9d1daa5a114d
-c32077b8395ec5a91aa9c68908289119
+538a759572a01008e73303d2a2613755
   $sread :: GHC.Base.String -> GHC.Types.Int
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (1, True, False)
@@ -45,16 +45,16 @@ c32077b8395ec5a91aa9c68908289119
                         s of wild {
                    Data.Either.Left x -> GHC.Err.error @ GHC.Types.Int x
                    Data.Either.Right y -> y }) -}
-73b4f502fac83b2f233c42f8dcd1cd18
+5d996e6e136583e4d7cbf7d0f447516f
   $wgo :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
-7fd252c9ba93a2be910283b0427eaf43
+8f1af10c2c6fdb5f9891391db9dff924
   $wgo1 :: [[GHC.Types.Char]] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
-2089f44777bdce72c75a8142fe5b7adc
+fd10e787f3d0148060d4771ed8c913c2
   $wgo2 :: [GHC.Types.Int] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>, Inline: [0] -}
-e909b9f69257c67d1e3a68241bd96d94
+166432d1830843ba14891bdb0511ba9a
   $wribbon :: [GHC.Types.Int] -> GHC.Prim.Int#
   {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
      Unfolding: (\ w :: [GHC.Types.Int] ->
@@ -95,7 +95,7 @@ e909b9f69257c67d1e3a68241bd96d94
                                             (GHC.Prim.*# (GHC.Prim.*# x1 y) y1) } } } } }
                                   : ipv ipv1
                                   -> case Day02.ribbon1 ret_ty GHC.Prim.Int# of {} } } } }) -}
-b17b6e93c14a73b0c458517e40197202
+1551e04e15b708f0419be2bd74fc788f
   $wsurface :: [GHC.Types.Int] -> GHC.Prim.Int#
   {- Arity: 1, Strictness: <S,1*U>, Inline: [0],
      Unfolding: (\ w :: [GHC.Types.Int] ->
@@ -136,35 +136,35 @@ b17b6e93c14a73b0c458517e40197202
                                        y3 } } } }
                                   : ipv ipv1
                                   -> case Day02.surface1 ret_ty GHC.Prim.Int# of {} } } } }) -}
-0286adb2f37d8810057a086e7ea357be
+31fadaa4a5db717557fbcb37ee11c131
   input :: [GHC.Types.Char]
-147c26032c6e4078cf3fbe085d8de922
+54bd2f4f4870f74d9d28f169fedc3cda
   part1 :: GHC.Types.Int
   {- Unfolding: (case Day02.$wgo Day02.part4 0 of ww { DEFAULT ->
                  GHC.Types.I# ww }) -}
-5ca9f0055972bfaf4eacbf829d2de826
+6e4b53232067f6a76f14c35bc7971622
   part2 :: GHC.Types.Int
   {- Unfolding: (case Day02.$wgo1 Day02.part4 0 of ww { DEFAULT ->
                  GHC.Types.I# ww }) -}
-c37362399392f29eec729ce20090247e
+0742e3212ac7e91de8959646e2e19ae0
   part4 :: [GHC.Base.String]
   {- Unfolding: (Data.OldList.lines Day02.input) -}
-fc1728f37fa7cb221d0da6d006861915
+f96dfb2b8f16fe85df0343cdca1286c2
   ribbon :: [GHC.Types.Int] -> GHC.Types.Int
   {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
      Unfolding: InlineRule (1, True, False)
                 (\ w :: [GHC.Types.Int] ->
                  case Day02.$wribbon w of ww { DEFAULT -> GHC.Types.I# ww }) -}
-0aeb00915f652bab8b3ebb7e5d4e1155
+8d4add519c71cec9d38f8a61b771d2f0
   ribbon1 :: GHC.Types.Int
   {- Strictness: b -}
-ffc7a59c431081264cd96e2894decfd8
+2b2822cea2973e96f18c5211e80bc515
   surface :: [GHC.Types.Int] -> GHC.Types.Int
   {- Arity: 1, Strictness: <S,1*U>m, Inline: INLINE[0],
      Unfolding: InlineRule (1, True, False)
                 (\ w :: [GHC.Types.Int] ->
                  case Day02.$wsurface w of ww { DEFAULT -> GHC.Types.I# ww }) -}
-166ca57388fb011e5842156911ba4b43
+940359e888f62eadf9fd9744cdbe7b43
   surface1 :: GHC.Types.Int
   {- Strictness: b -}
 "SPEC/Day02 read @ Int" [ALWAYS] forall $dRead :: GHC.Read.Read

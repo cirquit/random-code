@@ -1,14 +1,14 @@
 CFLAGS = -g -std=c99
 
-OUT = -o game
+OUT = -o gol
 CC = gcc
 
 all: client clean
 
-client: GameLife.c\
+client: GameOfLife.c\
 
 	$(CC) $(CFLAGS) $(OUT) \
-		GameLife.c
+		GameOfLife.c
 
 clean:
 	rm -f src/*.o

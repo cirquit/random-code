@@ -1,0 +1,126 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-03 16:34:43.295579 UTC
+
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day10 7102
+  interface hash: c6a0940cbde705bd44545cf65e43e69b
+  ABI hash: 0ed8cb0f3c586110e55a87521881e27f
+  export-list hash: 5157934baa604fc6969aa8bb8014135a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1177ed9910be22cb08b17094c1021b20
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Day10.input
+  Day10.part1
+  Day10.part2
+  Day10.pronounce
+module dependencies:
+package dependencies: base-4.8.1.0* ghc-prim-0.4.0.0
+                      integer-gmp-1.0.0.0
+orphans: base-4.8.1.0:GHC.Base base-4.8.1.0:GHC.Float
+family instance modules: base-4.8.1.0:Control.Applicative
+                         base-4.8.1.0:Data.Either base-4.8.1.0:Data.Monoid
+                         base-4.8.1.0:Data.Type.Equality base-4.8.1.0:GHC.Generics
+import  -/  base-4.8.1.0:Data.Foldable 2e5acb797cfda6b3b7fabd7052abe290
+import  -/  base-4.8.1.0:Data.List 2a4f5f92892d432e7113f64cd9dcca53
+import  -/  base-4.8.1.0:Data.OldList 21f46c368c20a00483b41333e53a55cb
+import  -/  base-4.8.1.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.1.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.1.0:GHC.Show b8c65ca3124f92a166c9f05120382442
+import  -/  base-4.8.1.0:Prelude 518f762991bc287d78f21a73c974da1f
+import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+72b36279432db3c9d0bbb2bc5ad43f4b
+  $wgo ::
+    GHC.Base.String
+    -> GHC.Integer.Type.Integer
+    -> (# GHC.Base.String, GHC.Integer.Type.Integer #)
+  {- Arity: 2, Strictness: <L,U><S,U>, Inline: [0] -}
+dc6baffc9b3fead646f2bb4b61178957
+  $wgo1 ::
+    GHC.Base.String
+    -> GHC.Integer.Type.Integer
+    -> (# GHC.Base.String, GHC.Integer.Type.Integer #)
+  {- Arity: 2, Strictness: <L,U><S,U>, Inline: [0] -}
+eab2cd8544b88c027743cee083fafa8f
+  input :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "3113322113"#) -}
+cea2016a890fe8a1d9bd8bff15ca3470
+  part1 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day10.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+783d32ce7b08837c32da6d43ebfb7905
+  part2 :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Day10.part7 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+d5ec577d2ef2060767e0e3eded39eb5e
+  part4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Day10.part5
+                   GHC.Types.True
+                   eta) -}
+a81aa439d27127c2191b7dce4f10d4e6
+  part5 :: GHC.Base.String
+  {- Unfolding: (case Day10.$wgo
+                        Day10.input
+                        Day10.part6 of ww { (#,#) ww1 ww2 ->
+                 case GHC.List.$wlenAcc @ GHC.Types.Char ww1 0 of ww3 { DEFAULT ->
+                 case GHC.Show.$wshowSignedInt
+                        0
+                        ww3
+                        (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                 GHC.Types.: @ GHC.Types.Char ww5 ww6 } } }) -}
+22afce8983422f17686a40550fff1170
+  part6 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+18c828d60aefb3f3a165f04ff314a814
+  part7 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Day10.part8
+                   GHC.Types.True
+                   eta) -}
+31186e255ebca80610c0587fd9898086
+  part8 :: GHC.Base.String
+  {- Unfolding: (case Day10.$wgo1
+                        Day10.input
+                        Day10.part6 of ww { (#,#) ww1 ww2 ->
+                 case GHC.List.$wlenAcc @ GHC.Types.Char ww1 0 of ww3 { DEFAULT ->
+                 case GHC.Show.$wshowSignedInt
+                        0
+                        ww3
+                        (GHC.Types.[] @ GHC.Types.Char) of ww4 { (#,#) ww5 ww6 ->
+                 GHC.Types.: @ GHC.Types.Char ww5 ww6 } } }) -}
+21900bc7b794645de4f7931b5d9f8609
+  pronounce :: GHC.Base.String -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ l :: GHC.Base.String ->
+                 Day10.pronounce_go
+                   (Data.OldList.groupBy
+                      @ GHC.Types.Char
+                      GHC.Classes.$fEqChar_$c==
+                      l)) -}
+55813033eeb45a0771ddac556253aece
+  pronounce_go :: [[GHC.Types.Char]] -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <S,1*U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

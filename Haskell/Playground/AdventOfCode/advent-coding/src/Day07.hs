@@ -15,8 +15,8 @@ data Circuit = I Int
              | LSHIFT Circuit Int
              | RSHIFT Circuit Int
 
-parseToMap :: String -> [(String, Circuit)]
-parseToMap = map toCircuit . lines
+parseToList :: String -> [(String, Circuit)]
+parseToList = map toCircuit . lines
     where
         toCircuit :: String -> (String, Circuit)
         toCircuit = go . words
@@ -42,7 +42,7 @@ parseToMap = map toCircuit . lines
 
 part1 = do
   text <- readFile "lib/day07-input.txt"
-  let m = parseToMap text
+  let m = parseToList text
 
       lparse :: String -> Int
       lparse a = (map parse m) !! i

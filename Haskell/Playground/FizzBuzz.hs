@@ -14,7 +14,7 @@ nums = [1..100] :: [Int]
 x ?? "" = show x
 _ ?? y  = y
 
-infixr 9 ??
+-- infixr 9 ??
 
 
 -- | 1)
@@ -48,7 +48,7 @@ fizz3 = mapM_ putStrLn list
 -- | 4)
 
 fizz4 :: IO ()
-fizz4 = mapM_ (putStrLn . (\(x,y) -> x ?? y))  list
+fizz4 = mapM_ (putStrLn . uncurry (??))  list
   where list = zip [1..100] $ (zipWith (++) `on` cycle) ["","","Fizz"] ["","","","","Buzz"]
 
 -- | 5)

@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2015-12-17 17:36:01.862486 UTC
+2016-01-03 16:34:44.846732 UTC
 
-interface adven_DdIfP9OJOkiGBtIwpnkiVR:Day05 7102
-  interface hash: acc241666b31263713cc2fb2a148452a
-  ABI hash: 2b36ed11607731a6800bd81dbb2bed12
-  export-list hash: bca400065143f5abcbcd6859d0857a6d
+interface adven_50qzlX786zH5MCh4a2QQrZ:Day05 7102
+  interface hash: c2c0ad939e0a45ab4d80c2af5f429665
+  ABI hash: 348ec31c25e4c99d84fde8895a7d423a
+  export-list hash: fb0f91c97f20d7f6cdd17f983db68179
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: b49ac43a2dcea5d8c160dc52ed86966e
   sig of: Nothing
@@ -41,7 +41,7 @@ import  -/  base-4.8.1.0:System.IO d541b8bdf18c04de3ab7ea0277c4eba3
 import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map 8137ae58be1ec45e0e573cabbb314b88
 import  -/  containers-0.5.6.2@conta_LKCPrTJwOTOLk4OU37YmeN:Data.Map.Base f612c5e011acafca0324bd65cbb4b781
 import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
-08ab0f58faf221707311ff237441c798
+29dc56505eb4a8323c5113dec95daab2
   $w$sgo10 ::
     ([GHC.Types.Char] -> a1 -> a1 -> a1)
     -> [GHC.Types.Char]
@@ -50,49 +50,49 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
     -> (# GHC.Base.Maybe a1, Data.Map.Base.Map [GHC.Types.Char] a1 #)
   {- Arity: 4, Strictness: <L,1*C1(C1(C1(U)))><S,1*U><L,U><S,1*U>,
      Inline: [0] -}
-def48aacc217689af9f774862ae09c3a
+442ee1b092f7579f2e16a12b5274d877
   $wgo :: GHC.Prim.Int# -> GHC.Base.String -> GHC.Types.Bool
   {- Arity: 2, Strictness: <S,U><L,1*U>, Inline: [0] -}
-ba30185b6985e945e4ec11e6c3edc98d
+5c6728013551e34d87fe5139d508a69a
   $wgo1 :: [GHC.Base.String] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
-2c8a17922f1259f99879e7b0c068e64e
+c8bdb5a73c6d0f1b42f6229741198b70
   $wgo2 :: [GHC.Base.String] -> GHC.Prim.Int# -> GHC.Prim.Int#
   {- Arity: 2, Strictness: <S,1*U><L,U>, Inline: [0] -}
-428899442bae019953239cb6831368f5
+e487783ca0a1a488f97ed8c04bf457d9
   complexPairs :: GHC.Base.String -> GHC.Types.Bool
   {- Arity: 1,
      Unfolding: (Day05.complexPairs_go
                    (Data.Map.Base.Tip @ GHC.Base.String @ GHC.Types.Int)) -}
-9dbec9fb9d7983555f57aae70d4d19fe
+3909df5ac1f0ed776dcbc8a6263672ee
   complexPairs_go ::
     Data.Map.Base.Map GHC.Base.String GHC.Types.Int
     -> GHC.Base.String -> GHC.Types.Bool
   {- Arity: 2, Strictness: <L,1*U><S,1*U> -}
-9853e875bf927944cd3e12d7d0e3a490
+cc7ae6129d46e2f18a90e249cd9b4f93
   contains3Vowels :: GHC.Base.String -> GHC.Types.Bool
   {- Arity: 1,
      Unfolding: (\ w :: GHC.Base.String -> Day05.$wgo 0 w) -}
-32c86a6e0765aa30dfd8eaac2f5b9405
+95a7bd2eddd7b66bef9e02e07cd8866c
   doubleLetters :: GHC.Base.String -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
-f600ff79af3d55e0da9c40088ce4ca5f
+1ac83552a671b594dcd160737e2de906
   noPairs :: GHC.Base.String -> GHC.Types.Bool
   {- Arity: 1, Strictness: <S,1*U> -}
-18c211f4caacef05d0e063b493a197a9
+aa825a4ef1bd9d5df32a7e638e3f5cde
   oneLetterBetween :: GHC.Base.String -> GHC.Types.Bool
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U> -}
-9db01a8059afecb5ce4b42ccc5165d65
+c39d00627f8f4dc0ee7df98e3f54eaef
   part1 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day05.part4 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-99bf8a9756997c591ab10b2331bb580e
+40b5100bf3bdacba0dfacab38554c3ad
   part2 :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <L,U>,
      Unfolding: InlineRule (0, True, True)
                 Day05.part6 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-fa8842ac2f6ef050989fec23aaa7b416
+8ea63124ab52dc66a0487edf291bef60
   part4 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -115,10 +115,10 @@ fa8842ac2f6ef050989fec23aaa7b416
                     GHC.Types.: @ GHC.Types.Char ww5 ww6 } })
                    GHC.Types.True
                    ipv2 } }) -}
-aca17abfd03f3f1e9157aefb4d3f104a
+093bc897f547caf732c238da18e65b07
   part5 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "day05-input.txt"#) -}
-43dc41eb54640353434ba7446a7e12e0
+516abd4f0ac3e60ce378a774b1cc478a
   part6 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
