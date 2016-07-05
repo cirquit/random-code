@@ -1,4 +1,4 @@
-module Main where
+cd module Main where
 
 
 import Data.Function (on)
