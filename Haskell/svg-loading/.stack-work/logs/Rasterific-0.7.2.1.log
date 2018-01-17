@@ -1,0 +1,38 @@
+Configuring Rasterific-0.7.2.1...
+Building Rasterific-0.7.2.1...
+Preprocessing library Rasterific-0.7.2.1...
+[ 1 of 29] Compiling Graphics.Rasterific.QuadraticFormula ( src/Graphics/Rasterific/QuadraticFormula.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/QuadraticFormula.o )
+[ 2 of 29] Compiling Graphics.Rasterific.MiniLens ( src/Graphics/Rasterific/MiniLens.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/MiniLens.o )
+[ 3 of 29] Compiling Graphics.Rasterific.Linear ( src/Graphics/Rasterific/Linear.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Linear.o )
+[ 4 of 29] Compiling Graphics.Rasterific.Operators ( src/Graphics/Rasterific/Operators.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Operators.o )
+[ 5 of 29] Compiling Graphics.Rasterific.Types ( src/Graphics/Rasterific/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Types.o )
+[ 6 of 29] Compiling Graphics.Rasterific.QuadraticBezier ( src/Graphics/Rasterific/QuadraticBezier.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/QuadraticBezier.o )
+[ 7 of 29] Compiling Graphics.Rasterific.Transformations ( src/Graphics/Rasterific/Transformations.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Transformations.o )
+[ 8 of 29] Compiling Graphics.Rasterific.Line ( src/Graphics/Rasterific/Line.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Line.o )
+[ 9 of 29] Compiling Graphics.Rasterific.Lenses ( src/Graphics/Rasterific/Lenses.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Lenses.o )
+[10 of 29] Compiling Graphics.Rasterific.CubicBezier ( src/Graphics/Rasterific/CubicBezier.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/CubicBezier.o )
+[11 of 29] Compiling Graphics.Rasterific.PlaneBoundable ( src/Graphics/Rasterific/PlaneBoundable.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/PlaneBoundable.o )
+[12 of 29] Compiling Graphics.Rasterific.Rasterize ( src/Graphics/Rasterific/Rasterize.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Rasterize.o )
+[13 of 29] Compiling Graphics.Rasterific.StrokeInternal ( src/Graphics/Rasterific/StrokeInternal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/StrokeInternal.o )
+[14 of 29] Compiling Graphics.Rasterific.Outline ( src/Graphics/Rasterific/Outline.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Outline.o )
+[15 of 29] Compiling Graphics.Rasterific.Compositor ( src/Graphics/Rasterific/Compositor.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Compositor.o )
+[16 of 29] Compiling Graphics.Rasterific.PatchTypes ( src/Graphics/Rasterific/PatchTypes.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/PatchTypes.o )
+[17 of 29] Compiling Graphics.Rasterific.MeshPatch ( src/Graphics/Rasterific/MeshPatch.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/MeshPatch.o )
+[18 of 29] Compiling Graphics.Rasterific.ComplexPrimitive ( src/Graphics/Rasterific/ComplexPrimitive.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/ComplexPrimitive.o )
+[19 of 29] Compiling Graphics.Rasterific.Command ( src/Graphics/Rasterific/Command.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Command.o )
+[20 of 29] Compiling Graphics.Rasterific.BiSampleable ( src/Graphics/Rasterific/BiSampleable.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/BiSampleable.o )
+[21 of 29] Compiling Graphics.Rasterific.Shading ( src/Graphics/Rasterific/Shading.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Shading.o )
+[22 of 29] Compiling Graphics.Rasterific.CubicBezier.FastForwardDifference ( src/Graphics/Rasterific/CubicBezier/FastForwardDifference.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/CubicBezier/FastForwardDifference.o )
+[23 of 29] Compiling Graphics.Rasterific.Immediate ( src/Graphics/Rasterific/Immediate.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Immediate.o )
+[24 of 29] Compiling Graphics.Rasterific.Patch ( src/Graphics/Rasterific/Patch.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Patch.o )
+
+src/Graphics/Rasterific/Patch.hs:90:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘maxColorDeepness’
+[25 of 29] Compiling Graphics.Rasterific.PathWalker ( src/Graphics/Rasterific/PathWalker.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/PathWalker.o )
+[26 of 29] Compiling Graphics.Rasterific.MicroPdf ( src/Graphics/Rasterific/MicroPdf.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/MicroPdf.o )
+[27 of 29] Compiling Graphics.Rasterific.Arc ( src/Graphics/Rasterific/Arc.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Arc.o )
+[28 of 29] Compiling Graphics.Rasterific ( src/Graphics/Rasterific.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific.o )
+[29 of 29] Compiling Graphics.Rasterific.Texture ( src/Graphics/Rasterific/Texture.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Rasterific/Texture.o )
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux-nopie/lts-9.0/8.0.2/lib/x86_64-linux-ghc-8.0.2/Rasterific-0.7.2.1-1scFUjpAsh122NjxDcyWC3
+Registering Rasterific-0.7.2.1...

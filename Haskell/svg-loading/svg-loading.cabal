@@ -1,0 +1,46 @@
+name:                svg-loading
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/cirquit/svg-loading#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Alexander Isenko
+maintainer:          alex.isenko@protonmail.com
+copyright:           Apache License 2.0
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     Lib
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
+executable svg-loading-exe
+  hs-source-dirs:      app
+  main-is:             Main.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , svg-loading
+                     , svg-tree        >= 0.6.1    && < 0.7
+                     , rasterific-svg  >= 0.3.2    && < 0.4
+                     , JuicyPixels     >= 3.2.8.2  && < 4.0
+                     , vector          >= 0.12.0.1 && < 0.13
+                     , sdl2            >= 2.1.3.1  && < 3.0
+  default-language:    Haskell2010
+
+test-suite svg-loading-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+  build-depends:       base
+                     , svg-loading
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/cirquit/svg-loading

@@ -1,0 +1,20 @@
+Configuring FontyFruity-0.5.3.3...
+Building FontyFruity-0.5.3.3...
+Preprocessing library FontyFruity-0.5.3.3...
+[ 1 of 14] Compiling Graphics.Text.TrueType.Types ( src/Graphics/Text/TrueType/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Types.o )
+[ 2 of 14] Compiling Graphics.Text.TrueType.OffsetTable ( src/Graphics/Text/TrueType/OffsetTable.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/OffsetTable.o )
+[ 3 of 14] Compiling Graphics.Text.TrueType.MaxpTable ( src/Graphics/Text/TrueType/MaxpTable.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/MaxpTable.o )
+[ 4 of 14] Compiling Graphics.Text.TrueType.LanguageIds ( src/Graphics/Text/TrueType/LanguageIds.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/LanguageIds.o )
+[ 5 of 14] Compiling Graphics.Text.TrueType.Name ( src/Graphics/Text/TrueType/Name.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Name.o )
+[ 6 of 14] Compiling Graphics.Text.TrueType.HorizontalInfo ( src/Graphics/Text/TrueType/HorizontalInfo.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/HorizontalInfo.o )
+[ 7 of 14] Compiling Graphics.Text.TrueType.Header ( src/Graphics/Text/TrueType/Header.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Header.o )
+[ 8 of 14] Compiling Graphics.Text.TrueType.Glyph ( src/Graphics/Text/TrueType/Glyph.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Glyph.o )
+[ 9 of 14] Compiling Graphics.Text.TrueType.CharacterMap ( src/Graphics/Text/TrueType/CharacterMap.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/CharacterMap.o )
+[10 of 14] Compiling Graphics.Text.TrueType.FontType ( src/Graphics/Text/TrueType/FontType.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/FontType.o )
+[11 of 14] Compiling Graphics.Text.TrueType.FontFolders ( src/Graphics/Text/TrueType/FontFolders.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/FontFolders.o )
+[12 of 14] Compiling Graphics.Text.TrueType.Internal ( src/Graphics/Text/TrueType/Internal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Internal.o )
+[13 of 14] Compiling Graphics.Text.TrueType.Bytecode ( src/Graphics/Text/TrueType/Bytecode.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType/Bytecode.o )
+[14 of 14] Compiling Graphics.Text.TrueType ( src/Graphics/Text/TrueType.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Text/TrueType.o )
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux-nopie/lts-9.0/8.0.2/lib/x86_64-linux-ghc-8.0.2/FontyFruity-0.5.3.3-6SJ2TAYdyZb2Ux76v8Rzn
+Registering FontyFruity-0.5.3.3...

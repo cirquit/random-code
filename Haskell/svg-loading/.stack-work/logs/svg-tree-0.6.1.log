@@ -1,0 +1,14 @@
+Configuring svg-tree-0.6.1...
+Building svg-tree-0.6.1...
+Preprocessing library svg-tree-0.6.1...
+[1 of 8] Compiling Graphics.Svg.NamedColors ( src/Graphics/Svg/NamedColors.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/NamedColors.o )
+[2 of 8] Compiling Graphics.Svg.CssTypes ( src/Graphics/Svg/CssTypes.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/CssTypes.o )
+[3 of 8] Compiling Graphics.Svg.Types ( src/Graphics/Svg/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/Types.o )
+[4 of 8] Compiling Graphics.Svg.PathParser ( src/Graphics/Svg/PathParser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/PathParser.o )
+[5 of 8] Compiling Graphics.Svg.ColorParser ( src/Graphics/Svg/ColorParser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/ColorParser.o )
+[6 of 8] Compiling Graphics.Svg.CssParser ( src/Graphics/Svg/CssParser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/CssParser.o )
+[7 of 8] Compiling Graphics.Svg.XmlParser ( src/Graphics/Svg/XmlParser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg/XmlParser.o )
+[8 of 8] Compiling Graphics.Svg     ( src/Graphics/Svg.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Graphics/Svg.o )
+Installing library in
+/home/rewrite/.stack/snapshots/x86_64-linux-nopie/lts-9.0/8.0.2/lib/x86_64-linux-ghc-8.0.2/svg-tree-0.6.1-GN5vUcGQhcOJR89unSRn49
+Registering svg-tree-0.6.1...
